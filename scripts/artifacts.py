@@ -172,9 +172,27 @@ for d in D.values():
       'Attribution':'Actor (documented)' if actor_doc else '; '.join(dict.fromkeys(d['attrs']))[:200],
       'Note':note(d['type'],d['value']),'Source':' | '.join(d['srcs'][:4])+(' | …' if len(d['srcs'])>4 else ''),'Source Count':len(d['srcs']),
       'Suspected State Sponsor':r['Suspected-State-Sponsor'],'State-Link Confidence':r['state-link-confidence'],'MITRE ID':r['mitre_id'],'Context':d['ctx'][:400]})
-srt=lambda x:(x['Actor'].lower(),x['Attribution']!='Actor (documented)',x['Note']!='',TO.get(x['Artifact Type'].replace(' (regex)',''),9),x['Artifact'].lower())
+# ---------- uniqueness: is this artifact seen for one actor only, or shared? ----------
+def ukey(v):   # compare values regardless of case, wildcards and doubled backslashes
+    v=v.lower().replace('\\\\','\\').strip('*').strip('\\').strip()
+    return re.sub(r'^(hkey_local_machine|hklm)\\',r'hklm\\',re.sub(r'^(hkey_current_user|hkcu)\\',r'hkcu\\',v))
+# standard persistence keys / everyday folders: never distinctive on their own, even if only one actor lists them
+GEN_REG=re.compile(r'(?i)^hk(lm|cu)\\(software\\(wow6432node\\)?microsoft\\windows( nt)?\\currentversion\\(run|runonce|runservices|winlogon|explorer\\shell folders|explorer\\user shell folders|image file execution options|policies\\explorer\\run|windows)|system\\currentcontrolset\\(services|control\\(session manager|lsa|terminal server)))\\?$')
+GEN_DIR=re.compile(r'(?i)^(%(temp|tmp|appdata|localappdata|programdata|public|userprofile|systemroot|windir|programfiles|allusersprofile|startup)%|[a-z]:\\(windows(\\(system32|syswow64|temp|tasks))?|programdata|users\\public|users|temp|program files( \(x86\))?|perflogs)|/(tmp|var/tmp|dev/shm|etc|usr/bin|usr/lib|bin|sbin|root|home|opt))\\?/?$')
+GEN_NAME=re.compile(r'(?i)^(\\)?(\*?\.(exe|dll|ps1|bat|vbs|js|lnk|tmp|dat|zip|rar|txt|log|ini)|[a-z]{1,3}\.(exe|dll))$')
+GEN_FILE=re.compile(r'(?i)^(/?(usr/)?s?bin/[\w.+-]+|/?var/log/[\w./-]*|/?etc/(passwd|shadow|hosts|crontab|rc\.local|profile|ld\.so\.preload|resolv\.conf|sudoers)|(auth|syslog|secure|messages|wtmp|utmp|btmp|lastlog)(\.log)?|\.?bash_history|\.bashrc|\.profile|desktop\.ini|thumbs\.db|ntuser\.dat|hosts)$')
+users=collections.defaultdict(set)
+for x in recs: users[ukey(x['Artifact'])].add(x['Actor'])
+for x in recs:
+    k=ukey(x['Artifact']); others=sorted(users[k]-{x['Actor']},key=str.lower)
+    if x['Note']: u='Common - system/dual-use binary'
+    elif GEN_REG.match(k) or GEN_DIR.match(k) or GEN_NAME.match(k) or GEN_FILE.match(k) or len(k)<4: u='Common - standard location or name'
+    elif not others: u='Unique to this actor'
+    else: u=f'Shared ({len(others)+1} actors)'
+    x['Uniqueness']=u; x['Shared With']='; '.join(others[:10])+(f' … (+{len(others)-10})' if len(others)>10 else '')
+srt=lambda x:(x['Actor'].lower(),x['Uniqueness']!='Unique to this actor',x['Attribution']!='Actor (documented)',x['Note']!='',TO.get(x['Artifact Type'].replace(' (regex)',''),9),x['Artifact'].lower())
 recs.sort(key=srt)
-F=list(recs[0])
+F=['Actor','Artifact Type','Artifact','Uniqueness','Shared With']+[k for k in recs[0] if k not in('Actor','Artifact Type','Artifact','Uniqueness','Shared With')]
 def w(p,rs):
     with open(p,'w',newline='',encoding='utf-8-sig') as f:
         x=csv.DictWriter(f,fieldnames=F);x.writeheader();x.writerows(rs)
@@ -184,4 +202,5 @@ C=collections.Counter
 print('deduped',len(recs),'state',len(st),'actors',len({x['Actor'] for x in recs}),'state actors',len({x['Actor'] for x in st}))
 print(C(x['Artifact Type'] for x in recs)); print(C('documented' if x['Attribution'].startswith('Actor') else 'via malware' for x in recs))
 print('weak',sum(1 for x in recs if x['Note']))
+print('uniqueness',C(x['Uniqueness'].split(' (')[0] for x in recs),'| state',C(x['Uniqueness'].split(' (')[0] for x in st))
 json.dump({a:sum(1 for x in recs if x['Actor']==a) for a in A},open(M+'/_art_summary.json','w'))

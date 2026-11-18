@@ -23,8 +23,9 @@ def sheet(ws,path,COLS=COLS,inner=(('Alias',2),('Alias Source',3)),outer=((1,'Ac
             for k,c in inner:
                 cell=ws.cell(r+i,c,x[k]); cell.font=F
                 if c==srccol and fill(x[k]): cell.fill=PatternFill('solid',fgColor=fill(x[k]))
-                if c==5 and srccol is None and x[k].startswith('Common'): cell.font=Font(name='Arial',size=10,italic=True,color='7F7F7F')
-                if c==4 and srccol is None and x[k].startswith('Via malware'): cell.font=Font(name='Arial',size=10,italic=True,color='7F7F7F')
+                if x.get('Uniqueness')=='Unique to this actor': cell.fill=PatternFill('solid',fgColor='FFFF00')
+                if k=='Note' and x[k].startswith('Common'): cell.font=Font(name='Arial',size=10,italic=True,color='7F7F7F')
+                if k=='Attribution' and x[k].startswith('Via malware'): cell.font=Font(name='Arial',size=10,italic=True,color='7F7F7F')
                 if c==5 and srccol is None and x[k].startswith('Inferred'): cell.font=Font(name='Arial',size=10,italic=True,color='7F7F7F')
                 if c==typecol and x[k]=='Malware': cell.font=Font(name='Arial',size=10,color='C00000')
         for c,k in outer:
@@ -44,8 +45,8 @@ TC=[('Actor',24),('Technique ID',12),('Technique',52),('Tactic(s)',26),('Basis',
 tk=dict(COLS=TC,inner=(('Technique ID',2),('Technique',3),('Tactic(s)',4),('Basis',5)),outer=((1,'Actor'),(6,'Suspected State Sponsor'),(7,'State-Link Confidence'),(8,'MITRE ID')),srccol=None,typecol=None)
 n5=sheet(wb.create_sheet('TTPs - State-Sponsored'),d+'/actor_ttps_state_sponsored.csv',**tk)
 n6=sheet(wb.create_sheet('TTPs - All Actors'),d+'/actor_ttps_all.csv',**tk)
-HC=[('Actor',24),('Artifact Type',16),('Artifact',60),('Attribution',30),('Note',26),('Source Count',8),('Suspected State Sponsor',20),('State-Link Confidence',14),('MITRE ID',12)]
-hk=dict(COLS=HC,inner=(('Artifact Type',2),('Artifact',3),('Attribution',4),('Note',5),('Source Count',6)),outer=((1,'Actor'),(7,'Suspected State Sponsor'),(8,'State-Link Confidence'),(9,'MITRE ID')),srccol=None,typecol=None)
+HC=[('Actor',24),('Artifact Type',16),('Artifact',58),('Uniqueness',22),('Shared With',34),('Attribution',28),('Note',24),('Source Count',8),('Suspected State Sponsor',18),('State-Link Confidence',12),('MITRE ID',11)]
+hk=dict(COLS=HC,inner=(('Artifact Type',2),('Artifact',3),('Uniqueness',4),('Shared With',5),('Attribution',6),('Note',7),('Source Count',8)),outer=((1,'Actor'),(9,'Suspected State Sponsor'),(10,'State-Link Confidence'),(11,'MITRE ID')),srccol=None,typecol=None)
 n7=sheet(wb.create_sheet('Host Artifacts - State-Spons.'),d+'/actor_host_artifacts_state_sponsored.csv',**hk)
 n8=sheet(wb.create_sheet('Host Artifacts - All Actors'),d+'/actor_host_artifacts_all.csv',**hk)
 print(n3,n4,n5,n6,n7,n8)
@@ -57,6 +58,7 @@ items=[('Alias Source',None,''),('All three sources','A9D08E','Alias appears in 
  ('Type (malware sheets)',None,'Malware = malicious code (red); Tool = legitimate or dual-use software the actor abuses (e.g. Mimikatz, PsExec); Exploit = exploit kits/code'),('',None,''),
  ('Basis (TTP sheets)',None,'Direct (ATT&CK group) / Campaign = MITRE documents this group using the technique. Inferred from software (grey italic) = technique of malware/tools the actor uses; weaker evidence, and common tools like Cobalt Strike add many'),('',None,''),
  ('Attribution (artifact sheets)',None,'Actor (documented) = MITRE procedure/campaign, a Sigma rule or signature-base section tied to this actor. Via malware (grey italic) = artifact of malware the actor uses; other actors using the same malware share it'),('Artifact (regex)',None,'From signature-base: a regular expression, not a literal path; wildcards (*) come from Sigma rules'),('Note',None,'Common system/dual-use binary = legitimate Windows or admin tool name; only meaningful in an unusual path or with other context'),('',None,''),
+ ('Uniqueness (artifact sheets)','FFFF00','Yellow = Unique to this actor: no other actor in the full dataset (1,259 actors) has this artifact, and it is not a standard Windows/Linux location, autorun key or system binary. Not yellow = common: Shared (listed for 2+ actors, see Shared With) or Common (standard location/name or system/dual-use binary).'),('',None,''),
  ('Data versions',None,open(__import__('os').path.join(__import__('os').path.dirname(__import__('os').path.abspath(__file__)),'..','data','work','versions.txt')).read())]
 for i,(a,f,b) in enumerate(items,1):
     k.cell(i,1,a).font=FB; k.cell(i,2,b).font=F
