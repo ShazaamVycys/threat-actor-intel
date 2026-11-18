@@ -1,0 +1,2150 @@
+﻿lookup_name,resolves_to,name_type,source
+1.php Group,APT6,alias,MISP + ETDA
+1937CN,1937CN,primary,MISP
+1937CN,GOBLIN PANDA,alias,ETDA
+4HCrew,APT2,alias,MISP + ETDA
+8220 Gang,Water Sigbin,alias,MISP
+Abraham's Ax,MosesStaff,alias,ETDA
+Academic Serpens,Silent Librarian,alias,ETDA
+ACTINIUM,Gamaredon Group,alias,MISP + ETDA + MITRE
+admin@338,TEMPER PANDA,alias,MISP + ETDA + MITRE
+AgainstTheWest,BlueHornet,alias,MISP
+Aged Libra,Rocke,alias,MISP + ETDA
+Agent Serpens,APT35,alias,MISP + ETDA
+Agonizing Serpens,Pink Sandstorm,alias,MISP + ETDA + MITRE
+Agrius,Pink Sandstorm,alias,MISP + ETDA + MITRE
+Ajax Security Team,Flying Kitten,alias,MISP + ETDA + MITRE
+AjaxTM,Flying Kitten,alias,MITRE
+Alibaba,Cleaver,alias,MISP
+ALLANITE,ENERGETIC BEAR,alias,MISP
+Alloy Taurus,GALLIUM,alias,MISP + ETDA
+Alluring Pisces,Bluenoroff,alias,ETDA
+ALUMINUM,APT14,alias,MISP + ETDA
+ALUMINUM SARATOGA,Molerats,alias,MISP + ETDA
+Amaranth-Dragon,Amaranth-Dragon,primary,MISP
+AMERICIUM,Pink Sandstorm,alias,MISP + ETDA + MITRE
+Amethyst Rain,Amethyst Rain,primary,MISP
+Amethyst Rain,Volatile Cedar,alias,ETDA
+Amoeba,APT41,alias,MISP
+ANCHOR PANDA,APT14,alias,MISP + ETDA
+Andariel,Lazarus Group,alias,MISP
+Andariel,Silent Chollima,alias,MISP + ETDA + MITRE
+Anger Bear,TeamSpy Crew,alias,MISP + ETDA
+Angry Likho,Angry Likho,primary,MISP + ETDA
+Animal Farm,SNOWGLOBE,alias,MISP + ETDA
+Antique Typhoon,Storm-0558,alias,ETDA
+Antlion,Antlion,primary,MISP + ETDA
+Aoqin Dragon,Aoqin Dragon,primary,MISP + ETDA + MITRE
+AppleJeus,UNC4736,alias,MITRE
+Appleworm,Lazarus Group,alias,MISP + ETDA
+AppMilad,AppMilad,primary,MISP
+APT 45,Silent Chollima,alias,ETDA
+APT 8,APT20,alias,ETDA
+APT 9,Nightshade Panda,alias,ETDA
+APT-C-00,APT32,alias,MISP + ETDA + MITRE
+APT-C-06,DarkHotel,alias,MISP + ETDA
+APT-C-07,Infy,alias,ETDA
+APT-C-08,HAZY TIGER,alias,MISP
+APT-C-09,QUILTED TIGER,alias,MISP + ETDA
+APT-C-17,RAZOR TIGER,alias,MISP
+APT-C-17,SideWinder,alias,ETDA
+APT-C-20,APT28,alias,MISP
+APT-C-23,AridViper,alias,MISP
+APT-C-26,Lazarus Group,alias,MISP + ETDA
+APT-C-28,APT37,alias,MISP
+APT-C-34,DustSquad,alias,ETDA
+APT-C-35,VICEROY TIGER,alias,MISP
+APT-C-38,ZooPark,alias,ETDA
+APT-C-38 (QiAnXin),COBALT JUNO,alias,MISP
+APT-C-39,Longhorn,alias,MISP + ETDA
+APT-C-40,Equation Group,alias,ETDA
+APT-C-41,PROMETHIUM,alias,MISP + ETDA
+APT-C-43,El Machete,alias,MISP + ETDA + MITRE
+APT-C-50,Domestic Kitten,alias,MISP + ETDA
+APT-C-56,Operation C-Major,alias,ETDA
+APT-C-60,APT-C-60,primary,MISP + ETDA
+APT-LY-100,APT32,alias,ETDA
+APT-Q-12,APT-C-60,alias,MISP + ETDA
+APT-Q-20,GreenSpot,alias,MISP
+APT-Q-39,SideWinder,alias,ETDA
+APT-Q-58,Caracal Kitten,alias,MISP
+APT-Q-95,NightEagle,alias,MISP
+APT1,APT1,primary,MISP + ETDA + MITRE
+APT10,APT10,primary,MISP + ETDA + MITRE
+APT12,APT12,primary,MISP + ETDA + MITRE
+APT14,APT14,primary,MISP + ETDA
+APT15,APT15,primary,MISP + ETDA + MITRE
+APT16,APT16,primary,MISP + ETDA + MITRE
+APT17,APT17,primary,MISP + ETDA + MITRE
+APT18,APT18,primary,MISP + ETDA + MITRE
+APT19,APT19,primary,MISP + ETDA + MITRE
+APT2,APT2,primary,MISP + ETDA + MITRE
+APT20,APT20,primary,MISP + ETDA
+APT21,APT21,primary,MISP + ETDA
+APT22,APT22,primary,MISP + ETDA
+APT23,APT23,primary,MISP + ETDA
+APT24,APT24,primary,MISP
+APT26,APT26,primary,MISP + ETDA
+APT27,APT27,primary,MISP + ETDA + MITRE
+APT28,APT28,primary,MISP + ETDA + MITRE
+APT29,APT29,primary,MISP + ETDA + MITRE
+APT3,APT3,primary,MISP + ETDA + MITRE
+APT30,APT30,primary,MISP + ETDA + MITRE
+APT31,APT31,primary,MISP + ETDA + MITRE
+APT32,APT32,primary,MISP + ETDA + MITRE
+APT33,APT33,primary,MISP + ETDA + MITRE
+APT34,OilRig,alias,MISP + ETDA + MITRE
+APT35,APT35,primary,MISP + ETDA + MITRE
+APT36,Operation C-Major,alias,MISP + ETDA + MITRE
+APT37,APT37,primary,MISP + ETDA + MITRE
+APT38,Bluenoroff,alias,ETDA + MITRE
+APT38,Lazarus Group,alias,MISP
+APT39,APT39,primary,MISP + ETDA + MITRE
+APT4,APT4,primary,MISP + ETDA
+APT40,APT40,primary,MISP + ETDA + MITRE
+APT41,APT41,primary,MISP + ETDA + MITRE
+APT42,APT42,primary,MISP + ETDA + MITRE
+APT43,APT43,primary,MISP
+APT43,Kimsuky,alias,MISP + ETDA + MITRE
+APT44,Sandworm,alias,MISP + ETDA + MITRE
+APT45,APT45,primary,MISP
+APT49,BlueHornet,alias,MISP
+APT5,APT5,primary,MISP + ETDA + MITRE
+APT6,APT6,primary,MISP + ETDA
+APT73,APT73,primary,MISP
+APT9,APT9,primary,MISP + ETDA
+Aqua Blizzard,Gamaredon Group,alias,MISP + ETDA + MITRE
+Aquatic Panda,Aquatic Panda,primary,ETDA + MITRE
+AQUATIC PANDA,Earth Lusca,alias,MISP
+ArcaneDoor,ArcaneDoor,primary,MISP
+ARCHIPELAGO,Kimsuky,alias,ETDA
+AridViper,AridViper,primary,MISP
+Armageddon,Gamaredon Group,alias,ETDA + MITRE
+ARMORY CASTLE,UTA0178,alias,MISP
+Asnarök,Asnarök,primary,MISP
+ATK 117,Bluenoroff,alias,ETDA
+ATK 120,LYCEUM,alias,ETDA
+ATK 14,Sandworm,alias,ETDA
+ATK 15,APT27,alias,ETDA
+ATK 196,Deadeye Jackal,alias,ETDA
+ATK 2,APT17,alias,ETDA
+ATK 23,DAGGER PANDA,alias,ETDA
+ATK 27,Dark Caracal,alias,ETDA
+ATK 77,DarkHydrus,alias,ETDA
+ATK 78,LOTUS PANDA,alias,ETDA
+ATK 83,Mofang,alias,ETDA
+ATK 89,Molerats,alias,ETDA
+ATK 97,El Machete,alias,ETDA
+ATK1,LOTUS PANDA,alias,MISP + ETDA
+ATK11,QUILTED TIGER,alias,MISP + ETDA
+ATK116,Inception Framework,alias,MISP + ETDA
+ATK117,Lazarus Group,alias,MISP
+ATK13,Turla,alias,MISP + ETDA
+ATK17,APT32,alias,MISP + ETDA
+ATK233,HAFNIUM,alias,MISP
+ATK29,APT40,alias,MISP + ETDA
+ATK3,Lazarus Group,alias,MISP + ETDA
+ATK33,PLATINUM,alias,MISP + ETDA
+ATK35,APT33,alias,MISP + ETDA
+ATK4,APT37,alias,MISP + ETDA
+ATK40,OilRig,alias,MISP + ETDA
+ATK41,APT10,alias,MISP + ETDA
+ATK5,APT28,alias,MISP + ETDA
+ATK51,MuddyWater,alias,MISP + ETDA
+ATK52,DarkHotel,alias,MISP + ETDA
+ATK6,ENERGETIC BEAR,alias,MISP + ETDA
+ATK7,APT29,alias,MISP + ETDA
+ATK78,Thrip,alias,MISP
+ATK8,SNOWGLOBE,alias,MISP + ETDA
+ATK91,TEMP.Veles,alias,MISP + ETDA
+ATK92,The Gorgon Group,alias,MISP + ETDA
+AURORA PANDA,APT17,alias,MISP
+Aurora Panda,Hidden Lynx,alias,ETDA
+Avivore,Avivore,primary,MISP + ETDA
+Axiom,APT17,alias,MISP
+Axiom,Axiom,primary,ETDA + MITRE
+BabyElephant,SideWinder,alias,ETDA
+BackdoorDiplomacy,APT15,alias,ETDA
+Bahamut,Bahamut,primary,MISP + ETDA
+Ballistic Bobcat,APT35,alias,ETDA
+BANISHED KITTEN,BANISHED KITTEN,primary,MISP
+Banished Kitten,HomeLand Justice,alias,ETDA
+BANISHED KITTEN,Void Manticore,alias,MITRE
+BARIUM,APT41,alias,MISP + MITRE
+Barium,Barium,primary,ETDA
+BASALT CASTLE,APT5,alias,MISP
+BASIN,MUSTANG PANDA,alias,MISP
+BASIN CASTLE,MUSTANG PANDA,alias,MISP
+BatShadow,BatShadow,primary,MISP
+BBCY-TA1,IronHusky,alias,ETDA
+BE2,Sandworm,alias,ETDA
+BeagleBoyz,Bluenoroff,alias,MITRE
+BeagleBoyz,Lazarus Group,alias,MISP
+Bearded Barbie,AridViper,alias,MISP
+BeeBus,APT12,alias,MISP + ETDA
+Beijing Group,APT17,alias,ETDA
+Beijing Group,Beijing Group,primary,MISP + MITRE
+BELUGASTURGEON,Turla,alias,ETDA + MITRE
+Berserk Bear,Berserk Bear,primary,ETDA
+Berserk Bear,ENERGETIC BEAR,alias,MISP + MITRE
+BIG PANDA,BIG PANDA,primary,MISP + ETDA
+Bilbug,LOTUS PANDA,alias,MITRE
+Billbug,LOTUS PANDA,alias,MISP + ETDA
+BISMUTH,APT32,alias,MISP + MITRE
+Bismuth,Bismuth,primary,ETDA
+BITTER,HAZY TIGER,alias,MISP + ETDA + MITRE
+Black Alicanto,Bluenoroff,alias,ETDA
+Black Artemis,Covellite,alias,ETDA
+Black Artemis,Lazarus Group,alias,MISP
+Black Banshee,Kimsuky,alias,MISP + ETDA + MITRE
+Black Cube,Blue Tsunami,alias,MISP
+Black Technology,XinXin,alias,MISP
+Black Vine,APT19,alias,MISP
+Black Vine,APT26,alias,ETDA + MITRE
+Blackatom,Blackatom,primary,MISP
+BlackEnergy (Group),Sandworm,alias,MITRE
+Blackfly,APT41,alias,MISP + ETDA
+Blackfly,Winnti Group,alias,MITRE
+Blackgear,Blackgear,primary,MISP + ETDA
+BlackJack,BlackJack,primary,MISP
+BlackShadow,Pink Sandstorm,alias,MISP + ETDA + MITRE
+BLACKSTEM,Molerats,alias,MISP
+BlackTech,BlackTech,primary,MISP + ETDA + MITRE
+Blackwood,Blackwood,primary,MISP + ETDA
+BladedFeline,BladedFeline,primary,MISP
+BLEAK ION,APT33,alias,MISP
+Bleeding Bear,DEV-0586,alias,MITRE
+Bleeding Bear,SaintBear,alias,MISP
+Blue Athena,APT28,alias,MISP + ETDA
+Blue Callisto,Callisto,alias,MISP
+Blue Callisto,Cold River (ETDA),alias,ETDA
+Blue Dev 5,APT29,alias,ETDA
+Blue Echidna,Sandworm,alias,MISP + ETDA
+Blue Kitsune,APT29,alias,MISP + MITRE
+Blue Kraken,ENERGETIC BEAR,alias,MISP + ETDA
+Blue Odin,Inception Framework,alias,MISP + ETDA
+Blue Otso,Gamaredon Group,alias,MISP + ETDA
+Blue Python,Turla,alias,MISP + ETDA
+Blue Termite,Blue Termite,primary,MISP + ETDA
+Blue Tsunami,Blue Tsunami,primary,MISP
+BlueAlpha,Gamaredon Group,alias,MISP + ETDA
+BlueBravo,APT29,alias,MISP + ETDA
+BlueCharlie,Callisto,alias,MISP
+BlueCharlie,Cold River (ETDA),alias,ETDA
+BlueDelta,APT28,alias,MISP + ETDA
+BlueHornet,BlueHornet,primary,MISP
+Bluenoroff,Bluenoroff,primary,ETDA + MITRE
+Bluenoroff,Lazarus Group,alias,MISP
+BlueTraveller,TaskMasters,alias,MISP
+Boggy Serpens,MuddyWater,alias,MISP + ETDA
+Bohrium,Bohrium,primary,MISP
+Bohrium,TA455,alias,ETDA
+Bookworm,Bookworm,primary,ETDA
+BORON,APT3,alias,MISP + ETDA
+Boulder Bear,Boulder Bear,primary,MISP + ETDA
+Bouncing Golf,Domestic Kitten,alias,MISP + ETDA + MITRE
+BountyGlad,Earth Lusca,alias,MISP
+Boyusec,APT3,alias,MISP
+Brass Typhoon,APT41,alias,MISP + MITRE
+Brass Typhoon,Barium,alias,ETDA
+BrazenBamboo,APT41,alias,ETDA
+BrazenBamboo,BrazenBamboo,primary,MISP
+Brocade Typhoon,APT3,alias,MISP + ETDA
+BROMINE,ENERGETIC BEAR,alias,MISP + ETDA + MITRE
+BRONZE ATLAS,APT41,alias,MISP + ETDA
+BRONZE BUTLER,Tick,alias,MISP + ETDA + MITRE
+BRONZE DAVENPORT,APT15,alias,MISP + ETDA
+BRONZE DUDLEY,TA428,alias,MISP
+Bronze Dudley,Vicious Panda,alias,ETDA
+BRONZE EDGEWOOD,BRONZE EDGEWOOD,primary,MISP + ETDA
+BRONZE EDISON,APT4,alias,MISP + ETDA
+BRONZE ELGIN,LOTUS PANDA,alias,MISP + ETDA
+Bronze Export,APT22,alias,ETDA
+BRONZE EXPORT,APT41,alias,MISP
+BRONZE EXPRESS,APT26,alias,MISP + ETDA
+BRONZE FIRESTONE,APT19,alias,MISP + ETDA
+BRONZE FLEETWOOD,APT5,alias,MISP + ETDA + MITRE
+Bronze Geneva,APT30,alias,ETDA
+BRONZE GENEVA,Naikon,alias,MISP
+BRONZE GLOBE,APT12,alias,MISP + ETDA
+BRONZE HIGHLAND,BRONZE HIGHLAND,primary,MISP + ETDA + MITRE
+BRONZE HIGHLAND,Evasive Panda,alias,MISP
+BRONZE HOBART,APT23,alias,MISP + ETDA
+BRONZE HUNTLEY,Tonto Team,alias,MISP + ETDA + MITRE
+BRONZE IDLEWOOD,APT15,alias,MISP + ETDA
+BRONZE KEYSTONE,APT17,alias,MISP + ETDA
+BRONZE MAYFAIR,APT3,alias,MISP + ETDA
+BRONZE MEDLEY,Calypso,alias,MISP + ETDA
+BRONZE MOHAWK,APT40,alias,MISP + ETDA + MITRE
+BRONZE OLIVE,APT22,alias,MISP + ETDA
+BRONZE OVERBROOK,DragonOK,alias,MISP + ETDA
+BRONZE PALACE,APT15,alias,MISP + ETDA
+BRONZE PRESIDENT,MUSTANG PANDA,alias,MISP + ETDA + MITRE
+BRONZE RIVERSIDE,APT10,alias,MISP + ETDA + MITRE
+BRONZE SILHOUETTE,Volt Typhoon,alias,MISP + ETDA + MITRE
+BRONZE SPIRAL,BRONZE SPIRAL,primary,MISP
+BRONZE SPRING,BRONZE SPRING,primary,MISP
+BRONZE STARLIGHT,BRONZE STARLIGHT,primary,MISP + ETDA + MITRE
+Bronze Sterling,APT30,alias,ETDA
+BRONZE STERLING,Naikon,alias,MISP
+BRONZE UNION,APT27,alias,MISP + ETDA + MITRE
+BRONZE UNIVERSITY,Earth Lusca,alias,MISP + ETDA
+BRONZE VAPOR,BRONZE VAPOR,primary,MISP + ETDA
+BRONZE VINEWOOD,APT31,alias,MISP + ETDA
+BRONZE WALKER,Mofang,alias,MISP + ETDA
+BRONZE WOODLAND,Roaming Tiger,alias,MISP + ETDA
+Brown Fox,APT1,alias,MISP + ETDA
+Buckeye,APT3,alias,MISP + ETDA + MITRE
+Budminer,Budminer,primary,MISP
+Budminer,Taidoor,alias,ETDA
+Budminer cyberespionage group,Budminer,alias,MISP
+Budworm,APT27,alias,MISP + ETDA
+Bureau 121,Lazarus Group,alias,MISP
+Burgundy Sandstorm,APT39,alias,MISP + ETDA
+Butterfly,WildNeutron,alias,MISP + ETDA
+Byzantine Candor,APT1,alias,MISP + ETDA
+Byzantine Hades,APT1,alias,ETDA
+C-Major,Operation C-Major,alias,MISP
+C0d0so0,APT19,alias,ETDA + MITRE
+CactusPete,Tonto Team,alias,MISP + ETDA + MITRE
+Cadelle,Cadelle,primary,MISP + ETDA
+Cadet Blizzard,DEV-0586,alias,MISP + ETDA + MITRE
+Cadet Blizzard,SaintBear,alias,MISP
+CALANQUE,APT42,alias,MISP
+CALANQUE ION,APT42,alias,MISP
+Calc Team,APT12,alias,MISP + ETDA
+Calisto,Cold River (ETDA),alias,ETDA
+Callisto,Callisto,primary,MISP + ETDA + MITRE
+Callisto,Gamaredon Group,alias,ETDA
+Calypso,Calypso,primary,MISP + ETDA
+Camaro Dragon,Camaro Dragon,primary,MISP
+CAMARO DRAGON,MUSTANG PANDA,alias,ETDA + MITRE
+Camerashy,Naikon,alias,MISP
+CamoFei,Chamelgang,alias,MISP + ETDA
+Canary Typhoon,BlackTech,alias,MISP + ETDA
+Canvas Cyclone,APT32,alias,MISP + MITRE
+Canvas Cyclone,Bismuth,alias,ETDA
+Capricorn Organisation,QUILTED TIGER,alias,ETDA
+Caracal Kitten,Caracal Kitten,primary,MISP
+Carderbee,Carderbee,primary,MISP + ETDA
+CardinalLizard,CardinalLizard,primary,MISP + ETDA
+Careto,Careto,primary,MISP + ETDA
+Carmine Tsunami,Carmine Tsunami,primary,MISP
+Casper,Lead,alias,ETDA
+CASTLE,ENERGETIC BEAR,alias,MISP
+Cavalry Werewolf,YoroTrooper,alias,MISP
+CAVERN CASTLE,BlackTech,alias,MISP
+Cavern Manticore,Cavern Manticore,primary,MISP
+Central Intelligence Agency,CIA,alias,ETDA
+CeranaKeeper,CeranaKeeper,primary,MISP + ETDA
+Cerium,APT37,alias,ETDA
+CERIUM,Ruby Sleet,alias,MISP
+Chafer,APT39,alias,MISP + ETDA + MITRE
+Chamelgang,Chamelgang,primary,MISP + ETDA
+changqixinyun,XinXin,alias,MISP
+Charcoal Typhoon,Earth Lusca,alias,MISP + ETDA + MITRE
+Charming Kitten,APT35,alias,ETDA + MITRE
+Charming Kitten,Charming Kitten,primary,MISP
+CharmingCypress,APT35,alias,ETDA
+CharmingCypress,Charming Kitten,alias,MISP
+Chaya_004,Chaya_004,primary,MISP
+Checkered Typhoon,APT19,alias,MISP + ETDA
+Chernovite,Chernovite,primary,MISP
+Chimera,BRONZE VAPOR,alias,ETDA + MITRE
+Chinastrats,QUILTED TIGER,alias,MISP + ETDA + MITRE
+CHROMIUM,Earth Lusca,alias,MISP + ETDA + MITRE
+Chrono Kitten,LYCEUM,alias,MISP
+CHRYSENE,CHRYSENE,primary,MISP
+Chrysene,OilRig,alias,ETDA
+CIA,CIA,primary,ETDA
+Cicada,APT10,alias,MISP + ETDA + MITRE
+CIGAR,RomCom,alias,ETDA
+CINDER ION,APT39,alias,MISP
+Cinnamon Tempest,BRONZE STARLIGHT,alias,MISP + ETDA + MITRE
+Circle Typhoon,APT27,alias,MISP + ETDA
+Circle Typhoon,TiltedTemple,alias,MISP
+CIRCUIT PANDA,BlackTech,alias,MISP + ETDA
+Citrine Sleet,Lazarus Group,alias,MISP + ETDA
+Citrine Sleet,UNC4736,alias,MITRE
+CL-CRI-0025,LightBasin,alias,MISP
+CL-CRI-1032,Jingle Thief,alias,MISP
+CL-STA-0043,CL-STA-0043,primary,MISP + ETDA
+CL-STA-0048,CL-STA-0048,primary,MISP
+CL-STA-0049,REF7707,alias,MISP
+CL-STA-0954,UNC5820,alias,MISP
+CL-STA-1009,CL-STA-1009,primary,MISP
+CL-STA-1062,UAT-7237,alias,MISP
+CL-STA-1087,CL-STA-1087,primary,MISP
+CL-UNK-1068,CL-UNK-1068,primary,MISP
+Clean Ursa,Inception Framework,alias,MISP + ETDA
+Cleaver,Cleaver,primary,MISP + MITRE
+Clever Kitten,Clever Kitten,primary,MISP + ETDA
+Cloaked Ursa,APT29,alias,MISP + ETDA
+Cloud Atlas,Inception Framework,alias,MISP + ETDA + MITRE
+Cloud Hopper,APT10,alias,MISP
+CloudLook,APT29,alias,ETDA
+Cloudy Omega,Blue Termite,alias,MISP + ETDA
+ClumsyToad,MUSTANG PANDA,alias,MITRE
+COBALT DICKENS,Silent Librarian,alias,MISP + ETDA + MITRE
+Cobalt Edgewater,Cold River (ETDA),alias,ETDA
+COBALT EDGEWATER,DNSpionage,alias,MISP
+Cobalt Fireside,Tortoiseshell,alias,ETDA
+Cobalt Foxglove,Fox Kitten,alias,ETDA
+Cobalt Gypsy,Cleaver,alias,MISP
+COBALT GYPSY,OilRig,alias,MISP + ETDA + MITRE
+COBALT HICKMAN,APT39,alias,MISP + ETDA
+COBALT ILLUSION,APT35,alias,ETDA + MITRE
+COBALT JUNO,COBALT JUNO,primary,MISP
+Cobalt Juno,ZooPark,alias,ETDA
+COBALT KATANA,COBALT KATANA,primary,MISP + ETDA
+Cobalt Kitty,APT32,alias,MISP
+COBALT LYCEUM,LYCEUM,alias,MISP + ETDA
+COBALT MIRAGE,APT35,alias,MISP + ETDA
+COBALT MYSTIQUE,Void Manticore,alias,MITRE
+Cobalt Sapling,MosesStaff,alias,ETDA
+COBALT SMOKEY,TA455,alias,MITRE
+COBALT TRINITY,APT33,alias,MISP + ETDA
+COBALT ULSTER,MuddyWater,alias,MISP + ETDA
+Codoso,APT19,alias,MISP + ETDA + MITRE
+COLD RELIC,Callisto,alias,MISP
+Cold River (ETDA),Cold River (ETDA),primary,ETDA
+COLDRIVER,Callisto,alias,MISP + MITRE
+Colourful Panda,TA428,alias,MISP
+Comment Crew,APT1,alias,MISP + ETDA + MITRE
+Comment Group,APT1,alias,MISP + MITRE
+Comment Panda,APT1,alias,MISP + ETDA + MITRE
+Comnie,Blackgear,alias,MISP
+Comrade Saiga,YoroTrooper,alias,MISP
+Confucious,Confucious,primary,MISP
+Confucius,Confucius,primary,ETDA + MITRE
+Confucius APT,Confucius,alias,MITRE
+Conimes,GOBLIN PANDA,alias,MISP + ETDA
+ControlX,Earth Lusca,alias,MISP + MITRE
+COPERNICIUM,Bluenoroff,alias,ETDA + MITRE
+COPERNICIUM,Lazarus Group,alias,MISP
+COPPER,Tonto Team,alias,MISP
+COPPER FIELDSTONE,Operation C-Major,alias,MISP + ETDA + MITRE
+CopyCop,Storm-1516,alias,MISP
+CopyKittens,CopyKittens,primary,MISP + ETDA + MITRE
+Corsair Jackal,Corsair Jackal,primary,MISP + ETDA
+Cosmic Leopard,Cosmic Leopard,primary,ETDA
+Cosmic Wolf,Sea Turtle,alias,MISP + ETDA + MITRE
+Cotton Sandstorm,Cotton Sandstorm,primary,MISP
+Covellite,Covellite,primary,ETDA
+COVELLITE,Lazarus Group,alias,MISP
+Covert Grove,Nitro,alias,MISP + ETDA
+CovertNetwork-1658,Storm-0940,alias,MISP
+Cozy Bear,APT29,alias,MISP + ETDA + MITRE
+CozyDuke,APT29,alias,MITRE
+Crambus,OilRig,alias,MISP + ETDA + MITRE
+Cranefly,APT29,alias,ETDA
+Cranefly,UNC3524,alias,ETDA
+Crawling Taurus,APT20,alias,MISP + ETDA
+Crimson Iron,APT12,alias,MISP + ETDA
+Crimson Sandstorm,Tortoiseshell,alias,MISP + ETDA + MITRE
+Crooked Pisces,APT37,alias,ETDA
+Crouching Yeti,ENERGETIC BEAR,alias,MISP + ETDA + MITRE
+CTG-1948,DarkHotel,alias,ETDA
+CTG-2006,Tick,alias,ETDA
+CTG-2460,Covellite,alias,ETDA
+CTG-5326,APT30,alias,ETDA
+CTG-5938,APT10,alias,ETDA
+CTG-6459,Bluenoroff,alias,ETDA
+CTG-7263,Sandworm,alias,ETDA
+CTG-7273,Roaming Tiger,alias,ETDA
+CTG-8171,LOTUS PANDA,alias,ETDA
+CTG-8223,APT12,alias,ETDA
+CTG-8875,Turla,alias,ETDA
+CTG-9246,APT15,alias,ETDA
+Cuboid Sandstorm,Cuboid Sandstorm,primary,MISP
+Cuboid Sandstorm,Tortoiseshell,alias,MISP + ETDA
+Cuckoo Spear,APT10,alias,ETDA
+Curious Gorge,Curious Gorge,primary,MISP + ETDA
+Curious Serpens,APT33,alias,ETDA
+CURIUM,Tortoiseshell,alias,MISP + ETDA + MITRE
+Curly COMrades,Curly COMrades,primary,MISP
+Cutting Kitten,Cutting Kitten,primary,MISP + ETDA
+Cutting Sword of Justice,Shamoon Group,alias,MISP
+CVNX,APT10,alias,MISP + ETDA + MITRE
+Cyber Av3ngers,Cyber Av3ngers,primary,MISP + ETDA + MITRE
+Cyber fighters of Izz Ad-Din Al Qassam,Cyber fighters of Izz Ad-Din Al Qassam,primary,MISP + ETDA
+Cyber Toufan,Cyber Toufan,primary,MISP
+Cycldek,GOBLIN PANDA,alias,MISP + ETDA
+DAGGER PANDA,DAGGER PANDA,primary,MISP + ETDA
+Daggerfly,BRONZE HIGHLAND,alias,MISP + ETDA + MITRE
+Dancing Salome,Volatile Cedar,alias,ETDA
+Dark Caracal,Dark Caracal,primary,MISP + ETDA + MITRE
+DARK CASTLE,UNC2814,alias,MISP
+Dark Halo,APT29,alias,ETDA + MITRE
+Dark Seoul,Lazarus Group,alias,MISP
+DarkBlinders,DarkBlinders,primary,MISP
+DarkHalo,UNC2452,alias,MISP + ETDA
+DarkHotel,DarkHotel,primary,MISP + ETDA + MITRE
+DarkHydrus,DarkHydrus,primary,MISP + ETDA + MITRE
+DarkShadow,Storm-0062,alias,MISP
+DazedToad,Volt Typhoon,alias,MITRE
+Deadeye Jackal,Deadeye Jackal,primary,MISP + ETDA
+DecisiveArchitect,LightBasin,alias,ETDA
+DEEP PANDA,APT19,alias,MISP + ETDA
+Deep Panda,APT26,alias,MITRE
+deepclif,Houndstooth Typhoon,alias,MISP
+DeepCliff,RedAlpha,alias,MISP + ETDA
+DeftTorero,Volatile Cedar,alias,MISP + ETDA
+Deputy Dog,APT17,alias,ETDA + MITRE
+Desert Falcon,AridViper,alias,MISP
+DEV-0022,Pink Sandstorm,alias,MISP
+DEV-0056,TA455,alias,ETDA
+DEV-0139,Lazarus Group,alias,MISP + ETDA
+DEV-0147,DEV-0147,primary,MISP
+DEV-0157,Gamaredon Group,alias,MISP + ETDA + MITRE
+DEV-0193,WIZARD SPIDER,alias,MISP + ETDA + MITRE
+DEV-0196,Carmine Tsunami,alias,MISP
+DEV-0215,Pearl Sleet,alias,MISP
+DEV-0227,Pink Sandstorm,alias,ETDA
+DEV-0228,Cuboid Sandstorm,alias,MISP
+DEV-0234,Lilac Typhoon,alias,MISP
+DEV-0237,WIZARD SPIDER,alias,MISP + MITRE
+DEV-0257,Ghostwriter,alias,MISP + ETDA
+DEV-0270,DEV-0270,primary,MISP + ETDA
+DEV-0322,TiltedTemple,alias,MISP
+DEV-0343,Gray Sandstorm,alias,MISP
+DEV-0391,Volt Typhoon,alias,MISP + ETDA + MITRE
+DEV-0401,BRONZE STARLIGHT,alias,MISP + ETDA + MITRE
+DEV-0500,MosesStaff,alias,MISP + ETDA + MITRE
+DEV-0586,DEV-0586,primary,MISP + ETDA + MITRE
+DEV-0587,SaintBear,alias,MISP
+DEV-0665,Sunglow Blizzard,alias,MISP
+DEV-0861,OilRig,alias,ETDA
+DEV-0867,Storm-0867,alias,MISP
+DEV-0978,RomCom,alias,ETDA
+DEV-1084,Storm-1084,alias,MISP
+DEV-1167,Storm-1167,alias,MISP
+DEV-1222,Lazarus Group,alias,MISP
+Devious Serpens,Tortoiseshell,alias,ETDA
+Diamond Sleet,Lazarus Group,alias,MISP + ETDA + MITRE
+DiceyF,DiceyF,primary,MISP
+Digging Taurus,BRONZE HIGHLAND,alias,ETDA
+DireFate,DEV-0270,alias,ETDA
+DIZZY PANDA,DIZZY PANDA,primary,MISP + ETDA
+DNSCALC,APT12,alias,MISP + ETDA + MITRE
+DNSpionage,DNSpionage,primary,MISP + ETDA
+Dogfish,APT17,alias,MISP + ETDA
+Domestic Kitten,Domestic Kitten,primary,MISP + ETDA
+Donot Team,VICEROY TIGER,alias,MISP
+Double Dragon,APT41,alias,MISP + ETDA
+DRAGNET PANDA,Houndstooth Typhoon,alias,MISP
+Dragonbridge,Dragonbridge,primary,MISP
+DRAGONFISH,LOTUS PANDA,alias,MISP + ETDA + MITRE
+Dragonfly,ENERGETIC BEAR,alias,MISP + ETDA + MITRE
+Dragonfly 2.0,Berserk Bear,alias,ETDA
+DragonOK,DragonOK,primary,MISP + ETDA + MITRE
+DragonSpark,DragonSpark,primary,MISP + ETDA
+DriftingCloud,DriftingCloud,primary,MISP
+Dropping Elephant,QUILTED TIGER,alias,MISP + ETDA + MITRE
+DUBNIUM,DarkHotel,alias,MISP + ETDA + MITRE
+DUNE,BANISHED KITTEN,alias,MISP
+Duqu Group,Unit 8200,alias,MISP
+Dust Storm,Dust Storm,primary,MISP + ETDA
+DustSquad,DustSquad,primary,MISP + ETDA + MITRE
+DUSTYCAVE,Tortoiseshell,alias,MISP
+Dymalloy,Berserk Bear,alias,ETDA
+DYMALLOY,ENERGETIC BEAR,alias,MISP + MITRE
+Dynamite Panda,APT18,alias,MISP + ETDA + MITRE
+DynCalc,APT12,alias,MISP + ETDA + MITRE
+Earth Akhlut,Tonto Team,alias,MISP + ETDA + MITRE
+Earth Alux,Earth Alux,primary,MISP + ETDA
+Earth Ammit,Earth Ammit,primary,ETDA
+Earth Ammit,TIDRONE,alias,MISP
+Earth Aughisky,Taidoor,alias,MISP + ETDA
+Earth Baku,APT41,alias,MISP + ETDA
+Earth Baxia,Earth Baxia,primary,MISP + ETDA
+Earth Berberoka,Earth Berberoka,primary,MISP + ETDA
+Earth Bluecrow,Red Menshen,alias,MISP
+Earth Centaur,APT23,alias,MISP + ETDA
+Earth Empusa,POISON CARP,alias,MISP + ETDA
+Earth Estries,GhostEmperor,alias,ETDA
+Earth Freybug,Earth Freybug,primary,MISP + ETDA
+Earth Hundun,BlackTech,alias,MISP + ETDA
+Earth Karkaddan,Operation C-Major,alias,MISP + ETDA
+Earth Kasha,APT10,alias,ETDA
+Earth Kasha,MirrorFace,alias,MISP + MITRE
+Earth Koshchei,APT29,alias,ETDA
+Earth Krahang,Earth Krahang,primary,MISP + ETDA
+Earth Kumiho,Kimsuky,alias,MITRE
+Earth Kurma,Earth Kurma,primary,MISP + ETDA
+Earth Lamia,Earth Lamia,primary,MISP + ETDA
+Earth Longzhi,Earth Longzhi,primary,MISP + ETDA
+Earth Lusca,Earth Lusca,primary,MISP + ETDA + MITRE
+Earth Minotaur,Earth Minotaur,primary,ETDA
+Earth Naga,Earth Naga,primary,MISP
+EARTH PRETA,MUSTANG PANDA,alias,MISP + ETDA + MITRE
+Earth Simnavaz,OilRig,alias,MISP + ETDA + MITRE
+Earth Sirrush,Earth Sirrush,primary,MISP
+Earth Smilodon,APT27,alias,MISP + ETDA + MITRE
+Earth Vetala,MuddyWater,alias,MISP + MITRE
+Earth Wendigo,Earth Wendigo,primary,MISP + ETDA
+Educated Manticore,APT35,alias,ETDA
+Educated Manticore,Educated Manticore,primary,MISP
+El Machete,El Machete,primary,MISP + ETDA + MITRE
+Elderwood,APT17,alias,ETDA
+Elderwood,Beijing Group,alias,MISP + MITRE
+ELECTRIC PANDA,ELECTRIC PANDA,primary,MISP + ETDA
+Electrum,ENERGETIC BEAR,alias,ETDA
+ELECTRUM,Sandworm,alias,MISP + MITRE
+Elfin,APT33,alias,MISP + ETDA + MITRE
+ELOQUENT PANDA,ELOQUENT PANDA,primary,MISP + ETDA
+ELUSIVE COMET,ELUSIVE COMET,primary,MISP
+Ember Bear,DEV-0586,alias,MITRE
+EMBER BEAR,SaintBear,alias,MISP + ETDA
+Emdivi,Blue Termite,alias,MISP
+Emennet Pasargad,Cotton Sandstorm,alias,MISP
+Emerald Sleet,Kimsuky,alias,MISP + ETDA + MITRE
+Emissary Panda,APT27,alias,MISP + ETDA + MITRE
+Emperor Dragonfly,BRONZE STARLIGHT,alias,MISP + MITRE
+ENERGETIC BEAR,ENERGETIC BEAR,primary,MISP + ETDA + MITRE
+EQGRP,Equation Group,alias,MISP
+Equation Group,Equation Group,primary,MISP + ETDA + MITRE
+Eraleig,APT73,alias,MISP
+Erudite Mogwai,Webworm,alias,ETDA
+Ethereal Panda,Flax Typhoon,alias,MISP + ETDA
+EUROPIUM,OilRig,alias,MISP + ETDA + MITRE
+Evasive Panda,BRONZE HIGHLAND,alias,MISP + ETDA + MITRE
+Evasive Panda,Evasive Panda,primary,MISP
+Evasive Serpens,OilRig,alias,MISP + ETDA + MITRE
+Evil Eye,Evil Eye,primary,ETDA
+Evil Eye,POISON CARP,alias,MISP + ETDA
+EvilBamboo,POISON CARP,alias,ETDA
+Extreme Jackal,Molerats,alias,MISP + ETDA
+FallagaTeam,Rebel Jackal,alias,MISP
+Fallout Team,DarkHotel,alias,MISP + ETDA
+Famous Chollima,WageMole,alias,MISP
+FamousSparrow,GhostEmperor,alias,MISP + ETDA
+Fancy Bear,APT28,alias,MISP + ETDA + MITRE
+Ferocious Kitten,Ferocious Kitten,primary,MISP + ETDA + MITRE
+Fighting Ursa,APT28,alias,MISP + ETDA
+FIN12,WIZARD SPIDER,alias,MISP + MITRE
+Fire Ant,UNC3886,alias,ETDA
+FIREANT,MUSTANG PANDA,alias,MITRE
+FISHMONGER,Earth Lusca,alias,MISP
+Fishmonger,RedHotel,alias,ETDA
+Flash Kitten,Flash Kitten,primary,MISP
+Flash Kitten,RASPITE,alias,ETDA
+Flax Typhoon,Flax Typhoon,primary,MISP + ETDA
+Flea,APT15,alias,ETDA
+FlowerLady,Nightshade Panda,alias,ETDA
+FlowerShow,Nightshade Panda,alias,ETDA
+FlowingFrog,Witchetty,alias,ETDA
+Flying Kitten,Flying Kitten,primary,MISP + ETDA + MITRE
+FlyingYeti,FlyingYeti,primary,MISP
+Forest Blizzard,APT28,alias,MISP + ETDA + MITRE
+Foudre,Infy,alias,MISP
+Fox Kitten,Fox Kitten,primary,MISP + ETDA + MITRE
+FOXY PANDA,FOXY PANDA,primary,MISP + ETDA
+Fraternal Jackal,Cyber fighters of Izz Ad-Din Al Qassam,alias,MISP + ETDA
+FrostyNeighbor,FrostyNeighbor,primary,MISP
+FROZENBARENTS,Sandworm,alias,MISP + ETDA + MITRE
+FROZENLAKE,APT28,alias,MISP + ETDA + MITRE
+Frozenvista,DEV-0586,alias,MITRE
+FROZENVISTA,SaintBear,alias,MISP + ETDA
+FruityArmor,Stealth Falcon,alias,MISP + ETDA
+FunnyDream,BRONZE EDGEWOOD,alias,ETDA
+Gadolinium,APT40,alias,MISP + ETDA + MITRE
+GALLIUM,GALLIUM,primary,MISP + ETDA + MITRE
+Gamaredon Group,Gamaredon Group,primary,MISP + ETDA + MITRE
+GambleForce,GambleForce,primary,MISP + ETDA
+GamblingPuppet,Earth Berberoka,alias,MISP + ETDA
+Gangnam Industrial Style,Gangnam Industrial Style,primary,ETDA
+Gaza Cybergang,Molerats,alias,MISP + ETDA + MITRE
+Gaza Hackers Team,Molerats,alias,MISP + ETDA
+GCHQ,GCHQ,primary,ETDA
+Gelsemium,Gelsemium,primary,MISP + ETDA
+Genesis Day,Xiaoqiying,alias,MISP
+Geumseong121,APT37,alias,ETDA
+Ghost Blizzard,ENERGETIC BEAR,alias,MISP + ETDA + MITRE
+GhostEmperor,GhostEmperor,primary,MISP + ETDA
+GhostNet,GhostNet,primary,MISP + ETDA
+Ghostwriter,Ghostwriter,primary,MISP
+GIBBERISH PANDA,GIBBERISH PANDA,primary,MISP + ETDA
+GIF89a,APT1,alias,MISP + ETDA
+Gingham Typhoon,APT40,alias,MISP + ETDA + MITRE
+Gleaming Pisces,Lazarus Group,alias,ETDA
+Gleaming Pisces,UNC4736,alias,MITRE
+GOBLIN PANDA,GOBLIN PANDA,primary,MISP + ETDA
+Gods Apostles,Lazarus Group,alias,ETDA
+Gods Disciples,Lazarus Group,alias,ETDA
+GOLD BLACKBURN,WIZARD SPIDER,alias,MISP + ETDA + MITRE
+Gold Ulrick,WIZARD SPIDER,alias,ETDA
+Golden Falcon,DustSquad,alias,ETDA
+Golfing Taurus,Scarlet Mimic,alias,MISP + ETDA
+GOP,Silent Chollima,alias,MISP
+GopherWhisper,GopherWhisper,primary,MISP
+Gorbag,Gorbag,primary,MISP
+Gorgon Group,The Gorgon Group,alias,MISP + ETDA + MITRE
+GOSSAMER BEAR,Callisto,alias,MISP
+Gossamer Bear,Cold River (ETDA),alias,ETDA
+GOSSIPGIRL,Operation Olympic Games,alias,ETDA
+Gothic Panda,APT3,alias,MISP + ETDA + MITRE
+Government Communications Headquarters,GCHQ,alias,ETDA
+Granite Taurus,APT10,alias,MISP + ETDA
+Granite Typhoon,GALLIUM,alias,MISP + ETDA + MITRE
+GRASS NEPTUNE,APT45,alias,MISP
+Gray Sandstorm,Gray Sandstorm,primary,MISP
+Grayfly,APT41,alias,MISP + ETDA
+Grayling,Grayling,primary,MISP + ETDA
+GREATRIFT,POLONIUM,alias,MISP
+GreedyTaotie,APT27,alias,MISP
+Green Havildar,Operation C-Major,alias,MISP + ETDA
+GreenBravo,APT42,alias,ETDA
+Greenbug,CHRYSENE,alias,MISP
+Greenbug,Greenbug,primary,MISP + ETDA
+GreenCharlie,GreenCharlie,primary,ETDA
+GreenSpot,GreenSpot,primary,MISP
+GREF,APT15,alias,ETDA + MITRE
+GREF,GREF,primary,MISP
+Grey Pro,Cold River (ETDA),alias,ETDA
+Grey Tornado,Sandworm,alias,ETDA
+Grey-Cloud,APT28,alias,ETDA
+GreyVibe,GreyVibe,primary,MISP
+Grim Spider,WIZARD SPIDER,alias,ETDA + MITRE
+Grizzly Steppe,APT28,alias,MISP + ETDA
+Grizzly Steppe,APT29,alias,MISP + ETDA
+Groundbait,Groundbait,primary,MISP
+Group 100,APT29,alias,MISP + ETDA
+Group 13,APT19,alias,MISP
+Group 13,APT26,alias,ETDA
+Group 22,APT12,alias,MISP + ETDA
+Group 24,ENERGETIC BEAR,alias,MISP + ETDA
+Group 26,Flying Kitten,alias,MISP + ETDA
+Group 27,APT9,alias,MISP
+Group 27,Nightshade Panda,alias,ETDA
+Group 3,APT1,alias,MISP + ETDA
+Group 35,APT27,alias,MISP + ETDA
+Group 36,APT2,alias,ETDA
+Group 41,Clever Kitten,alias,MISP + ETDA
+Group 42,Magic Kitten,alias,MISP
+Group 46,APT22,alias,MISP
+Group 6,APT3,alias,MISP + ETDA
+Group 72,APT17,alias,MISP
+Group 72,Axiom,alias,ETDA + MITRE
+Group 74,APT28,alias,MISP + ETDA + MITRE
+Group 77,Lazarus Group,alias,MISP + ETDA
+Group 8,APT17,alias,MISP
+Group 8,Hidden Lynx,alias,ETDA
+Group 83,Charming Kitten,alias,MISP
+Group 83,Rocket Kitten,alias,ETDA
+Group 88,Turla,alias,MISP + ETDA + MITRE
+Group123,APT37,alias,MISP + ETDA + MITRE
+Group5,Group5,primary,MISP + ETDA + MITRE
+GroupA21,SideWinder,alias,ETDA
+GruesomeLarch,APT28,alias,MISP + ETDA + MITRE
+GTG-1002,GTG-1002,primary,MISP
+GTG-20006,GTG-20006,primary,MISP
+Guardian of Peace,Silent Chollima,alias,MISP
+Guardians of Peace,Lazarus Group,alias,ETDA + MITRE
+Hades,Hades,primary,ETDA
+HAFNIUM,HAFNIUM,primary,MISP + ETDA + MITRE
+HAMMER PANDA,APT21,alias,MISP + ETDA
+Handala Hack,Void Manticore,alias,MITRE
+Hangover Group,QUILTED TIGER,alias,MITRE
+happyyongzi,APT10,alias,MISP + ETDA
+Hardcore Nationalist,SideWinder,alias,ETDA
+HartBeat,Tonto Team,alias,ETDA
+Harvester,Harvester,primary,ETDA
+HASSIUM,Houndstooth Typhoon,alias,MISP
+Hastati Group,Lazarus Group,alias,MISP + ETDA
+Havex,ENERGETIC BEAR,alias,MISP
+HAYWIRE KITTEN,Cotton Sandstorm,alias,MISP
+Hazel Sandstorm,OilRig,alias,MISP + ETDA + MITRE
+HAZY TIGER,HAZY TIGER,primary,MISP
+Heart Typhoon,APT17,alias,MISP
+Heart Typhoon,Hidden Lynx,alias,ETDA
+HeartBeat,Tonto Team,alias,ETDA
+HELIUM,APT17,alias,MISP
+Helix Kitten,OilRig,alias,MISP + ETDA + MITRE
+Hellsing,Hellsing,primary,MISP
+Hellsing,Naikon,alias,ETDA
+HenBox,HenBox,primary,MISP
+Hermit,APT37,alias,ETDA
+Hexagon Typhoon,APT12,alias,MISP + ETDA
+HEXANE,LYCEUM,alias,MISP + ETDA + MITRE
+HIDDEN COBRA,Lazarus Group,alias,MISP + ETDA + MITRE
+Hidden Lynx,APT17,alias,MISP
+Hidden Lynx,Hidden Lynx,primary,ETDA
+HiddenArt,HiddenArt,primary,MISP
+Higaisa,DarkHotel,alias,ETDA
+Higaisa,Higaisa,primary,MISP + MITRE
+HighGround,BRONZE STARLIGHT,alias,ETDA
+Hippo Team,Turla,alias,MISP
+Hitcore Corp,Hitcore Corp,primary,MISP
+Hive0081,COBALT KATANA,alias,ETDA
+Hive0081 (IBM),COBALT KATANA,alias,MISP
+HIVE0154,MUSTANG PANDA,alias,MISP + ETDA + MITRE
+HN2,SideWinder,alias,ETDA
+HOGFISH,APT10,alias,MISP + ETDA + MITRE
+HOLMIUM,APT33,alias,MISP + ETDA + MITRE
+Holy Souls,Cotton Sandstorm,alias,MISP
+HomeLand Justice,HomeLand Justice,primary,MISP + ETDA
+Homeland Justice,Void Manticore,alias,MITRE
+HoneyMyte,MUSTANG PANDA,alias,MISP + ETDA
+HOODOO,APT41,alias,MISP
+Houken,Houken,primary,MISP
+Houndstooth Typhoon,Houndstooth Typhoon,primary,MISP
+Houseblend,Tortoiseshell,alias,ETDA
+HUAPI,BlackTech,alias,MISP
+Hunter Serpens,COBALT KATANA,alias,MISP + ETDA
+HURRICANE PANDA,HURRICANE PANDA,primary,MISP + ETDA
+IAmTheKing,IAmTheKing,primary,ETDA
+ICE RELIC,APT29,alias,MISP
+ICECAP,APT29,alias,MISP
+IceFog,DAGGER PANDA,alias,MISP + ETDA
+IcePeony,IcePeony,primary,MISP
+iKittens,Charming Kitten,alias,MISP
+IMPERIAL KITTEN,Bohrium,alias,MISP
+IMPERIAL KITTEN,Tortoiseshell,alias,MISP + ETDA
+IMPERSONATING PANDA,IMPERSONATING PANDA,primary,MISP + ETDA
+INCENDIARY JACKAL,POLONIUM,alias,MISP + ETDA
+Inception,Inception Framework,alias,MITRE
+Inception Framework,Inception Framework,primary,MISP + ETDA + MITRE
+IndigoZebra,IndigoZebra,primary,MISP + ETDA + MITRE
+Infy,Infy,primary,MISP + ETDA
+InkySquid,APT37,alias,MISP + ETDA + MITRE
+Insidious Taurus,Volt Typhoon,alias,MISP + ETDA + MITRE
+InvisiMole,InvisiMole,primary,MISP + ETDA
+IRIDIUM,IRIDIUM,primary,MISP + ETDA
+IRIDIUM,Sandworm,alias,MISP + ETDA + MITRE
+IRN2,OilRig,alias,MISP + ETDA + MITRE
+Iron,APT23,alias,ETDA
+Iron Cyber Group,Iron Group,alias,MISP
+IRON FRONTIER,Callisto,alias,MISP
+IRON FRONTIER,Cold River (ETDA),alias,ETDA
+Iron Group,Iron Group,primary,MISP
+Iron Group,Rocke,alias,ETDA
+IRON HEMLOCK,APT29,alias,MISP + ETDA + MITRE
+IRON HUNTER,Turla,alias,MISP + ETDA + MITRE
+IRON LIBERTY,ENERGETIC BEAR,alias,MISP + ETDA + MITRE
+IRON LYRIC,TeamSpy Crew,alias,MISP + ETDA
+IRON RITUAL,APT29,alias,ETDA + MITRE
+Iron Taurus,APT27,alias,MISP + ETDA
+Iron Tiger,APT27,alias,MISP + ETDA + MITRE
+IRON TILDEN,Gamaredon Group,alias,MISP + ETDA + MITRE
+IRON TWILIGHT,APT28,alias,MISP + ETDA + MITRE
+IRON VIKING,Sandworm,alias,MISP + ETDA + MITRE
+IronHusky,IronHusky,primary,MISP + ETDA
+ISLAND CASTLE,APT40,alias,MISP
+ISLANDDREAMS,APT40,alias,MISP + ETDA
+isoon,Houndstooth Typhoon,alias,MISP
+ISTHMUS CASTLE,APT30,alias,MISP
+ITG01,APT10,alias,ETDA
+ITG03,Lazarus Group,alias,ETDA
+ITG05,APT28,alias,MISP + ETDA
+ITG06,Naikon,alias,ETDA
+ITG07,APT39,alias,MISP + ETDA + MITRE
+ITG09,APT40,alias,MISP + ETDA
+ITG10,APT37,alias,ETDA
+ITG11,APT29,alias,MISP + ETDA
+ITG12,Turla,alias,MISP + ETDA
+ITG13,OilRig,alias,ETDA + MITRE
+ITG15,ENERGETIC BEAR,alias,MISP + ETDA
+ITG16,Kimsuky,alias,ETDA
+ITG17,MuddyWater,alias,ETDA
+ITG18,APT35,alias,MITRE
+ITG18,ITG18,primary,ETDA
+ITG23,WIZARD SPIDER,alias,ETDA + MITRE
+ITG27,MUSTANG PANDA,alias,MISP
+ITsecTeam,Cutting Kitten,alias,MISP
+IXESHE,APT12,alias,MISP + MITRE
+JACKPOT PANDA,JACKPOT PANDA,primary,MISP
+Jade Sleet,Lazarus Group,alias,ETDA
+Jade Sleet,TraderTraitor,alias,MISP
+Jasper Sleet,WageMole,alias,ETDA
+JerseyMikes,APT26,alias,MISP + ETDA
+Jewelbug,REF7707,alias,MISP
+Jingle Thief,Jingle Thief,primary,MISP
+JUDGMENT PANDA,APT31,alias,MISP + ETDA
+Jumper Taurus,APT40,alias,ETDA
+Jumpy Pisces,Silent Chollima,alias,ETDA
+Karba,DarkHotel,alias,MISP
+Karma,HomeLand Justice,alias,ETDA
+Karma,Void Manticore,alias,MITRE
+Karma Panda,Tonto Team,alias,MISP + ETDA + MITRE
+Karmabelow80,Void Manticore,alias,MITRE
+Kasablanka,Kasablanka,primary,MISP
+Ke3chang,APT15,alias,MISP + ETDA + MITRE
+KeyBoy,APT23,alias,MISP + ETDA + MITRE
+Keyhole Panda,APT5,alias,MISP + ETDA + MITRE
+Kimsuky,Kimsuky,primary,MISP + ETDA + MITRE
+Knaithe,Knaithe,primary,MISP
+KnYuan,Knaithe,alias,MISP
+Koala Team,ENERGETIC BEAR,alias,MISP + ETDA
+Konni,Opal Sleet,alias,MISP
+Krypton,Turla,alias,MISP + ETDA + MITRE
+Kryptonite Panda,APT40,alias,MISP + ETDA + MITRE
+KTA082,Kimsuky,alias,ETDA
+Kumsong121,Kumsong121,primary,ETDA
+KungFu Kittens,APT19,alias,MISP
+KungFu Kittens,APT26,alias,ETDA + MITRE
+Labyrinth Chollima,Lazarus Group,alias,MISP + ETDA + MITRE
+LadyBoyle,DIZZY PANDA,alias,MISP + ETDA
+LAKE RELIC,APT28,alias,MISP
+Lamberts,Longhorn,alias,MISP
+Larva-24005,Kimsuky,alias,ETDA
+Larva-24005,Larva-24005,primary,MISP
+Larva-24013,Operation Shadow Force,alias,MISP
+Larva-25004,Kimsuky,alias,ETDA
+LAUNDRY BEAR,Void Blizzard,alias,MISP + ETDA
+LAWRENCIUM,Pearl Sleet,alias,MISP
+Lazarus Group,Lazarus Group,primary,MISP + ETDA + MITRE
+LazyMeerkat,DarkHydrus,alias,MISP + ETDA
+LEAD,APT41,alias,MISP
+Lead,Lead,primary,ETDA
+Leafminer,RASPITE,alias,MISP + ETDA + MITRE
+Lebanese Cedar,Volatile Cedar,alias,MISP + MITRE
+leetMX,leetMX,primary,ETDA
+Lemon Sandstorm,Fox Kitten,alias,MISP + ETDA + MITRE
+Leopard Typhoon,APT41,alias,MISP
+Leopard Typhoon,Winnti Group,alias,ETDA
+Leviathan,APT40,alias,MISP + ETDA + MITRE
+Libyan Scorpions,Libyan Scorpions,primary,MISP + ETDA
+LightBasin,LightBasin,primary,MISP + ETDA
+Lilac Typhoon,Lilac Typhoon,primary,MISP
+LIMINAL PANDA,LIMINAL PANDA,primary,MISP
+Linen Typhoon,APT27,alias,MISP + ETDA + MITRE
+LONE CASTLE,Tonto Team,alias,MISP
+LoneRanger,Tonto Team,alias,ETDA
+Longhorn,Longhorn,primary,MISP + ETDA
+LongNosedGoblin,LongNosedGoblin,primary,MISP
+LookBack,Witchetty,alias,ETDA
+LookingFrog,Witchetty,alias,MISP + ETDA
+Lord Nemesis,DEV-0270,alias,ETDA
+Lorec Bear,SaintBear,alias,MISP
+Lorec53,SaintBear,alias,MISP + ETDA + MITRE
+Lotus Bane,APT32,alias,ETDA
+Lotus Blossom,LOTUS PANDA,alias,MISP + ETDA + MITRE
+LOTUS PANDA,LOTUS PANDA,primary,MISP
+Lotus Panda,Naikon,alias,ETDA
+Lucky Cat,Lucky Cat,primary,MISP + ETDA
+LuckyMouse,APT27,alias,MISP + ETDA + MITRE
+Luder,DarkHotel,alias,MISP + ETDA
+Luminal Panda,LightBasin,alias,ETDA
+LUMINOUS MOTH,MUSTANG PANDA,alias,MISP + MITRE
+LuminousMoth,LuminousMoth,primary,ETDA + MITRE
+LuoYu,Red Nue,alias,MISP
+Lurid,APT15,alias,MISP
+LYCEUM,LYCEUM,primary,MISP + ETDA + MITRE
+Mabna Institute,Silent Librarian,alias,MISP + ETDA
+Machete,El Machete,alias,MISP + MITRE
+machete-apt,El Machete,alias,MISP
+Madi,Madi,primary,MISP + ETDA
+Magenta Dust,PROMETHIUM,alias,ETDA
+Magic Hound,APT35,alias,MISP + ETDA + MITRE
+Magic Kitten,Magic Kitten,primary,MISP + ETDA
+MAGNALLIUM,APT33,alias,MISP + ETDA
+MAGNESIUM,TEMPER PANDA,alias,MISP + ETDA
+Maha Grass,QUILTED TIGER,alias,ETDA
+Mahdi,Madi,alias,ETDA
+MAKERSMARK,Turla,alias,MISP + ETDA
+MalKamak,MalKamak,primary,MISP + ETDA
+Manga Taurus,BlackTech,alias,MISP + ETDA
+MANGANESE,APT5,alias,MISP + ETDA + MITRE
+Mango Sandstorm,MuddyWater,alias,MISP + ETDA + MITRE
+Marbled Dust,Sea Turtle,alias,MISP + ETDA + MITRE
+Marcella Flores,Tortoiseshell,alias,ETDA
+Marigold Sandstorm,MosesStaff,alias,MISP + ETDA + MITRE
+MARNANBRIDGE,Cotton Sandstorm,alias,MISP
+Mask,Careto,alias,MISP + ETDA
+MAVERICK PANDA,APT4,alias,MISP + ETDA
+menuPass,APT10,alias,MISP + ETDA + MITRE
+MERCURY,MuddyWater,alias,MISP + ETDA + MITRE
+Metushy,APT15,alias,MISP + ETDA
+Midnight Blizzard,APT29,alias,ETDA + MITRE
+Midnight Blizzard,UNC2452,alias,MISP
+Mikroceen,Mikroceen,primary,ETDA
+Minidionis,APT29,alias,MISP + ETDA
+Mint Sandstorm,APT35,alias,MISP + ETDA + MITRE
+Mint Sandstorm,Charming Kitten,alias,MISP
+Mirage,APT15,alias,MISP + MITRE
+MirrorFace,MirrorFace,primary,MISP + ETDA + MITRE
+Moafee,DragonOK,alias,MISP
+Moafee,Moafee,primary,ETDA + MITRE
+Mobwork,BlackTech,alias,MISP
+Mocking Draco,SideCopy,alias,ETDA
+Mofang,Mofang,primary,MISP + ETDA + MITRE
+Moldy Pisces,APT37,alias,MISP + ETDA
+Molerats,Molerats,primary,MISP + ETDA + MITRE
+MONSOON,QUILTED TIGER,alias,MISP + ETDA + MITRE
+Monsoon,VICEROY TIGER,alias,ETDA
+Moonlight,Molerats,alias,MISP
+Moonstone Sleet,Lazarus Group,alias,MISP
+Moonstone Sleet,Moonstone Sleet,primary,ETDA + MITRE
+MORH4x,MORH4x,primary,MISP
+Morpho,WildNeutron,alias,MISP + ETDA
+MosesStaff,MosesStaff,primary,MISP + ETDA + MITRE
+Moshen Dragon,Moshen Dragon,primary,MISP
+Moshen Dragon,NOMAD PANDA,alias,ETDA
+MoustachedBouncer,MoustachedBouncer,primary,MISP + ETDA + MITRE
+MSUpdater,APT2,alias,MISP + MITRE
+MUDCARP,APT40,alias,MISP + ETDA + MITRE
+MUDDY ION,MuddyWater,alias,MISP
+MUDDYCOAST,MuddyWater,alias,MISP
+MuddyKrill,MuddyWater,alias,MITRE
+MuddyWater,MuddyWater,primary,MISP + ETDA + MITRE
+Mulberry Typhoon,APT5,alias,MISP + ETDA + MITRE
+MURKY PANDA,HAFNIUM,alias,MISP + ETDA
+MUSTANG PANDA,MUSTANG PANDA,primary,MISP + ETDA + MITRE
+MYSTICDOME,LYCEUM,alias,MISP
+Mythic Leopard,Operation C-Major,alias,MISP + ETDA + MITRE
+Mythic Ursa,Cold River (ETDA),alias,ETDA
+N4ughtysecTU,N4ughtysecTU,primary,MISP
+Nahr el bared,Cold River (ETDA),alias,ETDA
+Nahr Elbard,Cold River (ETDA),alias,ETDA
+Naikon,Naikon,primary,MISP + ETDA + MITRE
+NAIKON CASTLE,Naikon,alias,MISP
+Nascent Ursa,SaintBear,alias,MISP + ETDA
+NastyShrew,Gamaredon Group,alias,MITRE
+Nazar,Nazar,primary,MISP + ETDA
+Nemesis Kitten,DEV-0270,alias,MISP + ETDA
+Nemim,DarkHotel,alias,MISP
+Nemin,DarkHotel,alias,MISP
+NEODYMIUM,NEODYMIUM,primary,MISP + ETDA + MITRE
+Neon,VICEROY TIGER,alias,ETDA
+NEPTUNIUM,Cotton Sandstorm,alias,MISP
+NetTraveler,APT21,alias,MISP + ETDA
+NewRomanic Cyber Army Team,Lazarus Group,alias,MISP + ETDA
+NewsBeef,Charming Kitten,alias,MISP
+NewsBeef,Rocket Kitten,alias,ETDA
+Newscaster,APT35,alias,MISP + MITRE
+Newscaster,Charming Kitten,alias,MISP
+Newscaster,Rocket Kitten,alias,ETDA
+Nian,Tick,alias,MISP
+NICKEL,APT15,alias,MISP + ETDA + MITRE
+Nickel Academy,Covellite,alias,ETDA
+NICKEL ACADEMY,Lazarus Group,alias,MISP + MITRE
+Nickel Alley,Nickel Alley,primary,MISP
+NICKEL GLADSTONE,Bluenoroff,alias,ETDA + MITRE
+NICKEL GLADSTONE,Lazarus Group,alias,MISP
+Nickel Tapestry,WageMole,alias,MISP + ETDA
+Night Dragon,Night Dragon,primary,MISP + ETDA
+NightEagle,NightEagle,primary,MISP
+NIGHTSHADE PANDA,APT9,alias,MISP
+Nightshade Panda,Nightshade Panda,primary,ETDA
+NIMBUS MANTICORE,TA455,alias,MITRE
+Nimbus Manticore,UNC1549,alias,MISP
+NineBlog,NineBlog,primary,ETDA
+Nitro,Nitro,primary,MISP + ETDA
+NOBELIUM,APT29,alias,MISP + ETDA + MITRE
+NOBELIUM,UNC2452,alias,MISP + ETDA
+NobleBaron,APT29,alias,ETDA + MITRE
+Nodaria,SaintBear,alias,MISP + ETDA
+NOMAD PANDA,NOMAD PANDA,primary,MISP + ETDA
+Nomadic Octopus,DustSquad,alias,MISP + ETDA + MITRE
+Nuclear Taurus,BRONZE VAPOR,alias,ETDA
+Numbered Panda,APT12,alias,MISP + ETDA + MITRE
+Nylon Typhoon,APT15,alias,MISP + ETDA + MITRE
+Obscure Serpens,DarkHydrus,alias,MISP + ETDA
+Ocean Buffalo,APT32,alias,MISP + ETDA
+OceanLotus,APT32,alias,MISP + ETDA + MITRE
+OilAlpha,OilAlpha,primary,MISP + ETDA
+OilRig,CHRYSENE,alias,MISP
+OilRig,OilRig,primary,MISP + ETDA + MITRE
+OnionDog,OnionDog,primary,MISP + ETDA
+Onyx Sleet,Silent Chollima,alias,MISP + ETDA + MITRE
+Op Cleaver,Cleaver,alias,MISP
+Opal Sleet,APT37,alias,ETDA
+Opal Sleet,Opal Sleet,primary,MISP
+Opaque Draco,Operation C-Major,alias,ETDA
+Operation AppleJeus,Lazarus Group,alias,MISP + ETDA
+Operation Armor Piercer,Operation Armor Piercer,primary,ETDA
+Operation Aurora,APT17,alias,ETDA
+Operation BugDrop,Operation BugDrop,primary,MISP + ETDA
+Operation C-Major,Operation C-Major,primary,MISP + ETDA
+Operation Celestial Force,Cosmic Leopard,alias,ETDA
+Operation ChattyGoblin,BRONZE STARLIGHT,alias,ETDA
+Operation Cleaver,Cleaver,alias,MISP
+Operation Contagious Interview,WageMole,alias,ETDA
+Operation Crimson Palace,Operation Crimson Palace,primary,ETDA
+Operation DarkSeoul,Lazarus Group,alias,MISP
+Operation Daybreak,APT37,alias,MISP + ETDA
+Operation Digital Eye,Operation Digital Eye,primary,ETDA
+Operation Diplomatic Specter,CL-STA-0043,alias,ETDA
+Operation Domino,Operation Domino,primary,ETDA
+Operation Dragon Castling,Operation Dragon Castling,primary,ETDA
+Operation DRBControl,Operation DRBControl,primary,MISP + ETDA
+Operation Earth Kitsune,Operation Earth Kitsune,primary,ETDA
+Operation EmailThief,TEMP_Heretic,alias,ETDA
+Operation Erebus,APT37,alias,MISP + ETDA
+Operation Exchange Marauder,HAFNIUM,alias,MISP + MITRE
+Operation ForumTroll,Operation ForumTroll,primary,MISP
+Operation GhostSecret,Lazarus Group,alias,MISP + ETDA
+Operation GhostShell,MalKamak,alias,ETDA
+Operation Ghostwriter,Ghostwriter,alias,ETDA
+Operation Groundbait,Operation Groundbait,primary,ETDA
+Operation Hangover,QUILTED TIGER,alias,MITRE
+OPERATION HANGOVER,VICEROY TIGER,alias,MISP + ETDA
+Operation Harvest,Operation Harvest,primary,ETDA
+Operation Jacana,Operation Jacana,primary,ETDA
+Operation Kremlin,Operation Domino,alias,ETDA
+Operation Layover,Operation Layover,primary,ETDA
+Operation LiberalFace,MirrorFace,alias,ETDA
+Operation Manul,Operation Manul,primary,ETDA
+Operation Mermaid,Infy,alias,MISP + ETDA
+Operation Molerats,Molerats,alias,MISP + ETDA + MITRE
+Operation Olympic Games,Operation Olympic Games,primary,ETDA
+Operation Parliament,Operation Parliament,primary,MISP + ETDA
+Operation Poison Needles,Operation Poison Needles,primary,MISP + ETDA
+Operation Poisoned News,TwoSail Junk,alias,MISP + ETDA
+Operation PseudoManuscrypt,Operation PseudoManuscrypt,primary,ETDA
+Operation Red Signature,Operation Red Signature,primary,MISP + ETDA
+Operation RusticWeb,Operation RusticWeb,primary,ETDA
+Operation Saffron Rose,Flying Kitten,alias,ETDA + MITRE
+Operation SalmonSlalom,Operation SalmonSlalom,primary,ETDA
+Operation Shadow Force,Operation Shadow Force,primary,MISP
+Operation Shady RAT,Operation Shady RAT,primary,ETDA
+Operation Socialist,GCHQ,alias,ETDA
+Operation Stolen Pencil,Kimsuky,alias,MISP + ETDA
+Operation Tainted Love,Operation Tainted Love,primary,ETDA
+Operation Titan Rain,Operation Titan Rain,primary,ETDA
+Operation Troy,Lazarus Group,alias,MISP + ETDA
+Operation TunnelSnake,Operation TunnelSnake,primary,ETDA
+Operation WizardOpium,Operation WizardOpium,primary,MISP + ETDA
+Operation Woolen Goldfish,Rocket Kitten,alias,MISP + ETDA
+Operation Woolen-Goldfish,Flying Kitten,alias,MITRE
+Operation “99”,Lazarus Group,alias,ETDA
+Operation “A41APT”,APT10,alias,ETDA
+Operation “AkaiRyū”,MirrorFace,alias,ETDA
+Operation “AppleJeus sequel”,Lazarus Group,alias,ETDA
+Operation “Are You Happy?”,APT37,alias,ETDA
+Operation “Asylum Ambuscade”,Ghostwriter,alias,ETDA
+Operation “Baby Coin”,Kimsuky,alias,ETDA
+Operation “BadBlood”,APT35,alias,ETDA
+Operation “Battle Cruiser”,APT37,alias,ETDA
+Operation “BazaFlix”,WIZARD SPIDER,alias,ETDA
+Operation “Bitter Biscuit”,Tonto Team,alias,ETDA
+Operation “Black Banner”,APT37,alias,ETDA
+Operation “BLACKMINE”,Silent Chollima,alias,ETDA
+Operation “BLACKSHEEP”/Phase 3.,Silent Chollima,alias,ETDA
+Operation “Blacksmith”,Silent Chollima,alias,ETDA
+Operation “BlackWater”,MuddyWater,alias,ETDA
+Operation “Bleeding Bear”,DEV-0586,alias,ETDA
+Operation “Blockbuster”: Breach of Sony Pictures Entertainment,Lazarus Group,alias,ETDA
+Operation “Cache Panda”,APT10,alias,ETDA
+Operation “CameraShy”,Naikon,alias,ETDA
+Operation “ChessMaster”,APT10,alias,ETDA
+Operation “Clandestine Fox”,APT3,alias,ETDA
+"Operation “Clandestine Fox”, Part Deux",APT3,alias,ETDA
+Operation “Clandestine Wolf”,APT3,alias,ETDA
+Operation “Cleaver”,Cutting Kitten,alias,ETDA
+Operation “Cloud Atlas”,Inception Framework,alias,ETDA
+Operation “Cloud Hopper”,APT10,alias,ETDA
+Operation “Cobalt Kitty”,APT32,alias,ETDA
+Operation “ColunmTK”,APT41,alias,ETDA
+Operation “Covert Stalker”,Kimsuky,alias,ETDA
+Operation “CryptoCore”,Lazarus Group,alias,ETDA
+Operation “Cuckoo Spear”,APT10,alias,ETDA
+Operation “CuckooBees”,APT41,alias,ETDA
+Operation “Dark Caracal”,Dark Caracal,alias,ETDA
+Operation “DarkHotel”,DarkHotel,alias,ETDA
+Operation “Daybreak”,DarkHotel,alias,ETDA
+Operation “DealersChoice”,APT28,alias,ETDA
+Operation “Dear Joohn”,APT28,alias,ETDA
+Operation “DEEP#DRIVE”,Kimsuky,alias,ETDA
+Operation “DEEP#GOSU”,Kimsuky,alias,ETDA
+Operation “DeputyDog”,APT17,alias,ETDA
+Operation “DESERTWOLF”/Phase 3,Silent Chollima,alias,ETDA
+Operation “Dianxun”,RedDelta,alias,ETDA
+Operation “Double Tap”,APT3,alias,ETDA
+Operation “Dragon messenger”,APT37,alias,ETDA
+Operation “DRBControl”,APT27,alias,ETDA
+Operation “Dream Job”,Lazarus Group,alias,ETDA
+Operation “Dream Magic”,Lazarus Group,alias,ETDA
+Operation “DustySky”,Molerats,alias,ETDA
+Operation “DustySky” Part 2,Molerats,alias,ETDA
+Operation “Earth Vetala”,MuddyWater,alias,ETDA
+Operation “EasternRoppels”,PLATINUM,alias,ETDA
+Operation “ENDTRADE”,Tick,alias,ETDA
+Operation “Ephemeral Hydra”,APT17,alias,ETDA
+Operation “Epic Turla”,Turla,alias,ETDA
+Operation “Evil New Year 2018”,APT37,alias,ETDA
+Operation “Evil New Year”,APT37,alias,ETDA
+Operation “Fata Morgana”,Tortoiseshell,alias,ETDA
+Operation “FishMedley”,RedHotel,alias,ETDA
+Operation “Flame”,Lazarus Group,alias,ETDA
+Operation “Fractured Block”,APT37,alias,ETDA
+Operation “Fractured Statue”,APT37,alias,ETDA
+Operation “FreeMilk”,APT37,alias,ETDA
+Operation “GHOSTRAT”,Silent Chollima,alias,ETDA
+Operation “Ghost”,APT29,alias,ETDA
+Operation “Golden Bird”,APT37,alias,ETDA
+Operation “Golden Time”,APT37,alias,ETDA
+Operation “GoldenAxe”,Silent Chollima,alias,ETDA
+Operation “High Expert”,APT37,alias,ETDA
+Operation “Holiday Wiper”,APT37,alias,ETDA
+Operation “Honey Trap”,Operation C-Major,alias,ETDA
+Operation “HpReact”,El Machete,alias,ETDA
+Operation “In(ter)caption”,Lazarus Group,alias,ETDA
+Operation “Inexsmar”,DarkHotel,alias,ETDA
+Operation “INITROY”/Phase 1,Silent Chollima,alias,ETDA
+Operation “INITROY”/Phase 2,Silent Chollima,alias,ETDA
+Operation “Iranian Dream Job”,TA455,alias,ETDA
+Operation “Iron Tiger”,APT27,alias,ETDA
+Operation “Kabar Cobra”,Kimsuky,alias,ETDA
+Operation “Ke3chang”,APT15,alias,ETDA
+Operation “Kingslayer”,APT19,alias,ETDA
+Operation “Komplex”,APT28,alias,ETDA
+Operation “Korean Sword”,APT37,alias,ETDA
+Operation “LagTime IT”,TA428,alias,ETDA
+Operation “LolZarus”,Lazarus Group,alias,ETDA
+Operation “Lotus Blossom”,LOTUS PANDA,alias,ETDA
+Operation “Marstech Mayhem”,Lazarus Group,alias,ETDA
+Operation “Mayday”,Silent Chollima,alias,ETDA
+Operation “MirageFox”,APT15,alias,ETDA
+Operation “Moonlight Maze”,Turla,alias,ETDA
+Operation “Moonlight”,Molerats,alias,ETDA
+Operation “Mystery Baby”,Kimsuky,alias,ETDA
+Operation “MysterySnail”,IronHusky,alias,ETDA
+Operation “New Battle”,APT10,alias,ETDA
+Operation “Newscaster”,Rocket Kitten,alias,ETDA
+Operation “NightScout”,Gelsemium,alias,ETDA
+Operation “No Pineapple!”,Lazarus Group,alias,ETDA
+Operation “North Korean Human Right”,APT37,alias,ETDA
+Operation “North Star”,Lazarus Group,alias,ETDA
+Operation “Oceansalt”,APT1,alias,ETDA
+Operation “Office monkeys”,APT29,alias,ETDA
+Operation “Onezero”,APT37,alias,ETDA
+Operation “Out to Sea”,LYCEUM,alias,ETDA
+Operation “Pawn Storm”,APT28,alias,ETDA
+Operation “Penguin Turla”,Turla,alias,ETDA
+Operation “Phantom Circuit”,Lazarus Group,alias,ETDA
+Operation “PhantomLance”,APT32,alias,ETDA
+Operation “PLEAD”,BlackTech,alias,ETDA
+Operation “Poisoned Hurricane”,HURRICANE PANDA,alias,ETDA
+Operation “PowerFall”,DarkHotel,alias,ETDA
+Operation “PZChao”,APT27,alias,ETDA
+Operation “Quicksand”,MuddyWater,alias,ETDA
+Operation “RAT Cook”,APT17,alias,ETDA
+Operation “Red Salt”,Kimsuky,alias,ETDA
+Operation “RedOctober”,Inception Framework,alias,ETDA
+Operation “Rocket Man”,APT37,alias,ETDA
+Operation “RoundPress”,APT28,alias,ETDA
+Operation “Russian Doll”,APT28,alias,ETDA
+Operation “Satellite Turla”,Turla,alias,ETDA
+Operation “Seasalt”,APT1,alias,ETDA
+Operation “Seven Pointed Dagger”,Nightshade Panda,alias,ETDA
+Operation “ShadowHammer”,APT41,alias,ETDA
+Operation “Shaheen”,The White Company,alias,ETDA
+Operation “Sharpshooter”,Lazarus Group,alias,ETDA
+Operation “Shrouded Crossbow”,BlackTech,alias,ETDA
+Operation “SHROUDED#SLEEP”,APT37,alias,ETDA
+Operation “Siesta”,APT1,alias,ETDA
+Operation “Skeleton Key”,BRONZE VAPOR,alias,ETDA
+Operation “Skipper Turla”,Turla,alias,ETDA
+Operation “SMN”,Axiom,alias,ETDA
+Operation “SMN”,Hidden Lynx,alias,ETDA
+Operation “Smoke Screen”,Kimsuky,alias,ETDA
+Operation “SmugX”,MUSTANG PANDA,alias,ETDA
+Operation “SneakyPastes”,Molerats,alias,ETDA
+Operation “Soft Cell”,APT10,alias,ETDA
+Operation “SpoiledLegacy”,APT27,alias,ETDA
+Operation “Sponsoring Access”,APT35,alias,ETDA
+Operation “SpoofedScholars”,APT35,alias,ETDA
+Operation “Spy Cloud”,APT37,alias,ETDA
+Operation “Star Cruiser”,APT37,alias,ETDA
+Operation “STARK#MULE”,APT37,alias,ETDA
+Operation “Stayin’ Alive”,ToddyCat,alias,ETDA
+Operation “STEADY#URSA”,Gamaredon Group,alias,ETDA
+Operation “Steal-It”,APT28,alias,ETDA
+Operation “Stealth Power”,Kimsuky,alias,ETDA
+Operation “StealthyTrident”,APT27,alias,ETDA
+Operation “StealthyTrident”,TA428,alias,ETDA
+Operation “StellarParticle”,APT29,alias,ETDA
+Operation “STIFF#BIZON”,APT37,alias,ETDA
+Operation “SyncHole”,Lazarus Group,alias,ETDA
+Operation “Ten Days of Rain” / ”DarkSeoul”,Lazarus Group,alias,ETDA
+Operation “Thamar Reservoir”,APT35,alias,ETDA
+Operation “The Eye of the Tiger”,APT24,alias,ETDA
+Operation “The Gh0st Remains the Same”,DarkHotel,alias,ETDA
+Operation “TooHash”,Gelsemium,alias,ETDA
+Operation “TopHat”,Molerats,alias,ETDA
+Operation “ToyBox Story”,APT37,alias,ETDA
+Operation “TradeSecret”,APT10,alias,ETDA
+Operation “Transparent Tribe”,Operation C-Major,alias,ETDA
+Operation “TrickyMouse”,Hades,alias,ETDA
+Operation “Tropic Trooper”,APT23,alias,ETDA
+Operation “Turla Mosquito”,Turla,alias,ETDA
+Operation “VANXATM”,Silent Chollima,alias,ETDA
+Operation “Waterbear”,BlackTech,alias,ETDA
+Operation “Wilted Tulip”,CopyKittens,alias,ETDA
+Operation “WITCHCOVEN”,Turla,alias,ETDA
+Operation “Wocao”,APT20,alias,ETDA
+Operation “XEDA”,Silent Chollima,alias,ETDA
+OperationTroy,Silent Chollima,alias,MISP
+OPERATOR PANDA,GhostEmperor,alias,MISP + ETDA
+Orange Athos,QUILTED TIGER,alias,MISP
+Orange Kala,VICEROY TIGER,alias,MISP
+Orange Yali,HAZY TIGER,alias,MISP
+ORB07,Storm-0940,alias,MISP
+Oro0lxy,Storm-0062,alias,MISP
+Osmium,APT37,alias,ETDA
+OSMIUM,Opal Sleet,alias,MISP
+Override Panda,APT30,alias,ETDA
+OVERRIDE PANDA,Naikon,alias,MISP
+OXYGEN,Inception Framework,alias,MISP + ETDA
+Pacifier APT,Turla,alias,MISP + ETDA
+Packrat,Packrat,primary,MISP + ETDA
+PALE PANDA,PALE PANDA,primary,MISP + ETDA
+Palmerworm,BlackTech,alias,MISP + ETDA + MITRE
+Panda,TA428,alias,ETDA
+Parastoo,Charming Kitten,alias,MISP
+Parastoo,Rocket Kitten,alias,ETDA
+Parisite,Fox Kitten,alias,MISP + ETDA + MITRE
+PassCV,PassCV,primary,MISP + ETDA
+Pasty Draco,The Gorgon Group,alias,ETDA
+Pasty Gemini,The Gorgon Group,alias,MISP
+Patchwork,QUILTED TIGER,alias,MISP + ETDA + MITRE
+PatheticSlug,Kimsuky,alias,MITRE
+Pawn Storm,APT28,alias,MISP + ETDA + MITRE
+Peach Sandstorm,APT33,alias,MISP + ETDA + MITRE
+Pearl Sleet,Pearl Sleet,primary,MISP
+Pensive Ursa,Turla,alias,ETDA
+Periwinkle Tempest,WIZARD SPIDER,alias,MISP + ETDA + MITRE
+Personal Panda,Asnarök,alias,MISP
+PerSwaysion,PerSwaysion,primary,MISP
+Pfinet,Turla,alias,MISP
+PHANTOM PANDA,GALLIUM,alias,MISP + ETDA
+Phantom Taurus,CL-STA-0043,alias,MISP
+Phosphorus,APT35,alias,MISP + ETDA + MITRE
+Pigfish,Barium,alias,ETDA
+Pink Sandstorm,Pink Sandstorm,primary,MISP + ETDA + MITRE
+PinkPanther,APT19,alias,MISP
+PinkPanther,APT26,alias,ETDA + MITRE
+Pioneer,DarkHotel,alias,MISP
+Pioneer Kitten,Fox Kitten,alias,MISP + ETDA + MITRE
+Pirate Panda,APT23,alias,MISP + ETDA + MITRE
+Pirpi,APT3,alias,MITRE
+Pistachio Tempest,WIZARD SPIDER,alias,MISP + MITRE
+PITTY PANDA,APT24,alias,MISP + ETDA
+PittyTiger,APT24,alias,ETDA + MITRE
+PKPLUG,MUSTANG PANDA,alias,ETDA
+PKPLUG,PKPLUG,primary,ETDA
+PLA Navy,APT18,alias,MISP
+PLA Navy,APT4,alias,MISP
+PLA Navy,SAMURAI PANDA,alias,MISP
+PLA Unit 61398,APT1,alias,MISP
+PLA Unit 61419,Tick,alias,MISP
+PLA Unit 61486,APT2,alias,MISP
+PLA Unit 65017,Tonto Team,alias,MISP
+PLA Unit 69010,DAGGER PANDA,alias,MISP
+PLA Unit 78020,Naikon,alias,MISP
+Plaid Rain,POLONIUM,alias,MISP + ETDA + MITRE
+PLAIN NEPTUNE,APT37,alias,MISP
+PLATINUM,PLATINUM,primary,MISP + ETDA + MITRE
+Platinum Colony,Equation Group,alias,ETDA
+PLATINUM TERMINAL,Longhorn,alias,MISP + ETDA
+Playful Dragon,APT15,alias,MISP + ETDA + MITRE
+Playful Taurus,APT15,alias,ETDA
+PlushDaemon,PlushDaemon,primary,MISP + ETDA
+PLUTONIUM,Silent Chollima,alias,MISP + ETDA + MITRE
+POISON CARP,POISON CARP,primary,MISP + ETDA
+Poisoned Flight,APT5,alias,MISP + ETDA
+Poisonous Panda,Poisonous Panda,primary,ETDA
+POISONUS PANDA,POISONUS PANDA,primary,MISP
+PoisonVine,GreenSpot,alias,MISP
+Polaris,MUSTANG PANDA,alias,MISP
+POLONIUM,POLONIUM,primary,MISP + ETDA + MITRE
+POND LOACH,APT32,alias,MISP + ETDA
+Popeye,Turla,alias,MISP + ETDA
+Poseidon Group,Poseidon Group,primary,MISP + ETDA + MITRE
+POTASSIUM,APT10,alias,MISP + ETDA + MITRE
+PREDATOR PANDA,PREDATOR PANDA,primary,MISP + ETDA
+Primitive Bear,Gamaredon Group,alias,MISP + ETDA + MITRE
+Prince of Persia,Infy,alias,MISP + ETDA
+Project Raven,Stealth Falcon,alias,ETDA
+ProjectM,Operation C-Major,alias,MISP + ETDA + MITRE
+ProjectSauron,ProjectSauron,primary,MISP + ETDA + MITRE
+PROMETHIUM,PROMETHIUM,primary,MISP + ETDA + MITRE
+Pukchong,TraderTraitor,alias,MISP
+puNK-003,puNK-003,primary,MISP
+Pupa,APT19,alias,MISP + ETDA
+Purple Pygmy,DarkHotel,alias,ETDA
+Purple Typhoon,APT10,alias,MISP + ETDA
+PurpleBravo,WageMole,alias,MISP + ETDA
+PurpleHaze,APT15,alias,ETDA
+PurpleHaze,PurpleHaze,primary,MISP
+PUSHCHA,Ghostwriter,alias,MISP + ETDA
+Putter Panda,APT2,alias,MISP + ETDA + MITRE
+Qassam Cyber Fighters,Cyber fighters of Izz Ad-Din Al Qassam,alias,ETDA
+QAZTeam,APT14,alias,MISP + ETDA
+QCF,Cyber fighters of Izz Ad-Din Al Qassam,alias,ETDA
+QTFY,QTFY,primary,MISP
+QuaDream,Carmine Tsunami,alias,MISP
+Quedagh,Sandworm,alias,MISP + ETDA + MITRE
+QUILTED TIGER,QUILTED TIGER,primary,MISP + ETDA
+R00tK1T,R00tK1T,primary,MISP
+Radio Panda,BlackTech,alias,ETDA
+RADIO PANDA,RADIO PANDA,primary,MISP
+Radio Serpens,APT39,alias,MISP + ETDA
+RADIUM,APT30,alias,ETDA
+RADIUM,LOTUS PANDA,alias,MITRE
+RADIUM,Raspberry Typhoon,alias,MISP
+Rampant Kitten,Rampant Kitten,primary,ETDA
+RANCOR,RANCOR,primary,MISP + ETDA + MITRE
+Rancor Taurus,RANCOR,alias,MISP + ETDA
+Raspberry Typhoon,APT30,alias,ETDA
+Raspberry Typhoon,LOTUS PANDA,alias,MITRE
+Raspberry Typhoon,Raspberry Typhoon,primary,MISP
+RASPITE,RASPITE,primary,MISP + ETDA + MITRE
+Rattlesnake,RAZOR TIGER,alias,MISP
+Rattlesnake,SideWinder,alias,ETDA + MITRE
+RAVINE CASTLE,UNC1088,alias,MISP
+Razing Ursa,Sandworm,alias,ETDA
+RAZOR TIGER,RAZOR TIGER,primary,MISP + ETDA
+Razor Tiger,SideWinder,alias,ETDA
+Reaper,APT37,alias,MISP + ETDA + MITRE
+Rebel Jackal,Rebel Jackal,primary,MISP
+Red Apollo,APT10,alias,MISP + ETDA + MITRE
+Red Beifang,Tonto Team,alias,MISP
+Red Charon,BRONZE VAPOR,alias,ETDA
+Red Chimera,WET PANDA,alias,MISP
+Red Dev 10,Earth Lusca,alias,MISP + ETDA
+Red Dev 13,HAFNIUM,alias,MISP + ETDA
+Red Dev 16,POISON CARP,alias,MISP + ETDA
+Red Dev 17,Red Dev 17,primary,MISP
+Red Dev 18,Red Menshen,alias,MISP
+Red Dev 3,RedAlpha,alias,MISP + ETDA
+Red Dev 4,GALLIUM,alias,MISP
+Red Dev 61,UTA0178,alias,MISP
+Red Djinn,BlackTech,alias,MISP + ETDA
+Red Eyes,APT37,alias,MISP + ETDA
+Red Hariasa,BRONZE EDGEWOOD,alias,MISP + ETDA
+Red Kelpie,APT41,alias,MISP + ETDA
+Red keres,APT31,alias,MISP + ETDA
+Red Ladon,APT40,alias,MISP + ETDA
+Red Lamassu,Calypso,alias,MISP
+Red Lich,MUSTANG PANDA,alias,MISP + ETDA + MITRE
+Red Menshen,Red Menshen,primary,MISP
+Red Nue,Red Nue,primary,MISP
+Red Orthrus,APT23,alias,MISP
+Red Pegasus,APT19,alias,ETDA
+Red Pegasus,APT9,alias,MISP
+Red Phoenix,APT27,alias,MISP + ETDA
+Red Salamander,LOTUS PANDA,alias,MISP + ETDA
+Red Sandstorm,BANISHED KITTEN,alias,MISP
+Red Sandstorm,HomeLand Justice,alias,ETDA
+Red Sandstorm,Void Manticore,alias,MITRE
+Red Scylla,Earth Lusca,alias,MISP + ETDA
+Red Sylvan,APT3,alias,MISP + ETDA
+Red Vulture,APT15,alias,MISP + ETDA
+Red Wendigo,DAGGER PANDA,alias,MISP + ETDA
+Red Wraith,APT18,alias,ETDA
+RedAlpha,RedAlpha,primary,MISP + ETDA
+REDBALDKNIGHT,Tick,alias,MISP + MITRE
+RedBaldNight,Tick,alias,ETDA
+RedBravo,APT31,alias,ETDA
+RedDelta,MUSTANG PANDA,alias,MITRE
+RedDelta,RedDelta,primary,MISP + ETDA
+RedEcho,RedEcho,primary,MISP + ETDA + MITRE
+Redfly,Volt Typhoon,alias,ETDA
+RedFoxtrot,DAGGER PANDA,alias,MISP
+RedFoxtrot,NOMAD PANDA,alias,ETDA
+RedGolf,RedGolf,primary,MISP + ETDA
+RedHotel,Earth Lusca,alias,MISP
+RedHotel,RedHotel,primary,ETDA
+RedJuliett,Flax Typhoon,alias,ETDA
+RedJuliett,RedJuliett,primary,MISP
+RedKitten,RedKitten,primary,MISP
+RedMike,GhostEmperor,alias,MISP + ETDA
+RedNovember,Storm-2077,alias,MISP
+REF2924,REF2924,primary,MISP
+REF7707,REF7707,primary,MISP
+Refined Kitten,APT33,alias,MISP + ETDA
+Remix Kitten,APT39,alias,MISP + ETDA + MITRE
+RICH ION,APT35,alias,MISP
+Ricochet Chollima,APT37,alias,MISP + ETDA + MITRE
+RIDGE CASTLE,APT20,alias,MISP
+RIVER CASTLE,APT15,alias,MISP
+Roaming Tiger,Roaming Tiger,primary,MISP + ETDA
+Rocke,Rocke,primary,MISP + ETDA + MITRE
+Rocket Kitten,Flying Kitten,alias,MITRE
+Rocket Kitten,Rocket Kitten,primary,MISP + ETDA
+RomCom,RomCom,primary,MISP + ETDA
+Rotten Tomato,Roaming Tiger,alias,MISP + ETDA
+RoyalAPT,APT15,alias,MISP + ETDA + MITRE
+RUBIDIUM,Fox Kitten,alias,MISP + ETDA + MITRE
+Ruby Sleet,APT37,alias,ETDA
+Ruby Sleet,Ruby Sleet,primary,MISP
+RUBYCARP,RUBYCARP,primary,MISP
+Ruinous Ursa,DEV-0586,alias,MISP + ETDA
+Ruthless Rabbit,Ruthless Rabbit,primary,MISP
+SABER LION,COBALT JUNO,alias,MISP
+Saber Lion,ZooPark,alias,ETDA
+SABRE PANDA,SABRE PANDA,primary,MISP + ETDA
+Safe,Safe,primary,ETDA
+SaffronRose,Flying Kitten,alias,MISP
+SaintBear,SaintBear,primary,MISP + ETDA + MITRE
+Salmon Typhoo,APT4,alias,ETDA
+Salmon Typhoon,APT4,alias,MISP
+Salt Typhoon,GhostEmperor,alias,MISP + ETDA + MITRE
+Salted Earth,YoroTrooper,alias,MISP
+SAMURAI PANDA,SAMURAI PANDA,primary,MISP + ETDA
+SandCat,SandCat,primary,MISP + ETDA
+Sandman,Sandman,primary,ETDA
+Sandman APT,Sandman APT,primary,MISP
+Sandworm,Sandworm,primary,MISP + ETDA + MITRE
+SANDWORM RELIC,Sandworm,alias,MISP
+Sapphire Sleet,Bluenoroff,alias,ETDA + MITRE
+Sapphire Sleet,Lazarus Group,alias,MISP
+Sapphire Sleet,STARDUST CHOLLIMA,alias,MISP
+Sarit,QUILTED TIGER,alias,MISP
+Satin Typhoon,APT18,alias,MISP + ETDA
+Sauron,ProjectSauron,alias,MISP
+Sayad,Flying Kitten,alias,MISP
+SCANDIUM,APT18,alias,MISP + ETDA
+Scarab,Scarab,primary,MISP + ETDA
+ScarCruft,APT37,alias,MISP + ETDA + MITRE
+Scarlet Mimic,Scarlet Mimic,primary,MISP + ETDA + MITRE
+Scarred Manticore,OilRig,alias,ETDA
+Scarred Manticore,Scarred Manticore,primary,MISP
+Scattered Canary,Scattered Canary,primary,MISP
+SEA,Deadeye Jackal,alias,MISP
+Sea Turtle,Sea Turtle,primary,MISP + ETDA + MITRE
+SEABORGIUM,Callisto,alias,MISP + MITRE
+Seaborgium,Cold River (ETDA),alias,ETDA
+SeaDuke,APT29,alias,MISP
+SeaLotus,APT32,alias,MISP + ETDA + MITRE
+SearchFire,APT2,alias,MISP + ETDA
+Seashell Blizzard,Sandworm,alias,MISP + ETDA + MITRE
+Secret Blizzard,Turla,alias,MISP + ETDA + MITRE
+SectorA01,Lazarus Group,alias,ETDA
+SectorC08,Gamaredon Group,alias,ETDA
+SectorD01,COBALT KATANA,alias,ETDA
+SectorD01 (NHSC),COBALT KATANA,alias,MISP
+SectorE02,VICEROY TIGER,alias,MISP
+SectorF01,APT32,alias,ETDA
+SectorM04,Mofang,alias,ETDA
+Sednit,APT28,alias,MISP + ETDA + MITRE
+Seedworm,MuddyWater,alias,MISP + ETDA + MITRE
+Selective Pisces,Bluenoroff,alias,ETDA
+Sentinel Taurus,POISON CARP,alias,ETDA
+Shadow Crane,DarkHotel,alias,MISP + ETDA
+Shadow Network,Shadow Network,primary,MISP + ETDA
+Shadow-Earth-053,Shadow-Earth-053,primary,MISP
+SHADOW-EARTH-065,Earth Sirrush,alias,MISP
+ShadowSilk,YoroTrooper,alias,MISP
+ShadyRAT,APT1,alias,MISP
+ShaggyPanther,ShaggyPanther,primary,MISP + ETDA
+Shahid Hemmat,Shahid Hemmat,primary,MISP
+Shahid Kaveh Group,Cyber Av3ngers,alias,MISP
+Shallow Taurus,DragonOK,alias,MISP + ETDA
+Shamoon Group,Shamoon Group,primary,MISP
+Shanghai Group,APT1,alias,ETDA
+Sharp Dragon,SharpPanda,alias,MISP + ETDA
+SharpBoys,Pink Sandstorm,alias,ETDA
+SharpPanda,SharpPanda,primary,MISP + ETDA
+SharpTongue,Kimsuky,alias,ETDA
+Shell Crew,APT19,alias,MISP
+Shell Crew,APT26,alias,ETDA + MITRE
+SHORE CASTLE,APT27,alias,MISP
+Shrouded Crossbow,RADIO PANDA,alias,MISP
+Shuckworm,Gamaredon Group,alias,MISP + ETDA + MITRE
+Siamesekitten,LYCEUM,alias,MISP + ETDA + MITRE
+SickSync,UAC-0020,alias,MISP
+SideCopy,SideCopy,primary,MISP + ETDA + MITRE
+SideWinder,RAZOR TIGER,alias,MISP
+SideWinder,SideWinder,primary,ETDA + MITRE
+Siesta,Siesta,primary,MISP + ETDA
+SIG15,Turla,alias,ETDA
+SIG2,Turla,alias,ETDA
+SIG20,SNOWGLOBE,alias,ETDA
+SIG22,APT17,alias,ETDA
+SIG22,Beijing Group,alias,MISP
+SIG23,Turla,alias,MISP + ETDA
+SIG25,DarkHotel,alias,MISP + ETDA
+SIG37,Nazar,alias,MISP + ETDA
+SIG39,TeamSpy Crew,alias,ETDA
+SIG40,APT28,alias,MISP + ETDA
+Silent Chollima,Silent Chollima,primary,MISP + ETDA + MITRE
+Silent Librarian,Silent Librarian,primary,MISP + ETDA + MITRE
+Silent Lynx,YoroTrooper,alias,MISP + ETDA
+SilentAir,SilentAir,primary,MISP
+SILICON,Sea Turtle,alias,MISP + ETDA + MITRE
+Silk Typhoon,HAFNIUM,alias,MISP + ETDA + MITRE
+SilkParasite,SilkParasite,primary,MISP
+Silver Fox,Void Arachne,alias,MISP + ETDA
+SilverFish,APT29,alias,ETDA
+SilverTerrier,SilverTerrier,primary,MISP + MITRE
+SILVERVIPER,APT18,alias,ETDA
+Sima,Sima,primary,MISP + ETDA
+SixLittleMonkeys,Mikroceen,alias,ETDA
+SixLittleMonkeys,Vicious Panda,alias,MISP
+Skipper Turla,White Bear,alias,MISP
+Slayer Kitten,CopyKittens,alias,MISP + ETDA
+SLIME29,SLIME29,primary,MISP
+SLIME34,BRONZE STARLIGHT,alias,MISP + ETDA
+SLIME57,UNC4841,alias,MISP
+SLIME88,SLIME88,primary,MISP
+SlippyNunchucks,SlippyNunchucks,primary,MISP
+Slow Pisces,Lazarus Group,alias,ETDA
+Smoke Sandstorm,Bohrium,alias,MISP
+Smoke Sandstorm,TA455,alias,ETDA
+Smoke Sandstorm,Tortoiseshell,alias,MISP
+Snake,Turla,alias,MISP + MITRE
+Snake Wine,Snake Wine,primary,MISP + ETDA
+SnakeCharmer,Earth Longzhi,alias,MISP
+SNAKEMACKEREL,APT28,alias,MISP + ETDA + MITRE
+Sneaky Panda,APT17,alias,ETDA
+Sneaky Panda,Beijing Group,alias,MISP + MITRE
+SneakyChef,SneakyChef,primary,MISP
+Snooping Dragon,GhostNet,alias,MISP + ETDA
+SNOWGLOBE,SNOWGLOBE,primary,MISP + ETDA
+Social Network Team,APT15,alias,MISP + ETDA
+SODIUM,APT4,alias,MISP + ETDA
+Sofacy,APT28,alias,MISP + ETDA + MITRE
+SOLAR ION,OilRig,alias,MISP
+Solar Phoenix,APT29,alias,ETDA
+Solar Phoenix,UNC2452,alias,MISP
+SolarStorm,APT29,alias,ETDA + MITRE
+SolarStorm,UNC2452,alias,ETDA
+Soldiers of Soloman,Cyber Av3ngers,alias,MITRE
+Solntsepek,Solntsepek,primary,MISP
+Sowbug,Sowbug,primary,MISP + ETDA + MITRE
+Space Pirates,Webworm,alias,MISP + ETDA
+Spamouflage Dragon,Dragonbridge,alias,MISP
+Sparkling Pisces,Kimsuky,alias,MISP + ETDA
+SparklingGoblin,APT41,alias,ETDA
+SPECTRAL KITTEN,Pink Sandstorm,alias,MISP + ETDA
+Sphinx Moth,WildNeutron,alias,MISP + ETDA
+SPICY PANDA,SPICY PANDA,primary,MISP + ETDA
+SPIRE CASTLE,APT41,alias,MISP
+Spirlin,LYCEUM,alias,MISP + MITRE
+Spring Dragon,LOTUS PANDA,alias,MISP + ETDA + MITRE
+Springtail,Kimsuky,alias,MISP + ETDA + MITRE
+ST Group,LOTUS PANDA,alias,MISP
+STALKER PANDA,Tick,alias,MISP + ETDA
+Stalker Taurus,Tick,alias,MISP + ETDA
+Star Blizzard,Callisto,alias,MISP + MITRE
+Star Blizzard,Cold River (ETDA),alias,ETDA
+Starchy Taurus,Barium,alias,ETDA
+Stardust Chollima,Bluenoroff,alias,ETDA + MITRE
+Stardust Chollima,Lazarus Group,alias,MISP
+STARDUST CHOLLIMA,STARDUST CHOLLIMA,primary,MISP
+STATELY TAURUS,MUSTANG PANDA,alias,MISP + ETDA + MITRE
+Stately Taurus,PKPLUG,alias,ETDA
+Static Kitten,MuddyWater,alias,MISP + ETDA + MITRE
+Stealth Falcon,Stealth Falcon,primary,MISP + ETDA + MITRE
+Stealth Mango and Tangelo,Stealth Mango and Tangelo,primary,MISP
+StellarParticle,APT29,alias,ETDA
+StellarParticle,UNC2452,alias,MISP + ETDA
+STEPPY-KAVACH,Operation C-Major,alias,ETDA
+Sticky Werewolf,Angry Likho,alias,MISP
+Stone Panda,APT10,alias,MISP + ETDA + MITRE
+Stonefly,Silent Chollima,alias,ETDA
+Storm Cloud,BRONZE HIGHLAND,alias,ETDA
+Storm Cloud,Storm Cloud,primary,MISP
+Storm-0062,Storm-0062,primary,MISP
+Storm-0133,LYCEUM,alias,MISP
+Storm-0156,Operation C-Major,alias,MISP + ETDA
+Storm-0193,WIZARD SPIDER,alias,MISP
+Storm-0230,WIZARD SPIDER,alias,MISP + ETDA
+Storm-0247,ToddyCat,alias,ETDA
+Storm-0257,Ghostwriter,alias,MISP + ETDA
+Storm-0270,DEV-0270,alias,MISP
+Storm-0287,WageMole,alias,ETDA
+Storm-0391,Volt Typhoon,alias,MISP + ETDA
+Storm-0473,Storm-0473,primary,MISP
+Storm-0558,Storm-0558,primary,MISP + ETDA
+Storm-0587,SaintBear,alias,MISP + ETDA + MITRE
+Storm-0671,RomCom,alias,ETDA
+Storm-0842,BANISHED KITTEN,alias,MISP
+Storm-0842,HomeLand Justice,alias,ETDA
+Storm-0861,OilRig,alias,ETDA
+Storm-0867,Storm-0867,primary,MISP
+Storm-0919,Flax Typhoon,alias,MISP
+Storm-0940,Storm-0940,primary,MISP
+Storm-0978,RomCom,alias,MISP + ETDA
+Storm-1084,Storm-1084,primary,MISP
+Storm-1099,Storm-1099,primary,MISP
+Storm-1133,Storm-1133,primary,MISP
+Storm-1167,Storm-1167,primary,MISP
+Storm-1516,Storm-1516,primary,MISP
+Storm-1679,Storm-1679,primary,MISP
+Storm-1789,Moonstone Sleet,alias,ETDA + MITRE
+Storm-1837,FlyingYeti,alias,MISP
+Storm-1849,Storm-1849,primary,MISP
+Storm-1877,WageMole,alias,MISP
+Storm-2077,Storm-2077,primary,MISP + ETDA
+Storm-2372,Storm-2372,primary,MISP
+StormBamboo,BRONZE HIGHLAND,alias,ETDA
+Stressed Pungsan,Moonstone Sleet,alias,ETDA
+Strider,ProjectSauron,alias,MISP + ETDA + MITRE
+StrongPity,PROMETHIUM,alias,MISP + ETDA + MITRE
+STRONTIUM,APT28,alias,MISP + ETDA + MITRE
+Sturgeon Fisher,YoroTrooper,alias,MISP
+SturgeonPhisher,YoroTrooper,alias,MISP
+Subaat,The Gorgon Group,alias,MISP + ETDA
+Subgroup: Andariel,Silent Chollima,alias,MISP
+Subgroup: Bluenoroff,Lazarus Group,alias,MISP
+Suckfly,APT22,alias,MISP
+Suckfly,Suckfly,primary,ETDA + MITRE
+SULPHUR,APT2,alias,MISP + ETDA
+SUMMIT,Turla,alias,MISP + ETDA
+Sunglow Blizzard,Sunglow Blizzard,primary,MISP
+Sunshop Group,APT19,alias,MISP + ETDA + MITRE
+Superman,Mofang,alias,MISP + ETDA
+SVCMONDR,APT16,alias,MISP + ETDA
+Swallowtail,APT28,alias,MISP + ETDA + MITRE
+Swirl Typhoon,Tick,alias,MISP + ETDA
+Sykipot,APT4,alias,ETDA
+Syria Malware Team,Deadeye Jackal,alias,ETDA
+Syrian Electronic Army (SEA),Deadeye Jackal,alias,ETDA
+SyrianElectronicArmy,Deadeye Jackal,alias,MISP + ETDA
+T-APT-02,DarkHotel,alias,MISP + ETDA
+T-APT-03,BlackTech,alias,MISP + ETDA
+T-APT-04,RAZOR TIGER,alias,MISP
+T-APT-04,SideWinder,alias,ETDA + MITRE
+T-APT-12,APT28,alias,MISP + ETDA
+T-APT-14,MuddyWater,alias,ETDA
+T-APT-15,Bluenoroff,alias,ETDA
+T-APT-17,HAZY TIGER,alias,MISP + ETDA + MITRE
+TA-RedAnt,APT37,alias,ETDA
+TA-ShadowCricket,Operation Shadow Force,alias,MISP
+TA2536,TA2536,primary,MISP
+TA2719,TA2719,primary,MISP + ETDA
+TA397,HAZY TIGER,alias,MISP + ETDA
+TA402,Molerats,alias,ETDA
+TA402,TA402,primary,MISP
+TA404,Lazarus Group,alias,MISP + ETDA
+TA406,Kimsuky,alias,ETDA
+TA406,TA406,primary,MISP
+TA407,Silent Librarian,alias,MISP + ETDA + MITRE
+TA410,TA410,primary,MISP
+TA410,Witchetty,alias,ETDA
+TA412,APT31,alias,MISP + ETDA
+TA413,Lucky Cat,alias,MISP
+TA413,TA413,primary,ETDA
+TA415,APT41,alias,MISP + ETDA
+TA416,MUSTANG PANDA,alias,MISP + MITRE
+TA416,RedDelta,alias,ETDA
+TA421,APT29,alias,MISP
+TA422,APT28,alias,MISP + ETDA
+TA423,APT40,alias,MISP + ETDA
+TA427,Kimsuky,alias,ETDA + MITRE
+TA428,TA428,primary,MISP + ETDA
+TA429,APT10,alias,MISP + ETDA
+TA444,Bluenoroff,alias,ETDA
+TA444,TA444,primary,MISP
+TA445,Ghostwriter,alias,MISP + ETDA
+TA446,Callisto,alias,MISP + MITRE
+TA446,Cold River (ETDA),alias,ETDA
+TA450,MuddyWater,alias,MISP + ETDA + MITRE
+TA451,APT33,alias,MISP + ETDA
+TA452,OilRig,alias,MISP + ETDA + MITRE
+TA453,APT35,alias,ETDA + MITRE
+TA453,TA453,primary,MISP
+TA454,APT39,alias,MISP + ETDA
+TA455,TA455,primary,MISP + ETDA + MITRE
+TA456,Tortoiseshell,alias,MISP + ETDA + MITRE
+TA459,TA459,primary,MISP + ETDA + MITRE
+TA471,SaintBear,alias,MISP + ETDA + MITRE
+TA473,Winter Vivern,alias,MISP + ETDA + MITRE
+TA482,TA482,primary,MISP
+TA488,Void Blizzard,alias,MISP
+TA4900,Silent Librarian,alias,MISP + ETDA
+TA829,RomCom,alias,ETDA
+TA829,TA829,primary,MISP
+Taffeta Typhoon,APT26,alias,MISP + ETDA
+TAG-0700,APT28,alias,ETDA
+TAG-100,Storm-2077,alias,MISP + ETDA
+TAG-102,BRONZE HIGHLAND,alias,ETDA
+TAG-110,APT28,alias,ETDA
+TAG-112,BRONZE HIGHLAND,alias,ETDA
+TAG-112,TAG-112,primary,MISP
+TAG-140,SideCopy,alias,ETDA
+TAG-140,TAG-140,primary,MISP
+TAG-16,BRONZE EDGEWOOD,alias,ETDA
+TAG-22,Earth Lusca,alias,MISP + MITRE
+TAG-22,RedHotel,alias,ETDA
+TAG-28,TAG-28,primary,MISP + ETDA
+TAG-38,TAG-38,primary,ETDA
+TAG-41,OilAlpha,alias,ETDA
+TAG-53,Callisto,alias,MISP
+TAG-53,Cold River (ETDA),alias,ETDA
+TAG-56,TAG-56,primary,MISP
+TAG-62,OilAlpha,alias,ETDA
+TAG-70,Winter Vivern,alias,MISP + ETDA
+TAG-71,Bluenoroff,alias,ETDA
+TAG-74,Tonto Team,alias,MISP + ETDA
+TAG-CR5,The Gorgon Group,alias,ETDA
+TAG-CT2,Deadeye Jackal,alias,ETDA
+TAG-CT3,Dark Caracal,alias,ETDA
+TAG-CT5,Molerats,alias,ETDA
+TAG-NS1,El Machete,alias,ETDA
+TAG_0530,Turla,alias,MISP + ETDA
+Taidoor,Taidoor,primary,MISP + ETDA
+Tailgater Team,APT17,alias,MISP + ETDA
+TANTALUM,MUSTANG PANDA,alias,MISP + MITRE
+Tapaoux,DarkHotel,alias,MISP
+Tarh Andishan,APT35,alias,ETDA
+Tarh Andishan,Cleaver,alias,MISP
+TaskMasters,TaskMasters,primary,MISP + ETDA
+Teal Kurma,Sea Turtle,alias,MISP + ETDA + MITRE
+Team Bear,TeamSpy Crew,alias,MISP + ETDA
+Team338,TEMPER PANDA,alias,MISP + ETDA
+TeamSpy,TeamSpy Crew,alias,MISP
+TeamSpy Crew,TeamSpy Crew,primary,MISP + ETDA
+TECHNETIUM,APT26,alias,MISP
+Telebots,Sandworm,alias,MISP + MITRE
+TeleBots,TeleBots,primary,ETDA
+Teleboyi,Teleboyi,primary,MISP
+TEMP.Andromeda,El Machete,alias,ETDA
+TEMP.Avengers,APT17,alias,ETDA
+TEMP.Avengers,APT19,alias,MISP
+TEMP.Beanie,APT35,alias,ETDA
+TEMP.Beanie,Rocket Kitten,alias,MISP
+TEMP.Bottle,APT5,alias,MISP + ETDA
+TEMP.Hermit,Bluenoroff,alias,ETDA
+TEMP.Hex,MUSTANG PANDA,alias,MISP + ETDA + MITRE
+TEMP.Hippo,APT27,alias,MISP + ETDA
+TEMP.Isotope,ENERGETIC BEAR,alias,MITRE
+TEMP.Jumper,APT40,alias,MISP + ETDA + MITRE
+TEMP.Lapis,Operation C-Major,alias,ETDA
+TEMP.Mimic,Mofang,alias,ETDA
+TEMP.MixMaster,WIZARD SPIDER,alias,MISP + ETDA + MITRE
+TEMP.Monkeys,APT29,alias,ETDA
+TEMP.Noble,Sandworm,alias,MISP + ETDA
+Temp.Overboard,BlackTech,alias,MISP + ETDA
+TEMP.Periscope,APT40,alias,MISP + ETDA + MITRE
+Temp.Pittytiger,APT24,alias,MISP
+TEMP.Reaper,APT37,alias,ETDA + MITRE
+TEMP.Tick,Tick,alias,MISP + ETDA
+TEMP.Trident,NOMAD PANDA,alias,ETDA
+TEMP.Veles,TEMP.Veles,primary,MISP + ETDA + MITRE
+TEMP.Vermin,UAC-0020,alias,MISP
+TEMP.Zagros,MuddyWater,alias,MISP + ETDA + MITRE
+TEMP.Zhenbao,APT21,alias,MISP + ETDA
+TEMP_Heretic,TEMP_Heretic,primary,MISP + ETDA
+TEMPER PANDA,TEMPER PANDA,primary,MISP + ETDA
+TempTick,TempTick,primary,MISP
+Tempting Cedar Spyware,Tempting Cedar Spyware,primary,ETDA
+Tenacious Pungsan,WageMole,alias,ETDA
+Teng Snake,Xiaoqiying,alias,MISP
+TEST PANDA,TEST PANDA,primary,MISP + ETDA
+TG-0110,APT3,alias,MISP + ETDA + MITRE
+TG-0416,APT18,alias,MISP + ETDA + MITRE
+TG-0623,APT4,alias,ETDA
+TG-2633,APT41,alias,MISP + ETDA
+TG-2754,APT12,alias,MISP
+TG-2754,APT5,alias,ETDA
+TG-2884,ZooPark,alias,ETDA
+TG-2884 (SCWX CTU),COBALT JUNO,alias,MISP
+TG-2889,Cleaver,alias,MISP + MITRE
+TG-2889,Cutting Kitten,alias,ETDA
+TG-3279,Lead,alias,ETDA
+TG-3390,APT27,alias,MISP + ETDA + MITRE
+TG-3551,APT19,alias,ETDA
+TG-4127,APT28,alias,MISP + ETDA + MITRE
+TG-4192,ENERGETIC BEAR,alias,MISP + ETDA + MITRE
+TG-4410,QUILTED TIGER,alias,ETDA
+TG-6952,APT2,alias,MISP + ETDA
+TG-8153,APT17,alias,ETDA
+TG-8223,APT1,alias,MISP + ETDA
+TGR-STA-0043,CL-STA-0043,alias,MISP + ETDA
+TH-239,LightBasin,alias,ETDA
+TH3Bug,APT20,alias,MISP + ETDA
+THALLIUM,Kimsuky,alias,MISP + ETDA + MITRE
+Thamar Reservoir,Rocket Kitten,alias,MISP
+The Dukes,APT29,alias,MISP + ETDA + MITRE
+The Gorgon Group,The Gorgon Group,primary,MISP
+the Lamberts,Longhorn,alias,MISP + ETDA
+The Mask,Careto,alias,MISP + ETDA
+The Postal Group,WildNeutron,alias,ETDA
+The Rocra,Inception Framework,alias,ETDA
+The White Company,The White Company,primary,ETDA + MITRE
+TheWizards,TheWizards,primary,MISP + ETDA
+Thirsty Gemini,QUILTED TIGER,alias,MISP + ETDA
+THORIUM,BRONZE VAPOR,alias,ETDA
+Threat Group 2889,Cleaver,alias,MITRE
+Threat Group-0110,APT3,alias,MITRE
+Threat Group-0416,APT18,alias,MITRE
+Threat Group-3390,APT27,alias,MITRE
+Threat Group-4127,APT28,alias,MITRE
+Thrip,LOTUS PANDA,alias,ETDA + MITRE
+Thrip,Thrip,primary,MISP + MITRE
+ThunderCats,TA428,alias,ETDA
+TianWu,TianWu,primary,MISP
+Tick,Tick,primary,MISP + ETDA + MITRE
+TICK CASTLE,Tick,alias,MISP
+TIDE CASTLE,APT31,alias,MISP
+TIDRONE,TIDRONE,primary,MISP + ETDA
+TieOnJoe,DarkHotel,alias,ETDA
+Tilded Team,Equation Group,alias,MISP + ETDA
+TiltedTemple,TiltedTemple,primary,MISP
+Timberworm,APT35,alias,ETDA
+Timberworm,Rocket Kitten,alias,MISP
+TIN WOODLAWN,APT32,alias,MISP + ETDA
+TMP.Lapis,Operation C-Major,alias,MISP
+ToddyCat,ToddyCat,primary,MISP + ETDA + MITRE
+Tonto Team,Tonto Team,primary,MISP + ETDA + MITRE
+Topgear,Blackgear,alias,MISP + ETDA
+Tortoiseshell,Tortoiseshell,primary,MISP + ETDA + MITRE
+TOXIC PANDA,TOXIC PANDA,primary,MISP + ETDA
+TRACER KITTEN,TRACER KITTEN,primary,MISP + ETDA
+TraderTraitor,Lazarus Group,alias,ETDA
+TraderTraitor,TraderTraitor,primary,MISP
+Transparent Tribe,Operation C-Major,alias,MISP + ETDA + MITRE
+Trickbot LLC,WIZARD SPIDER,alias,MISP
+Trident,DAGGER PANDA,alias,MISP
+Trident Ursa,Gamaredon Group,alias,MISP + ETDA
+Tropic Trooper,APT23,alias,MISP + ETDA + MITRE
+Tropical Scorpius,RomCom,alias,ETDA
+Tsar Team,APT28,alias,MISP + ETDA + MITRE
+Tstark,Tstark,primary,MISP
+Tumbleweed Typhoon,BRONZE VAPOR,alias,ETDA
+TUNGSTEN BRIDGE,DarkHotel,alias,MISP + ETDA
+TunisianCyberArmy,Corsair Jackal,alias,MISP + ETDA
+TunnelSnake,TunnelSnake,primary,MISP
+TunnelVision,APT35,alias,MISP + ETDA
+TURBINE PANDA,APT26,alias,MISP + ETDA
+TurkHackTeam,TurkHackTeam,primary,MISP
+Turla,Turla,primary,MISP + ETDA + MITRE
+TURLA RELIC,Turla,alias,MISP
+TWILL TYPHOON,MUSTANG PANDA,alias,MISP + ETDA + MITRE
+Twisted Kitten,OilRig,alias,MISP + ETDA
+Twisted Panda,Twisted Panda,primary,ETDA
+Two-tailed Scorpion,AridViper,alias,MISP
+TwoForOne,PLATINUM,alias,MISP + ETDA
+TwoSail Junk,TwoSail Junk,primary,MISP + ETDA
+UAC-0001,APT28,alias,MISP
+UAC-0003,Turla,alias,MISP
+UAC-0010,Gamaredon Group,alias,MISP + ETDA
+UAC-0020,UAC-0020,primary,MISP
+UAC-0024,Turla,alias,MISP
+UAC-0026,Scarab,alias,ETDA
+UAC-0028,APT28,alias,MISP + ETDA
+UAC-0029,APT29,alias,MISP
+UAC-0035,InvisiMole,alias,ETDA
+UAC-0051,Ghostwriter,alias,ETDA
+UAC-0056,DEV-0586,alias,MITRE
+UAC-0056,SaintBear,alias,MISP + ETDA + MITRE
+UAC-0057,Ghostwriter,alias,MISP + ETDA
+UAC-0063,APT28,alias,ETDA
+UAC-0082,Sandworm,alias,MISP + ETDA
+UAC-0094,UAC-0094,primary,MISP
+UAC-0100,XakNet,alias,MISP
+UAC-0106,XakNet,alias,MISP
+UAC-0113,Sandworm,alias,MISP + ETDA
+UAC-0114,Winter Vivern,alias,MISP + ETDA + MITRE
+UAC-0125,Sandworm,alias,ETDA
+UAC-0133,Sandworm,alias,ETDA
+UAC-0144,Turla,alias,MISP
+UAC-0145,Sandworm,alias,MISP
+UAC-0180,RomCom,alias,ETDA
+UAC-0190,Void Blizzard,alias,MISP
+UAC-0194,UAC-0194,primary,MISP
+UAC-0219,UAC-0219,primary,MISP
+UAC-0245,UAC-0245,primary,MISP
+UAT-5394,Kimsuky,alias,ETDA
+UAT-5394,UAT-5394,primary,MISP
+UAT-5647,RomCom,alias,MISP
+UAT-5918,Volt Typhoon,alias,ETDA
+UAT-6382,UAT-6382,primary,MISP
+UAT-7237,UAT-7237,primary,MISP
+UAT-7237,Volt Typhoon,alias,ETDA
+UAT-7290,DAGGER PANDA,alias,MISP
+UAT-7810,UAT-7810,primary,MISP
+UAT-8302,UAT-8302,primary,MISP
+UAT-8837,UAT-8837,primary,MISP
+UAT-9244,UAT-9244,primary,MISP
+UAT-9686,UAT-9686,primary,MISP
+UAT-9921,UAT-9921,primary,MISP
+UAT4356,Storm-1849,alias,MISP
+Ugly Face,Careto,alias,MISP + ETDA
+UNC1088,UNC1088,primary,MISP
+UNC1151,Ghostwriter,alias,MISP + ETDA
+UNC1326,Sea Turtle,alias,MISP + ETDA
+UNC1530,LYCEUM,alias,MISP
+UNC1549,TA455,alias,ETDA + MITRE
+UNC1549,UNC1549,primary,MISP
+UNC1720,UNC4736,alias,MITRE
+UNC1860,OilRig,alias,ETDA
+UNC1860,UNC1860,primary,MISP
+UNC1878,WIZARD SPIDER,alias,MITRE
+UNC1945,LightBasin,alias,MISP + ETDA
+UNC2053,WIZARD SPIDER,alias,MISP
+UNC215,UNC215,primary,MISP + ETDA
+UNC2269,SideCopy,alias,ETDA
+UNC2286,GhostEmperor,alias,MISP + ETDA
+UNC2428,Pink Sandstorm,alias,MISP
+UNC2452,APT29,alias,ETDA + MITRE
+UNC2452,UNC2452,primary,MISP + ETDA
+UNC2589,DEV-0586,alias,MITRE
+UNC2589,SaintBear,alias,MISP + ETDA
+UNC2596,RomCom,alias,ETDA
+UNC2630,APT5,alias,MITRE
+UNC2630,UNC2630,primary,MISP
+UNC2717,UNC2717,primary,MISP
+UNC2814,UNC2814,primary,MISP
+UNC2849,Storm-0473,alias,MISP
+UNC2970,Lazarus Group,alias,ETDA
+UNC2970,UNC2970,primary,MISP
+UNC302,BRONZE SPRING,alias,MISP
+UNC3236,Volt Typhoon,alias,MISP + ETDA + MITRE
+UNC3524,APT29,alias,ETDA + MITRE
+UNC3524,UNC3524,primary,MISP + ETDA
+UNC3569,UNC3569,primary,MISP
+UNC3742,Curious Gorge,alias,MISP
+UNC3886,UNC3886,primary,MISP + ETDA + MITRE
+UNC3890,UNC3890,primary,MISP
+UNC4034,Lazarus Group,alias,ETDA
+UNC4057,Callisto,alias,MISP
+UNC4057,Cold River (ETDA),alias,ETDA
+UNC4191,UNC4191,primary,MISP + ETDA
+UNC4210,Turla,alias,MISP + ETDA
+UNC4453,POLONIUM,alias,MISP
+UNC4540,UNC4540,primary,MISP
+UNC4736,Lazarus Group,alias,ETDA
+UNC4736,UNC4736,primary,MISP + MITRE
+UNC4841,UNC4841,primary,MISP
+UNC4899,Lazarus Group,alias,ETDA
+UNC4899,TraderTraitor,alias,MISP
+UNC4907,Winter Vivern,alias,ETDA
+UNC5174,UNC5174,primary,MISP
+UNC5221,UTA0178,alias,MISP + ETDA
+UNC5267,WageMole,alias,MISP + ETDA
+UNC530,Gamaredon Group,alias,ETDA
+UNC5325,UNC5325,primary,MISP
+UNC5330,UNC5330,primary,MISP
+UNC5337,UNC5337,primary,MISP
+UNC5342,UNC5342,primary,MISP
+UNC5454,Earth Lamia,alias,MISP
+UNC577,Lazarus Group,alias,ETDA
+UNC5820,UNC5820,primary,MISP
+UNC6032,UNC6032,primary,MISP
+UNC6201,UNC6201,primary,MISP
+UNC6293,UNC6293,primary,MISP
+UNC6384,MUSTANG PANDA,alias,MITRE
+UNC6384,UNC6384,primary,MISP
+UNC6508,UNC6508,primary,MISP
+UNC6748,UNC6748,primary,MISP
+UNC757,Fox Kitten,alias,MISP + ETDA + MITRE
+UNC788,APT35,alias,ETDA
+UNC788,APT42,alias,MISP
+UNC94,Aoqin Dragon,alias,MISP + ETDA
+Unfading Sea Haze,Unfading Sea Haze,primary,MISP + ETDA
+UNION PANDA,UNION PANDA,primary,MISP + ETDA
+Unit 121,Lazarus Group,alias,MISP
+Unit 8200,Unit 8200,primary,MISP
+UNK_AcademicFlare,UNK_AcademicFlare,primary,MISP
+UNK_RemoteRogue,UNK_RemoteRogue,primary,MISP
+UNK_SteadySplit,MUSTANG PANDA,alias,MISP
+Unnamed Actor,Unnamed Actor,primary,MISP
+UnsolicitedBooker,UnsolicitedBooker,primary,MISP
+UPS Team,APT3,alias,MISP + ETDA + MITRE
+Uroburos,Turla,alias,MISP
+Urpage,Urpage,primary,MISP + ETDA
+UTA0178,UTA0178,primary,MISP + ETDA
+UTA0218,UTA0218,primary,MISP
+UTA0352,UTA0352,primary,MISP
+UTA0355,UTA0355,primary,MISP
+UTA0388,UTA0388,primary,MISP
+Uteus,UNC5174,alias,MISP
+Vanguard Panda,Volt Typhoon,alias,MISP + ETDA + MITRE
+Vapor Panda,Vapor Panda,primary,MISP
+Vedalia,Opal Sleet,alias,MISP
+Velvet Ant,Velvet Ant,primary,ETDA + MITRE
+Velvet Chollima,Kimsuky,alias,MISP + ETDA + MITRE
+Vendetta,TA2719,alias,ETDA
+VENGEFUL KITTEN,MosesStaff,alias,MISP + ETDA
+VENOM,TIDRONE,alias,MISP
+Venomous Bear,Turla,alias,MISP + ETDA + MITRE
+Venus 121,APT37,alias,MISP + ETDA
+Vermin,UAC-0020,alias,MISP
+VERMIN RELIC,UAC-0020,alias,MISP
+Vertigo Panda,UNC6384,alias,MISP
+VexatiousTemper,Vapor Panda,alias,MISP
+VICEROY TIGER,VICEROY TIGER,primary,MISP + ETDA
+Vicious Panda,Vicious Panda,primary,MISP + ETDA
+Viking Jackal,Viking Jackal,primary,MISP + ETDA
+Vikingdom,Viking Jackal,alias,MISP + ETDA
+Violet Typhoon,APT31,alias,MISP + ETDA + MITRE
+VIOLIN PANDA,APT20,alias,MISP + ETDA
+Vixen Panda,APT15,alias,MISP + ETDA + MITRE
+Void Arachne,Void Arachne,primary,MISP + ETDA
+Void Blizzard,Void Blizzard,primary,MISP + ETDA
+Void Dokkaebi,WageMole,alias,MISP
+Void Manticore,HomeLand Justice,alias,ETDA
+Void Manticore,Void Manticore,primary,MISP + MITRE
+Void Rabisu,RomCom,alias,ETDA
+VoidLink Operator,UAT-9921,alias,MISP
+Volatile Cedar,Amethyst Rain,alias,MISP
+Volatile Cedar,Volatile Cedar,primary,MISP + ETDA + MITRE
+Volatile Kitten,Greenbug,alias,ETDA
+VolcanicTimber,Amethyst Rain,alias,MISP
+VolcanicTimber,Volatile Cedar,alias,ETDA
+Volt Typhoon,Volt Typhoon,primary,MISP + ETDA + MITRE
+Voltzite,Volt Typhoon,alias,MISP + ETDA + MITRE
+Voodoo Bear,Sandworm,alias,MISP + ETDA + MITRE
+VOYEUR,Magic Kitten,alias,MISP + ETDA
+WageMole,WageMole,primary,MISP + ETDA
+WARP PANDA,WARP PANDA,primary,MISP
+Wassonite,Wassonite,primary,MISP + ETDA
+Water Gamayun,Water Gamayun,primary,MISP
+Water Sigbin,Water Sigbin,primary,MISP
+Waterbug,Turla,alias,MISP + ETDA + MITRE
+WaterPlum,WageMole,alias,MISP + ETDA
+WebMasters,APT19,alias,MISP
+WebMasters,APT26,alias,ETDA + MITRE
+Websiic,ToddyCat,alias,MISP
+Webworm,Webworm,primary,MISP + ETDA
+Wekby,APT18,alias,MISP + ETDA
+WeRedEvils,WeRedEvils,primary,MISP
+WET PANDA,WET PANDA,primary,MISP + ETDA
+White Bear,White Bear,primary,MISP
+White Dev 55,SideCopy,alias,ETDA
+White Dev 9,Lucky Cat,alias,MISP
+White Dev 9,TA413,alias,ETDA
+White Dev 95,MosesStaff,alias,ETDA
+White Lynx,Ghostwriter,alias,ETDA
+WhiteBear,Turla,alias,MITRE
+Whitefly,Mofang,alias,ETDA
+Whois Hacking Team,Lazarus Group,alias,MISP + ETDA
+WHOis Team,Silent Chollima,alias,MISP
+Wicked Panda,APT41,alias,MISP + MITRE
+Wicked Panda,Winnti Group,alias,ETDA
+Wicked Spider,APT22,alias,ETDA
+WICKED SPIDER,APT41,alias,MISP
+WildNeutron,WildNeutron,primary,MISP + ETDA
+Winnti,APT41,alias,MISP
+Winnti Group,Winnti Group,primary,ETDA + MITRE
+Winter Vivern,Winter Vivern,primary,MISP + ETDA + MITRE
+Winterflounder,Gamaredon Group,alias,MISP + ETDA
+WIP19,WIP19,primary,MISP
+Wisp Team,APT4,alias,ETDA
+Wisp Team,SAMURAI PANDA,alias,MISP
+Witchetty,Witchetty,primary,MISP + ETDA
+WIZARD SPIDER,WIZARD SPIDER,primary,MISP + ETDA + MITRE
+Worok,Worok,primary,MISP + ETDA
+WRAITH,Turla,alias,MISP + ETDA
+XakNet,XakNet,primary,MISP
+XENOTIME,TEMP.Veles,alias,MISP + ETDA + MITRE
+xHunt,COBALT KATANA,alias,ETDA
+xHunt campaign (Palo Alto),COBALT KATANA,alias,MISP
+Xiaoqiying,Xiaoqiying,primary,MISP
+XinXin,XinXin,primary,MISP
+Yellow Dev 13,TA455,alias,ETDA
+Yellow Dev 23,DEV-0270,alias,ETDA
+Yellow Dev 24,DEV-0270,alias,ETDA
+Yellow Dev 9,LYCEUM,alias,ETDA
+Yellow Garuda,APT35,alias,ETDA
+Yellow Liderc,Tortoiseshell,alias,MISP + ETDA + MITRE
+Yellow Maero,OilRig,alias,ETDA
+Yellow Nabu,Silent Librarian,alias,MISP + ETDA
+Yellow Nix,MuddyWater,alias,ETDA
+Yellow Orc,APT33,alias,ETDA
+YoroTrooper,YoroTrooper,primary,MISP + ETDA
+YTTRIUM,APT29,alias,MISP + ETDA + MITRE
+ZeroBytes,ZeroBytes,primary,MISP
+Zigzag Hail,DarkHotel,alias,MISP + ETDA + MITRE
+ZINC,Lazarus Group,alias,MISP + ETDA + MITRE
+ZINC EMERSON,QUILTED TIGER,alias,MISP + ETDA
+ZipToken,APT27,alias,MISP + ETDA
+ZIRCONIUM,APT31,alias,MISP + ETDA + MITRE
+ZooPark,ZooPark,primary,MISP + ETDA

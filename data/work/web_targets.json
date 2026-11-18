@@ -1,0 +1,1658 @@
+[
+{
+"actor": "Ghostwriter",
+"sponsor": "Belarus",
+"thin": false,
+"aliases": "DEV-0257; PUSHCHA; Storm-0257; TA445"
+},
+{
+"actor": "MoustachedBouncer",
+"sponsor": "Belarus",
+"thin": false,
+"aliases": ""
+},
+{
+"actor": "APT1",
+"sponsor": "China",
+"thin": false,
+"aliases": "Comment Crew; Comment Panda; Comment Group"
+},
+{
+"actor": "APT10",
+"sponsor": "China",
+"thin": false,
+"aliases": "BRONZE RIVERSIDE; Cicada; CVNX; HOGFISH"
+},
+{
+"actor": "APT12",
+"sponsor": "China",
+"thin": false,
+"aliases": "DNSCALC; DynCalc; Numbered Panda; IXESHE"
+},
+{
+"actor": "APT14",
+"sponsor": "China",
+"thin": false,
+"aliases": "ALUMINUM; ANCHOR PANDA; QAZTeam"
+},
+{
+"actor": "APT15",
+"sponsor": "China",
+"thin": false,
+"aliases": "Ke3chang; NICKEL; Nylon Typhoon; Playful Dragon"
+},
+{
+"actor": "APT16",
+"sponsor": "China",
+"thin": false,
+"aliases": "SVCMONDR"
+},
+{
+"actor": "APT17",
+"sponsor": "China",
+"thin": false,
+"aliases": "Deputy Dog"
+},
+{
+"actor": "APT18",
+"sponsor": "China",
+"thin": false,
+"aliases": "Dynamite Panda; TG-0416; Threat Group-0416"
+},
+{
+"actor": "APT19",
+"sponsor": "China",
+"thin": false,
+"aliases": "Codoso; Sunshop Group; C0d0so0"
+},
+{
+"actor": "APT2",
+"sponsor": "China",
+"thin": false,
+"aliases": "Putter Panda; MSUpdater"
+},
+{
+"actor": "APT20",
+"sponsor": "China",
+"thin": false,
+"aliases": "Crawling Taurus; TH3Bug; VIOLIN PANDA; APT 8"
+},
+{
+"actor": "APT21",
+"sponsor": "China",
+"thin": false,
+"aliases": "HAMMER PANDA; NetTraveler; TEMP.Zhenbao"
+},
+{
+"actor": "APT22",
+"sponsor": "China",
+"thin": false,
+"aliases": "BRONZE OLIVE; Bronze Export; Group 46; Suckfly"
+},
+{
+"actor": "APT23",
+"sponsor": "China",
+"thin": false,
+"aliases": "KeyBoy; Pirate Panda; Tropic Trooper"
+},
+{
+"actor": "APT24",
+"sponsor": "China",
+"thin": false,
+"aliases": "PittyTiger"
+},
+{
+"actor": "APT26",
+"sponsor": "China",
+"thin": false,
+"aliases": "Black Vine; KungFu Kittens; PinkPanther; Shell Crew"
+},
+{
+"actor": "APT3",
+"sponsor": "China",
+"thin": false,
+"aliases": "Buckeye; Gothic Panda; TG-0110; UPS Team"
+},
+{
+"actor": "APT30",
+"sponsor": "China",
+"thin": false,
+"aliases": "Bronze Geneva; Bronze Sterling; CTG-5326; ISTHMUS CASTLE"
+},
+{
+"actor": "APT31",
+"sponsor": "China",
+"thin": false,
+"aliases": "Violet Typhoon; ZIRCONIUM"
+},
+{
+"actor": "APT4",
+"sponsor": "China",
+"thin": false,
+"aliases": "BRONZE EDISON; MAVERICK PANDA; SODIUM; PLA Navy"
+},
+{
+"actor": "APT40",
+"sponsor": "China",
+"thin": false,
+"aliases": "BRONZE MOHAWK; Gadolinium; Gingham Typhoon; Kryptonite Panda"
+},
+{
+"actor": "APT41",
+"sponsor": "China",
+"thin": false,
+"aliases": "BARIUM; Brass Typhoon; Wicked Panda"
+},
+{
+"actor": "APT5",
+"sponsor": "China",
+"thin": false,
+"aliases": "BRONZE FLEETWOOD; Keyhole Panda; MANGANESE; Mulberry Typhoon"
+},
+{
+"actor": "APT6",
+"sponsor": "China",
+"thin": false,
+"aliases": "1.php Group"
+},
+{
+"actor": "APT9",
+"sponsor": "China",
+"thin": false,
+"aliases": "Group 27; NIGHTSHADE PANDA; Red Pegasus"
+},
+{
+"actor": "Aquatic Panda",
+"sponsor": "China",
+"thin": false,
+"aliases": ""
+},
+{
+"actor": "Asnar\u00f6k",
+"sponsor": "China",
+"thin": false,
+"aliases": "Personal Panda"
+},
+{
+"actor": "Axiom",
+"sponsor": "China",
+"thin": false,
+"aliases": "Group 72"
+},
+{
+"actor": "Barium",
+"sponsor": "China",
+"thin": false,
+"aliases": "Brass Typhoon; Pigfish; Starchy Taurus"
+},
+{
+"actor": "Beijing Group",
+"sponsor": "China",
+"thin": false,
+"aliases": "Elderwood; Sneaky Panda"
+},
+{
+"actor": "BIG PANDA",
+"sponsor": "China",
+"thin": true,
+"aliases": ""
+},
+{
+"actor": "BlackTech",
+"sponsor": "China",
+"thin": false,
+"aliases": "Palmerworm"
+},
+{
+"actor": "Blue Termite",
+"sponsor": "China",
+"thin": false,
+"aliases": "Cloudy Omega; Emdivi"
+},
+{
+"actor": "BRONZE EDGEWOOD",
+"sponsor": "China",
+"thin": false,
+"aliases": "Red Hariasa; FunnyDream; TAG-16"
+},
+{
+"actor": "BRONZE HIGHLAND",
+"sponsor": "China",
+"thin": false,
+"aliases": "Daggerfly; Evasive Panda"
+},
+{
+"actor": "BRONZE SPIRAL",
+"sponsor": "China",
+"thin": false,
+"aliases": ""
+},
+{
+"actor": "BRONZE SPRING",
+"sponsor": "China",
+"thin": false,
+"aliases": "UNC302"
+},
+{
+"actor": "BRONZE STARLIGHT",
+"sponsor": "China",
+"thin": false,
+"aliases": "Cinnamon Tempest; DEV-0401; Emperor Dragonfly"
+},
+{
+"actor": "BRONZE VAPOR",
+"sponsor": "China",
+"thin": false,
+"aliases": "Chimera"
+},
+{
+"actor": "Calypso",
+"sponsor": "China",
+"thin": false,
+"aliases": "BRONZE MEDLEY; Red Lamassu"
+},
+{
+"actor": "CeranaKeeper",
+"sponsor": "China",
+"thin": false,
+"aliases": ""
+},
+{
+"actor": "CL-STA-0043",
+"sponsor": "China",
+"thin": false,
+"aliases": "TGR-STA-0043; Operation Diplomatic Specter; Phantom Taurus"
+},
+{
+"actor": "Curious Gorge",
+"sponsor": "China",
+"thin": false,
+"aliases": "UNC3742"
+},
+{
+"actor": "DAGGER PANDA",
+"sponsor": "China",
+"thin": false,
+"aliases": "IceFog; Red Wendigo; ATK 23; PLA Unit 69010"
+},
+{
+"actor": "DIZZY PANDA",
+"sponsor": "China",
+"thin": true,
+"aliases": "LadyBoyle"
+},
+{
+"actor": "DragonOK",
+"sponsor": "China",
+"thin": false,
+"aliases": "BRONZE OVERBROOK; Shallow Taurus; Moafee"
+},
+{
+"actor": "Dust Storm",
+"sponsor": "China",
+"thin": false,
+"aliases": ""
+},
+{
+"actor": "Earth Lusca",
+"sponsor": "China",
+"thin": false,
+"aliases": "Charcoal Typhoon; CHROMIUM; ControlX; TAG-22"
+},
+{
+"actor": "ELECTRIC PANDA",
+"sponsor": "China",
+"thin": true,
+"aliases": ""
+},
+{
+"actor": "ELOQUENT PANDA",
+"sponsor": "China",
+"thin": true,
+"aliases": ""
+},
+{
+"actor": "Evasive Panda",
+"sponsor": "China",
+"thin": true,
+"aliases": "BRONZE HIGHLAND"
+},
+{
+"actor": "Flax Typhoon",
+"sponsor": "China",
+"thin": false,
+"aliases": "Ethereal Panda; RedJuliett; Storm-0919"
+},
+{
+"actor": "FOXY PANDA",
+"sponsor": "China",
+"thin": true,
+"aliases": ""
+},
+{
+"actor": "GALLIUM",
+"sponsor": "China",
+"thin": false,
+"aliases": "Granite Typhoon"
+},
+{
+"actor": "GhostEmperor",
+"sponsor": "China",
+"thin": false,
+"aliases": "Salt Typhoon"
+},
+{
+"actor": "GhostNet",
+"sponsor": "China",
+"thin": false,
+"aliases": "Snooping Dragon"
+},
+{
+"actor": "GIBBERISH PANDA",
+"sponsor": "China",
+"thin": true,
+"aliases": ""
+},
+{
+"actor": "GOBLIN PANDA",
+"sponsor": "China",
+"thin": false,
+"aliases": "Conimes; Cycldek; 1937CN"
+},
+{
+"actor": "Grayling",
+"sponsor": "China",
+"thin": false,
+"aliases": ""
+},
+{
+"actor": "HAFNIUM",
+"sponsor": "China",
+"thin": false,
+"aliases": "Silk Typhoon; Operation Exchange Marauder"
+},
+{
+"actor": "Hellsing",
+"sponsor": "China",
+"thin": false,
+"aliases": ""
+},
+{
+"actor": "HenBox",
+"sponsor": "China",
+"thin": true,
+"aliases": ""
+},
+{
+"actor": "Hidden Lynx",
+"sponsor": "China",
+"thin": false,
+"aliases": "Aurora Panda; Group 8; Heart Typhoon; Operation \u201cSMN\u201d"
+},
+{
+"actor": "Houndstooth Typhoon",
+"sponsor": "China",
+"thin": true,
+"aliases": "deepclif; DRAGNET PANDA; HASSIUM; isoon"
+},
+{
+"actor": "HURRICANE PANDA",
+"sponsor": "China",
+"thin": false,
+"aliases": "Operation \u201cPoisoned Hurricane\u201d"
+},
+{
+"actor": "IMPERSONATING PANDA",
+"sponsor": "China",
+"thin": true,
+"aliases": ""
+},
+{
+"actor": "JACKPOT PANDA",
+"sponsor": "China",
+"thin": false,
+"aliases": ""
+},
+{
+"actor": "Lead",
+"sponsor": "China",
+"thin": false,
+"aliases": "Casper; TG-3279"
+},
+{
+"actor": "LightBasin",
+"sponsor": "China",
+"thin": false,
+"aliases": "UNC1945; CL-CRI-0025; DecisiveArchitect; Luminal Panda"
+},
+{
+"actor": "Lilac Typhoon",
+"sponsor": "China",
+"thin": false,
+"aliases": "DEV-0234"
+},
+{
+"actor": "LIMINAL PANDA",
+"sponsor": "China",
+"thin": false,
+"aliases": ""
+},
+{
+"actor": "LOTUS PANDA",
+"sponsor": "China",
+"thin": false,
+"aliases": "DRAGONFISH; Lotus Blossom; Spring Dragon; Thrip"
+},
+{
+"actor": "Mofang",
+"sponsor": "China",
+"thin": false,
+"aliases": "BRONZE WALKER; Superman; ATK 83; SectorM04"
+},
+{
+"actor": "MUSTANG PANDA",
+"sponsor": "China",
+"thin": false,
+"aliases": "BRONZE PRESIDENT; EARTH PRETA; HIVE0154; Red Lich"
+},
+{
+"actor": "Naikon",
+"sponsor": "China",
+"thin": false,
+"aliases": "BRONZE GENEVA; BRONZE STERLING; Camerashy; Hellsing"
+},
+{
+"actor": "Nightshade Panda",
+"sponsor": "China",
+"thin": false,
+"aliases": "APT 9; FlowerLady; FlowerShow; Group 27"
+},
+{
+"actor": "NOMAD PANDA",
+"sponsor": "China",
+"thin": false,
+"aliases": "Moshen Dragon; RedFoxtrot; TEMP.Trident"
+},
+{
+"actor": "Operation Shady RAT",
+"sponsor": "China",
+"thin": false,
+"aliases": ""
+},
+{
+"actor": "PALE PANDA",
+"sponsor": "China",
+"thin": true,
+"aliases": ""
+},
+{
+"actor": "PassCV",
+"sponsor": "China",
+"thin": false,
+"aliases": ""
+},
+{
+"actor": "PKPLUG",
+"sponsor": "China",
+"thin": false,
+"aliases": "Stately Taurus"
+},
+{
+"actor": "POISON CARP",
+"sponsor": "China",
+"thin": false,
+"aliases": "Earth Empusa; Evil Eye; Red Dev 16; EvilBamboo"
+},
+{
+"actor": "Poisonous Panda",
+"sponsor": "China",
+"thin": true,
+"aliases": ""
+},
+{
+"actor": "POISONUS PANDA",
+"sponsor": "China",
+"thin": true,
+"aliases": ""
+},
+{
+"actor": "PREDATOR PANDA",
+"sponsor": "China",
+"thin": true,
+"aliases": ""
+},
+{
+"actor": "RADIO PANDA",
+"sponsor": "China",
+"thin": true,
+"aliases": "Shrouded Crossbow"
+},
+{
+"actor": "RANCOR",
+"sponsor": "China",
+"thin": false,
+"aliases": "Rancor Taurus"
+},
+{
+"actor": "Raspberry Typhoon",
+"sponsor": "China",
+"thin": false,
+"aliases": "RADIUM"
+},
+{
+"actor": "RedAlpha",
+"sponsor": "China",
+"thin": false,
+"aliases": "DeepCliff; Red Dev 3"
+},
+{
+"actor": "RedDelta",
+"sponsor": "China",
+"thin": false,
+"aliases": "Operation \u201cDianxun\u201d; TA416"
+},
+{
+"actor": "RedEcho",
+"sponsor": "China",
+"thin": false,
+"aliases": ""
+},
+{
+"actor": "RedGolf",
+"sponsor": "China",
+"thin": false,
+"aliases": ""
+},
+{
+"actor": "RedHotel",
+"sponsor": "China",
+"thin": false,
+"aliases": "Fishmonger; Operation \u201cFishMedley\u201d; TAG-22"
+},
+{
+"actor": "Roaming Tiger",
+"sponsor": "China",
+"thin": false,
+"aliases": "BRONZE WOODLAND; Rotten Tomato; CTG-7273"
+},
+{
+"actor": "SABRE PANDA",
+"sponsor": "China",
+"thin": true,
+"aliases": ""
+},
+{
+"actor": "SAMURAI PANDA",
+"sponsor": "China",
+"thin": false,
+"aliases": "PLA Navy; Wisp Team"
+},
+{
+"actor": "Sandman APT",
+"sponsor": "China",
+"thin": false,
+"aliases": ""
+},
+{
+"actor": "Scarlet Mimic",
+"sponsor": "China",
+"thin": false,
+"aliases": "Golfing Taurus"
+},
+{
+"actor": "SLIME29",
+"sponsor": "China",
+"thin": true,
+"aliases": ""
+},
+{
+"actor": "SPICY PANDA",
+"sponsor": "China",
+"thin": true,
+"aliases": ""
+},
+{
+"actor": "Storm-0558",
+"sponsor": "China",
+"thin": false,
+"aliases": "Antique Typhoon"
+},
+{
+"actor": "Storm-2077",
+"sponsor": "China",
+"thin": false,
+"aliases": "TAG-100; RedNovember"
+},
+{
+"actor": "TA428",
+"sponsor": "China",
+"thin": false,
+"aliases": "BRONZE DUDLEY; Colourful Panda; Operation \u201cLagTime IT\u201d; Operation \u201cStealthyTrident\u201d"
+},
+{
+"actor": "TAG-28",
+"sponsor": "China",
+"thin": false,
+"aliases": ""
+},
+{
+"actor": "TAG-38",
+"sponsor": "China",
+"thin": false,
+"aliases": ""
+},
+{
+"actor": "TEMPER PANDA",
+"sponsor": "China",
+"thin": false,
+"aliases": "admin@338"
+},
+{
+"actor": "TempTick",
+"sponsor": "China",
+"thin": false,
+"aliases": ""
+},
+{
+"actor": "TEST PANDA",
+"sponsor": "China",
+"thin": true,
+"aliases": ""
+},
+{
+"actor": "TianWu",
+"sponsor": "China",
+"thin": true,
+"aliases": ""
+},
+{
+"actor": "Tick",
+"sponsor": "China",
+"thin": false,
+"aliases": "BRONZE BUTLER; REDBALDKNIGHT"
+},
+{
+"actor": "TiltedTemple",
+"sponsor": "China",
+"thin": false,
+"aliases": "Circle Typhoon; DEV-0322"
+},
+{
+"actor": "Tonto Team",
+"sponsor": "China",
+"thin": false,
+"aliases": "BRONZE HUNTLEY; CactusPete; Earth Akhlut; Karma Panda"
+},
+{
+"actor": "TOXIC PANDA",
+"sponsor": "China",
+"thin": true,
+"aliases": ""
+},
+{
+"actor": "Twisted Panda",
+"sponsor": "China",
+"thin": false,
+"aliases": ""
+},
+{
+"actor": "UNC6384",
+"sponsor": "China",
+"thin": false,
+"aliases": "Vertigo Panda"
+},
+{
+"actor": "UNION PANDA",
+"sponsor": "China",
+"thin": true,
+"aliases": ""
+},
+{
+"actor": "Unnamed Actor",
+"sponsor": "China",
+"thin": false,
+"aliases": ""
+},
+{
+"actor": "Vapor Panda",
+"sponsor": "China",
+"thin": false,
+"aliases": "VexatiousTemper"
+},
+{
+"actor": "Vicious Panda",
+"sponsor": "China",
+"thin": false,
+"aliases": "Bronze Dudley; SixLittleMonkeys"
+},
+{
+"actor": "Volt Typhoon",
+"sponsor": "China",
+"thin": false,
+"aliases": "BRONZE SILHOUETTE; DEV-0391; Insidious Taurus; UNC3236"
+},
+{
+"actor": "WARP PANDA",
+"sponsor": "China",
+"thin": false,
+"aliases": ""
+},
+{
+"actor": "WET PANDA",
+"sponsor": "China",
+"thin": true,
+"aliases": "Red Chimera"
+},
+{
+"actor": "Winnti Group",
+"sponsor": "China",
+"thin": false,
+"aliases": "Blackfly"
+},
+{
+"actor": "Worok",
+"sponsor": "China",
+"thin": false,
+"aliases": ""
+},
+{
+"actor": "APT27",
+"sponsor": "China; Russia",
+"thin": false,
+"aliases": "BRONZE UNION; Earth Smilodon; Emissary Panda; Iron Tiger"
+},
+{
+"actor": "SNOWGLOBE",
+"sponsor": "France",
+"thin": false,
+"aliases": "Animal Farm; ATK8; SIG20"
+},
+{
+"actor": "QUILTED TIGER",
+"sponsor": "India",
+"thin": false,
+"aliases": "Chinastrats; Dropping Elephant; MONSOON; Patchwork"
+},
+{
+"actor": "RAZOR TIGER",
+"sponsor": "India",
+"thin": false,
+"aliases": "APT-C-17; Rattlesnake; SideWinder; T-APT-04"
+},
+{
+"actor": "APT33",
+"sponsor": "Iran",
+"thin": false,
+"aliases": "Elfin; HOLMIUM; Peach Sandstorm"
+},
+{
+"actor": "APT35",
+"sponsor": "Iran",
+"thin": false,
+"aliases": "Magic Hound; Mint Sandstorm; Phosphorus; Charming Kitten"
+},
+{
+"actor": "APT39",
+"sponsor": "Iran",
+"thin": false,
+"aliases": "Chafer; ITG07; Remix Kitten"
+},
+{
+"actor": "APT42",
+"sponsor": "Iran",
+"thin": false,
+"aliases": "CALANQUE; CALANQUE ION; GreenBravo; UNC788"
+},
+{
+"actor": "BANISHED KITTEN",
+"sponsor": "Iran",
+"thin": false,
+"aliases": "DUNE; Red Sandstorm; Storm-0842"
+},
+{
+"actor": "Bohrium",
+"sponsor": "Iran",
+"thin": false,
+"aliases": "IMPERIAL KITTEN; Smoke Sandstorm"
+},
+{
+"actor": "Cadelle",
+"sponsor": "Iran",
+"thin": false,
+"aliases": ""
+},
+{
+"actor": "Caracal Kitten",
+"sponsor": "Iran",
+"thin": false,
+"aliases": "APT-Q-58"
+},
+{
+"actor": "Cavern Manticore",
+"sponsor": "Iran",
+"thin": false,
+"aliases": ""
+},
+{
+"actor": "Charming Kitten",
+"sponsor": "Iran",
+"thin": true,
+"aliases": "CharmingCypress; Group 83; iKittens; Mint Sandstorm"
+},
+{
+"actor": "Cleaver",
+"sponsor": "Iran",
+"thin": false,
+"aliases": "TG-2889; Threat Group 2889"
+},
+{
+"actor": "Clever Kitten",
+"sponsor": "Iran",
+"thin": false,
+"aliases": "Group 41"
+},
+{
+"actor": "COBALT JUNO",
+"sponsor": "Iran",
+"thin": false,
+"aliases": "APT-C-38 (QiAnXin); SABER LION; TG-2884 (SCWX CTU)"
+},
+{
+"actor": "COBALT KATANA",
+"sponsor": "Iran",
+"thin": false,
+"aliases": "Hunter Serpens; Hive0081; Hive0081 (IBM); SectorD01"
+},
+{
+"actor": "CopyKittens",
+"sponsor": "Iran",
+"thin": false,
+"aliases": "Slayer Kitten; Operation \u201cWilted Tulip\u201d"
+},
+{
+"actor": "Cotton Sandstorm",
+"sponsor": "Iran",
+"thin": false,
+"aliases": "Emennet Pasargad; HAYWIRE KITTEN; Holy Souls; MARNANBRIDGE"
+},
+{
+"actor": "Cuboid Sandstorm",
+"sponsor": "Iran",
+"thin": false,
+"aliases": "DEV-0228"
+},
+{
+"actor": "Cutting Kitten",
+"sponsor": "Iran",
+"thin": false,
+"aliases": "ITsecTeam; Operation \u201cCleaver\u201d; TG-2889"
+},
+{
+"actor": "Cyber Av3ngers",
+"sponsor": "Iran",
+"thin": false,
+"aliases": "Soldiers of Soloman"
+},
+{
+"actor": "Cyber fighters of Izz Ad-Din Al Qassam",
+"sponsor": "Iran",
+"thin": false,
+"aliases": "Fraternal Jackal; Qassam Cyber Fighters; QCF"
+},
+{
+"actor": "DarkHydrus",
+"sponsor": "Iran",
+"thin": false,
+"aliases": "LazyMeerkat; Obscure Serpens; ATK 77"
+},
+{
+"actor": "DEV-0270",
+"sponsor": "Iran",
+"thin": false,
+"aliases": "Nemesis Kitten; DireFate; Lord Nemesis; Storm-0270"
+},
+{
+"actor": "DNSpionage",
+"sponsor": "Iran",
+"thin": false,
+"aliases": "COBALT EDGEWATER"
+},
+{
+"actor": "Domestic Kitten",
+"sponsor": "Iran",
+"thin": false,
+"aliases": "Bouncing Golf"
+},
+{
+"actor": "Educated Manticore",
+"sponsor": "Iran",
+"thin": false,
+"aliases": ""
+},
+{
+"actor": "Ferocious Kitten",
+"sponsor": "Iran",
+"thin": false,
+"aliases": ""
+},
+{
+"actor": "Flash Kitten",
+"sponsor": "Iran",
+"thin": false,
+"aliases": ""
+},
+{
+"actor": "Flying Kitten",
+"sponsor": "Iran",
+"thin": false,
+"aliases": "Ajax Security Team; Operation Saffron Rose; AjaxTM; Operation Woolen-Goldfish"
+},
+{
+"actor": "Fox Kitten",
+"sponsor": "Iran",
+"thin": false,
+"aliases": "Lemon Sandstorm; Parisite; Pioneer Kitten; RUBIDIUM"
+},
+{
+"actor": "Gray Sandstorm",
+"sponsor": "Iran",
+"thin": false,
+"aliases": "DEV-0343"
+},
+{
+"actor": "Greenbug",
+"sponsor": "Iran",
+"thin": false,
+"aliases": "Volatile Kitten"
+},
+{
+"actor": "GreenCharlie",
+"sponsor": "Iran",
+"thin": false,
+"aliases": ""
+},
+{
+"actor": "Group5",
+"sponsor": "Iran",
+"thin": false,
+"aliases": ""
+},
+{
+"actor": "HomeLand Justice",
+"sponsor": "Iran",
+"thin": false,
+"aliases": "Banished Kitten; Karma; Red Sandstorm; Storm-0842"
+},
+{
+"actor": "Infy",
+"sponsor": "Iran",
+"thin": false,
+"aliases": "Operation Mermaid; Prince of Persia; APT-C-07; Foudre"
+},
+{
+"actor": "LYCEUM",
+"sponsor": "Iran",
+"thin": false,
+"aliases": "HEXANE; Siamesekitten; Spirlin"
+},
+{
+"actor": "Madi",
+"sponsor": "Iran",
+"thin": false,
+"aliases": "Mahdi"
+},
+{
+"actor": "Magic Kitten",
+"sponsor": "Iran",
+"thin": false,
+"aliases": "VOYEUR; Group 42"
+},
+{
+"actor": "MalKamak",
+"sponsor": "Iran",
+"thin": false,
+"aliases": "Operation GhostShell"
+},
+{
+"actor": "MosesStaff",
+"sponsor": "Iran",
+"thin": false,
+"aliases": "DEV-0500; Marigold Sandstorm"
+},
+{
+"actor": "MuddyWater",
+"sponsor": "Iran",
+"thin": false,
+"aliases": "Mango Sandstorm; MERCURY; Seedworm; Static Kitten"
+},
+{
+"actor": "OilRig",
+"sponsor": "Iran",
+"thin": false,
+"aliases": "APT34; COBALT GYPSY; Crambus; Earth Simnavaz"
+},
+{
+"actor": "Pink Sandstorm",
+"sponsor": "Iran",
+"thin": false,
+"aliases": "Agonizing Serpens; Agrius; AMERICIUM; BlackShadow"
+},
+{
+"actor": "Rampant Kitten",
+"sponsor": "Iran",
+"thin": false,
+"aliases": ""
+},
+{
+"actor": "RASPITE",
+"sponsor": "Iran",
+"thin": false,
+"aliases": "Leafminer"
+},
+{
+"actor": "Rocket Kitten",
+"sponsor": "Iran",
+"thin": false,
+"aliases": "Operation Woolen Goldfish; Group 83; NewsBeef; Newscaster"
+},
+{
+"actor": "Scarred Manticore",
+"sponsor": "Iran",
+"thin": false,
+"aliases": ""
+},
+{
+"actor": "Silent Librarian",
+"sponsor": "Iran",
+"thin": false,
+"aliases": "COBALT DICKENS; TA407"
+},
+{
+"actor": "TA455",
+"sponsor": "Iran",
+"thin": false,
+"aliases": "UNC1549; COBALT SMOKEY; NIMBUS MANTICORE"
+},
+{
+"actor": "Tortoiseshell",
+"sponsor": "Iran",
+"thin": false,
+"aliases": "Crimson Sandstorm; CURIUM; TA456; Yellow Liderc"
+},
+{
+"actor": "TRACER KITTEN",
+"sponsor": "Iran",
+"thin": false,
+"aliases": ""
+},
+{
+"actor": "UNC1549",
+"sponsor": "Iran",
+"thin": false,
+"aliases": "Nimbus Manticore"
+},
+{
+"actor": "Void Manticore",
+"sponsor": "Iran",
+"thin": false,
+"aliases": "BANISHED KITTEN; COBALT MYSTIQUE; Handala Hack; Homeland Justice"
+},
+{
+"actor": "ZooPark",
+"sponsor": "Iran",
+"thin": false,
+"aliases": "APT-C-38; Cobalt Juno; Saber Lion; TG-2884"
+},
+{
+"actor": "Cold River (ETDA)",
+"sponsor": "Iran; Russia",
+"thin": false,
+"aliases": "Blue Callisto; BlueCharlie; Calisto; Cobalt Edgewater"
+},
+{
+"actor": "Unit 8200",
+"sponsor": "Israel",
+"thin": true,
+"aliases": "Duqu Group"
+},
+{
+"actor": "Amethyst Rain",
+"sponsor": "Lebanon",
+"thin": true,
+"aliases": "Volatile Cedar; VolcanicTimber"
+},
+{
+"actor": "Dark Caracal",
+"sponsor": "Lebanon",
+"thin": false,
+"aliases": "ATK 27; Operation \u201cDark Caracal\u201d; TAG-CT3"
+},
+{
+"actor": "Operation Titan Rain",
+"sponsor": "Lebanon",
+"thin": false,
+"aliases": ""
+},
+{
+"actor": "POLONIUM",
+"sponsor": "Lebanon",
+"thin": false,
+"aliases": "Plaid Rain"
+},
+{
+"actor": "Volatile Cedar",
+"sponsor": "Lebanon",
+"thin": false,
+"aliases": "Lebanese Cedar"
+},
+{
+"actor": "APT37",
+"sponsor": "North Korea",
+"thin": false,
+"aliases": "Group123; InkySquid; Reaper; Ricochet Chollima"
+},
+{
+"actor": "APT45",
+"sponsor": "North Korea",
+"thin": false,
+"aliases": "GRASS NEPTUNE"
+},
+{
+"actor": "Bluenoroff",
+"sponsor": "North Korea",
+"thin": false,
+"aliases": "APT38; COPERNICIUM; NICKEL GLADSTONE; Sapphire Sleet"
+},
+{
+"actor": "Covellite",
+"sponsor": "North Korea",
+"thin": false,
+"aliases": "Black Artemis; CTG-2460; Nickel Academy"
+},
+{
+"actor": "Kimsuky",
+"sponsor": "North Korea",
+"thin": false,
+"aliases": "APT43; Black Banshee; Emerald Sleet; Springtail"
+},
+{
+"actor": "Lazarus Group",
+"sponsor": "North Korea",
+"thin": false,
+"aliases": "Diamond Sleet; HIDDEN COBRA; Labyrinth Chollima; ZINC"
+},
+{
+"actor": "Moonstone Sleet",
+"sponsor": "North Korea",
+"thin": false,
+"aliases": "Storm-1789"
+},
+{
+"actor": "Nickel Alley",
+"sponsor": "North Korea",
+"thin": false,
+"aliases": ""
+},
+{
+"actor": "OnionDog",
+"sponsor": "North Korea",
+"thin": false,
+"aliases": ""
+},
+{
+"actor": "Opal Sleet",
+"sponsor": "North Korea",
+"thin": false,
+"aliases": "Konni; OSMIUM; Vedalia"
+},
+{
+"actor": "Pearl Sleet",
+"sponsor": "North Korea",
+"thin": false,
+"aliases": "DEV-0215; LAWRENCIUM"
+},
+{
+"actor": "Ruby Sleet",
+"sponsor": "North Korea",
+"thin": false,
+"aliases": "CERIUM"
+},
+{
+"actor": "Silent Chollima",
+"sponsor": "North Korea",
+"thin": false,
+"aliases": "Andariel; Onyx Sleet; PLUTONIUM"
+},
+{
+"actor": "STARDUST CHOLLIMA",
+"sponsor": "North Korea",
+"thin": false,
+"aliases": "Sapphire Sleet"
+},
+{
+"actor": "TraderTraitor",
+"sponsor": "North Korea",
+"thin": false,
+"aliases": "Jade Sleet; Pukchong; UNC4899"
+},
+{
+"actor": "UNC4736",
+"sponsor": "North Korea",
+"thin": false,
+"aliases": "AppleJeus; Citrine Sleet; Gleaming Pisces; UNC1720"
+},
+{
+"actor": "WageMole",
+"sponsor": "North Korea",
+"thin": false,
+"aliases": "Nickel Tapestry; PurpleBravo; UNC5267; WaterPlum"
+},
+{
+"actor": "Cosmic Leopard",
+"sponsor": "Pakistan",
+"thin": false,
+"aliases": "Operation Celestial Force"
+},
+{
+"actor": "Operation C-Major",
+"sponsor": "Pakistan",
+"thin": false,
+"aliases": "APT36; COPPER FIELDSTONE; Mythic Leopard; ProjectM"
+},
+{
+"actor": "Stealth Mango and Tangelo",
+"sponsor": "Pakistan",
+"thin": true,
+"aliases": ""
+},
+{
+"actor": "The Gorgon Group",
+"sponsor": "Pakistan",
+"thin": false,
+"aliases": "Gorgon Group"
+},
+{
+"actor": "AridViper",
+"sponsor": "Palestine",
+"thin": false,
+"aliases": "APT-C-23; Bearded Barbie; Desert Falcon; Two-tailed Scorpion"
+},
+{
+"actor": "Blackatom",
+"sponsor": "Palestine",
+"thin": false,
+"aliases": ""
+},
+{
+"actor": "Molerats",
+"sponsor": "Palestine",
+"thin": false,
+"aliases": "Gaza Cybergang; Operation Molerats"
+},
+{
+"actor": "APT28",
+"sponsor": "Russia",
+"thin": false,
+"aliases": "Fancy Bear; Forest Blizzard; FROZENLAKE; Group 74"
+},
+{
+"actor": "APT29",
+"sponsor": "Russia",
+"thin": false,
+"aliases": "Cozy Bear; IRON HEMLOCK; NOBELIUM; The Dukes"
+},
+{
+"actor": "Berserk Bear",
+"sponsor": "Russia",
+"thin": false,
+"aliases": "Dragonfly 2.0; Dymalloy"
+},
+{
+"actor": "Boulder Bear",
+"sponsor": "Russia",
+"thin": true,
+"aliases": ""
+},
+{
+"actor": "Callisto",
+"sponsor": "Russia",
+"thin": false,
+"aliases": "COLDRIVER; SEABORGIUM; Star Blizzard; TA446"
+},
+{
+"actor": "DEV-0586",
+"sponsor": "Russia",
+"thin": false,
+"aliases": "Cadet Blizzard; Bleeding Bear; Ember Bear; Frozenvista"
+},
+{
+"actor": "ENERGETIC BEAR",
+"sponsor": "Russia",
+"thin": false,
+"aliases": "BROMINE; Crouching Yeti; Dragonfly; Ghost Blizzard"
+},
+{
+"actor": "Gamaredon Group",
+"sponsor": "Russia",
+"thin": false,
+"aliases": "ACTINIUM; Aqua Blizzard; DEV-0157; IRON TILDEN"
+},
+{
+"actor": "Hades",
+"sponsor": "Russia",
+"thin": false,
+"aliases": "Operation \u201cTrickyMouse\u201d"
+},
+{
+"actor": "Inception Framework",
+"sponsor": "Russia",
+"thin": false,
+"aliases": "Cloud Atlas; Inception"
+},
+{
+"actor": "Iron Group",
+"sponsor": "Russia",
+"thin": false,
+"aliases": "Iron Cyber Group"
+},
+{
+"actor": "Operation BugDrop",
+"sponsor": "Russia",
+"thin": false,
+"aliases": ""
+},
+{
+"actor": "Rocke",
+"sponsor": "Russia",
+"thin": false,
+"aliases": "Aged Libra; Iron Group"
+},
+{
+"actor": "SaintBear",
+"sponsor": "Russia",
+"thin": false,
+"aliases": "Lorec53; Storm-0587; TA471; UAC-0056"
+},
+{
+"actor": "Sandworm",
+"sponsor": "Russia",
+"thin": false,
+"aliases": "APT44; FROZENBARENTS; IRIDIUM; IRON VIKING"
+},
+{
+"actor": "Sunglow Blizzard",
+"sponsor": "Russia",
+"thin": true,
+"aliases": "DEV-0665"
+},
+{
+"actor": "TeamSpy Crew",
+"sponsor": "Russia",
+"thin": false,
+"aliases": "Anger Bear; IRON LYRIC; Team Bear; SIG39"
+},
+{
+"actor": "TeleBots",
+"sponsor": "Russia",
+"thin": false,
+"aliases": ""
+},
+{
+"actor": "TEMP.Veles",
+"sponsor": "Russia",
+"thin": false,
+"aliases": "XENOTIME"
+},
+{
+"actor": "Turla",
+"sponsor": "Russia",
+"thin": false,
+"aliases": "Group 88; IRON HUNTER; Krypton; Secret Blizzard"
+},
+{
+"actor": "UNC2452",
+"sponsor": "Russia",
+"thin": false,
+"aliases": "DarkHalo; NOBELIUM; StellarParticle; Midnight Blizzard"
+},
+{
+"actor": "Void Blizzard",
+"sponsor": "Russia",
+"thin": false,
+"aliases": "LAUNDRY BEAR; TA488; UAC-0190"
+},
+{
+"actor": "White Bear",
+"sponsor": "Russia",
+"thin": false,
+"aliases": "Skipper Turla"
+},
+{
+"actor": "WIZARD SPIDER",
+"sponsor": "Russia",
+"thin": false,
+"aliases": "DEV-0193; GOLD BLACKBURN; Periwinkle Tempest; TEMP.MixMaster"
+},
+{
+"actor": "DarkHotel",
+"sponsor": "South Korea",
+"thin": false,
+"aliases": "DUBNIUM; Zigzag Hail"
+},
+{
+"actor": "Higaisa",
+"sponsor": "South Korea",
+"thin": false,
+"aliases": ""
+},
+{
+"actor": "Careto",
+"sponsor": "Spain",
+"thin": false,
+"aliases": "Mask; The Mask; Ugly Face"
+},
+{
+"actor": "PROMETHIUM",
+"sponsor": "Turkey",
+"thin": false,
+"aliases": "StrongPity"
+},
+{
+"actor": "Sea Turtle",
+"sponsor": "Turkey",
+"thin": false,
+"aliases": "Cosmic Wolf; Marbled Dust; SILICON; Teal Kurma"
+},
+{
+"actor": "GCHQ",
+"sponsor": "UK",
+"thin": false,
+"aliases": "Government Communications Headquarters; Operation Socialist"
+},
+{
+"actor": "Operation Olympic Games",
+"sponsor": "US,IL",
+"thin": false,
+"aliases": "GOSSIPGIRL"
+},
+{
+"actor": "SandCat",
+"sponsor": "UZ",
+"thin": false,
+"aliases": ""
+},
+{
+"actor": "Stealth Falcon",
+"sponsor": "United Arab Emirates",
+"thin": false,
+"aliases": "FruityArmor; Project Raven"
+},
+{
+"actor": "CIA",
+"sponsor": "United States",
+"thin": false,
+"aliases": "Central Intelligence Agency"
+},
+{
+"actor": "Equation Group",
+"sponsor": "United States",
+"thin": false,
+"aliases": "Tilded Team; APT-C-40; EQGRP; Platinum Colony"
+},
+{
+"actor": "Longhorn",
+"sponsor": "United States",
+"thin": false,
+"aliases": "APT-C-39; PLATINUM TERMINAL; the Lamberts; Lamberts"
+},
+{
+"actor": "NightEagle",
+"sponsor": "United States",
+"thin": false,
+"aliases": "APT-Q-95"
+},
+{
+"actor": "ProjectSauron",
+"sponsor": "United States",
+"thin": false,
+"aliases": "Strider"
+},
+{
+"actor": "Bismuth",
+"sponsor": "Vietnam",
+"thin": false,
+"aliases": "Canvas Cyclone"
+},
+{
+"actor": "APT32",
+"sponsor": "Vietnam; Iran",
+"thin": false,
+"aliases": "APT-C-00; OceanLotus; SeaLotus; BISMUTH"
+},
+{
+"actor": "APT43",
+"sponsor": "Unknown",
+"thin": false,
+"aliases": ""
+},
+{
+"actor": "APT73",
+"sponsor": "Unknown",
+"thin": false,
+"aliases": "Eraleig"
+},
+{
+"actor": "BlueHornet",
+"sponsor": "Unknown",
+"thin": false,
+"aliases": "AgainstTheWest; APT49"
+},
+{
+"actor": "CHRYSENE",
+"sponsor": "Unknown",
+"thin": false,
+"aliases": "Greenbug; OilRig"
+},
+{
+"actor": "El Machete",
+"sponsor": "Unknown",
+"thin": false,
+"aliases": "APT-C-43; Machete"
+},
+{
+"actor": "Harvester",
+"sponsor": "Unknown",
+"thin": false,
+"aliases": ""
+},
+{
+"actor": "Operation Parliament",
+"sponsor": "Unknown",
+"thin": false,
+"aliases": ""
+},
+{
+"actor": "Sowbug",
+"sponsor": "Unknown",
+"thin": false,
+"aliases": ""
+},
+{
+"actor": "The White Company",
+"sponsor": "Unknown",
+"thin": false,
+"aliases": "Operation \u201cShaheen\u201d"
+},
+{
+"actor": "Thrip",
+"sponsor": "Unknown",
+"thin": false,
+"aliases": "ATK78"
+},
+{
+"actor": "Urpage",
+"sponsor": "Unknown",
+"thin": false,
+"aliases": ""
+},
+{
+"actor": "UNC1088",
+"sponsor": "China",
+"thin": true,
+"aliases": "RAVINE CASTLE"
+},
+{
+"actor": "Storm-1167",
+"sponsor": "Indonesia",
+"thin": true,
+"aliases": "DEV-1167"
+},
+{
+"actor": "Shamoon Group",
+"sponsor": "Iran",
+"thin": true,
+"aliases": "Cutting Sword of Justice"
+},
+{
+"actor": "TA453",
+"sponsor": "Iran",
+"thin": true,
+"aliases": ""
+},
+{
+"actor": "Kumsong121",
+"sponsor": "North Korea",
+"thin": true,
+"aliases": ""
+},
+{
+"actor": "TA406",
+"sponsor": "North Korea",
+"thin": true,
+"aliases": ""
+},
+{
+"actor": "UAC-0245",
+"sponsor": "Russia",
+"thin": true,
+"aliases": ""
+},
+{
+"actor": "Corsair Jackal",
+"sponsor": "Tunisia",
+"thin": true,
+"aliases": "TunisianCyberArmy"
+},
+{
+"actor": "Groundbait",
+"sponsor": "Ukraine",
+"thin": true,
+"aliases": ""
+},
+{
+"actor": "Viking Jackal",
+"sponsor": "United Arab Emirates",
+"thin": true,
+"aliases": "Vikingdom"
+}
+]

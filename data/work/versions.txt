@@ -1,0 +1,1 @@
+Built 2026-11-18. MITRE ATT&CK v20.1 (2026-11-05); MISP threat-actor.json v359; ETDA export v20250816 (groups and tools); MISP galaxy clusters (commit 6d78ff2, 2026-11-16); SigmaHQ rules (commit 698f091, 2026-11-18, DRL 1.1); signature-base filename IOCs (commit 78d979e, 2026-11-17, DRL 1.1); web research log last updated see Recent Activity sheet
