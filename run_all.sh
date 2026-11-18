@@ -11,9 +11,14 @@ log(){ echo "[$(date -u +%H:%M:%S)] $*"; }
 rm -rf "$D/work/prev"; [ -f "$ST/state_actors_summary.csv" ] && cp -r "$ST" "$D/work/prev"
 
 log "1/9 Downloading sources"
-curl -sSfL -m 300 -o "$D/dl/threat-actor.json" https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json
-curl -sSfL -m 300 -o "$D/etda/etda_groups.json" "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g"
-curl -sSfL -m 300 -o "$D/etda/etda_tools.json"  "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=t"
+fetch(){ # download to a temp file; keep the last good copy (committed in the repo) if the source is unreachable
+  local url=$1 out=$2
+  if curl -sSfL -m 300 -o "$out.new" "$url" && python3 -I -c "import json,sys;json.load(open(sys.argv[1]))" "$out.new" 2>/dev/null; then mv "$out.new" "$out"
+  else rm -f "$out.new"; [ -f "$out" ] && echo "   WARNING: could not refresh $(basename "$out"); using last good copy" || { echo "   ERROR: no copy of $(basename "$out")"; exit 1; }; fi
+}
+fetch https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/threat-actor.json "$D/dl/threat-actor.json"
+fetch "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=g" "$D/etda/etda_groups.json"
+fetch "https://apt.etda.or.th/cgi-bin/getmisp.cgi?o=t" "$D/etda/etda_tools.json"
 for d in enterprise mobile ics; do
   curl -sSfL -m 600 -o "$D/mitre/$d-attack.json" "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/$d-attack/$d-attack.json"
 done
