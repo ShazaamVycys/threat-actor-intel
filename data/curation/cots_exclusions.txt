@@ -1,0 +1,130 @@
+# Commercial, open-source, commodity or legitimate software. Hashes of these are never treated as
+# state-sponsored custom malware. One name per line; matching ignores case, spaces and punctuation.
+7-Zip
+AdaptixC2
+AdFind
+Agent Tesla
+AgentTesla
+Ammyy
+AntSword
+AnyDesk
+anyproxy
+Apollo
+AsyncRAT
+Atera
+Beacon
+Behinder
+BloodHound
+Brute Ratel
+BruteRatel
+China Chopper
+Chisel
+Cobalt Strike
+CobaltStrike
+Covenant
+CrackMapExec
+DarkComet
+DbgView
+DcRAT
+dddd
+dirsearch
+EarthWorm
+Empire
+EternalBlue
+FormBook
+frp
+fscan
+gh0st
+gh0st RAT
+Gh0stRAT
+GO Simple Tunnel
+Godzilla
+gogo
+GOST
+GoTokenTheft
+Havoc
+httpx
+Impacket
+iox
+Koadic
+LaZagne
+Ligolo
+Lumma
+LummaStealer
+Masscan
+Merlin
+MeshAgent
+MeshCentral
+Metasploit
+Meterpreter
+Mimikatz
+Mythic
+naabu
+NanoCore
+Neo-reGeorg
+NetExec
+NetSupport
+Ngrok
+ngrok
+Nighthawk
+njRAT
+Nmap
+nps
+nuclei
+PHPsploit
+Plink
+Poison Ivy
+PoisonIvy
+Poseidon
+PowerShell Empire
+PowerSploit
+ProcDump
+Process Hacker
+PsExec
+Pupy
+PupyRAT
+PuTTY
+QScan
+Quasar
+QuasarRAT
+Raccoon
+Rakshasa
+Rclone
+RealVNC
+RedLine
+reGeorg
+Remcos
+RemoteUtilities
+Responder
+ReverseSSH
+RevSocks
+Royal
+Royal ransomware
+rsocx
+Rubeus
+ScreenConnect
+SharpGetUserLogin
+SharpHound
+SharpSploit
+Silver
+SimpleHelp
+Sliver
+SoftEther
+sqlmap
+Stowaway
+subfinder
+Supershell
+Sysinternals
+SystemBC
+TeamViewer
+Termite
+TightVNC
+Tor
+UltraVNC
+Venom
+Vidar
+VShell
+WinRAR
+Xenon
+XMRig
+XWorm

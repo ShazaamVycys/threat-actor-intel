@@ -10,7 +10,8 @@ specs=[('Actors','state_actors_summary.csv',['actor']),
        ('Malware / tools','state_actors_malware.csv',['Actor','Malware / Tool']),
        ('ATT&CK techniques','state_actors_ttps.csv',['Actor','Technique ID']),
        ('Host artifacts','state_actors_host_artifacts.csv',['Actor','Artifact Type','Artifact']),
-       ('Recent-activity entries','state_actors_web_activity.csv',['Actor','Date / Period','Summary'])]
+       ('Recent-activity entries','state_actors_web_activity.csv',['Actor','Date / Period','Summary']),
+       ('Malware hashes','state_actors_malware_hashes.csv',['Actor','Malware','SHA256','SHA1','MD5'])]
 L=[f"# What changed — build {datetime.datetime.now(datetime.timezone.utc):%Y-%m-%d %H:%M} UTC",""]
 first=not os.path.isdir(prev)
 L.append("| Item | Added | Removed | Total |"); L.append("|---|---|---|---|")
@@ -18,6 +19,11 @@ detail=[]
 for name,f,k in specs:
     a,b=rows(prev,f,k),rows(new,f,k); add,rem=b-a,a-b
     L.append(f"| {name} | {len(add) if not first else '—'} | {len(rem) if not first else '—'} | {len(b)} |")
+    if not first and add and name=='Malware hashes':
+        c=collections.Counter((t[0],t[1]) for t in add)
+        detail.append("\n## New malware hashes")
+        for (act,mw),k in sorted(c.items()): detail.append(f"- **{act}**: {mw} ({k})")
+        continue
     if not first and add and name in('Actors','Aliases','Malware / tools','Recent-activity entries'):
         by=collections.defaultdict(list)
         for t in sorted(add): by[t[0]].append(' — '.join(t[1:])[:160] if len(t)>1 else '')

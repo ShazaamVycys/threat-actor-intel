@@ -1,4 +1,4 @@
-import csv,sys,itertools
+import csv,sys,itertools,collections
 from openpyxl import Workbook
 from openpyxl.styles import Font,Alignment,PatternFill,Border,Side
 d=sys.argv[1]; dst=sys.argv[2]
@@ -60,7 +60,7 @@ def flat(ws,path,cols):
     for i,r in enumerate(rows,2):
         for c,(h,wd) in enumerate(cols,1):
             v=r.get(h,'')
-            cell=ws.cell(i,c,v[:32000]); cell.font=FB if c==1 else F; cell.alignment=Alignment(vertical='top',wrap_text=True)
+            cell=ws.cell(i,c,int(v) if v.isdigit() and len(v)<10 else v[:32000]); cell.font=FB if c==1 else F; cell.alignment=Alignment(vertical='top',wrap_text=True)
             cell.border=Border(left=thin,right=thin,top=thin,bottom=thin)
     ws.freeze_panes='B2'; ws.auto_filter.ref=f"A1:{get_column_letter(len(cols))}{len(rows)+1}"
     return len(rows)
@@ -72,6 +72,23 @@ print('desc',n9,'activity',n10)
 AC=[('actor',22),('verdict',22),('sponsor_country',14),('state_agency_or_unit',26),('attributing_source',24),('attribution_wording',60),('confidence_wording',16),('latest_report_date',12),('url',50),('notes',60),('reviewed_on',11)]
 n11=flat(wb.create_sheet('Attribution Review',2),__import__('os').path.join(__import__('os').path.dirname(__import__('os').path.abspath(__file__)),'..','data','curation','actor_attribution_review.csv'),AC)
 print('review',n11)
+_hp=__import__('os').path.dirname(dst)+'/state_actors_malware_hashes.csv'
+if __import__('os').path.exists(_hp):
+    _H=list(_csv.DictReader(open(_hp,encoding='utf-8')))
+    _g=collections.OrderedDict()
+    for r in _H:
+        x=_g.setdefault((r['Malware'],r['Actor']),{'Malware':r['Malware'],'Actor':r['Actor'],'Sponsor':r['Sponsor'],'State-Link':r['State-Link'],'Samples':0,'All 3 hashes':0,
+          'Newest Added':'','Known for this actor (MISP/ETDA/MITRE)':r['Known for this actor (MISP/ETDA/MITRE)'],'Malware sharing':r['Malware sharing'],'Sources':set(),'How the name was found':set()})
+        x['Samples']+=1; x['All 3 hashes']+=bool(r['SHA256'] and r['SHA1'] and r['MD5']); x['Newest Added']=max(x['Newest Added'],r['First Added'])
+        x['Sources'].add(r['Vendor']); x['How the name was found'].add(r['How the name was found'])
+    _rows=[dict(v,Samples=str(v['Samples']),**{'All 3 hashes':str(v['All 3 hashes']),'Sources':', '.join(sorted(v['Sources'])),'How the name was found':'; '.join(sorted(v['How the name was found']))}) for v in _g.values()]
+    import tempfile
+    _tmp=tempfile.NamedTemporaryFile('w',delete=False,suffix='.csv',encoding='utf-8-sig',newline='')
+    _w=_csv.DictWriter(_tmp,fieldnames=list(_rows[0])); _w.writeheader(); _w.writerows(_rows); _tmp.close()
+    SC_=[('Malware',22),('Actor',22),('Sponsor',14),('State-Link',10),('Samples',9),('All 3 hashes',10),('Newest Added',12),('Known for this actor (MISP/ETDA/MITRE)',18),('Malware sharing',40),('Sources',18),('How the name was found',46)]
+    HC_=[('Malware',22),('Actor',22),('Sponsor',14),('State-Link',10),('SHA256',66),('SHA1',42),('MD5',34),('First Added',12),('Known for this actor (MISP/ETDA/MITRE)',18),('Malware sharing',30),('How the name was found',32),('Source detail',50),('Vendor',11),('Report',36),('Link',50)]
+    n12=flat(wb.create_sheet('Malware Hash Summary',3),_tmp.name,SC_); n13=flat(wb.create_sheet('Malware Hashes',4),_hp,HC_)
+    __import__('os').unlink(_tmp.name); print('hashes',n12,n13)
 k=wb.create_sheet('Key')
 items=[('Alias Source',None,''),('All three sources','A9D08E','Alias appears in MISP, ETDA and MITRE ATT&CK (strongest agreement)'),('Two sources','E2EFDA','Alias appears in two of the three sources'),
  ('MITRE','FFF2CC','Only in MITRE ATT&CK'),('MISP','DDEBF7','Only in the MISP galaxy file'),('ETDA','FCE4D6','Only in ETDA Threat Group Cards'),('',None,''),
@@ -83,6 +100,7 @@ items=[('Alias Source',None,''),('All three sources','A9D08E','Alias appears in 
  ('Attribution (artifact sheets)',None,'Actor (documented) = MITRE procedure/campaign, a Sigma rule or signature-base section tied to this actor. Via malware (grey italic) = artifact of malware the actor uses; other actors using the same malware share it'),('Artifact (regex)',None,'From signature-base: a regular expression, not a literal path; wildcards (*) come from Sigma rules'),('Note',None,'Common system/dual-use binary = legitimate Windows or admin tool name; only meaningful in an unusual path or with other context'),('',None,''),
  ('Web research (Descriptions / Recent Activity)',None,'Recent activity comes from 2025-2026 vendor reports (ESET, Google GTIG, Trend Micro, CrowdStrike, Kaspersky ICS CERT, Microsoft, Proofpoint, Recorded Future, Trellix, NSFOCUS, CybelAngel) plus targeted articles; each row cites its source. "Checked against reports" = no mention found in those reports, not proof of inactivity.'),('',None,''),
  ('Uniqueness (artifact sheets)','FFFF00','Yellow = Unique to this actor: no other actor in the full dataset (1,259 actors) has this artifact, and it is not a standard Windows/Linux location, autorun key or system binary. Not yellow = common: Shared (listed for 2+ actors, see Shared With) or Common (standard location/name or system/dual-use binary).'),('',None,''),
+ ('Malware hashes',None,'Hashes of named, custom malware of state-sponsored actors, from ESET, Cisco Talos, Volexity and Unit 42 IOC repositories. Commercial, open-source, commodity and legitimate tools are excluded (data/curation/cots_exclusions.txt); hashes without a malware name are listed in state_actors_malware_hash_exclusions.csv. The list is cumulative: First Added is the build that first recorded the hash. A hash matches a known sample only; rebuilt malware gets a new hash.'),
  ('Data versions',None,open(__import__('os').path.join(__import__('os').path.dirname(__import__('os').path.abspath(__file__)),'..','data','work','versions.txt')).read())]
 for i,(a,f,b) in enumerate(items,1):
     k.cell(i,1,a).font=FB; k.cell(i,2,b).font=F

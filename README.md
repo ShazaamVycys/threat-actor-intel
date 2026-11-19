@@ -20,6 +20,7 @@ Outputs land in `out/`:
 | MISP galaxy malware clusters | actor↔malware links | several times a week |
 | SigmaHQ rules | registry/file/pipe/task/service artifacts | daily |
 | signature-base `filename-iocs.txt` | file-name IOC patterns | weekly |
+| ESET `malware-ioc`, Cisco Talos `IOCs`, Volexity `threat-intel`, Unit 42 `timely-threat-intel` | hashes of named, custom malware of state-sponsored actors | with each vendor report |
 
 Every run safety-checks the downloaded JSON (no scripts, encoded blobs, hidden
 characters or spreadsheet formulas) and prints the result.
@@ -29,6 +30,14 @@ characters or spreadsheet formulas) and prints the result.
 New findings are appended with `scripts/rec2.py` (one line per finding:
 `Name|Date|Summary|URL`); names are resolved to actors through the alias index.
 Re-run `./run_all.sh` afterwards to fold them into the Descriptions and Recent Activity sheets.
+
+## Malware hashes
+`scripts/hashes.py` reads the vendor IOC repos and keeps only hashes of **named, custom malware** tied to an actor in the
+state-sponsored set. Commercial, open-source, commodity and legitimate tools are excluded (`data/curation/cots_exclusions.txt`),
+as are hashes the source doesn't name (listed in `state_actors_malware_hash_exclusions.csv`). The master list
+`data/hashes/state_malware_hashes.csv` is cumulative: new hashes get today's date in **First Added**, existing rows are kept,
+and the file is only rewritten when something changed. Rows are removed only if their actor leaves the state set or the
+name becomes excluded. Workbook sheets: **Malware Hash Summary** and **Malware Hashes**.
 
 ## Licences
 Sigma rules and signature-base are under the Detection Rule License 1.1 — keep author

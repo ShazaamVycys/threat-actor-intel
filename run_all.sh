@@ -31,6 +31,16 @@ sync_repo(){ # sparse shallow clone or update
 sync_repo https://github.com/MISP/misp-galaxy.git "$D/galaxy/repo" clusters
 sync_repo https://github.com/SigmaHQ/sigma.git "$D/ext/sigma" rules rules-emerging-threats rules-threat-hunting
 sync_repo https://github.com/Neo23x0/signature-base.git "$D/ext/sb" iocs
+sync_full(){ # full shallow clone or update (vendor IOC repos; read as text only, never executed)
+  local url=$1 dir=$2
+  if [ -d "$dir/.git" ]; then git -C "$dir" fetch -q --depth 1 origin && git -C "$dir" reset -q --hard FETCH_HEAD
+  else git clone -q --depth 1 "$url" "$dir"; fi || { echo "   WARNING: could not refresh $(basename "$dir"); using last good copy"; return 0; }
+  echo "   $(basename "$dir") @ $(git -C "$dir" rev-parse --short HEAD) ($(git -C "$dir" log -1 --format=%cs))"
+}
+sync_full https://github.com/eset/malware-ioc.git "$D/ext/eset"
+sync_full https://github.com/Cisco-Talos/IOCs.git "$D/ext/talos"
+sync_full https://github.com/volexity/threat-intel.git "$D/ext/volexity"
+sync_full https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel.git "$D/ext/unit42"
 
 log "2/9 Safety checks (must show 0 for every risky pattern)"
 for f in "$D/dl/threat-actor.json" "$D/etda/etda_groups.json" "$D/etda/etda_tools.json"; do
@@ -52,6 +62,8 @@ python3 -I "$SC/alpha.py" "$ST"/state_actors_{summary,aliases,malware,ttps,host_
   "$FULL"/{merged_state_sponsored,apt_aliases_by_actor_state_sponsored,actor_malware_state_sponsored,actor_ttps_state_sponsored,actor_host_artifacts_state_sponsored}.csv
 
 cp "$D/curation/actor_attribution_review.csv" "$ST/state_actors_attribution_review.csv"
+log "8b/9 State-sponsored malware hashes (ESET, Talos, Volexity, Unit 42)"
+python3 -I "$SC/hashes.py" "$D" "$ST"
 log "9/9 Workbooks + zip"
 python3 -I "$SC/versions.py" "$D" | sed 's/^/   /'
 python3 -I "$SC/build_full_xlsx.py" "$FULL" "$FULL/threat_actor_intel.xlsx" | tail -1

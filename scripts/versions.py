@@ -10,5 +10,6 @@ today=datetime.datetime.now(datetime.timezone.utc).date().isoformat()
 s=(f"Built {today}. MITRE ATT&CK v{ent.get('x_mitre_version')} ({ent.get('modified','')[:10]}); MISP threat-actor.json v{m.get('version')}; "
    f"ETDA export v{e.get('version')} (groups and tools); MISP galaxy clusters (commit {git(D+'/galaxy/repo')}); "
    f"SigmaHQ rules (commit {git(D+'/ext/sigma')}, DRL 1.1); signature-base filename IOCs (commit {git(D+'/ext/sb')}, DRL 1.1); "
+   f"malware hashes from ESET malware-ioc ({git(D+'/ext/eset')}), Cisco Talos IOCs ({git(D+'/ext/talos')}), Volexity threat-intel ({git(D+'/ext/volexity')}), Unit 42 timely-threat-intel ({git(D+'/ext/unit42')}); "
    f"web research log last updated {max(json.loads(l).get('logged','') for l in open(D+'/work/web.jsonl')) or 'see Recent Activity sheet'}")
 open(D+'/work/versions.txt','w').write(s); print(s)
