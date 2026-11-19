@@ -30,3 +30,13 @@ Skip: content farms, AI-generated summary sites, unsourced social posts, paste s
    Lines whose name doesn't resolve are printed as "unresolved" — check them for a new alias, or skip if the
    actor isn't state-sponsored.
 5. Re-run `./run_all.sh` so the new entries flow into the workbooks, then read `out/CHANGES.md`.
+
+## 4. Attribution review for country-tag-only actors
+`data/curation/actor_attribution_review.csv` records web research on actors whose only state link is a MISP
+country tag (they would otherwise be rated **Low**). The build uses it: STATE_ATTRIBUTED → High;
+STATE_ALIGNED_ASSESSED, HYBRID or STATE_ATTRIBUTED_CONTESTED → Medium; CRIMINAL, HACKTIVIST, NO_ATTRIBUTION or
+NOT_FOUND → removed from the state-sponsored set. After each build, any actor still rated Low in
+`out/state_sponsored/state_actors_summary.csv` is new and unreviewed: research it with the same reliable sources,
+prefer the newest reporting, and add a row (actor, verdict, sponsor_country, state_agency_or_unit, attributing_source,
+attribution_wording, confidence_wording, latest_report_date, url, notes, reviewed_on). Re-check a row when newer
+reporting changes the picture (update latest_report_date and reviewed_on).

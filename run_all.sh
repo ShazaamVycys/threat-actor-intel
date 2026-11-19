@@ -51,6 +51,7 @@ python3 -I "$SC/webmerge.py" "$D" "$ST" | head -1
 python3 -I "$SC/alpha.py" "$ST"/state_actors_{summary,aliases,malware,ttps,host_artifacts,descriptions,web_activity}.csv \
   "$FULL"/{merged_state_sponsored,apt_aliases_by_actor_state_sponsored,actor_malware_state_sponsored,actor_ttps_state_sponsored,actor_host_artifacts_state_sponsored}.csv
 
+cp "$D/curation/actor_attribution_review.csv" "$ST/state_actors_attribution_review.csv"
 log "9/9 Workbooks + zip"
 python3 -I "$SC/versions.py" "$D" | sed 's/^/   /'
 python3 -I "$SC/build_full_xlsx.py" "$FULL" "$FULL/threat_actor_intel.xlsx" | tail -1

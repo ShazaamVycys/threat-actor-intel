@@ -69,11 +69,15 @@ n9=flat(wb.create_sheet('Descriptions',0),__import__('os').path.dirname(dst)+'/s
 RC=[('Actor',22),('Kind',14),('Date / Period',16),('Reported As',18),('Summary',90),('Sources',50),('Suspected State Sponsor',14),('State-Link Confidence',11)]
 n10=flat(wb.create_sheet('Recent Activity',1),__import__('os').path.dirname(dst)+'/state_actors_web_activity.csv',RC)
 print('desc',n9,'activity',n10)
+AC=[('actor',22),('verdict',22),('sponsor_country',14),('state_agency_or_unit',26),('attributing_source',24),('attribution_wording',60),('confidence_wording',16),('latest_report_date',12),('url',50),('notes',60),('reviewed_on',11)]
+n11=flat(wb.create_sheet('Attribution Review',2),__import__('os').path.join(__import__('os').path.dirname(__import__('os').path.abspath(__file__)),'..','data','curation','actor_attribution_review.csv'),AC)
+print('review',n11)
 k=wb.create_sheet('Key')
 items=[('Alias Source',None,''),('All three sources','A9D08E','Alias appears in MISP, ETDA and MITRE ATT&CK (strongest agreement)'),('Two sources','E2EFDA','Alias appears in two of the three sources'),
  ('MITRE','FFF2CC','Only in MITRE ATT&CK'),('MISP','DDEBF7','Only in the MISP galaxy file'),('ETDA','FCE4D6','Only in ETDA Threat Group Cards'),('',None,''),
  ('State-Link Confidence',None,''),('High',None,'Named state sponsor (MISP/CFR or ETDA), MITRE description names state backing, Mandiant APT number, or a vendor nation-state name'),
- ('Medium',None,'Description says state-backed, or ETDA motivation is espionage only'),('Low',None,'Country of origin set, no crime/hacktivist signs - review before relying on it'),('',None,''),
+ ('Medium',None,'Description says state-backed, or ETDA motivation is espionage only'),('Low',None,'Country of origin set, no crime/hacktivist signs - review before relying on it'),
+ ('Attribution review',None,'Actors that sources only tag with a country were researched on the web (data/curation/actor_attribution_review.csv). Attributed to a state -> High; assessed state-aligned or hybrid crime/espionage -> Medium; mainly criminal, hacktivist or never tied to a government -> removed from the state-sponsored set. See the Attribution Review sheet.'),('',None,''),
  ('Type (malware sheets)',None,'Malware = malicious code (red); Tool = legitimate or dual-use software the actor abuses (e.g. Mimikatz, PsExec); Exploit = exploit kits/code'),('',None,''),
  ('Basis (TTP sheets)',None,'Direct (ATT&CK group) / Campaign = MITRE documents this group using the technique. Inferred from software (grey italic) = technique of malware/tools the actor uses; weaker evidence, and common tools like Cobalt Strike add many'),('',None,''),
  ('Attribution (artifact sheets)',None,'Actor (documented) = MITRE procedure/campaign, a Sigma rule or signature-base section tied to this actor. Via malware (grey italic) = artifact of malware the actor uses; other actors using the same malware share it'),('Artifact (regex)',None,'From signature-base: a regular expression, not a literal path; wildcards (*) come from Sigma rules'),('Note',None,'Common system/dual-use binary = legitimate Windows or admin tool name; only meaningful in an unusual path or with other context'),('',None,''),

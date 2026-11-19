@@ -1,5 +1,5 @@
 ﻿Actor,Alias,Alias Source,Suspected State Sponsor,State-Link Confidence,Sponsoring Org (ETDA),MITRE ID,Actor Sources,Alias Count
-1937CN,(no known aliases),,China,Low,,,MISP,0
+1937CN,(no known aliases),,China,,,,MISP,0
 313 Team,(no known aliases),,Iraq,,,,MISP,0
 [Unnamed group USA],(no known aliases),,United States,,"State-sponsored, CIA",,ETDA,0
 [Unnamed group],(no known aliases),,,,,,MISP,0
@@ -25,7 +25,7 @@ ALTDOS,0mid16B,ETDA,SG,,,,MISP + ETDA,3
 ALTDOS,Desorden,ETDA,SG,,,,MISP + ETDA,3
 ALTDOS,GHOSTR,ETDA,SG,,,,MISP + ETDA,3
 Altoufan Team,(no known aliases),,,,,,MISP,0
-Amaranth-Dragon,(no known aliases),,China,Low,,,MISP,0
+Amaranth-Dragon,(no known aliases),,China,Medium,,,MISP,0
 Amethyst Rain,Volatile Cedar,MISP,Lebanon,High,,,MISP,2
 Amethyst Rain,VolcanicTimber,MISP,Lebanon,High,,,MISP,2
 ANDROMEDA SPIDER,(no known aliases),,Belarus,,,,MISP + ETDA,0
@@ -37,7 +37,7 @@ ANTHROPOID SPIDER,CobaltGoblin,MISP + ETDA,,,,,MISP + ETDA,2
 ANTHROPOID SPIDER,Empire Monkey,MISP + ETDA,,,,,MISP + ETDA,2
 Antlion,(no known aliases),,China,Medium,,,MISP + ETDA,0
 Aoqin Dragon,UNC94,MISP + ETDA,China,Medium,,G1007,MISP + ETDA + MITRE,1
-AppMilad,(no known aliases),,Iran,Low,,,MISP,0
+AppMilad,(no known aliases),,Iran,,,,MISP,0
 APT-C-12,Blue Mushroom,MISP,,,,,MISP,3
 APT-C-12,NuclearCrisis,MISP,,,,,MISP,3
 APT-C-12,Sapphire Mushroom,MISP,,,,,MISP,3
@@ -560,7 +560,7 @@ BANISHED KITTEN,Storm-0842,MISP,Iran,High,,,MISP,3
 Barium,Brass Typhoon,ETDA,China,High,,,ETDA,3
 Barium,Pigfish,ETDA,China,High,,,ETDA,3
 Barium,Starchy Taurus,ETDA,China,High,,,ETDA,3
-BatShadow,(no known aliases),,Vietnam,Low,,,MISP,0
+BatShadow,(no known aliases),,Vietnam,,,,MISP,0
 BazarCall,BazaCall,MISP,,,,,MISP,2
 BazarCall,BazzarCall,MISP,,,,,MISP,2
 BeagleBoyz,Operation “FASTCash”,ETDA,North Korea,,,,ETDA,1
@@ -582,7 +582,7 @@ Blackatom,(no known aliases),,Palestine,High,,,MISP,0
 BlackByte,Hecamede,MITRE,,,,G1043,MITRE,1
 Blackgear,Topgear,MISP + ETDA,China,Medium,,,MISP + ETDA,2
 Blackgear,Comnie,MISP,China,Medium,,,MISP + ETDA,2
-BlackJack,(no known aliases),,Ukraine,Low,,,MISP,0
+BlackJack,(no known aliases),,Ukraine,High,,,MISP,0
 BlackLock,BlackLocks,MISP,,,,,MISP,4
 BlackLock,El Dorado,MISP,,,,,MISP,4
 BlackLock,GLOBAL GROUP,MISP,,,,,MISP,4
@@ -607,12 +607,12 @@ BlackTech,Operation “Shrouded Crossbow”,ETDA,China,High,,G0098,MISP + ETDA +
 BlackTech,Operation “Waterbear”,ETDA,China,High,,G0098,MISP + ETDA + MITRE,15
 BlackTech,Radio Panda,ETDA,China,High,,G0098,MISP + ETDA + MITRE,15
 Blackwood,(no known aliases),,China,Medium,,,MISP + ETDA,0
-BladedFeline,(no known aliases),,Iran,Low,,,MISP,0
+BladedFeline,(no known aliases),,Iran,Medium,,,MISP,0
 BladeHawk,(no known aliases),,,,,,MISP,0
 Blue Mockingbird,(no known aliases),,,,,G0108,MITRE,0
 Blue Termite,Cloudy Omega,MISP + ETDA,China,High,,,MISP + ETDA,2
 Blue Termite,Emdivi,MISP,China,High,,,MISP + ETDA,2
-Blue Tsunami,Black Cube,MISP,Israel,Low,,,MISP,1
+Blue Tsunami,Black Cube,MISP,Israel,,,,MISP,1
 BlueBottle,(no known aliases),,,,,,MISP,0
 BlueHornet,AgainstTheWest,MISP,Unknown,High,,,MISP,2
 BlueHornet,APT49,MISP,Unknown,High,,,MISP,2
@@ -641,7 +641,7 @@ BOSON SPIDER,(no known aliases),,,,,,MISP + ETDA,0
 BOSS SPIDER,GOLD LOWELL,MISP + ETDA,Iran,,,,MISP + ETDA,2
 BOSS SPIDER,CTG-0007,ETDA,Iran,,,,MISP + ETDA,2
 Boulder Bear,(no known aliases),,Russia,High,,,MISP + ETDA,0
-BrazenBamboo,(no known aliases),,China,Low,,,MISP,0
+BrazenBamboo,(no known aliases),,China,High,,,MISP,0
 BreachLaboratory,(no known aliases),,,,,,MISP,0
 BREEZE COMET,UNC5669,MISP,,,,,MISP,1
 BRONZE EDGEWOOD,Red Hariasa,MISP + ETDA,China,High,,,MISP + ETDA,3
@@ -668,7 +668,7 @@ BRONZE VAPOR,Operation “Skeleton Key”,ETDA,China,High,,G0114,MISP + ETDA + M
 BRONZE VAPOR,Red Charon,ETDA,China,High,,G0114,MISP + ETDA + MITRE,6
 BRONZE VAPOR,THORIUM,ETDA,China,High,,G0114,MISP + ETDA + MITRE,6
 BRONZE VAPOR,Tumbleweed Typhoon,ETDA,China,High,,G0114,MISP + ETDA + MITRE,6
-Budminer,Budminer cyberespionage group,MISP,China,Low,,,MISP,1
+Budminer,Budminer cyberespionage group,MISP,China,High,,,MISP,1
 BuhTrap,Operation “TwoBee”,ETDA,Russia,,,,MISP + ETDA,3
 BuhTrap,Ratopak Spider,ETDA,Russia,,,,MISP + ETDA,3
 BuhTrap,UAC-0008,ETDA,Russia,,,,MISP + ETDA,3
@@ -688,7 +688,7 @@ Callisto,TAG-53,MISP,Russia,High,,G1033,MISP + ETDA + MITRE,11
 Callisto,UNC4057,MISP,Russia,High,,G1033,MISP + ETDA + MITRE,11
 Calypso,BRONZE MEDLEY,MISP + ETDA,China,High,,,MISP + ETDA,2
 Calypso,Red Lamassu,MISP,China,High,,,MISP + ETDA,2
-Camaro Dragon,(no known aliases),,China,Low,,,MISP,0
+Camaro Dragon,(no known aliases),,China,High,,,MISP,0
 Caracal Kitten,APT-Q-58,MISP,Iran,High,,,MISP,1
 Caramel Tsunami,Candiru,MISP,,,,,MISP,2
 Caramel Tsunami,SOURGUM,MISP,,,,,MISP,2
@@ -702,8 +702,8 @@ CardinalLizard,(no known aliases),,China,Medium,,,MISP + ETDA,0
 Careto,Mask,MISP + ETDA,Spain,High,,,MISP + ETDA,3
 Careto,The Mask,MISP + ETDA,Spain,High,,,MISP + ETDA,3
 Careto,Ugly Face,MISP + ETDA,Spain,High,,,MISP + ETDA,3
-Carmine Tsunami,DEV-0196,MISP,Israel,Low,,,MISP,2
-Carmine Tsunami,QuaDream,MISP,Israel,Low,,,MISP,2
+Carmine Tsunami,DEV-0196,MISP,Israel,,,,MISP,2
+Carmine Tsunami,QuaDream,MISP,Israel,,,,MISP,2
 CashRewindo,(no known aliases),,,,,,MISP,0
 Cavern Manticore,(no known aliases),,Iran,High,,,MISP,0
 CeranaKeeper,(no known aliases),,China,High,,,MISP + ETDA,0
@@ -716,8 +716,8 @@ Charming Kitten,Mint Sandstorm,MISP,Iran,High,,G0058,MISP,7
 Charming Kitten,NewsBeef,MISP,Iran,High,,G0058,MISP,7
 Charming Kitten,Newscaster,MISP,Iran,High,,G0058,MISP,7
 Charming Kitten,Parastoo,MISP,Iran,High,,G0058,MISP,7
-Chaya_004,(no known aliases),,China,Low,,,MISP,0
-Chernovite,(no known aliases),,Russia,Low,,,MISP,0
+Chaya_004,(no known aliases),,China,,,,MISP,0
+Chernovite,(no known aliases),,Unknown,High,,,MISP,0
 Chronus Group,(no known aliases),,,,,,MISP,0
 CHRYSENE,Greenbug,MISP,Unknown,High,,,MISP,2
 CHRYSENE,OilRig,MISP,Unknown,High,,,MISP,2
@@ -733,7 +733,7 @@ CL-STA-0048,(no known aliases),,China,Medium,,,MISP,0
 CL-STA-1009,(no known aliases),,Unknown,Medium,,,MISP,0
 CL-STA-1020,(no known aliases),,,,,,MISP,0
 CL-STA-1087,(no known aliases),,China,Medium,,,MISP,0
-CL-UNK-1068,(no known aliases),,China,Low,,,MISP,0
+CL-UNK-1068,(no known aliases),,China,,,,MISP,0
 Cleaver,TG-2889,MISP + MITRE,Iran,High,,G0003,MISP + MITRE,7
 Cleaver,Threat Group 2889,MITRE,Iran,High,,G0003,MISP + MITRE,7
 Cleaver,Alibaba,MISP,Iran,High,,G0003,MISP + MITRE,7
@@ -785,7 +785,7 @@ Common Raven,OPERA1ER,MISP + ETDA,,,,,MISP + ETDA,5
 Common Raven,Bluebottle,ETDA,,,,,MISP + ETDA,5
 Common Raven,Operation “Nervone”,ETDA,,,,,MISP + ETDA,5
 Conference Crew,CONFERENCE CASTLE,MISP,China,,,,MISP,1
-Confucious,(no known aliases),,India,Low,,,MISP,0
+Confucious,(no known aliases),,India,Medium,,,MISP,0
 Confucius,Confucius APT,MITRE,India,Medium,,G0142,ETDA + MITRE,1
 Conquerors Electronic Army,(no known aliases),,,,,,MISP,0
 Contagious Interview,DeceptiveDevelopment,MITRE,,,,G1052,MISP + MITRE,6
@@ -799,7 +799,7 @@ CopyKittens,Slayer Kitten,MISP + ETDA,Iran,High,,G0052,MISP + ETDA + MITRE,2
 CopyKittens,Operation “Wilted Tulip”,ETDA,Iran,High,,G0052,MISP + ETDA + MITRE,2
 CoralRaider,(no known aliases),,Vietnam,,,,MISP + ETDA,0
 Corkow,Metel,ETDA,Russia,,,,ETDA,1
-Corsair Jackal,TunisianCyberArmy,MISP + ETDA,Tunisia,Low,,,MISP + ETDA,1
+Corsair Jackal,TunisianCyberArmy,MISP + ETDA,Tunisia,,,,MISP + ETDA,1
 Cosmic Leopard,Operation Celestial Force,ETDA,Pakistan,High,,,ETDA,1
 Cosmic Lynx,(no known aliases),,,,,,MISP,0
 CosmicBeetle,(no known aliases),,,,,,MISP,0
@@ -821,7 +821,7 @@ CryptoChameleon,UNC5356,MISP,,,,,MISP,1
 CRYSTALRAY,(no known aliases),,,,,,MISP,0
 Cuboid Sandstorm,DEV-0228,MISP,Iran,High,,,MISP,1
 Curious Gorge,UNC3742,MISP,China,High,"State-sponsored, PLA SSF",,MISP + ETDA,1
-Curly COMrades,(no known aliases),,Russia,Low,,,MISP,0
+Curly COMrades,(no known aliases),,Russia,Medium,,,MISP,0
 Cutting Kitten,ITsecTeam,MISP,Iran,High,"State-sponsored, security company ITSecTeam",G0003,MISP + ETDA,3
 Cutting Kitten,Operation “Cleaver”,ETDA,Iran,High,"State-sponsored, security company ITSecTeam",G0003,MISP + ETDA,3
 Cutting Kitten,TG-2889,ETDA,Iran,High,"State-sponsored, security company ITSecTeam",G0003,MISP + ETDA,3
@@ -867,7 +867,7 @@ Dark Basin,Mercenary.Amanda,ETDA,India,,BellTroX InfoTech Services,,MISP + ETDA,
 Dark Caracal,ATK 27,ETDA,Lebanon,High,"State-sponsored, General Directorate of General Security (GDGS)",G0070,MISP + ETDA + MITRE,3
 Dark Caracal,Operation “Dark Caracal”,ETDA,Lebanon,High,"State-sponsored, General Directorate of General Security (GDGS)",G0070,MISP + ETDA + MITRE,3
 Dark Caracal,TAG-CT3,ETDA,Lebanon,High,"State-sponsored, General Directorate of General Security (GDGS)",G0070,MISP + ETDA + MITRE,3
-DarkBlinders,(no known aliases),,Iran,Low,,,MISP,0
+DarkBlinders,(no known aliases),,Iran,Medium,,,MISP,0
 DarkCasino,Water Hydra,ETDA,,,,,MISP + ETDA,1
 DarkGaboon,room155,MISP,,,,,MISP,2
 DarkGaboon,Vengeful Wolf,MISP,,,,,MISP,2
@@ -915,7 +915,7 @@ DefrayX,Hive0091,MISP,,,,,MISP,1
 Denim Tsunami,DSIRF,MISP,AT,,,,MISP,2
 Denim Tsunami,KNOTWEED,MISP,AT,,,,MISP,2
 Desorden Group,(no known aliases),,,,,,MISP + ETDA,0
-DEV-0147,(no known aliases),,China,Low,,,MISP,0
+DEV-0147,(no known aliases),,China,Medium,,,MISP,0
 DEV-0270,Nemesis Kitten,MISP + ETDA,Iran,High,,,MISP + ETDA,6
 DEV-0270,DireFate,ETDA,Iran,High,,,MISP + ETDA,6
 DEV-0270,Lord Nemesis,ETDA,Iran,High,,,MISP + ETDA,6
@@ -935,7 +935,7 @@ DEV-0928,(no known aliases),,,,,,MISP,0
 DEV-0950,Lace Tempest,MISP,,,,,MISP,1
 DEV-1028,(no known aliases),,,,,,MISP,0
 DEXTOROUS SPIDER,(no known aliases),,,,,,MISP + ETDA,0
-DiceyF,(no known aliases),,China,Low,,,MISP,0
+DiceyF,(no known aliases),,China,,,,MISP,0
 DieNet,Shiite_Harvest,MISP,,,,,MISP,1
 DIZZY PANDA,LadyBoyle,MISP + ETDA,China,High,,,MISP + ETDA,1
 DNSpionage,COBALT EDGEWATER,MISP,Iran,High,,,MISP + ETDA,1
@@ -956,7 +956,7 @@ DragonOK,Shallow Taurus,MISP + ETDA,China,High,,G0017,MISP + ETDA + MITRE,3
 DragonOK,Moafee,MISP,China,High,,G0017,MISP + ETDA + MITRE,3
 DragonRank,(no known aliases),,,,,,MISP,0
 DragonSpark,(no known aliases),,China,Medium,,,MISP + ETDA,0
-DriftingCloud,(no known aliases),,China,Low,,,MISP,0
+DriftingCloud,(no known aliases),,China,Medium,,,MISP,0
 DriveSurge,(no known aliases),,,,,,MISP,0
 DUNGEON SPIDER,(no known aliases),,Russia,,,,MISP + ETDA,0
 Dust Storm,(no known aliases),,China,High,Seems state-sponsored,G0031,MISP + ETDA,0
@@ -989,8 +989,8 @@ Earth Lusca,BountyGlad,MISP,China,High,,G1006,MISP + ETDA + MITRE,11
 Earth Lusca,FISHMONGER,MISP,China,High,,G1006,MISP + ETDA + MITRE,11
 Earth Lusca,RedHotel,MISP,China,High,,G1006,MISP + ETDA + MITRE,11
 Earth Minotaur,(no known aliases),,China,Medium,,,ETDA,0
-Earth Naga,(no known aliases),,China,Low,,,MISP,0
-Earth Sirrush,SHADOW-EARTH-065,MISP,Russia,Low,,,MISP,1
+Earth Naga,(no known aliases),,China,High,,,MISP,0
+Earth Sirrush,SHADOW-EARTH-065,MISP,Russia,Medium,,,MISP,1
 Earth Wendigo,(no known aliases),,China,Medium,,,MISP + ETDA,0
 Earth Yako,Operation RestyLink,MISP + ETDA,,,,,MISP + ETDA,3
 Earth Yako,Enelink,MISP,,,,,MISP + ETDA,3
@@ -1008,7 +1008,7 @@ El Machete,TEMP.Andromeda,ETDA,Unknown,High,,G0095,MISP + ETDA + MITRE,7
 ELECTRIC PANDA,(no known aliases),,China,High,,,MISP + ETDA,0
 Elephant Beetle,TG2003,ETDA,,,,,ETDA,1
 ELOQUENT PANDA,(no known aliases),,China,High,,,MISP + ETDA,0
-ELUSIVE COMET,(no known aliases),,North Korea,Low,,,MISP,0
+ELUSIVE COMET,(no known aliases),,North Korea,,,,MISP,0
 ENERGETIC BEAR,BROMINE,MISP + ETDA + MITRE,Russia,High,"State-sponsored, GRU",G0035,MISP + ETDA + MITRE,18
 ENERGETIC BEAR,Crouching Yeti,MISP + ETDA + MITRE,Russia,High,"State-sponsored, GRU",G0035,MISP + ETDA + MITRE,18
 ENERGETIC BEAR,Dragonfly,MISP + ETDA + MITRE,Russia,High,"State-sponsored, GRU",G0035,MISP + ETDA + MITRE,18
@@ -1111,7 +1111,7 @@ Flying Kitten,Operation Woolen-Goldfish,MITRE,Iran,High,,G0130,MISP + ETDA + MIT
 Flying Kitten,Rocket Kitten,MITRE,Iran,High,,G0130,MISP + ETDA + MITRE,8
 Flying Kitten,SaffronRose,MISP,Iran,High,,G0130,MISP + ETDA + MITRE,8
 Flying Kitten,Sayad,MISP,Iran,High,,G0130,MISP + ETDA + MITRE,8
-FlyingYeti,Storm-1837,MISP,Russia,Low,,,MISP,1
+FlyingYeti,Storm-1837,MISP,Russia,Medium,,,MISP,1
 Fox Kitten,Lemon Sandstorm,MISP + ETDA + MITRE,Iran,High,,G0117,MISP + ETDA + MITRE,6
 Fox Kitten,Parisite,MISP + ETDA + MITRE,Iran,High,,G0117,MISP + ETDA + MITRE,6
 Fox Kitten,Pioneer Kitten,MISP + ETDA + MITRE,Iran,High,,G0117,MISP + ETDA + MITRE,6
@@ -1120,7 +1120,7 @@ Fox Kitten,UNC757,MISP + ETDA + MITRE,Iran,High,,G0117,MISP + ETDA + MITRE,6
 Fox Kitten,Cobalt Foxglove,ETDA,Iran,High,,G0117,MISP + ETDA + MITRE,6
 Fox Tempest,(no known aliases),,,,,,MISP,0
 FOXY PANDA,(no known aliases),,China,High,,,MISP + ETDA,0
-FrostyNeighbor,(no known aliases),,Belarus,Low,,,MISP,0
+FrostyNeighbor,(no known aliases),,Belarus,High,,,MISP,0
 FulcrumSec,(no known aliases),,,,,,MISP,0
 FunkSec,(no known aliases),,,,,,MISP,0
 FusionCore,(no known aliases),,,,,,MISP,0
@@ -1220,8 +1220,8 @@ GOLD WATERFALL,(no known aliases),,,,,,MISP,0
 GOLD WINTER,(no known aliases),,,,,,MISP,0
 GoldenJackal,(no known aliases),,,,,,MISP + ETDA,0
 GoldFactory,(no known aliases),,China,,,,MISP,0
-GopherWhisper,(no known aliases),,China,Low,,,MISP,0
-Gorbag,(no known aliases),,Russia,Low,,,MISP,0
+GopherWhisper,(no known aliases),,China,Medium,,,MISP,0
+Gorbag,(no known aliases),,Russia,Medium,,,MISP,0
 Gorilla,(no known aliases),,,,,,MISP,0
 GozNym,(no known aliases),,,,,,MISP,0
 Gray Sandstorm,DEV-0343,MISP,Iran,High,,,MISP,1
@@ -1231,13 +1231,13 @@ Grayling,(no known aliases),,China,High,,,MISP + ETDA,0
 GreedyBear,(no known aliases),,Russia,,,,MISP,0
 Greenbug,Volatile Kitten,ETDA,Iran,High,"State-sponsored, Ministry of Intelligence and Security (MOIS)",,MISP + ETDA,1
 GreenCharlie,(no known aliases),,Iran,High,"State-sponsored, Islamic Revolutionary Guard Corps (IRGC)",,ETDA,0
-GreenSpot,APT-Q-20,MISP,Taiwan,Low,,,MISP,2
-GreenSpot,PoisonVine,MISP,Taiwan,Low,,,MISP,2
-GREF,(no known aliases),,China,Low,,,MISP,0
+GreenSpot,APT-Q-20,MISP,Taiwan,Medium,,,MISP,2
+GreenSpot,PoisonVine,MISP,Taiwan,Medium,,,MISP,2
+GREF,(no known aliases),,China,Medium,,,MISP,0
 GreyEnergy,(no known aliases),,,,,,MISP,0
-GreyVibe,(no known aliases),,Russia,Low,,,MISP,0
+GreyVibe,(no known aliases),,Russia,Medium,,,MISP,0
 GRIM SPIDER,GOLD ULRICK,MISP,,,,,MISP,1
-Groundbait,(no known aliases),,Ukraine,Low,,,MISP,0
+Groundbait,(no known aliases),,Ukraine,,,,MISP,0
 Group5,(no known aliases),,Iran,High,,G0043,MISP + ETDA + MITRE,0
 GTFire,(no known aliases),,,,,,MISP,0
 GTG-04001,(no known aliases),,,,,,MISP,0
@@ -1258,7 +1258,7 @@ GTG-16012,(no known aliases),,,,,,MISP,0
 GTG-17001,(no known aliases),,,,,,MISP,0
 GTG-17002,(no known aliases),,,,,,MISP,0
 GTG-17003,(no known aliases),,,,,,MISP,0
-GTG-20006,(no known aliases),,Russia,Low,,,MISP,0
+GTG-20006,(no known aliases),,Russia,Medium,,,MISP,0
 GTG-24015,(no known aliases),,,,,,MISP,0
 GTG-27005,(no known aliases),,,,,,MISP,0
 GTG-27006,(no known aliases),,,,,,MISP,0
@@ -1310,10 +1310,10 @@ Hidden Lynx,Aurora Panda,ETDA,China,High,,,ETDA,4
 Hidden Lynx,Group 8,ETDA,China,High,,,ETDA,4
 Hidden Lynx,Heart Typhoon,ETDA,China,High,,,ETDA,4
 Hidden Lynx,Operation “SMN”,ETDA,China,High,,,ETDA,4
-HiddenArt,(no known aliases),,Russia,Low,,,MISP,0
+HiddenArt,(no known aliases),,Russia,Medium,,,MISP,0
 Higaisa,(no known aliases),,South Korea,High,,G0126,MISP + MITRE,0
 HikkI-Chan,(no known aliases),,,,,,MISP,0
-Hitcore Corp,(no known aliases),,Russia,Low,,,MISP,0
+Hitcore Corp,(no known aliases),,Russia,,,,MISP,0
 HIVE-0145,(no known aliases),,,,,,MISP,0
 Hive0117,(no known aliases),,,,,,MISP,0
 Hive0137,(no known aliases),,,,,,MISP,0
@@ -1340,7 +1340,7 @@ Hyadina,(no known aliases),,,,,,MISP,0
 Hydrochasma,(no known aliases),,,,,,ETDA,0
 IAmNotAVillain,(no known aliases),,,,,,MISP,0
 IAmTheKing,(no known aliases),,Russia,Medium,,,ETDA,0
-IcePeony,(no known aliases),,China,Low,,,MISP,0
+IcePeony,(no known aliases),,China,Medium,,,MISP,0
 IMPERSONATING PANDA,(no known aliases),,China,High,,,MISP + ETDA,0
 INC Ransom,GOLD IONIC,MITRE,,,,G1032,MITRE,1
 Inception Framework,Cloud Atlas,MISP + ETDA + MITRE,Russia,High,,G0100,MISP + ETDA + MITRE,9
@@ -1396,7 +1396,7 @@ Kairos,(no known aliases),,,,,,MISP,0
 Karakurt,Karakurt Lair,MISP,,,,,MISP + ETDA,2
 Karakurt,Mushy Scorpius,ETDA,,,,,MISP + ETDA,2
 Karkadann,Piwiks,MISP,,,,,MISP + ETDA,1
-Kasablanka,(no known aliases),,Morocco,Low,,,MISP,0
+Kasablanka,(no known aliases),,Morocco,,,,MISP,0
 KAX17,(no known aliases),,,,,,MISP,0
 Kazu,(no known aliases),,,,,,MISP,0
 Keksec,(no known aliases),,,,,,MISP,0
@@ -1433,11 +1433,11 @@ Kimsuky,TA406,ETDA,North Korea,High,,G0094,MISP + ETDA + MITRE,28
 Kimsuky,UAT-5394,ETDA,North Korea,High,,G0094,MISP + ETDA + MITRE,28
 Kinsing,Money Libra,MISP,,,,,MISP,1
 Kiss-a-Dog,(no known aliases),,,,,,MISP,0
-Knaithe,KnYuan,MISP,China,Low,,,MISP,1
+Knaithe,KnYuan,MISP,China,,,,MISP,1
 Knockout Spider,(no known aliases),,,,,,ETDA,0
 KromSec,(no known aliases),,,,,,MISP,0
 Krybit,(no known aliases),,,,,,MISP,0
-Kumsong121,(no known aliases),,North Korea,Low,,,ETDA,0
+Kumsong121,(no known aliases),,North Korea,High,,,ETDA,0
 LabHost,(no known aliases),,,,,,MISP,0
 Lamashtu,(no known aliases),,,,,,MISP,0
 Lancefly,(no known aliases),,,,,,MISP + ETDA,0
@@ -1446,7 +1446,7 @@ LAPSUS,Strawberry Tempest,MISP + ETDA + MITRE,Brazil,,,G1004,MISP + ETDA + MITRE
 LAPSUS,SLIPPY SPIDER,MISP + ETDA,Brazil,,,G1004,MISP + ETDA + MITRE,4
 LAPSUS,UNC3661,MISP,Brazil,,,G1004,MISP + ETDA + MITRE,4
 Larva-208,EncryptHub,MISP,,,,,MISP,1
-Larva-24005,(no known aliases),,North Korea,Low,,,MISP,0
+Larva-24005,(no known aliases),,North Korea,High,,,MISP,0
 Larva-24009,(no known aliases),,,,,,MISP,0
 Larva-24010,(no known aliases),,,,,,MISP,0
 Larva-26002,(no known aliases),,,,,,MISP,0
@@ -1540,7 +1540,7 @@ Longhorn,APT-C-39,MISP + ETDA,United States,High,"State-sponsored, CIA",,MISP + 
 Longhorn,PLATINUM TERMINAL,MISP + ETDA,United States,High,"State-sponsored, CIA",,MISP + ETDA,4
 Longhorn,the Lamberts,MISP + ETDA,United States,High,"State-sponsored, CIA",,MISP + ETDA,4
 Longhorn,Lamberts,MISP,United States,High,"State-sponsored, CIA",,MISP + ETDA,4
-LongNosedGoblin,(no known aliases),,China,Low,,,MISP,0
+LongNosedGoblin,(no known aliases),,China,Medium,,,MISP,0
 LOTUS PANDA,DRAGONFISH,MISP + ETDA + MITRE,China,High,,G0030,MISP + ETDA + MITRE,15
 LOTUS PANDA,Lotus Blossom,MISP + ETDA + MITRE,China,High,,G0030,MISP + ETDA + MITRE,15
 LOTUS PANDA,Spring Dragon,MISP + ETDA + MITRE,China,High,,G0030,MISP + ETDA + MITRE,15
@@ -1631,14 +1631,14 @@ MONTY SPIDER,Spandex Tempest,MISP,Russia,,,,MISP + ETDA,2
 Moonstone Sleet,Storm-1789,ETDA + MITRE,North Korea,High,,G1036,ETDA + MITRE,2
 Moonstone Sleet,Stressed Pungsan,ETDA,North Korea,High,,G1036,ETDA + MITRE,2
 Mora_001,(no known aliases),,Russia,,,,MISP,0
-MORH4x,(no known aliases),,Morocco,Low,,,MISP,0
+MORH4x,(no known aliases),,Morocco,,,,MISP,0
 MosesStaff,DEV-0500,MISP + ETDA + MITRE,Iran,High,,G1009,MISP + ETDA + MITRE,6
 MosesStaff,Marigold Sandstorm,MISP + ETDA + MITRE,Iran,High,,G1009,MISP + ETDA + MITRE,6
 MosesStaff,VENGEFUL KITTEN,MISP + ETDA,Iran,High,,G1009,MISP + ETDA + MITRE,6
 MosesStaff,Abraham's Ax,ETDA,Iran,High,,G1009,MISP + ETDA + MITRE,6
 MosesStaff,Cobalt Sapling,ETDA,Iran,High,,G1009,MISP + ETDA + MITRE,6
 MosesStaff,White Dev 95,ETDA,Iran,High,,G1009,MISP + ETDA + MITRE,6
-Moshen Dragon,(no known aliases),,China,Low,,,MISP,0
+Moshen Dragon,(no known aliases),,China,Medium,,,MISP,0
 Moskalvzapoe,MAN1,MISP + ETDA,,,,,MISP + ETDA,2
 Moskalvzapoe,TA511,MISP + ETDA,,,,,MISP + ETDA,2
 MoustachedBouncer,(no known aliases),,Belarus,High,,G1019,MISP + ETDA + MITRE,0
@@ -1701,7 +1701,7 @@ Mustard Tempest,Purple Vallhund,MISP,,,,G1020,MISP + MITRE,5
 Mysterious Elephant,APT-K-47,ETDA,,,,,MISP + ETDA,1
 Mythic Likho,Arcane Werewolf,MISP,,,,,MISP,1
 n0n,(no known aliases),,,,,,MISP,0
-N4ughtysecTU,(no known aliases),,Brazil,Low,,,MISP,0
+N4ughtysecTU,(no known aliases),,Brazil,,,,MISP,0
 Naikon,BRONZE GENEVA,MISP,China,High,"State-sponsored, PLA Unit 78020",G0019,MISP + ETDA + MITRE,10
 Naikon,BRONZE STERLING,MISP,China,High,"State-sponsored, PLA Unit 78020",G0019,MISP + ETDA + MITRE,10
 Naikon,Camerashy,MISP,China,High,"State-sponsored, PLA Unit 78020",G0019,MISP + ETDA + MITRE,10
@@ -1820,8 +1820,8 @@ Operation Red Signature,(no known aliases),,China,Medium,,,MISP + ETDA,0
 Operation RusticWeb,(no known aliases),,Pakistan,Medium,,,ETDA,0
 Operation Rusty Flag,(no known aliases),,,,,,ETDA,0
 Operation SalmonSlalom,(no known aliases),,China,Medium,,,ETDA,0
-Operation Shadow Force,Larva-24013,MISP,China,Low,,,MISP,2
-Operation Shadow Force,TA-ShadowCricket,MISP,China,Low,,,MISP,2
+Operation Shadow Force,Larva-24013,MISP,China,,,,MISP,2
+Operation Shadow Force,TA-ShadowCricket,MISP,China,,,,MISP,2
 Operation ShadowHammer,(no known aliases),,,,,,MISP,0
 Operation Shady RAT,(no known aliases),,China,High,"State-sponsored, PLA Unit 61398",,ETDA,0
 Operation Sharpshooter,(no known aliases),,,,,,MISP,0
@@ -1858,7 +1858,7 @@ PayTool,(no known aliases),,,,,,MISP,0
 Pearl Sleet,DEV-0215,MISP,North Korea,High,,,MISP,2
 Pearl Sleet,LAWRENCIUM,MISP,North Korea,High,,,MISP,2
 People's Cyber Army of Russia,(no known aliases),,,,,,MISP,0
-PerSwaysion,(no known aliases),,Vietnam,Low,,,MISP,0
+PerSwaysion,(no known aliases),,Vietnam,,,,MISP,0
 PhantomControl,(no known aliases),,,,,,MISP,0
 Phlox Tempest,DEV-0796,MISP,,,,,MISP,1
 Pickaxe,Prying Libra,MISP,,,,,MISP,1
@@ -1926,8 +1926,8 @@ PROMETHIUM,APT-C-41,MISP + ETDA,Turkey,High,,G0056,MISP + ETDA + MITRE,3
 PROMETHIUM,Magenta Dust,ETDA,Turkey,High,,G0056,MISP + ETDA + MITRE,3
 Prophet Spider,GOLD MELODY,MISP,,,,,MISP,2
 Prophet Spider,UNC961,MISP,,,,,MISP,2
-puNK-003,(no known aliases),,North Korea,Low,,,MISP,0
-PurpleHaze,(no known aliases),,China,Low,,,MISP,0
+puNK-003,(no known aliases),,North Korea,Medium,,,MISP,0
+PurpleHaze,(no known aliases),,China,Medium,,,MISP,0
 Pusikurac,(no known aliases),,,,,,ETDA,0
 QTFY,(no known aliases),,China,Medium,,,MISP,0
 QUILTED TIGER,Chinastrats,MISP + ETDA + MITRE,India,High,,G0040,MISP + ETDA + MITRE,15
@@ -1945,7 +1945,7 @@ QUILTED TIGER,Maha Grass,ETDA,India,High,,G0040,MISP + ETDA + MITRE,15
 QUILTED TIGER,Orange Athos,MISP,India,High,,G0040,MISP + ETDA + MITRE,15
 QUILTED TIGER,Sarit,MISP,India,High,,G0040,MISP + ETDA + MITRE,15
 QUILTED TIGER,TG-4410,ETDA,India,High,,G0040,MISP + ETDA + MITRE,15
-R00tK1T,(no known aliases),,Israel,Low,,,MISP,0
+R00tK1T,(no known aliases),,Israel,,,,MISP,0
 RADIO PANDA,Shrouded Crossbow,MISP,China,High,,,MISP,1
 RaHDit,Russian Angry Hackers Did It,MISP,Russia,,,,MISP,1
 Rampant Kitten,(no known aliases),,Iran,High,,,ETDA,0
@@ -1962,13 +1962,13 @@ RAZOR TIGER,APT-C-17,MISP,India,High,,,MISP + ETDA,4
 RAZOR TIGER,Rattlesnake,MISP,India,High,,,MISP + ETDA,4
 RAZOR TIGER,SideWinder,MISP,India,High,,,MISP + ETDA,4
 RAZOR TIGER,T-APT-04,MISP,India,High,,,MISP + ETDA,4
-Rebel Jackal,FallagaTeam,MISP,Tunisia,Low,,,MISP,1
+Rebel Jackal,FallagaTeam,MISP,Tunisia,,,,MISP,1
 Reckless Rabbit,(no known aliases),,,,,,MISP,0
 Red Charon,(no known aliases),,,,,,MISP,0
-Red Dev 17,(no known aliases),,China,Low,,,MISP,0
-Red Menshen,Earth Bluecrow,MISP,China,Low,,,MISP,2
-Red Menshen,Red Dev 18,MISP,China,Low,,,MISP,2
-Red Nue,LuoYu,MISP,China,Low,,,MISP,1
+Red Dev 17,(no known aliases),,China,Medium,,,MISP,0
+Red Menshen,Earth Bluecrow,MISP,China,Medium,,,MISP,2
+Red Menshen,Red Dev 18,MISP,China,Medium,,,MISP,2
+Red Nue,LuoYu,MISP,China,Medium,,,MISP,1
 Red-Lili,(no known aliases),,,,,,MISP,0
 RedAlpha,DeepCliff,MISP + ETDA,China,High,"State-sponsored, possibly PLA and/or Nanjing Qinglan Information Technology Co. Ltd",,MISP + ETDA,2
 RedAlpha,Red Dev 3,MISP + ETDA,China,High,"State-sponsored, possibly PLA and/or Nanjing Qinglan Information Technology Co. Ltd",,MISP + ETDA,2
@@ -1984,10 +1984,10 @@ RedJuliett,(no known aliases),,China,Medium,,,MISP,0
 RedKitten,(no known aliases),,Unknown,Medium,,,MISP,0
 RedStinger,Bad Magic,MISP + ETDA,,,,,MISP + ETDA,2
 RedStinger,CloudWizard,ETDA,,,,,MISP + ETDA,2
-REF2924,(no known aliases),,China,Low,,,MISP,0
+REF2924,(no known aliases),,Unknown,Medium,,,MISP,0
 REF5961,(no known aliases),,,,,,MISP,0
-REF7707,CL-STA-0049,MISP,China,Low,,,MISP,2
-REF7707,Jewelbug,MISP,China,Low,,,MISP,2
+REF7707,CL-STA-0049,MISP,China,Medium,,,MISP,2
+REF7707,Jewelbug,MISP,China,Medium,,,MISP,2
 REF8801,(no known aliases),,,,,,MISP,0
 ResumeLooters,(no known aliases),,,,,,MISP + ETDA,0
 Returned Libra,8220 Mining Group,MISP + ETDA,China,,,,MISP + ETDA,3
@@ -2012,21 +2012,21 @@ Rocket Kitten,Parastoo,ETDA,Iran,High,,,MISP + ETDA,9
 Rocket Kitten,TEMP.Beanie,MISP,Iran,High,,,MISP + ETDA,9
 Rocket Kitten,Thamar Reservoir,MISP,Iran,High,,,MISP + ETDA,9
 Rocket Kitten,Timberworm,MISP,Iran,High,,,MISP + ETDA,9
-RomCom,Storm-0978,MISP + ETDA,Russia,Low,,,MISP + ETDA,10
-RomCom,CIGAR,ETDA,Russia,Low,,,MISP + ETDA,10
-RomCom,DEV-0978,ETDA,Russia,Low,,,MISP + ETDA,10
-RomCom,Storm-0671,ETDA,Russia,Low,,,MISP + ETDA,10
-RomCom,TA829,ETDA,Russia,Low,,,MISP + ETDA,10
-RomCom,Tropical Scorpius,ETDA,Russia,Low,,,MISP + ETDA,10
-RomCom,UAC-0180,ETDA,Russia,Low,,,MISP + ETDA,10
-RomCom,UAT-5647,MISP,Russia,Low,,,MISP + ETDA,10
-RomCom,UNC2596,ETDA,Russia,Low,,,MISP + ETDA,10
-RomCom,Void Rabisu,ETDA,Russia,Low,,,MISP + ETDA,10
+RomCom,Storm-0978,MISP + ETDA,Russia,Medium,,,MISP + ETDA,10
+RomCom,CIGAR,ETDA,Russia,Medium,,,MISP + ETDA,10
+RomCom,DEV-0978,ETDA,Russia,Medium,,,MISP + ETDA,10
+RomCom,Storm-0671,ETDA,Russia,Medium,,,MISP + ETDA,10
+RomCom,TA829,ETDA,Russia,Medium,,,MISP + ETDA,10
+RomCom,Tropical Scorpius,ETDA,Russia,Medium,,,MISP + ETDA,10
+RomCom,UAC-0180,ETDA,Russia,Medium,,,MISP + ETDA,10
+RomCom,UAT-5647,MISP,Russia,Medium,,,MISP + ETDA,10
+RomCom,UNC2596,ETDA,Russia,Medium,,,MISP + ETDA,10
+RomCom,Void Rabisu,ETDA,Russia,Medium,,,MISP + ETDA,10
 RTM,(no known aliases),,Russia,,,G0048,MISP + ETDA + MITRE,0
 Ruby Sleet,CERIUM,MISP,North Korea,High,,,MISP,1
-RUBYCARP,(no known aliases),,Romania,Low,,,MISP,0
+RUBYCARP,(no known aliases),,Romania,,,,MISP,0
 RuskiNet,(no known aliases),,Russia,,,,MISP,0
-Ruthless Rabbit,(no known aliases),,Russia,Low,,,MISP,0
+Ruthless Rabbit,(no known aliases),,Russia,,,,MISP,0
 Saad Tycoon,(no known aliases),,,,,,MISP,0
 SABRE PANDA,(no known aliases),,China,High,,,MISP + ETDA,0
 Safe,(no known aliases),,China,Medium,,,ETDA,0
@@ -2081,7 +2081,7 @@ Scarlet Mimic,Golfing Taurus,MISP + ETDA,China,High,,G0029,MISP + ETDA + MITRE,1
 SCARLETEEL,(no known aliases),,,,,,MISP,0
 Scarlettgroup,(no known aliases),,,,,,MISP,0
 Scarred Manticore,(no known aliases),,Iran,High,,,MISP,0
-Scattered Canary,(no known aliases),,Nigeria,Low,,,MISP,0
+Scattered Canary,(no known aliases),,Nigeria,,,,MISP,0
 Scattered Lapsus Hunters,(no known aliases),,,,,,MISP,0
 Scattered Spider,Octo Tempest,MISP + ETDA + MITRE,,,,G1015,MISP + ETDA + MITRE,13
 Scattered Spider,UNC3944,MISP + ETDA + MITRE,,,,G1015,MISP + ETDA + MITRE,13
@@ -2108,7 +2108,7 @@ SEXi,(no known aliases),,,,,,MISP,0
 Shadow Academy,(no known aliases),,,,,,ETDA,0
 Shadow Network,(no known aliases),,China,Medium,,,MISP + ETDA,0
 SHADOW-AETHER-015,(no known aliases),,,,,,MISP,0
-Shadow-Earth-053,(no known aliases),,China,Low,,,MISP,0
+Shadow-Earth-053,(no known aliases),,China,Medium,,,MISP,0
 SHADOW-VOID-042,(no known aliases),,,,,,MISP,0
 SHADOW-WATER-063,(no known aliases),,Brazil,,,,MISP,0
 ShadowByt3$,(no known aliases),,,,,,MISP,0
@@ -2116,7 +2116,7 @@ ShadowSyndicate,(no known aliases),,,,,,MISP,0
 ShadyPanda,(no known aliases),,,,,,MISP,0
 ShaggyPanther,(no known aliases),,China,Medium,,,MISP + ETDA,0
 Shahid Hemmat,(no known aliases),,Iran,Medium,,,MISP,0
-Shamoon Group,Cutting Sword of Justice,MISP,Iran,Low,,,MISP,1
+Shamoon Group,Cutting Sword of Justice,MISP,Iran,Medium,,,MISP,1
 SHARK SPIDER,(no known aliases),,Russia,,,,MISP + ETDA,0
 SharpPanda,Sharp Dragon,MISP + ETDA,China,Medium,,,MISP + ETDA,1
 ShinyHunters,Bling Libra,MITRE,,,,G1057,MISP + ETDA + MITRE,2
@@ -2170,29 +2170,29 @@ Silent Librarian,Mabna Institute,MISP + ETDA,Iran,High,"State-sponsored, Islamic
 Silent Librarian,TA4900,MISP + ETDA,Iran,High,"State-sponsored, Islamic Revolutionary Guard Corps",G0122,MISP + ETDA + MITRE,6
 Silent Librarian,Yellow Nabu,MISP + ETDA,Iran,High,"State-sponsored, Islamic Revolutionary Guard Corps",G0122,MISP + ETDA + MITRE,6
 Silent Librarian,Academic Serpens,ETDA,Iran,High,"State-sponsored, Islamic Revolutionary Guard Corps",G0122,MISP + ETDA + MITRE,6
-SilentAir,(no known aliases),,China,Low,,,MISP,0
+SilentAir,(no known aliases),,China,Medium,,,MISP,0
 SilitNetwork,(no known aliases),,,,,,MISP,0
 SILKFIN AGENCY,(no known aliases),,,,,,MISP,0
-SilkParasite,(no known aliases),,China,Low,,,MISP,0
+SilkParasite,(no known aliases),,China,Medium,,,MISP,0
 SilkSpecter,(no known aliases),,China,,,,MISP,0
 SilverFish,(no known aliases),,,,,,MISP,0
-SilverTerrier,(no known aliases),,Nigeria,Low,,G0083,MISP + MITRE,0
+SilverTerrier,(no known aliases),,Nigeria,,,G0083,MISP + MITRE,0
 Sima,(no known aliases),,Iran,Medium,,,MISP + ETDA,0
 SINGING SPIDER,(no known aliases),,,,,,MISP + ETDA,0
 SingularityMD,(no known aliases),,,,,,MISP,0
 Sinobi,(no known aliases),,,,,,MISP,0
 SkidSec,SkidSec Leaks,MISP,,,,,MISP,1
 SLIME29,(no known aliases),,China,High,,,MISP,0
-SLIME88,(no known aliases),,China,Low,,,MISP,0
+SLIME88,(no known aliases),,China,Medium,,,MISP,0
 Slingshot,(no known aliases),,,,,,MISP + ETDA,0
-SlippyNunchucks,(no known aliases),,China,Low,,,MISP,0
+SlippyNunchucks,(no known aliases),,China,Medium,,,MISP,0
 SlopAds,(no known aliases),,,,,,MISP,0
 SloppyLemming,(no known aliases),,,,,,MISP,0
 Smishing Triad,(no known aliases),,China,,,,MISP,0
 SMOKY SPIDER,(no known aliases),,,,,,MISP + ETDA,0
 SmugX,(no known aliases),,,,,,MISP,0
 Snake Wine,(no known aliases),,China,Medium,,,MISP + ETDA,0
-SneakyChef,(no known aliases),,China,Low,,,MISP,0
+SneakyChef,(no known aliases),,China,Medium,,,MISP,0
 SNOWGLOBE,Animal Farm,MISP + ETDA,France,High,,,MISP + ETDA,3
 SNOWGLOBE,ATK8,MISP + ETDA,France,High,,,MISP + ETDA,3
 SNOWGLOBE,SIG20,ETDA,France,High,,,MISP + ETDA,3
@@ -2216,16 +2216,16 @@ Stealth Falcon,FruityArmor,MISP + ETDA,United Arab Emirates,High,,G0038,MISP + E
 Stealth Falcon,Project Raven,ETDA,United Arab Emirates,High,,G0038,MISP + ETDA + MITRE,2
 Stealth Mango and Tangelo,(no known aliases),,Pakistan,High,,,MISP,0
 StingyBasilisk,(no known aliases),,,,,,MISP,0
-Storm Cloud,(no known aliases),,China,Low,,,MISP,0
-Storm-0062,DarkShadow,MISP,China,Low,,,MISP,2
-Storm-0062,Oro0lxy,MISP,China,Low,,,MISP,2
+Storm Cloud,(no known aliases),,China,Medium,,,MISP,0
+Storm-0062,DarkShadow,MISP,China,High,,,MISP,2
+Storm-0062,Oro0lxy,MISP,China,High,,,MISP,2
 Storm-0249,DEV-0249,MISP,,,,,MISP,1
 Storm-0252,CHATTY SPIDER,MISP,,,,,MISP,1
 Storm-0324,DEV-0324,MISP,,,,,MISP,3
 Storm-0324,Sagrid,MISP,,,,,MISP,3
 Storm-0324,TA543,MISP,,,,,MISP,3
 Storm-0381,DEV-0381,MISP,Russia,,,,MISP,1
-Storm-0473,UNC2849,MISP,Kazakhstan,Low,,,MISP,1
+Storm-0473,UNC2849,MISP,Kazakhstan,,,,MISP,1
 Storm-0494,(no known aliases),,,,,,MISP,0
 Storm-0501,(no known aliases),,,,,G1053,MISP + MITRE,0
 Storm-0506,(no known aliases),,,,,,MISP,0
@@ -2237,17 +2237,17 @@ Storm-0826,(no known aliases),,,,,,MISP,0
 Storm-0829,DEV-0829,MISP,,,,,MISP,2
 Storm-0829,Nwgen Team,MISP,,,,,MISP,2
 Storm-0835,(no known aliases),,,,,,MISP,0
-Storm-0867,DEV-0867,MISP,Egypt,Low,,,MISP,1
-Storm-0940,CovertNetwork-1658,MISP,China,Low,,,MISP,2
-Storm-0940,ORB07,MISP,China,Low,,,MISP,2
+Storm-0867,DEV-0867,MISP,Egypt,,,,MISP,1
+Storm-0940,CovertNetwork-1658,MISP,China,Medium,,,MISP,2
+Storm-0940,ORB07,MISP,China,Medium,,,MISP,2
 Storm-1044,DEV-1044,MISP,,,,,MISP,1
-Storm-1084,DEV-1084,MISP,Iran,Low,,,MISP,1
-Storm-1099,(no known aliases),,Russia,Low,,,MISP,0
+Storm-1084,DEV-1084,MISP,Iran,Medium,,,MISP,1
+Storm-1099,(no known aliases),,Russia,High,,,MISP,0
 Storm-1101,DEV-1101,MISP,,,,,MISP,1
 Storm-1113,APOTHECARY SPIDER,MISP,,,,,MISP,1
-Storm-1133,(no known aliases),,Palestine,Low,,,MISP,0
+Storm-1133,(no known aliases),,Palestine,Medium,,,MISP,0
 Storm-1152,(no known aliases),,Vietnam,,,,MISP,0
-Storm-1167,DEV-1167,MISP,Indonesia,Low,,,MISP,1
+Storm-1167,DEV-1167,MISP,Indonesia,,,,MISP,1
 Storm-1175,(no known aliases),,China,,,,MISP,0
 Storm-1283,(no known aliases),,,,,,MISP,0
 Storm-1286,(no known aliases),,,,,,MISP,0
@@ -2259,7 +2259,7 @@ Storm-1567,PUNK SPIDER,MISP + MITRE,,,,G1024,MISP + MITRE,4
 Storm-1567,Howling Scorpius,MITRE,,,,G1024,MISP + MITRE,4
 Storm-1575,(no known aliases),,,,,,MISP,0
 Storm-1674,(no known aliases),,,,,,MISP,0
-Storm-1679,(no known aliases),,Russia,Low,,,MISP,0
+Storm-1679,(no known aliases),,Russia,Medium,,,MISP,0
 Storm-1747,(no known aliases),,,,,,MISP,0
 Storm-1849,UAT4356,MISP,Unknown,Medium,,,MISP,1
 Storm-1977,(no known aliases),,,,,,MISP,0
@@ -2289,15 +2289,15 @@ TA2101,DEV-0216,MISP,Russia,,,,MISP + ETDA,7
 TA2101,Storm-0216,MISP,Russia,,,,MISP + ETDA,7
 TA2101,TUNNEL SPIDER,MISP,Russia,,,,MISP + ETDA,7
 TA2101,UNC2198,MISP,Russia,,,,MISP + ETDA,7
-TA2536,(no known aliases),,Nigeria,Low,,,MISP,0
+TA2536,(no known aliases),,Nigeria,,,,MISP,0
 TA2541,(no known aliases),,,,,G1018,MISP + ETDA + MITRE,0
 TA2552,(no known aliases),,,,,,MISP + ETDA,0
 TA2719,Vendetta,ETDA,Turkey,Medium,,,MISP + ETDA,1
 TA2722,Balikbayan Foxes,MISP + ETDA,,,,,MISP + ETDA,1
 TA2723,(no known aliases),,,,,,MISP,0
 TA2725,(no known aliases),,,,,,MISP,0
-TA402,(no known aliases),,Palestine,Low,,,MISP,0
-TA406,(no known aliases),,North Korea,Low,,,MISP,0
+TA402,(no known aliases),,Palestine,Medium,,,MISP,0
+TA406,(no known aliases),,North Korea,Medium,,,MISP,0
 TA410,(no known aliases),,Unknown,Medium,,,MISP,0
 TA413,White Dev 9,ETDA,China,Medium,,,ETDA,1
 TA419,(no known aliases),,,,,,MISP,0
@@ -2308,7 +2308,7 @@ TA428,Operation “StealthyTrident”,ETDA,China,High,,,MISP + ETDA,6
 TA428,Panda,ETDA,China,High,,,MISP + ETDA,6
 TA428,ThunderCats,ETDA,China,High,,,MISP + ETDA,6
 TA444,(no known aliases),,North Korea,Medium,,,MISP,0
-TA453,(no known aliases),,Iran,Low,,,MISP,0
+TA453,(no known aliases),,Iran,High,,,MISP,0
 TA455,UNC1549,ETDA + MITRE,Iran,High,,G1059,MISP + ETDA + MITRE,8
 TA455,COBALT SMOKEY,MITRE,Iran,High,,G1059,MISP + ETDA + MITRE,8
 TA455,NIMBUS MANTICORE,MITRE,Iran,High,,G1059,MISP + ETDA + MITRE,8
@@ -2318,7 +2318,7 @@ TA455,Operation “Iranian Dream Job”,ETDA,Iran,High,,G1059,MISP + ETDA + MITR
 TA455,Smoke Sandstorm,ETDA,Iran,High,,G1059,MISP + ETDA + MITRE,8
 TA455,Yellow Dev 13,ETDA,Iran,High,,G1059,MISP + ETDA + MITRE,8
 TA459,(no known aliases),,China,Medium,,G0062,MISP + ETDA + MITRE,0
-TA482,(no known aliases),,Turkey,Low,,,MISP,0
+TA482,(no known aliases),,Turkey,Medium,,,MISP,0
 TA4903,(no known aliases),,,,,,MISP,0
 TA4922,(no known aliases),,China,,,,MISP,0
 TA499,Lexus,MISP,,,,,MISP,2
@@ -2349,14 +2349,14 @@ TA578,(no known aliases),,,,,G1038,MISP + MITRE,0
 TA579,(no known aliases),,,,,,MISP,0
 TA584,Storm-0900,MISP,,,,,MISP,1
 TA800,(no known aliases),,,,,,MISP,0
-TA829,(no known aliases),,Russia,Low,,,MISP,0
+TA829,(no known aliases),,Russia,Medium,,,MISP,0
 TA866,(no known aliases),,,,,,MISP,0
 TAG-112,(no known aliases),,China,Medium,,,MISP,0
 TAG-124,LandUpdate808,MISP,,,,,MISP,1
-TAG-140,(no known aliases),,Pakistan,Low,,,MISP,0
+TAG-140,(no known aliases),,Pakistan,Medium,,,MISP,0
 TAG-28,(no known aliases),,China,High,,,MISP + ETDA,0
 TAG-38,(no known aliases),,China,High,,,ETDA,0
-TAG-56,(no known aliases),,Iran,Low,,,MISP,0
+TAG-56,(no known aliases),,Iran,Medium,,,MISP,0
 Taidoor,Earth Aughisky,MISP + ETDA,China,Medium,,G0015,MISP + ETDA,2
 Taidoor,Budminer,ETDA,China,Medium,,G0015,MISP + ETDA,2
 TaskMasters,BlueTraveller,MISP,China,Medium,,,MISP + ETDA,1
@@ -2378,7 +2378,7 @@ TeamTNT,Adept Libra,MISP,,,,G0139,MISP + MITRE,1
 TeamXRat,CorporacaoXRat,MISP,,,,,MISP,2
 TeamXRat,CorporationXRat,MISP,,,,,MISP,2
 TeleBots,(no known aliases),,Russia,High,"State-sponsored, GRU",,ETDA,0
-Teleboyi,(no known aliases),,China,Low,,,MISP,0
+Teleboyi,(no known aliases),,China,,,,MISP,0
 TEMP.Hermit,HERMIT NEPTUNE,MISP,North Korea,,,,MISP,1
 TEMP.Veles,XENOTIME,MISP + ETDA + MITRE,Russia,High,"State-sponsored, Central Scientific Research Institute of Chemistry and Mechanics",G0088,MISP + ETDA + MITRE,2
 TEMP.Veles,ATK91,MISP + ETDA,Russia,High,"State-sponsored, Central Scientific Research Institute of Chemistry and Mechanics",G0088,MISP + ETDA + MITRE,2
@@ -2468,9 +2468,9 @@ TraderTraitor,UNC4899,MISP,North Korea,High,,,MISP,3
 TRAVELING SPIDER,Gold Mansard,ETDA,,,,,MISP + ETDA,1
 TridentLocker,(no known aliases),,,,,,MISP,0
 TRIPLESTRENGTH,(no known aliases),,,,,,MISP,0
-Tstark,(no known aliases),,China,Low,,,MISP,0
-TunnelSnake,(no known aliases),,China,Low,,,MISP,0
-TurkHackTeam,(no known aliases),,Turkey,Low,,,MISP,0
+Tstark,(no known aliases),,China,Medium,,,MISP,0
+TunnelSnake,(no known aliases),,China,Medium,,,MISP,0
+TurkHackTeam,(no known aliases),,Turkey,,,,MISP,0
 Turla,Group 88,MISP + ETDA + MITRE,Russia,High,"State-sponsored, FSB Centre 16L: Radio-Electronic Intelligence on Communications Facilities, Post Number 71330",G0010,MISP + ETDA + MITRE,38
 Turla,IRON HUNTER,MISP + ETDA + MITRE,Russia,High,"State-sponsored, FSB Centre 16L: Radio-Electronic Intelligence on Communications Facilities, Post Number 71330",G0010,MISP + ETDA + MITRE,38
 Turla,Krypton,MISP + ETDA + MITRE,Russia,High,"State-sponsored, FSB Centre 16L: Radio-Electronic Intelligence on Communications Facilities, Post Number 71330",G0010,MISP + ETDA + MITRE,38
@@ -2512,13 +2512,13 @@ Turla,Uroburos,MISP,Russia,High,"State-sponsored, FSB Centre 16L: Radio-Electron
 Twisted Panda,(no known aliases),,China,High,,,ETDA,0
 TwoSail Junk,Operation Poisoned News,MISP + ETDA,China,Medium,,,MISP + ETDA,1
 UAC-0006,(no known aliases),,,,,,MISP,0
-UAC-0020,SickSync,MISP,Russia,Low,,,MISP,4
-UAC-0020,TEMP.Vermin,MISP,Russia,Low,,,MISP,4
-UAC-0020,Vermin,MISP,Russia,Low,,,MISP,4
-UAC-0020,VERMIN RELIC,MISP,Russia,Low,,,MISP,4
+UAC-0020,SickSync,MISP,Russia,High,,,MISP,4
+UAC-0020,TEMP.Vermin,MISP,Russia,High,,,MISP,4
+UAC-0020,Vermin,MISP,Russia,High,,,MISP,4
+UAC-0020,VERMIN RELIC,MISP,Russia,High,,,MISP,4
 UAC-0050,(no known aliases),,,,,,MISP,0
 UAC-0063,(no known aliases),,,,,,MISP,0
-UAC-0094,(no known aliases),,Russia,Low,,,MISP,0
+UAC-0094,(no known aliases),,Russia,,,,MISP,0
 UAC-0099,(no known aliases),,,,,,MISP,0
 UAC-0102,(no known aliases),,,,,,MISP,0
 UAC-0118,FromRussiaWithLove,MISP,,,,,MISP,2
@@ -2527,14 +2527,14 @@ UAC-0149,(no known aliases),,,,,,MISP,0
 UAC-0154,(no known aliases),,,,,,MISP,0
 UAC-0184,(no known aliases),,,,,,MISP,0
 UAC-0185,UNC4221,MISP,,,,,MISP,1
-UAC-0194,(no known aliases),,Russia,Low,,,MISP,0
+UAC-0194,(no known aliases),,Russia,Medium,,,MISP,0
 UAC-0215,(no known aliases),,,,,,MISP,0
 UAC-0219,(no known aliases),,Unknown,Medium,,,MISP,0
 UAC-0226,(no known aliases),,,,,,MISP,0
 UAC-0227,(no known aliases),,,,,,MISP,0
 UAC-0239,(no known aliases),,,,,,MISP,0
 UAC-0241,(no known aliases),,,,,,MISP,0
-UAC-0245,(no known aliases),,Russia,Low,,,MISP,0
+UAC-0245,(no known aliases),,Russia,,,,MISP,0
 UAT-10147,(no known aliases),,China,,,,MISP,0
 UAT-10362,(no known aliases),,,,,,MISP,0
 UAT-10608,(no known aliases),,,,,,MISP,0
@@ -2543,22 +2543,22 @@ UAT-11795,(no known aliases),,Russia,,,,MISP,0
 UAT-5394,(no known aliases),,North Korea,Medium,,,MISP,0
 UAT-5918,(no known aliases),,,,,,MISP,0
 UAT-6275,(no known aliases),,,,,,MISP,0
-UAT-6382,(no known aliases),,China,Low,,,MISP,0
-UAT-7237,CL-STA-1062,MISP,China,Low,,,MISP,1
-UAT-7810,(no known aliases),,China,Low,,,MISP,0
+UAT-6382,(no known aliases),,China,,,,MISP,0
+UAT-7237,CL-STA-1062,MISP,China,Medium,,,MISP,1
+UAT-7810,(no known aliases),,China,Medium,,,MISP,0
 UAT-8099,(no known aliases),,China,,,,MISP,0
-UAT-8302,(no known aliases),,China,Low,,,MISP,0
+UAT-8302,(no known aliases),,China,Medium,,,MISP,0
 UAT-8616,(no known aliases),,,,,,MISP,0
-UAT-8837,(no known aliases),,China,Low,,,MISP,0
-UAT-9244,(no known aliases),,China,Low,,,MISP,0
+UAT-8837,(no known aliases),,China,Medium,,,MISP,0
+UAT-9244,(no known aliases),,China,Medium,,,MISP,0
 UAT-9686,(no known aliases),,China,Medium,,,MISP,0
-UAT-9921,VoidLink Operator,MISP,China,Low,,,MISP,1
+UAT-9921,VoidLink Operator,MISP,China,,,,MISP,1
 Ukrainian Cyber Alliance,UCA,MISP,Ukraine,,,,MISP,1
 UltraRank,(no known aliases),,,,,,ETDA,0
 UNC1069,CryptoCore,MISP,North Korea,,,,MISP,3
 UNC1069,MASAN,MISP,North Korea,,,,MISP,3
 UNC1069,MIDNIGHT NEPTUNE,MISP,North Korea,,,,MISP,3
-UNC1088,RAVINE CASTLE,MISP,China,Low,,,MISP,1
+UNC1088,RAVINE CASTLE,MISP,China,Medium,,,MISP,1
 UNC1549,Nimbus Manticore,MISP,Iran,High,,,MISP,1
 UNC1860,(no known aliases),,Iran,Medium,,,MISP,0
 UNC1878,(no known aliases),,,,,,MISP + ETDA,0
@@ -2573,16 +2573,16 @@ UNC2452,SolarStorm,ETDA,Russia,High,,,MISP + ETDA,6
 UNC2465,(no known aliases),,,,,,MISP,0
 UNC2529,(no known aliases),,,,,,MISP,0
 UNC2565,Hive0127,MISP,,,,,MISP,1
-UNC2630,(no known aliases),,China,Low,,,MISP,0
+UNC2630,(no known aliases),,China,High,,,MISP,0
 UNC2659,(no known aliases),,,,,,MISP,0
-UNC2717,(no known aliases),,China,Low,,,MISP,0
-UNC2814,DARK CASTLE,MISP,China,Low,,,MISP,1
+UNC2717,(no known aliases),,China,High,,,MISP,0
+UNC2814,DARK CASTLE,MISP,China,Medium,,,MISP,1
 UNC2891,(no known aliases),,,,,,ETDA,0
-UNC2970,(no known aliases),,North Korea,Low,,,MISP,0
+UNC2970,(no known aliases),,North Korea,High,,,MISP,0
 UNC3524,Cranefly,ETDA,Russia,Medium,,,MISP + ETDA,1
-UNC3569,(no known aliases),,China,Low,,,MISP,0
+UNC3569,(no known aliases),,China,Medium,,,MISP,0
 UNC3886,Fire Ant,ETDA,China,Medium,,G1048,MISP + ETDA + MITRE,1
-UNC3890,(no known aliases),,Iran,Low,,,MISP,0
+UNC3890,(no known aliases),,Iran,Medium,,,MISP,0
 UNC3973,(no known aliases),,,,,,MISP,0
 UNC4191,(no known aliases),,China,Medium,,,MISP + ETDA,0
 UNC4393,Storm-1811,MISP + MITRE,,,,G1046,MISP + MITRE,4
@@ -2591,23 +2591,23 @@ UNC4393,CURLY SPIDER,MISP,,,,G1046,MISP + MITRE,4
 UNC4393,STAC5777,MISP,,,,G1046,MISP + MITRE,4
 UNC4487,(no known aliases),,,,,,MISP,0
 UNC4536,(no known aliases),,,,,,MISP,0
-UNC4540,(no known aliases),,China,Low,,,MISP,0
+UNC4540,(no known aliases),,China,Medium,,,MISP,0
 UNC4736,AppleJeus,MITRE,North Korea,High,,G1049,MISP + MITRE,4
 UNC4736,Citrine Sleet,MITRE,North Korea,High,,G1049,MISP + MITRE,4
 UNC4736,Gleaming Pisces,MITRE,North Korea,High,,G1049,MISP + MITRE,4
 UNC4736,UNC1720,MITRE,North Korea,High,,G1049,MISP + MITRE,4
-UNC4841,SLIME57,MISP,China,Low,,,MISP,1
+UNC4841,SLIME57,MISP,China,High,,,MISP,1
 UNC4990,(no known aliases),,IT,,,,MISP,0
 UNC5174,Uteus,MISP,Unknown,Medium,,,MISP,1
 UNC5266,(no known aliases),,,,,,MISP,0
 UNC5291,(no known aliases),,,,,,MISP,0
-UNC5325,(no known aliases),,China,Low,,,MISP,0
-UNC5330,(no known aliases),,China,Low,,,MISP,0
-UNC5337,(no known aliases),,China,Low,,,MISP,0
-UNC5342,(no known aliases),,North Korea,Low,,,MISP,0
+UNC5325,(no known aliases),,China,Medium,,,MISP,0
+UNC5330,(no known aliases),,China,Medium,,,MISP,0
+UNC5337,(no known aliases),,China,Medium,,,MISP,0
+UNC5342,(no known aliases),,North Korea,High,,,MISP,0
 UNC5537,(no known aliases),,CA,,,,MISP + ETDA,0
 UNC5820,CL-STA-0954,MISP,Unknown,Medium,,,MISP,1
-UNC6032,(no known aliases),,Vietnam,Low,,,MISP,0
+UNC6032,(no known aliases),,Vietnam,,,,MISP,0
 UNC6040,(no known aliases),,,,,,MISP,0
 UNC6148,(no known aliases),,,,,,MISP,0
 UNC6201,(no known aliases),,China,Medium,,,MISP,0
@@ -2617,13 +2617,13 @@ UNC6384,Vertigo Panda,MISP,China,High,,,MISP,1
 UNC6395,(no known aliases),,,,,,MISP,0
 UNC6426,(no known aliases),,,,,,MISP,0
 UNC6485,(no known aliases),,,,,,MISP,0
-UNC6508,(no known aliases),,China,Low,,,MISP,0
+UNC6508,(no known aliases),,China,Medium,,,MISP,0
 UNC6619,Shadow Campaigns,MISP,,,,,MISP,2
 UNC6619,TGR-STA-1030,MISP,,,,,MISP,2
 UNC6671,(no known aliases),,,,,,MISP,0
 UNC6691,(no known aliases),,,,,,MISP,0
 UNC6692,(no known aliases),,,,,,MISP,0
-UNC6748,(no known aliases),,Russia,Low,,,MISP,0
+UNC6748,(no known aliases),,Russia,,,,MISP,0
 UNC7017,(no known aliases),,,,,,MISP,0
 UNC7228,(no known aliases),,,,,,MISP,0
 UNC788,(no known aliases),,,,,G1029,MITRE,0
@@ -2634,13 +2634,13 @@ UNG0901,Unknown-Group-901,MISP,,,,,MISP,2
 UNION PANDA,(no known aliases),,China,High,,,MISP + ETDA,0
 UNION SPIDER,(no known aliases),,Russia,,,,MISP + ETDA,0
 Unit 8200,Duqu Group,MISP,Israel,High,,,MISP,1
-UNK_AcademicFlare,(no known aliases),,Russia,Low,,,MISP,0
+UNK_AcademicFlare,(no known aliases),,Russia,Medium,,,MISP,0
 UNK_DropPitch,(no known aliases),,,,,,MISP,0
 UNK_FistBump,(no known aliases),,,,,,MISP,0
-UNK_RemoteRogue,(no known aliases),,Russia,Low,,,MISP,0
+UNK_RemoteRogue,(no known aliases),,Russia,Medium,,,MISP,0
 UNK_SparkyCarp,(no known aliases),,,,,,MISP,0
 Unnamed Actor,(no known aliases),,China,High,,,MISP,0
-UnsolicitedBooker,(no known aliases),,China,Low,,,MISP,0
+UnsolicitedBooker,(no known aliases),,China,Medium,,,MISP,0
 Urpage,(no known aliases),,Unknown,High,,,MISP + ETDA,0
 USDoD,NetSec,ETDA,Spain,,,,MISP + ETDA,3
 USDoD,Operation “Data Breach”,ETDA,Spain,,,,MISP + ETDA,3
@@ -2650,9 +2650,9 @@ UTA0178,UNC5221,MISP + ETDA,China,Medium,,,MISP + ETDA,3
 UTA0178,ARMORY CASTLE,MISP,China,Medium,,,MISP + ETDA,3
 UTA0178,Red Dev 61,MISP,China,Medium,,,MISP + ETDA,3
 UTA0218,(no known aliases),,Unknown,Medium,,,MISP,0
-UTA0352,(no known aliases),,Russia,Low,,,MISP,0
-UTA0355,(no known aliases),,Russia,Low,,,MISP,0
-UTA0388,(no known aliases),,China,Low,,,MISP,0
+UTA0352,(no known aliases),,Russia,Medium,,,MISP,0
+UTA0355,(no known aliases),,Russia,Medium,,,MISP,0
+UTA0388,(no known aliases),,China,Medium,,,MISP,0
 UTA0533,(no known aliases),,,,,,MISP,0
 UTA0576,(no known aliases),,,,,,MISP,0
 UTG-Q-008,(no known aliases),,,,,,MISP,0
@@ -2682,7 +2682,7 @@ VICEROY TIGER,SectorE02,MISP,India,Medium,,G0042,MISP + ETDA,7
 Vicious Panda,Bronze Dudley,ETDA,China,High,,,MISP + ETDA,2
 Vicious Panda,SixLittleMonkeys,MISP,China,High,,,MISP + ETDA,2
 ViciousTrap,(no known aliases),,,,,,MISP,0
-Viking Jackal,Vikingdom,MISP + ETDA,United Arab Emirates,Low,,,MISP + ETDA,1
+Viking Jackal,Vikingdom,MISP + ETDA,United Arab Emirates,,,,MISP + ETDA,1
 VIKING SPIDER,(no known aliases),,,,,,MISP + ETDA,0
 Void Arachne,Silver Fox,MISP + ETDA,China,Medium,,,MISP + ETDA,1
 Void Balaur,Rockethack,ETDA,,,,,MISP + ETDA,1
@@ -2733,17 +2733,17 @@ Water Bakunawa,(no known aliases),,,,,,MISP,0
 Water Barghest,(no known aliases),,,,,,MISP,0
 Water Curupira,(no known aliases),,,,,,MISP,0
 Water Galura,GOLD FEATHER,MITRE,,,,G1050,MITRE,1
-Water Gamayun,(no known aliases),,Russia,Low,,,MISP,0
+Water Gamayun,(no known aliases),,Russia,,,,MISP,0
 Water Kurita,(no known aliases),,,,,,MISP,0
 Water Labbu,(no known aliases),,,,,,MISP,0
 Water Makara,(no known aliases),,,,,,MISP,0
 Water Orthrus,(no known aliases),,,,,,MISP,0
 Water Saci,(no known aliases),,Brazil,,,,MISP,0
-Water Sigbin,8220 Gang,MISP,China,Low,,,MISP,1
+Water Sigbin,8220 Gang,MISP,China,,,,MISP,1
 Webworm,Space Pirates,MISP + ETDA,China,Medium,,,MISP + ETDA,2
 Webworm,Erudite Mogwai,ETDA,China,Medium,,,MISP + ETDA,2
 WeedSec,(no known aliases),,,,,,MISP,0
-WeRedEvils,(no known aliases),,Israel,Low,,,MISP,0
+WeRedEvils,(no known aliases),,Israel,,,,MISP,0
 WET PANDA,Red Chimera,MISP,China,High,,,MISP + ETDA,1
 White Bear,Skipper Turla,MISP,Russia,High,,,MISP,1
 Whitearmor,(no known aliases),,,,,,MISP,0
@@ -2764,7 +2764,7 @@ Winter Vivern,TA473,MISP + ETDA + MITRE,Russia,Medium,,G1035,MISP + ETDA + MITRE
 Winter Vivern,UAC-0114,MISP + ETDA + MITRE,Russia,Medium,,G1035,MISP + ETDA + MITRE,4
 Winter Vivern,TAG-70,MISP + ETDA,Russia,Medium,,G1035,MISP + ETDA + MITRE,4
 Winter Vivern,UNC4907,ETDA,Russia,Medium,,G1035,MISP + ETDA + MITRE,4
-WIP19,(no known aliases),,China,Low,,,MISP,0
+WIP19,(no known aliases),,China,Medium,,,MISP,0
 WIP26,(no known aliases),,,,,,ETDA,0
 WIRTE,Ashen Lepus,MISP + MITRE,Palestine,,Hamas,G0090,MISP + ETDA + MITRE,2
 WIRTE,White Dev 21,ETDA,Palestine,,Hamas,G0090,MISP + ETDA + MITRE,2
@@ -2797,10 +2797,10 @@ XakNet,UAC-0100,MISP,Russia,Medium,,,MISP,2
 XakNet,UAC-0106,MISP,Russia,Medium,,,MISP,2
 Xcatze,(no known aliases),,,,,,MISP,0
 XDSpy,(no known aliases),,,,,,MISP + ETDA,0
-Xiaoqiying,Genesis Day,MISP,China,Low,,,MISP,2
-Xiaoqiying,Teng Snake,MISP,China,Low,,,MISP,2
-XinXin,Black Technology,MISP,China,Low,,,MISP,2
-XinXin,changqixinyun,MISP,China,Low,,,MISP,2
+Xiaoqiying,Genesis Day,MISP,China,,,,MISP,2
+Xiaoqiying,Teng Snake,MISP,China,,,,MISP,2
+XinXin,Black Technology,MISP,China,,,,MISP,2
+XinXin,changqixinyun,MISP,China,,,,MISP,2
 Xuanye Group,(no known aliases),,,,,,MISP,0
 Yanbian Gang,(no known aliases),,China,,,,MISP + ETDA,0
 Yingmob,(no known aliases),,China,,,,ETDA,0
@@ -2815,7 +2815,7 @@ Z-Pentest Alliance,Z-Pentest,MISP,Russia,,,,MISP,1
 Zarya,UAC-0109,MISP,Russia,,,,MISP,1
 ZaWoo,(no known aliases),,,,,,MISP,0
 ZeffSec,Zeff Security,MISP,,,,,MISP,1
-ZeroBytes,(no known aliases),,France,Low,,,MISP,0
+ZeroBytes,(no known aliases),,France,,,,MISP,0
 ZeroSevenGroup,(no known aliases),,,,,,MISP,0
 ZOMBIE SPIDER,(no known aliases),,Russia,,,,MISP + ETDA,0
 ZooPark,APT-C-38,ETDA,Iran,High,,,MISP + ETDA,4

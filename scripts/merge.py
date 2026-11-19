@@ -2,6 +2,14 @@ import json,sys,re,csv,collections
 misp=json.load(open(sys.argv[1]))['values']; etda=json.load(open(sys.argv[2]))['values']; out=sys.argv[3]; mitre=json.load(open(sys.argv[4]))['groups']; MW=json.load(open(sys.argv[5]))
 norm=lambda s:re.sub(r'(group|team|gang)$','',re.sub(r'[^a-z0-9]','',s.lower())) or re.sub(r'[^a-z0-9]','',s.lower())
 def clean(n): return ' '.join(n.split()).strip(' ,;')
+# ---- reviewed attribution research (data/curation/actor_attribution_review.csv): drops criminal / hacktivist /
+#      unattributed actors from the state set and records the researched basis for the ones kept
+import os
+_rp=os.path.join(os.path.dirname(os.path.abspath(__file__)),'..','data','curation','actor_attribution_review.csv')
+REVIEW={x['actor']:x for x in csv.DictReader(open(_rp,encoding='utf-8'))} if os.path.exists(_rp) else {}
+REVIEW_DROP={'CRIMINAL','HACKTIVIST','NO_ATTRIBUTION','NOT_FOUND'}
+REVIEW_KEEP={'STATE_ATTRIBUTED':('High','attributed to a state'),'STATE_ATTRIBUTED_CONTESTED':('Medium','attributed by an adversary government only (contested)'),'STATE_ALIGNED_ASSESSED':('Medium','assessed state-aligned'),'HYBRID':('Medium','hybrid: crime + state-aligned espionage')}
+tier_rank={'High':0,'Medium':1,'Low':2}
 # ---- MISP names
 M=[]
 for v in misp:
@@ -170,6 +178,15 @@ for g in groups:
         hits=[c for c,rx in [('China',r"\b(China|Chinese|People's Republic of China|PRC)\b"),('Russia',r'\bRussia'),('Iran',r'\bIran'),('North Korea',r'North Korea|DPRK')] if re.search(r'(?i)(attributed to|sponsored|backed|linked to|based in|operat\w+ (on behalf of|from))[^.]{0,80}'+rx,t['description'])]
         if len(hits)==1: sp[hits[0]]=1
     conf='' if (excluded or not basis) else ('High' if strong else 'Medium' if any(b in basis for b in ('description','ETDA: espionage motive')) else 'Low')
+    rv=REVIEW.get(actor)
+    if rv and conf:
+        v=rv['verdict']
+        if v in REVIEW_DROP: conf=''
+        elif v in REVIEW_KEEP:
+            lvl,label=REVIEW_KEEP[v]
+            if tier_rank[lvl]<tier_rank[conf]: conf=lvl
+            basis=[b for b in basis if b!='country tag only']+[f"research: {label} ({rv['attributing_source']}, {rv['latest_report_date']})"]
+            sp=collections.OrderedDict([(rv['sponsor_country'] or 'Unknown',1)])
     rec={'actor':actor,'sources':lab(srcs),'misp_name':m['primary'] if m else '','etda_name':e['primary'] if e else '','mitre_name':t['actor'] if t else '','merge_note':g['note'],
       'state-link-confidence':conf,'Suspected-State-Sponsor':('; '.join(sp) or ('Unknown' if conf else '')),
       'sponsoring-org (ETDA)':esp if esp and not re.fullmatch(r'(?i)state-sponsored',esp) else '','state-evidence':'; '.join(basis) if conf else '',
@@ -178,7 +195,9 @@ for g in groups:
       'country':country,'mitre_id':';'.join(sorted(mitre_ids)),'mitre_last_modified':t['last_modified'] if t else '','alias_count':len(aliases),
       'aliases (all)':'; '.join(n for n,_ in aliases),
       'aliases in MITRE':'; '.join(n for n,s in aliases if 'MITRE' in s),'aliases in MISP':'; '.join(n for n,s in aliases if 'MISP' in s),'aliases in ETDA':'; '.join(n for n,s in aliases if 'ETDA' in s),
-      'mitre_url':t['url'] if t else '','etda_card':e['card'] if e else '','description':desc}
+      'mitre_url':t['url'] if t else '','etda_card':e['card'] if e else '',
+      'research-verdict':rv['verdict'] if rv else '','research-attribution':(rv['attribution_wording']+(' ['+rv['confidence_wording']+']' if rv['confidence_wording'] else '')) if rv else '',
+      'research-latest-report':rv['latest_report_date'] if rv else '','research-url':rv['url'] if rv else '','description':desc}
     mw=collections.OrderedDict()
     def addmw(n,typ,src):
         c=MW['canon'].get(norm(n),n); k=norm(c); k2=re.sub(r'(rat|backdoor|project)$','',k)
