@@ -1,4 +1,4 @@
-# Weekly recent-activity research procedure
+# Daily recent-activity research procedure
 
 Goal: add any newly reported activity by the **state-sponsored actors** in
 `out/state_sponsored/state_actors_summary.csv` to `data/work/web.jsonl`.
