@@ -51,7 +51,7 @@ for p in sorted(glob.glob(INC+'/*.yaml')):
          'Linked Actors (dataset)':'; '.join(linked),'State-Sponsored Link':'Yes' if state else 'No',
          'Summary':clean(y.get('summary','')),'CVEs':J('cves'),'ATT&CK Techniques':J('techniques'),
          'Sources':' '.join(clean(s.get('url','')) for s in srcs),'Reporters':'; '.join(clean(s.get('reporter','')) for s in srcs if s.get('reporter')),
-         'IOC Feeds':'; '.join(clean(f) for f in (y.get('ioc_feeds') or [])),'Notes':clean(y.get('notes',''))}
+         'IOC Feeds':'; '.join(clean(f) for f in (y.get('ioc_feeds') or [])),'Watching':'Yes' if y.get('watch',y.get('status')=='ongoing') else 'No','Keywords':'; '.join(clean(k) for k in (y.get('keywords') or [])),'Notes':clean(y.get('notes',''))}
     for c in('CVEs',):
         for v in (y.get('cves') or []):
             if not re.fullmatch(r'CVE-\d{4}-\d{4,7}',str(v)): err.append(f'{iid}: bad CVE {v}')

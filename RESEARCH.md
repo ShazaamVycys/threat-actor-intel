@@ -41,22 +41,31 @@ prefer the newest reporting, and add a row (actor, verdict, sponsor_country, sta
 attribution_wording, confidence_wording, latest_report_date, url, notes, reviewed_on). Re-check a row when newer
 reporting changes the picture (update latest_report_date and reviewed_on).
 
-## 5. Major incidents (any attribution)
-Goal: keep `data/incidents/` current with major breaches, compromises, supply-chain attacks and campaigns in the news,
-whether or not a state is behind them.
-1. **Queue first:** research every line in `data/incidents/queue.txt`, write `data/incidents/<id>.yaml` from
-   `_template.yaml`, then delete the line. If the report can't be verified from reliable sources, leave the line and say why.
-2. **New incidents:** look for incidents first reported since `out/LAST_BUILD` that are *major*: a large or well-known victim,
-   a supply-chain compromise with downstream victims, a mass-exploitation campaign, significant data/crypto theft or
-   disruption, or a government advisory. Skip routine single-victim ransomware claims and leak-site posts without reporting.
-   Check the existing YAML files first; if the incident is already there, update it (new facts, `updated:`, sources, IOCs)
-   instead of adding another.
-3. **Facts** come from the same reliable sources as section 2. Use the reporter's own attribution wording and set
-   `attribution:` accordingly; use MIXED when several unrelated actors are involved.
-4. **IOCs:** prefer `ioc_feeds:`; look in `data/ext/{talos,unit42,eset,volexity}` for the report's IOC file
-   (`grep -ril <keyword> data/ext/...`). Only key values into `iocs:` when they are copied from the report's IOC table;
-   never type IOCs from memory or from a summary. Leave out generic user agents and tools.
-5. Run `./run_all.sh`; the `incidents:` line must show `formula-like cells: 0` and no ERROR lines (fix the YAML if there are).
+## 5. Major incidents (any attribution) — incident watch
+Goal: stay vigilant. When a major breach, compromise, supply-chain attack or mass-exploitation campaign happens anywhere
+(e.g. ARTEX in 2026, Salt Typhoon's ISP compromises in 2024), capture it quickly and keep collecting its IOCs as vendors and
+agencies publish them. This runs in the incident watch (every ~6 hours) and in the daily refresh.
+1. **Radar** (`scripts/radar.sh`, also run by `./run_all.sh`): refreshes the Talos, Unit 42, Volexity and ESET IOC repos and the
+   CISA KEV catalog and writes `out/incidents/RADAR.md`: new vendor IOC reports (IOC counts, actors named, watched-incident
+   matches, ready-to-use `ioc_feeds` refs) and new KEV entries (ransomware flag). Triage every row:
+   - matches a watched incident → add the feed ref to that incident's `ioc_feeds:` (after checking the report is about it);
+   - a new major incident with IOCs → create its YAML; a single-actor state report needs nothing here (section 6 / actor IOCs);
+   - KEV entries: a new major incident only when reporting shows mass or high-impact exploitation (several victims,
+     an advisory, a known actor, ransomware use). Otherwise ignore.
+2. **Queue:** research every line in `data/incidents/queue.txt`, write `data/incidents/<id>.yaml` from `_template.yaml`,
+   then delete the line. If it can't be verified from reliable sources, leave the line and say why.
+3. **Breaking news sweep** (since the last watch run): CISA / NCSC / ACSC / CCCS / CERT-FR / BSI / JPCERT / CERT-UA advisories and
+   joint advisories; vendor research blogs listed in section 2; then The Record, BleepingComputer, SecurityWeek, The Hacker News
+   for leads (cite the primary report). Major = a large or well-known victim, a telecom/ISP, cloud, government or
+   critical-infrastructure compromise, a supply-chain compromise with downstream victims, mass exploitation, significant data
+   or crypto theft, destructive attacks, or a government advisory. Skip routine single-victim ransomware claims.
+4. **Watched incidents** (`watch: true`): for each, search for reporting since its `updated:` date — new victims, new
+   attribution, new advisories, new IOCs — and update the YAML (summary, `updated:`, sources, `ioc_feeds`, `iocs`, `keywords`).
+   Set `watch: false` when the incident is contained and nothing new has been reported for ~30 days.
+5. **IOCs:** prefer `ioc_feeds:` (exact values from vendor files). Only key values into `iocs:` when copied from the
+   report's own IOC table, read verbatim; never type IOCs from memory or from a summary, and say in `notes:` what was left out.
+6. Use the reporter's own attribution wording; `attribution: MIXED` when several unrelated actors are involved.
+7. Run `./run_all.sh` if any incident changed; the `incidents:` line must show `formula-like cells: 0` and no ERROR lines.
 
 ## 6. Vendor-report attribution review (actor IOCs)
 After each build, open `out/state_sponsored/state_actors_ioc_reports_to_review.csv`: vendor reports whose title has state,

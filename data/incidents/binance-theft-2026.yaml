@@ -9,6 +9,8 @@ victims: Binance (cryptocurrency exchange); ~$6.34B stolen, ~$2.85B frozen (Bina
 sectors: [Cryptocurrency]
 countries: [Global]
 attribution: STATE
+watch: true
+keywords: [Binance, TraderTraitor]
 actors:
   - name: TraderTraitor
     attribution: "FBI and US Secret Service: North Korea's TraderTraitor (North Korea denied involvement)"

@@ -49,76 +49,7 @@ def title_actor(text):
         if len(prim)==1: return prim[0],''
         return None,'several actors named'
     return (next(iter(hits)),'') if hits else (None,'no state-sponsored actor named')
-# ---------- report enumeration: (vendor, report id, title, date, [files])
-def git_files(d):
-    return subprocess.run(['git','-C',d,'ls-files'],capture_output=True,text=True).stdout.split('\n') if os.path.isdir(d+'/.git') else []
-def reports():
-    t=EXT+'/talos'; grp=collections.defaultdict(list)
-    for f in git_files(t):
-        if re.match(r'\d{4}/\d\d/',f) and f.endswith(('.json','.txt','.csv')): grp[f.rsplit('.',1)[0]].append(f)
-    for base,fs in sorted(grp.items()):
-        title=os.path.basename(base).replace('-',' ').replace('_',' '); date=base[:7]
-        j=base+'.json'
-        if j in fs:
-            try:
-                for o in json.load(open(os.path.join(t,j))).get('objects',[]):
-                    if o.get('type')=='report': title=clean(o.get('name',title)); date=(o.get('published') or date)[:10]
-            except Exception: pass
-        yield 'Cisco Talos',base,title,date,[(os.path.join(t,f),f) for f in sorted(fs)]
-    u=EXT+'/unit42'
-    for f in git_files(u):
-        if re.match(r'\d{4}-\d\d-\d\d',f) and f.endswith('.txt'):
-            first=open(os.path.join(u,f),encoding='utf-8',errors='replace').readline()
-            yield 'Unit 42',f,clean(re.sub(r'^\d{4}-\d\d-\d\d\s*(\([A-Za-z]+\))?:?\s*','',first)) or f,f[:10],[(os.path.join(u,f),f)]
-    v=EXT+'/volexity'; grp=collections.defaultdict(list)
-    for f in git_files(v):
-        parts=f.split('/')
-        if len(parts)>=3 and re.fullmatch(r'\d{4}',parts[0]) and f.endswith(('.csv','.txt')): grp['/'.join(parts[:2])].append(f)
-    for base,fs in sorted(grp.items()):
-        nm=base.split('/')[1]; m=re.match(r'(\d{4}-\d\d-\d\d)\s*[-–]?\s*(.*)',nm)
-        yield 'Volexity',base,(m.group(2) if m else nm),(m.group(1) if m else base[:4]),[(os.path.join(v,f),f) for f in sorted(fs)]
-    e=EXT+'/eset'; grp=collections.defaultdict(list)
-    for f in git_files(e):
-        if '/' in f and (f.endswith(('.adoc','.txt','.csv')) or re.search(r'samples\.(md5|sha1|sha256)$',f)): grp[f.split('/')[0]].append(f)
-    for top,fs in sorted(grp.items()):
-        title=top
-        rd=os.path.join(e,top,'README.adoc')
-        if os.path.exists(rd):
-            for l in open(rd,encoding='utf-8',errors='replace'):
-                if l.startswith('= ') or l.startswith('== '): title=clean(l.lstrip('= ')); break
-        yield 'ESET',top,title,'',[(os.path.join(e,f),f) for f in sorted(fs)]
-# ---------- IOC extraction from one file
-TICK=re.compile(r'`(?:\+\+)?([^`+\s|]{4,300}?)(?:\+\+)?`')
-def extract(p,rel):
-    out=[]
-    if p.endswith('.csv'):
-        try:
-            rows=list(csv.DictReader(open(p,encoding='utf-8-sig',errors='replace')))
-            if rows and 'value' in rows[0] and 'entity_type' in rows[0]:
-                T={'file':'hash','hostname':'domain','ipaddress':'ip','url':'url','emailsender':'email','emailwhois':'email'}
-                for r in rows:
-                    v=(r.get('value') or '').strip(); t=T.get((r.get('entity_type') or '').strip(),'')
-                    if t=='url' and re.fullmatch(r'[\d.]+:\d+',v): t,v='ip',v.split(':')[0]
-                    if t=='url' and not re.match(r'(?i)^(https?|hxxps?|ftp)',v): t='domain' if '/' not in v else ''
-                    out.append((t,v,clean(r.get('description',''))[:200]))
-                return out
-        except Exception: pass
-    txt=open(p,encoding='utf-8',errors='replace').read()
-    if p.endswith('.json'): return IL.read_text_file(p)
-    if re.search(r'samples\.(md5|sha1|sha256)$',p):
-        return [('hash',l.strip(),'') for l in txt.splitlines() if l.strip()]
-    out=list(IL.from_text(txt))
-    if p.endswith('.adoc'):                                   # ESET tables: values in backticks, not defanged
-        head=''
-        for line in txt.splitlines():
-            if line.startswith('='): head=clean(line.lstrip('= '))
-            cells=[c.strip() for c in line.split('|')]
-            for m in TICK.finditer(line):
-                val=m.group(1)
-                if re.fullmatch(r'[0-9A-Fa-f]{32,64}',val): continue      # hashes already found by from_text
-                desc=clean(' '.join(c for c in cells[-2:] if '`' not in c))[:200]
-                out.append(('',val,(head+' — ' if head else '')+desc))
-    return out
+reports=lambda: IL.vendor_reports(EXT); extract=IL.extract_file
 NOTMAL=re.compile(r'(?i)\b(legitimate|benign|clean|decoy|signed by microsoft|not malicious|original installer|vulnerable driver)\b')
 # ---------- build
 rows=[]; excl=[]; stat=collections.Counter(); used=[]; review=[]

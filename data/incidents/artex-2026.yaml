@@ -11,6 +11,8 @@ victims: >
 sectors: [Financial services, Cryptocurrency, Government, Telecommunications, Defense, Aerospace, Semiconductors, Technology, Software, Pharmaceuticals]
 countries: [South Korea, Southeast Asia, Global]
 attribution: MIXED
+watch: true                          # radar flags new vendor reports / KEV entries matching the keywords below
+keywords: [ARTEX, Sub2API, lanmao666, BLOODALCHEMY, Storm-0940, Storm-3358, Vapor Panda, tomicdd]
 actors:
   - name: Storm-0940
     attribution: "Microsoft: China-state aligned actor"

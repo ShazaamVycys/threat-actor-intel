@@ -11,6 +11,8 @@ updated: 2026-11-02                  # newest report used
 victims: Example Corp (US retailer); ~2 million customer records
 sectors: [Retail]
 countries: [United States]
+watch: true                          # keep checking for new reports and IOCs (set false once contained and quiet for ~30 days)
+keywords: [ExampleGroup, ExampleMalware, CVE-2026-12345]   # words the radar looks for in new vendor reports and KEV entries
 attribution: CRIMINAL                # STATE | STATE_ALIGNED | CRIMINAL | HACKTIVIST | INSIDER | UNATTRIBUTED | MIXED
 actors:                              # names as reported; resolved to dataset actors (and state-sponsored status) at build time
   - name: ExampleGroup

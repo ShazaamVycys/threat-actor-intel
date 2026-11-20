@@ -26,7 +26,7 @@ I=rows('incidents.csv'); X=rows('incident_iocs.csv')
 wb=Workbook(); ws=wb.active; ws.title='Incidents'
 IC=[('Incident',30),('Category',13),('Status',10),('Activity Period',15),('First Reported',11),('Last Updated',11),('Attribution',13),('State-Sponsored Link',9),
     ('Actors (as reported)',40),('Linked Actors (dataset)',22),('Victims / Targets',40),('Sectors',28),('Countries',18),('Summary',90),('CVEs',18),('ATT&CK Techniques',18),
-    ('IOC Count',8),('IOC Types',24),('Reporters',28),('Sources',50),('Notes',50),('Incident ID',18)]
+    ('Watching',9),('IOC Count',8),('IOC Types',24),('Reporters',28),('Sources',50),('Notes',50),('Incident ID',18)]
 def hi(r,h,c):
     if h=='State-Sponsored Link' and r[h]=='Yes': c.fill=PatternFill('solid',fgColor='FCE4D6')
 flat(ws,I,IC,hi)
@@ -54,6 +54,7 @@ items=[('What this is','Major breaches, compromises, supply-chain attacks and ca
  ('Not all indicators are malicious','Some reports (e.g. ARTEX) list infrastructure also used for authorized testing. Read the Context and Notes before blocking.'),
  ('Excluded values','Private/reserved IPs, placeholder domains (.invalid, .example), well-known legitimate domains and files the source calls legitimate or decoys are left out; see incident_ioc_exclusions.csv.'),
  ('First Added','The build that first recorded the indicator. The list is cumulative.'),
+ ('Watching','Yes = the incident watch keeps checking new vendor IOC reports and CISA KEV entries for its keywords (out/incidents/RADAR.md) and new reporting on the web, and adds new IOCs as they are published.'),
  ('Data versions',open(V).read() if os.path.exists(V) else '')]
 for i,(a,b) in enumerate(items,1):
     k.cell(i,1,a).font=FB; c=k.cell(i,2,b); c.font=F; c.alignment=Alignment(wrap_text=True,vertical='top')

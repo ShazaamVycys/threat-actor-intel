@@ -55,6 +55,9 @@ legitimate domains and files the source calls legitimate are excluded (`state_ac
 Current-event incidents that need not be state-sponsored (e.g. ARTEX, a big exchange theft). One YAML file per incident in
 `data/incidents/<id>.yaml` (copy `_template.yaml`): what happened, attribution (STATE, STATE_ALIGNED, CRIMINAL, HACKTIVIST,
 INSIDER, UNATTRIBUTED or MIXED), actors as reported, CVEs, ATT&CK IDs, sources, and IOCs.
+- **Incident watch:** every ~6 hours a scheduled run checks `out/incidents/RADAR.md` (new vendor IOC reports and CISA KEV
+  entries, from `scripts/radar.sh`), breaking news from agencies and vendors, and every incident with `watch: true`, and adds
+  new incidents and IOCs as they are published (RESEARCH.md section 5). You get a notification only when something new is found.
 - **Key one in:** add a line `name | report URL | note` to `data/incidents/queue.txt` (the GitHub web editor works). The daily
   refresh researches it, writes the YAML and removes the line. The daily refresh also adds major new incidents on its own.
 - **IOCs:** `ioc_feeds:` points at a report file in the vendor IOC repos (`talos:2026/11/x.json`, `unit42:…txt`, `eset:…`,

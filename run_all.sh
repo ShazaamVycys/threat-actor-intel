@@ -32,16 +32,7 @@ sync_repo(){ # sparse shallow clone or update
 sync_repo https://github.com/MISP/misp-galaxy.git "$D/galaxy/repo" clusters
 sync_repo https://github.com/SigmaHQ/sigma.git "$D/ext/sigma" rules rules-emerging-threats rules-threat-hunting
 sync_repo https://github.com/Neo23x0/signature-base.git "$D/ext/sb" iocs
-sync_full(){ # full shallow clone or update (vendor IOC repos; read as text only, never executed)
-  local url=$1 dir=$2
-  if [ -d "$dir/.git" ]; then git -C "$dir" fetch -q --depth 1 origin && git -C "$dir" reset -q --hard FETCH_HEAD
-  else git clone -q --depth 1 "$url" "$dir"; fi || { echo "   WARNING: could not refresh $(basename "$dir"); using last good copy"; return 0; }
-  echo "   $(basename "$dir") @ $(git -C "$dir" rev-parse --short HEAD) ($(git -C "$dir" log -1 --format=%cs))"
-}
-sync_full https://github.com/eset/malware-ioc.git "$D/ext/eset"
-sync_full https://github.com/Cisco-Talos/IOCs.git "$D/ext/talos"
-sync_full https://github.com/volexity/threat-intel.git "$D/ext/volexity"
-sync_full https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel.git "$D/ext/unit42"
+"$SC/sync_feeds.sh" "$D"
 
 log "2/9 Safety checks (must show 0 for every risky pattern)"
 for f in "$D/dl/threat-actor.json" "$D/etda/etda_groups.json" "$D/etda/etda_tools.json"; do
@@ -77,5 +68,7 @@ python3 -I "$SC/build_incidents_xlsx.py" "$OUT/incidents" "$D/work/versions.txt"
 (cd "$ST" && rm -f ../state_sponsored_threat_actors.zip && zip -qj ../state_sponsored_threat_actors.zip ./*)
 (cd "$OUT/incidents" && rm -f ../major_incidents.zip && zip -qj ../major_incidents.zip ./*)
 python3 -I "$SC/changes.py" "$D/work/prev" "$ST" "$OUT/CHANGES.md" | sed 's/^/   /'
+log "Incident radar (new vendor IOC reports, new CISA KEV entries)"
+python3 -I "$SC/incident_radar.py" "$D" "$ST" "$OUT/incidents"
 date -u +%Y-%m-%dT%H:%MZ > "$OUT/LAST_BUILD"
 log "Done. Outputs in $OUT"
