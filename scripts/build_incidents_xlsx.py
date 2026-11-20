@@ -36,7 +36,7 @@ for r in X:
 newest=collections.defaultdict(str); prov=collections.defaultdict(collections.Counter)
 for r in X: newest[r['Incident ID']]=max(newest[r['Incident ID']],r['First Added']); prov[r['Incident ID']][r['Provenance'].split(' (')[0].split(' -')[0]]+=1
 name={r['Incident ID']:r['Incident'] for r in I}
-T=['sha256','sha1','md5','ipv4','ipv6','domain','url','email','file-name','user-agent','http-header','other']
+T=['sha256','sha1','md5','ipv4','ipv6','domain','url','email','file-name','user-agent','http-header','docker-image','app-id','other']
 SR=[dict({'Incident':name.get(k,k),'Total':str(sum(c.values())),'Newest Added':newest[k],
           'From vendor repos':str(prov[k].get('vendor IOC repo',0)),'Transcribed':str(prov[k].get('transcribed from report',0))},**{t:str(c.get(t,0)) for t in T}) for k,c in summ.items()]
 flat(wb.create_sheet('IOC Summary'),SR,[('Incident',36),('Total',8),('Newest Added',12),('From vendor repos',10),('Transcribed',10)]+[(t,8) for t in T])

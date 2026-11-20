@@ -25,5 +25,5 @@ ioc_feeds:                           # exact IOCs from vendor repos run_all.sh d
   - talos:2026/10/example-report.json
 iocs:                                # keyed in by hand from a report table; marked "transcribed - verify before blocking"
   - {type: ipv4, value: "203.0.113[.]10", context: "C2 server", source: "https://vendor.example/report"}
-  # types: sha256 sha1 md5 ipv4 ipv6 domain url email file-name user-agent http-header other  (defanged or plain both accepted)
+  # types: sha256 sha1 md5 ipv4 ipv6 domain url email file-name user-agent http-header docker-image app-id other  (defanged or plain both accepted)
 notes: ""

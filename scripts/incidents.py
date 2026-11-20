@@ -14,7 +14,7 @@ FEEDS={'talos':(D+'/ext/talos','https://github.com/Cisco-Talos/IOCs/blob/main/')
        'eset':(D+'/ext/eset','https://github.com/eset/malware-ioc/tree/master/'),'volexity':(D+'/ext/volexity','https://github.com/volexity/threat-intel/tree/main/')}
 CATS={'breach','data-theft','supply-chain','ransomware','extortion','crypto-theft','exploitation','malware-campaign','tool-abuse','espionage','destructive','ddos','other'}
 ATTR={'STATE','STATE_ALIGNED','CRIMINAL','HACKTIVIST','INSIDER','UNATTRIBUTED','MIXED'}
-TYPES=['sha256','sha1','md5','ipv4','ipv6','domain','url','email','file-name','user-agent','http-header','other']
+TYPES=['sha256','sha1','md5','ipv4','ipv6','domain','url','email','file-name','user-agent','http-header','docker-image','app-id','other']
 n=lambda s:re.sub(r'[^a-z0-9]','',str(s).lower())
 err=[]; bad=0
 # ---------- text hygiene (same rules as the source safety checks)
@@ -46,7 +46,7 @@ BENIGN={'microsoft.com','google.com','github.com','githubusercontent.com','virus
 def benign(d): return any(d==b or d.endswith('.'+b) for b in BENIGN)
 def classify(t,v):
     """return (type, normalised value) or (None, reason)"""
-    if t in('file-name','user-agent','http-header','other'):
+    if t in('file-name','user-agent','http-header','docker-image','app-id','other'):
         v=CTRL.sub('',v).strip()
         return (t,v) if 0<len(v)<=300 else (None,'empty or too long')
     v=refang(v); low=v.lower()
@@ -85,7 +85,7 @@ def classify(t,v):
             if low.rsplit('.',1)[1] in BADTLD: return None,'placeholder/reserved TLD'
             return 'email',low
         if t: return None,'not a valid email'
-    if t in('file-name','user-agent','http-header','other'):
+    if t in('file-name','user-agent','http-header','docker-image','app-id','other'):
         if 0<len(v)<=300: return t,v
         return None,'empty or too long'
     return None,'unrecognised type '+t

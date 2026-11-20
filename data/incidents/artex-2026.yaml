@@ -4,7 +4,7 @@ category: tool-abuse
 status: ongoing
 activity: 2026-09 to 2026-11
 disclosed: 2026-10-07
-updated: 2026-11-19
+updated: 2026-11-19   # Talos page modified; FBI FLASH 2026-11-13, SentinelOne 2026-11-13 (mod. 11-17)
 victims: >
   Hundreds of organizations; South Korean banks (loan-inquiry and employee mobile systems); IT and software vendors and their
   downstream Microsoft 365 tenants via ConnectWise multi-tenant app credentials; exposed web APIs and identity providers
@@ -29,7 +29,11 @@ summary: >
   (10-14 Oct) and abused ConnectWise multi-tenant application credentials for a supply-chain compromise, in some cases gaining
   privileged cloud access in under 3 hours; Wiz saw the same actor expand to other IT and software vendors. Unit 42: intrusion
   attempts (24 Sep-27 Oct) harvested JS source maps and OpenAPI specs, probed OAuth flows, self-registered accounts and read
-  ~50 MB of API data; infrastructure serves WWW-Authenticate Basic realm="ARTEX" and a Sub2API LLM gateway.
+  ~50 MB of API data; infrastructure serves WWW-Authenticate Basic realm="ARTEX" and a Sub2API LLM gateway. FBI FLASH-20261113-001
+  (TLP:CLEAR) gives network and behavioral IOCs, names no state sponsor, and lists Storm-3358 WISP C2 nodes and ARTEX servers
+  (Microsoft). SentinelOne ties VAPOR PANDA's ARTEX use to BLOODALCHEMY malware. Separately, BadByte found trojanized ARTEX Docker
+  images (tomicdd/artex, congdonglinux/artex; 7,946 pulls) whose /app/artex binary runs the login request's captcha field via
+  sh -c as root before authentication, i.e. anyone running that image was exposed; Docker removed both images on 5 Nov 2026.
 cves: []
 techniques: [T1583.003, T1588.007, T1090]
 sources:
@@ -38,6 +42,10 @@ sources:
   - {url: "https://www.crowdstrike.com/en-us/blog/unknown-threat-actor-uses-artex-to-target-south-korean-finance/", reporter: CrowdStrike, date: 2026-10-07}
   - {url: "https://www.wiz.io/blog/artex-in-the-wild-storm-0940-expands-targeting-of-it-and-software-vendors", reporter: Wiz, date: 2026-10-22}
   - {url: "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-30-activity-using-ARTEX-agentic-AI.txt", reporter: Palo Alto Networks Unit 42, date: 2026-10-30}
+  - {url: "https://www.ic3.gov/CSA/2026/261113.pdf", reporter: FBI (FLASH-20261113-001), date: 2026-11-13}
+  - {url: "https://www.sentinelone.com/blog/artex-unmasked-the-rise-of-ai-powered-artex-in-cybercrime-espionage/", reporter: SentinelOne, date: 2026-11-13}
+  - {url: "https://badbyte.io/artex-backdoor-docker-image/", reporter: BadByte, date: 2026-11-04}
+  - {url: "https://www.kodemsecurity.com/resources/artex-ai-pentest-framework-backdoored-docker-image-iocs-response-runbook", reporter: Kodem Security, date: 2026-11-17}
 ioc_feeds:
   - talos:2026/11/artex-and-beyond.json
   - unit42:2026-10-30-activity-using-ARTEX-agentic-AI.txt
@@ -69,6 +77,41 @@ iocs:
   - {type: http-header, value: 'WWW-Authenticate: Basic realm="ARTEX"', context: "Unit 42: response header on ARTEX infrastructure", source: "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-30-activity-using-ARTEX-agentic-AI.txt"}
   - {type: user-agent, value: "Mozilla/5.0 (security-testing; authorized)", context: "Unit 42: self-describing ARTEX user agent", source: "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-30-activity-using-ARTEX-agentic-AI.txt"}
   - {type: user-agent, value: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) recon-audit", context: "Unit 42: self-describing ARTEX user agent", source: "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-30-activity-using-ARTEX-agentic-AI.txt"}
+  # FBI FLASH-20261113-001 IOC table (Storm-3358 per Microsoft; xcai.pro per CrowdStrike)
+  - {type: ipv4, value: "199.19.95[.]66", context: "FBI FLASH: WISP C2 node, Storm-3358 (Microsoft), active as of 6 Nov 2026", source: "https://www.ic3.gov/CSA/2026/261113.pdf"}
+  - {type: ipv4, value: "199.19.95[.]67", context: "FBI FLASH: WISP C2 node, Storm-3358 (Microsoft), active as of 6 Nov 2026", source: "https://www.ic3.gov/CSA/2026/261113.pdf"}
+  - {type: ipv4, value: "199.19.95[.]68", context: "FBI FLASH: WISP C2 node, Storm-3358 (Microsoft), active as of 6 Nov 2026", source: "https://www.ic3.gov/CSA/2026/261113.pdf"}
+  - {type: ipv4, value: "91.92.240[.]238", context: "FBI FLASH: ARTEX server, Storm-3358 (Microsoft)", source: "https://www.ic3.gov/CSA/2026/261113.pdf"}
+  - {type: ipv4, value: "85.11.168[.]45", context: "FBI FLASH: ARTEX server, Storm-3358 (Microsoft)", source: "https://www.ic3.gov/CSA/2026/261113.pdf"}
+  - {type: ipv4, value: "178.16.54[.]129", context: "FBI FLASH: ARTEX server, Storm-3358 (Microsoft)", source: "https://www.ic3.gov/CSA/2026/261113.pdf"}
+  - {type: ipv4, value: "31.77.229[.]35", context: "FBI FLASH: ARTEX server, Storm-3358 (Microsoft)", source: "https://www.ic3.gov/CSA/2026/261113.pdf"}
+  - {type: ipv4, value: "85.11.167[.]52", context: "FBI FLASH: C2 server, Storm-3358 (Microsoft)", source: "https://www.ic3.gov/CSA/2026/261113.pdf"}
+  - {type: domain, value: "xcai[.]pro", context: "FBI FLASH: LLM API reseller used in the South Korea financial campaign (CrowdStrike)", source: "https://www.ic3.gov/CSA/2026/261113.pdf"}
+  # SentinelOne appendix (verbatim rows only)
+  - {type: domain, value: "nginxmysql[.]com", context: "SentinelOne: BLOODALCHEMY C2, VAPOR PANDA", source: "https://www.sentinelone.com/blog/artex-unmasked-the-rise-of-ai-powered-artex-in-cybercrime-espionage/"}
+  - {type: domain, value: "sqlserver-sqlite[.]com", context: "SentinelOne: BLOODALCHEMY C2, VAPOR PANDA", source: "https://www.sentinelone.com/blog/artex-unmasked-the-rise-of-ai-powered-artex-in-cybercrime-espionage/"}
+  - {type: domain, value: "www[.]ddduuuppp[.]com", context: "SentinelOne: BLOODALCHEMY C2, VAPOR PANDA", source: "https://www.sentinelone.com/blog/artex-unmasked-the-rise-of-ai-powered-artex-in-cybercrime-espionage/"}
+  - {type: ipv4, value: "45.153.126[.]223", context: "SentinelOne: associated with nginxmysql[.]com, VAPOR PANDA", source: "https://www.sentinelone.com/blog/artex-unmasked-the-rise-of-ai-powered-artex-in-cybercrime-espionage/"}
+  - {type: ipv4, value: "89.46.234[.]50", context: "SentinelOne: associated with sqlserver-sqlite[.]com, VAPOR PANDA", source: "https://www.sentinelone.com/blog/artex-unmasked-the-rise-of-ai-powered-artex-in-cybercrime-espionage/"}
+  - {type: ipv4, value: "199.19.77[.]84", context: "SentinelOne: service principal sign-ins, suspected ARTEX use", source: "https://www.sentinelone.com/blog/artex-unmasked-the-rise-of-ai-powered-artex-in-cybercrime-espionage/"}
+  - {type: ipv4, value: "199.19.77[.]18", context: "SentinelOne: service principal sign-ins; Tor exit node, may carry unrelated activity", source: "https://www.sentinelone.com/blog/artex-unmasked-the-rise-of-ai-powered-artex-in-cybercrime-espionage/"}
+  - {type: ipv4, value: "65.87.223[.]26", context: "SentinelOne: shell commands in user agents, App Service token attempts", source: "https://www.sentinelone.com/blog/artex-unmasked-the-rise-of-ai-powered-artex-in-cybercrime-espionage/"}
+  - {type: ipv4, value: "157.22.126[.]128", context: "SentinelOne: reconnaissance against Azure AI workloads", source: "https://www.sentinelone.com/blog/artex-unmasked-the-rise-of-ai-powered-artex-in-cybercrime-espionage/"}
+  - {type: app-id, value: "506e08f9-6e9a-4da4-942b-a099a03644ae", context: "SentinelOne: ConnectWise Cloud Backup - legitimate Entra app abused in the Storm-0940 supply-chain compromise; inventory, do not block", source: "https://www.sentinelone.com/blog/artex-unmasked-the-rise-of-ai-powered-artex-in-cybercrime-espionage/"}
+  - {type: app-id, value: "24205314-2b89-4e07-a2a4-579e898a5640", context: "SentinelOne: ConnectWise - MS Teams - legitimate Entra app abused in the Storm-0940 supply-chain compromise; inventory, do not block", source: "https://www.sentinelone.com/blog/artex-unmasked-the-rise-of-ai-powered-artex-in-cybercrime-espionage/"}
+  - {type: app-id, value: "0de14c77-b9b0-4137-9360-34878a929827", context: "SentinelOne: ConnectWise - MS Graph - legitimate Entra app abused in the Storm-0940 supply-chain compromise; inventory, do not block", source: "https://www.sentinelone.com/blog/artex-unmasked-the-rise-of-ai-powered-artex-in-cybercrime-espionage/"}
+  # Trojanized ARTEX Docker image (BadByte, confirmed by Kodem and SentinelOne)
+  - {type: sha256, value: "d5070f52262effe216b840711343bff8f2787f39208d887d8dfd9c673f8d1573", context: "BadByte: backdoored /app/artex binary in tomicdd/artex Docker image (unauthenticated root shell via login captcha field)", source: "https://badbyte.io/artex-backdoor-docker-image/"}
+  - {type: docker-image, value: "tomicdd/artex:latest", context: "BadByte: trojanized ARTEX image (removed by Docker 5 Nov 2026)", source: "https://badbyte.io/artex-backdoor-docker-image/"}
+  - {type: docker-image, value: "congdonglinux/artex:latest", context: "BadByte: identical copy of the trojanized image", source: "https://badbyte.io/artex-backdoor-docker-image/"}
+  - {type: docker-image, value: "tomicdd/artex@sha256:cb85a7206290dc1813e3203e044741054b26c7a7c557c7d9d6d91af20aeb232b", context: "BadByte/Kodem: linux/amd64 manifest digest of the trojanized image", source: "https://badbyte.io/artex-backdoor-docker-image/"}
+  - {type: other, value: "v0.3.16-0.20261008134550-5c0dbd4bec94+dirty", context: "BadByte: Go module version string in the backdoored binary", source: "https://badbyte.io/artex-backdoor-docker-image/"}
+  - {type: other, value: "3aC1db3gGU08O4UHbAt4J", context: "BadByte: UI build ID served by consoles running the backdoored build", source: "https://badbyte.io/artex-backdoor-docker-image/"}
+  # ARTEX user agents (Kodem)
+  - {type: user-agent, value: "artex-enrich/1.0", context: "Kodem: ARTEX user agent seen against targets", source: "https://www.kodemsecurity.com/resources/artex-ai-pentest-framework-backdoored-docker-image-iocs-response-runbook"}
+  - {type: user-agent, value: "Mozilla/5.0 (compatible; ArtEx/1.0)", context: "Kodem: ARTEX user agent seen against targets", source: "https://www.kodemsecurity.com/resources/artex-ai-pentest-framework-backdoored-docker-image-iocs-response-runbook"}
 notes: >
   Talos and Unit 42 note that not all ARTEX activity is malicious (it is also used for authorized testing), so these IPs are
   indicators to investigate rather than block outright. Generic user agents (curl, python-requests, Python-urllib) are omitted.
+  SentinelOne's appendix also lists SHA-256 hashes for VAPOR PANDA's GameHook binary and BLOODALCHEMY loader/payload, an ARTEX TLS
+  certificate hash and Hunt.io-sourced IPs; they were not added because the page could not be read verbatim past mid-appendix.
