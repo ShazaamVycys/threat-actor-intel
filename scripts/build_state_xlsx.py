@@ -89,6 +89,25 @@ if __import__('os').path.exists(_hp):
     HC_=[('Malware',22),('Actor',22),('Sponsor',14),('State-Link',10),('SHA256',66),('SHA1',42),('MD5',34),('First Added',12),('Known for this actor (MISP/ETDA/MITRE)',18),('Malware sharing',30),('How the name was found',32),('Source detail',50),('Vendor',11),('Report',36),('Link',50)]
     n12=flat(wb.create_sheet('Malware Hash Summary',3),_tmp.name,SC_); n13=flat(wb.create_sheet('Malware Hashes',4),_hp,HC_)
     __import__('os').unlink(_tmp.name); print('hashes',n12,n13)
+_ap=__import__('os').path.dirname(dst)+'/state_actors_iocs.csv'
+if __import__('os').path.exists(_ap):
+    _A=list(_csv.DictReader(open(_ap,encoding='utf-8')))
+    _T=['sha256','sha1','md5','ipv4','ipv6','domain','url','email']
+    _g=collections.OrderedDict()
+    for r in _A:
+        x=_g.setdefault(r['Actor'],{'Actor':r['Actor'],'Sponsor':r['Sponsor'],'State-Link':r['State-Link'],'In Actor Set':r['In Actor Set'],'Total':0,**{t:0 for t in _T},
+            'Vendors':set(),'Reports':set(),'Newest Report':'','Newest Added':''})
+        x['Total']+=1; x[r['Type']]=x.get(r['Type'],0)+1; x['Vendors'].add(r['Vendor']); x['Reports'].add(r['Report'])
+        x['Newest Report']=max(x['Newest Report'],r['Report Date']); x['Newest Added']=max(x['Newest Added'],r['First Added'])
+    _rows=[{k:(', '.join(sorted(v)) if k=='Vendors' else str(len(v)) if k=='Reports' else str(v)) for k,v in x.items()} for x in _g.values()]
+    import tempfile
+    _tmp=tempfile.NamedTemporaryFile('w',delete=False,suffix='.csv',encoding='utf-8-sig',newline='')
+    _w=_csv.DictWriter(_tmp,fieldnames=list(_rows[0])); _w.writeheader(); _w.writerows(_rows); _tmp.close()
+    _SC=[('Actor',24),('Sponsor',14),('State-Link',12),('In Actor Set',14),('Total',8)]+[(t,8) for t in _T]+[('Vendors',22),('Reports',8),('Newest Report',12),('Newest Added',12)]
+    _AC=[('Actor',22),('Type',8),('Indicator',50),('Malware',18),('Context',46),('Vendor',11),('Report',44),('Report Date',11),('Reported As',18),('Sponsor',12),('State-Link',11),
+         ('In Actor Set',12),('Attribution Basis',30),('Also In',30),('First Added',11),('Link',50)]
+    print('actor iocs',flat(wb.create_sheet('Actor IOC Summary',5),_tmp.name,_SC),flat(wb.create_sheet('Actor IOCs',6),_ap,_AC))
+    __import__('os').unlink(_tmp.name)
 _ip=__import__('os').path.dirname(dst)+'/state_actors_incidents.csv'
 if __import__('os').path.exists(_ip) and len(list(_csv.DictReader(open(_ip,encoding='utf-8'))))>0:
     IC_=[('Incident',30),('Linked Actors (dataset)',22),('Actors (as reported)',40),('Category',13),('Status',10),('Activity Period',15),('First Reported',11),('Last Updated',11),
@@ -106,6 +125,7 @@ items=[('Alias Source',None,''),('All three sources','A9D08E','Alias appears in 
  ('Web research (Descriptions / Recent Activity)',None,'Recent activity comes from 2025-2026 vendor reports (ESET, Google GTIG, Trend Micro, CrowdStrike, Kaspersky ICS CERT, Microsoft, Proofpoint, Recorded Future, Trellix, NSFOCUS, CybelAngel) plus targeted articles; each row cites its source. "Checked against reports" = no mention found in those reports, not proof of inactivity.'),('',None,''),
  ('Uniqueness (artifact sheets)','FFFF00','Yellow = Unique to this actor: no other actor in the full dataset (1,259 actors) has this artifact, and it is not a standard Windows/Linux location, autorun key or system binary. Not yellow = common: Shared (listed for 2+ actors, see Shared With) or Common (standard location/name or system/dual-use binary).'),('',None,''),
  ('Malware hashes',None,'Hashes of named, custom malware of state-sponsored actors, from ESET, Cisco Talos, Volexity and Unit 42 IOC repositories. Commercial, open-source, commodity and legitimate tools are excluded (data/curation/cots_exclusions.txt); hashes without a malware name are listed in state_actors_malware_hash_exclusions.csv. The list is cumulative: First Added is the build that first recorded the hash. A hash matches a known sample only; rebuilt malware gets a new hash.'),
+ ('Actor IOCs',None,'Every hash, IP, domain, URL and email from Cisco Talos, Unit 42, Volexity and ESET IOC files whose report is about ONE state-sponsored actor (actor named in the report title, or reviewed in data/curation/vendor_report_actors.csv - which can add vendor-named clusters such as Talos UAT-xxxx; In Actor Set = No for those). Network indicators are defanged (1.2.3[.]4, evil[.]com, hxxps://). Unlike Malware Hashes, hashes need no malware name; Malware is filled when the hash is in the malware hash list. Cumulative: First Added is the build that first recorded the indicator.'),
  ('Incidents',None,'Major breaches and compromises linked to a state-sponsored actor in this set. The full incident list (any attribution) with IOCs is in out/incidents/major_incidents.xlsx.'),
  ('Data versions',None,open(__import__('os').path.join(__import__('os').path.dirname(__import__('os').path.abspath(__file__)),'..','data','work','versions.txt')).read())]
 for i,(a,f,b) in enumerate(items,1):

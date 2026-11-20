@@ -1,0 +1,1015 @@
+Actor,Vendor,Report,Value,Why excluded,Context,Link
+APT28,ESET,Sednit Indicators of Compromise,joiner.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/sednit
+APT28,ESET,Sednit Indicators of Compromise,apisecconnect.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/sednit
+APT29,ESET,Dukes Indicators of Compromise,misp-dukes-operation-ghost-event.json,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/dukes
+APT35,ESET,Sponsor with Batch-File Whiskers: Ballistic Bobcat's Scan and Strike Backdoor -- Indicators of Compromise,SystemNetwork.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/ballisticbobcat
+APT35,ESET,Sponsor with Batch-File Whiskers: Ballistic Bobcat's Scan and Strike Backdoor -- Indicators of Compromise,rundll64.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/ballisticbobcat
+APT35,ESET,Sponsor with Batch-File Whiskers: Ballistic Bobcat's Scan and Strike Backdoor -- Indicators of Compromise,sponser.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/ballisticbobcat
+APT35,ESET,Sponsor with Batch-File Whiskers: Ballistic Bobcat's Scan and Strike Backdoor -- Indicators of Compromise,rundll433.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/ballisticbobcat
+APT35,ESET,Sponsor with Batch-File Whiskers: Ballistic Bobcat's Scan and Strike Backdoor -- Indicators of Compromise,alumina.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/ballisticbobcat
+APT35,ESET,Sponsor with Batch-File Whiskers: Ballistic Bobcat's Scan and Strike Backdoor -- Indicators of Compromise,rev.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/ballisticbobcat
+APT35,ESET,Sponsor with Batch-File Whiskers: Ballistic Bobcat's Scan and Strike Backdoor -- Indicators of Compromise,procdump64.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/ballisticbobcat
+APT35,ESET,Sponsor with Batch-File Whiskers: Ballistic Bobcat's Scan and Strike Backdoor -- Indicators of Compromise,m.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/ballisticbobcat
+APT35,ESET,Sponsor with Batch-File Whiskers: Ballistic Bobcat's Scan and Strike Backdoor -- Indicators of Compromise,go.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/ballisticbobcat
+APT35,ESET,Sponsor with Batch-File Whiskers: Ballistic Bobcat's Scan and Strike Backdoor -- Indicators of Compromise,chisel.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/ballisticbobcat
+APT35,ESET,Sponsor with Batch-File Whiskers: Ballistic Bobcat's Scan and Strike Backdoor -- Indicators of Compromise,host2ip.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/ballisticbobcat
+APT35,ESET,Sponsor with Batch-File Whiskers: Ballistic Bobcat's Scan and Strike Backdoor -- Indicators of Compromise,plink.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/ballisticbobcat
+APT35,ESET,Sponsor with Batch-File Whiskers: Ballistic Bobcat's Scan and Strike Backdoor -- Indicators of Compromise,WebBrowserPassView.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/ballisticbobcat
+APT35,ESET,Sponsor with Batch-File Whiskers: Ballistic Bobcat's Scan and Strike Backdoor -- Indicators of Compromise,sqlextractor.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/ballisticbobcat
+APT41,ESET,SparklingGoblin Indicators of Compromise,iislog.tmp,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/sparklinggoblin
+Blackwood,ESET,NSPX30: a sophisticated AitM-enabled implant evolving since 2005 –- Indicators of Compromise,comx3.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/blackwood
+Blackwood,ESET,NSPX30: a sophisticated AitM-enabled implant evolving since 2005 –- Indicators of Compromise,msnsp.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/blackwood
+Blackwood,ESET,NSPX30: a sophisticated AitM-enabled implant evolving since 2005 –- Indicators of Compromise,mshlp.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/blackwood
+Blackwood,ESET,NSPX30: a sophisticated AitM-enabled implant evolving since 2005 –- Indicators of Compromise,comx3.dll.txt,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/blackwood
+Blackwood,ESET,NSPX30: a sophisticated AitM-enabled implant evolving since 2005 –- Indicators of Compromise,WIN.cfg,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/blackwood
+Blackwood,ESET,NSPX30: a sophisticated AitM-enabled implant evolving since 2005 –- Indicators of Compromise,msfmtkl.dat,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/blackwood
+Blackwood,ESET,NSPX30: a sophisticated AitM-enabled implant evolving since 2005 –- Indicators of Compromise,c001.dat,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/blackwood
+Blackwood,ESET,NSPX30: a sophisticated AitM-enabled implant evolving since 2005 –- Indicators of Compromise,c002.dat,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/blackwood
+Blackwood,ESET,NSPX30: a sophisticated AitM-enabled implant evolving since 2005 –- Indicators of Compromise,c003.dat,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/blackwood
+Blackwood,ESET,NSPX30: a sophisticated AitM-enabled implant evolving since 2005 –- Indicators of Compromise,a010.dat,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/blackwood
+Blackwood,ESET,NSPX30: a sophisticated AitM-enabled implant evolving since 2005 –- Indicators of Compromise,b011.dat,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/blackwood
+Blackwood,ESET,NSPX30: a sophisticated AitM-enabled implant evolving since 2005 –- Indicators of Compromise,b010.dat,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/blackwood
+CeranaKeeper,ESET,CeranaKeeper - Indicators of Compromise,EACore.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/ceranakeeper
+CeranaKeeper,ESET,CeranaKeeper - Indicators of Compromise,SearchApp.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/ceranakeeper
+CeranaKeeper,ESET,CeranaKeeper - Indicators of Compromise,OneDrive.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/ceranakeeper
+CeranaKeeper,ESET,CeranaKeeper - Indicators of Compromise,dropbox.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/ceranakeeper
+CeranaKeeper,ESET,CeranaKeeper - Indicators of Compromise,Update.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/ceranakeeper
+CeranaKeeper,ESET,CeranaKeeper - Indicators of Compromise,oneDrive.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/ceranakeeper
+CeranaKeeper,ESET,CeranaKeeper - Indicators of Compromise,avk.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/ceranakeeper
+CeranaKeeper,ESET,CeranaKeeper - Indicators of Compromise,TurboActivate.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/ceranakeeper
+Cosmic Leopard,Cisco Talos,Operation Celestial Force employs mobile and desktop malware to target Indian entities,0[.]1[.]exe,looks like a file name,,https://github.com/Cisco-Talos/IOCs/blob/main/2024/06/cosmic-leopard.txt
+Cosmic Leopard,Cisco Talos,Operation Celestial Force employs mobile and desktop malware to target Indian entities,1[.]0[.]0[.]zip,looks like a file name,,https://github.com/Cisco-Talos/IOCs/blob/main/2024/06/cosmic-leopard.txt
+Cosmic Leopard,Cisco Talos,Operation Celestial Force employs mobile and desktop malware to target Indian entities,1[.]0[.]0[.]zip,looks like a file name,,https://github.com/Cisco-Talos/IOCs/blob/main/2024/06/cosmic-leopard.txt
+Cosmic Leopard,Cisco Talos,Operation Celestial Force employs mobile and desktop malware to target Indian entities,0[.]1[.]exe,looks like a file name,,https://github.com/Cisco-Talos/IOCs/blob/main/2024/06/cosmic-leopard.txt
+Cosmic Leopard,Cisco Talos,Operation Celestial Force employs mobile and desktop malware to target Indian entities,1[.]0[.]0[.]zip,looks like a file name,,https://github.com/Cisco-Talos/IOCs/blob/main/2024/06/cosmic-leopard.txt
+Cosmic Leopard,Cisco Talos,Operation Celestial Force employs mobile and desktop malware to target Indian entities,1[.]0[.]0[.]zip,looks like a file name,,https://github.com/Cisco-Talos/IOCs/blob/main/2024/06/cosmic-leopard.txt
+El Machete,ESET,Machete -- Indicators of Compromise,misp-machete-event.json,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/machete
+Lazarus Group,ESET,Lazarus NukeSped IoCs,FudModule.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,netprov.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,dvcmgmt.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,PM6E.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,winwmp.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,jdkalloc.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,eclipse-helios.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,function.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,hpmessage.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,mytd.jar,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,myBT.jar,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,di64.dat,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,di86.dat,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,dp64.dat,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,dp86.dat,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,ipscan.dat,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,login.aspx,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,dwm.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,igfxper.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,igfxper1.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,irmonex.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,msncone.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,netmon.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,nwcworkstationex.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,view1.aspx,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,bixanyn.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,inetserv.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,taskhosts.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,windrv.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,dkinra.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,dssec.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,vkinrs.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,wmisvc.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,domsvc.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,dts.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,dtsec.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,du.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,pp.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,csrss.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,svchost.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,init.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,lsavc.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,csrss.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,msec.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,svchost.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,msec.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,ps.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,mso.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,passdump.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,dwm.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,igfxEM.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,sysinfo.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,mmc.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,mmcs.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,lsasrv.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,msndll.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,msndll.tmp,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,msnset.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,SvcTimeBroker.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,msec.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,FileHistory.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,KMSUpdate.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,SvcTimeBroker.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,winsys.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,lssas.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,wmds.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,AppSvc.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,ALGSvc.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,winsock2.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,rpcmgr64.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,winsock2.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,WinSock2-32.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,gpsvc.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,srservice.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,aclui.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,wsspoolmgr.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,wsspoolsvc.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,HttpSecurityProvider.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,igfxtraysx.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,Troy.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,WmiPrvse.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,igfxpers.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,MozillaUpdate.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,rdmgr.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,wuapi32.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,mssvcs.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,rasautosvcs.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,WmiOrderSvc.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,timeraccessesservice.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,ACLDiag.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,cmanux.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,mgmntsvc.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,MXINFO.DLL,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,MXINFO.DLL,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,WINSPACK.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,faxhlp.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,igfxconf.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,AcrobatConf.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,AcroInfo.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,acure.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,mySingleMessenger.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,WINSECUR.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,WINSPACK.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,drvins.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,wmpsvc.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,efssvc.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,dnsapi.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,drvins.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,msncone.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,irmonex.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,t.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,smss.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,csc.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,function.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,function.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,AdobeInfo.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,armsvc.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,drvins.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,drvins.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,drvins.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,drvins.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,ielowutil.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,jscript.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,jusched.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,MSADCSPB.DLL,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,TpmInit.EXE,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,wmpsvc.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,wmpsvc.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,Update.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,204.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,java.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,SvcDll.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,SvcDll64.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,temsvc.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,AcrobatConf.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,AdobeARM.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,AdobeARM.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,ButterflyDll.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,igfxconf.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,igfxprt.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,KSECEDIT.DLL,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,msndll.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,MXINFO.DLL,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,sbrmgmt.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,WINSECUR.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,WINSPACK.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,WMSysPr6.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,WwanMSvc.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,csc.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,lsm.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,leo.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,DLL64.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,smss.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,COMOrderPsvc.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,DcomOrderService.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,igfxtrysx.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,Troy.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,TroyDll.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,Wmiprvse.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,CATSQVBT.DLL,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,HLLNKMLW.DLL,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,Ntmsmgrs.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,P2P.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,Proxy.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,ProxyDll.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,Troy.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,truster.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,user.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,AdobeArm.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,appmodule.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,drvins.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,DrvInst.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,excel2007-kb2597162-fullfile-x86-glb.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,hidcon.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,IE4UINIT.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,SWEEPRX.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,msvcrt6.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,inetsvc.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,Hamilton.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,Hamilton.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,liveidmgr.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,netprov.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,nvhelper.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,sscsvc.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,mmc.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,winsrpc.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,REGSVR32.EXE,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,REGSVR32.EXE,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,bezsgwz.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,broeerlfth.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,igfxmon.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,handysoft.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,LHMSTWOX.DLL,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,phdac.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,REGSVR32.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,rmbakoajpuj.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,WEITXKP9.DLL,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,ZQLWOAD3.DLL,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,WMPNetworkSvc.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,WMPNetworkSvc.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,WMPNetworkSvc.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,WMPNetworkSvc.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,backSched.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,backSched.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,backSched.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,FileMgmt.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,nsctsv.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,dhcpd.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,nfslock.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,msnconf.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,igfxtrysx.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,nls.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,AcroInfo.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,MXINFO.DLL,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,mySingleMessenger.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,flahutil.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,mspaint.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,MpCmdRun.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,mssvcs.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,MpCmdRun.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,rdmgr.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,mssvcs.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,rdmgr.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,t.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,winsched.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,winsec.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,winsec.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,winsec.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,rnamsvc.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,WmApiSvc.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,svchost.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,package32.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,package64.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,efssvc.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,msndnssvc.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,scpolicymgr.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,boumne.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,MDll.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,MXINFO.DLL,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,WINSPACK.DLL,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,WINSPACK.DLL,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,WINSPACK.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,taskhost.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,AcrobatConf.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,mySingleMessenger.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,sysfault.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,sysfault.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,sysfault.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,AdobeARM.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,igfxprt.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,KSECEDIT.DLL,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,ServerDll.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,ServerDll.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,WINSECUR.DLL,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,AdobeARM.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,AdobeARM.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,Update.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,java.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,SvcDll.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,SvcDll64.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,temsvc.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,Proxy.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,ProxyDll.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,Proxy.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,AhnlabUpdate.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,AhnlabUpdate.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,SVCHOST.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,xpsp2.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,SVCH0ST.EXE,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,napstat.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,MozillaUpdate.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,MozillaUpdate.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,napstat.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,RDPBForce.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,SVCH0ST.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,svchost.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,NHEnrollMon.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,Winslui.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,Svchost.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,Svchost.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,AxInstSV.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,fmapi.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,sqlsvc32.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,tapisrv.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,AcrobatConf.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,AcroInfo.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,AcroInfo.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,igfxconf.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,igfxtrysx.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,mySingleMessenger.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,package32.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,package64.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,sppsvc.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,ENTASKLOADER.EXE,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,javafxpackager.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,msoia.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,mnmsrvc.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,InstallShield.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,nmmsrvc.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,ovsmtd.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,ovsmtd.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,ovsmtd.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,plasrv.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,RtlExUpd.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,dwm.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,fishprod.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,iTune.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,RAVBg.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,perfwfilt.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,alsvc.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,Extractor.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,InstallShield.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,MSCOMCTRQ.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,msconfig.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,remotemgr.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,wscntify.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,msvcrt6.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,faxhlp.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,lsass.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,PICKER.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,ButterflyDll.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,csc.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,excel2007-kb2597162-fullfile-x86-glb.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,flahutil.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,hidcon.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,igfxtraypxp.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,lsm.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,msn.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,REGSVR32.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,REGSVR32.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,REGSVR32.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,SvcDll64.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,SYNCUI.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,temsvc.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,WMSysPr6.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,WMSysPr9Z.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,WwanMSvc.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,smss.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,DLL64.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,lsm.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,seclogonkit.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,svchost.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,sysfault.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,CP32.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,CP64.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,dwm.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,AdobeARM.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,AdobeARM.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,AdobeARM.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,igfxprt.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+MoustachedBouncer,ESET,MoustachedBouncer: Espionage against foreign diplomats in Belarus –- Indicators of Compromise,misp-moustachedbouncer.event.json,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/moustachedbouncer
+MoustachedBouncer,ESET,MoustachedBouncer: Espionage against foreign diplomats in Belarus –- Indicators of Compromise,index.html,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/moustachedbouncer
+MoustachedBouncer,ESET,MoustachedBouncer: Espionage against foreign diplomats in Belarus –- Indicators of Compromise,jdrop.js,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/moustachedbouncer
+MoustachedBouncer,ESET,MoustachedBouncer: Espionage against foreign diplomats in Belarus –- Indicators of Compromise,MicrosoftUpdate845255.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/moustachedbouncer
+MoustachedBouncer,ESET,MoustachedBouncer: Espionage against foreign diplomats in Belarus –- Indicators of Compromise,driverpackUpdate.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/moustachedbouncer
+MoustachedBouncer,ESET,MoustachedBouncer: Espionage against foreign diplomats in Belarus –- Indicators of Compromise,DPU.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/moustachedbouncer
+MoustachedBouncer,ESET,MoustachedBouncer: Espionage against foreign diplomats in Belarus –- Indicators of Compromise,sdrive.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/moustachedbouncer
+MoustachedBouncer,ESET,MoustachedBouncer: Espionage against foreign diplomats in Belarus –- Indicators of Compromise,nod32update.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/moustachedbouncer
+MoustachedBouncer,ESET,MoustachedBouncer: Espionage against foreign diplomats in Belarus –- Indicators of Compromise,aact.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/moustachedbouncer
+MoustachedBouncer,ESET,MoustachedBouncer: Espionage against foreign diplomats in Belarus –- Indicators of Compromise,officetelemetry.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/moustachedbouncer
+MoustachedBouncer,ESET,MoustachedBouncer: Espionage against foreign diplomats in Belarus –- Indicators of Compromise,oracleTelemetry.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/moustachedbouncer
+MoustachedBouncer,ESET,MoustachedBouncer: Espionage against foreign diplomats in Belarus –- Indicators of Compromise,outlooksync.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/moustachedbouncer
+MoustachedBouncer,ESET,MoustachedBouncer: Espionage against foreign diplomats in Belarus –- Indicators of Compromise,WinSrcNT.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/moustachedbouncer
+MoustachedBouncer,ESET,MoustachedBouncer: Espionage against foreign diplomats in Belarus –- Indicators of Compromise,It11.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/moustachedbouncer
+MoustachedBouncer,ESET,MoustachedBouncer: Espionage against foreign diplomats in Belarus –- Indicators of Compromise,It3.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/moustachedbouncer
+MoustachedBouncer,ESET,MoustachedBouncer: Espionage against foreign diplomats in Belarus –- Indicators of Compromise,metamn.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/moustachedbouncer
+MoustachedBouncer,ESET,MoustachedBouncer: Espionage against foreign diplomats in Belarus –- Indicators of Compromise,creh.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/moustachedbouncer
+MoustachedBouncer,ESET,MoustachedBouncer: Espionage against foreign diplomats in Belarus –- Indicators of Compromise,svhvost.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/moustachedbouncer
+MoustachedBouncer,ESET,MoustachedBouncer: Espionage against foreign diplomats in Belarus –- Indicators of Compromise,schvost.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/moustachedbouncer
+MoustachedBouncer,ESET,MoustachedBouncer: Espionage against foreign diplomats in Belarus –- Indicators of Compromise,nullnat.ini,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/moustachedbouncer
+MoustachedBouncer,ESET,MoustachedBouncer: Espionage against foreign diplomats in Belarus –- Indicators of Compromise,soccix.ini,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/moustachedbouncer
+MoustachedBouncer,ESET,MoustachedBouncer: Espionage against foreign diplomats in Belarus –- Indicators of Compromise,oreonion.ini,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/moustachedbouncer
+MoustachedBouncer,ESET,MoustachedBouncer: Espionage against foreign diplomats in Belarus –- Indicators of Compromise,svhvost.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/moustachedbouncer
+MoustachedBouncer,ESET,MoustachedBouncer: Espionage against foreign diplomats in Belarus –- Indicators of Compromise,schvost.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/moustachedbouncer
+MoustachedBouncer,ESET,MoustachedBouncer: Espionage against foreign diplomats in Belarus –- Indicators of Compromise,sysleg.ini,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/moustachedbouncer
+MoustachedBouncer,ESET,MoustachedBouncer: Espionage against foreign diplomats in Belarus –- Indicators of Compromise,oreonion.ini,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/moustachedbouncer
+Operation Jacana,ESET,Operation Jacana – Indicators of Compromise,client.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/operation_jacana
+Operation Jacana,ESET,Operation Jacana – Indicators of Compromise,tools.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/operation_jacana
+Operation Jacana,ESET,Operation Jacana – Indicators of Compromise,Client.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/operation_jacana
+Operation Jacana,ESET,Operation Jacana – Indicators of Compromise,windowsupdate.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/operation_jacana
+Operation Jacana,ESET,Operation Jacana – Indicators of Compromise,people.zip,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/operation_jacana
+Operation Jacana,ESET,Operation Jacana – Indicators of Compromise,lass.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/operation_jacana
+Operation Jacana,ESET,Operation Jacana – Indicators of Compromise,2.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/operation_jacana
+Operation Jacana,ESET,Operation Jacana – Indicators of Compromise,1.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/operation_jacana
+Operation Jacana,ESET,Operation Jacana – Indicators of Compromise,114.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/operation_jacana
+Pink Sandstorm,ESET,Agrius Indicators of Compromise,fantasy35.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/agrius
+Pink Sandstorm,ESET,Agrius Indicators of Compromise,fantasy45.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/agrius
+Pink Sandstorm,ESET,Agrius Indicators of Compromise,host2ip.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/agrius
+Pink Sandstorm,ESET,Agrius Indicators of Compromise,MiniDump.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/agrius
+Pink Sandstorm,ESET,Agrius Indicators of Compromise,registry.bat,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/agrius
+Pink Sandstorm,ESET,Agrius Indicators of Compromise,secretsdump.py,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/agrius
+Pink Sandstorm,ESET,Agrius Indicators of Compromise,spchost.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/agrius
+PlushDaemon,ESET,PlushDaemon -- Indicators of Compromise,bioset.conf,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/PlushDaemon
+PlushDaemon,ESET,PlushDaemon -- Indicators of Compromise,IPanyVPNsetup.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/PlushDaemon
+PlushDaemon,ESET,PlushDaemon -- Indicators of Compromise,lregdll.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/PlushDaemon
+PlushDaemon,ESET,PlushDaemon -- Indicators of Compromise,svcghost.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/PlushDaemon
+PlushDaemon,ESET,PlushDaemon -- Indicators of Compromise,main.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/PlushDaemon
+PlushDaemon,ESET,PlushDaemon -- Indicators of Compromise,OldLJM.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/PlushDaemon
+PlushDaemon,ESET,PlushDaemon -- Indicators of Compromise,getcode.mod,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/PlushDaemon
+PlushDaemon,ESET,PlushDaemon -- Indicators of Compromise,getcode64.mod,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/PlushDaemon
+PlushDaemon,ESET,PlushDaemon -- Indicators of Compromise,stoll.mod,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/PlushDaemon
+PlushDaemon,ESET,PlushDaemon -- Indicators of Compromise,Remote.mod,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/PlushDaemon
+PlushDaemon,ESET,PlushDaemon -- Indicators of Compromise,soc.mod,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/PlushDaemon
+PlushDaemon,ESET,PlushDaemon -- Indicators of Compromise,InitPython.mod,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/PlushDaemon
+PlushDaemon,ESET,PlushDaemon -- Indicators of Compromise,demo.mod,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/PlushDaemon
+PlushDaemon,ESET,PlushDaemon -- Indicators of Compromise,test.mod,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/PlushDaemon
+PlushDaemon,ESET,PlushDaemon -- Indicators of Compromise,agent.mod,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/PlushDaemon
+PlushDaemon,ESET,PlushDaemon -- Indicators of Compromise,runas.py,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/PlushDaemon
+TheWizards,ESET,TheWizards APT group uses SLAAC spoofing to perform adversary-in-the-middle attacks –- Indicators of Compromise,Client.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/thewizards
+TheWizards,ESET,TheWizards APT group uses SLAAC spoofing to perform adversary-in-the-middle attacks –- Indicators of Compromise,ipv6.exe,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/thewizards
+TheWizards,ESET,TheWizards APT group uses SLAAC spoofing to perform adversary-in-the-middle attacks –- Indicators of Compromise,wsc.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/thewizards
+TheWizards,ESET,TheWizards APT group uses SLAAC spoofing to perform adversary-in-the-middle attacks –- Indicators of Compromise,log.dat,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/thewizards
+Turla,ESET,Turla Indicators of Compromise,msmime.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,misp-turla-lightneuron-event.json,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,misp-turla-powershell-event.json,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,msctx.ps1,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,misp-turla-wateringhole-armenia-event.json,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,misp-turla-comrat-v4-event.json,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,misp-turla-crutch-event.json,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,gpgol.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,gpgol.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,tapiperf.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,admpwd.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,AdmPwd.dll,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,scrss.ps1,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,ekrn.ps1,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,Sandboxie.vbs,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/turla
+WageMole,Cisco Talos,Famous Chollima deploying Python version of GolangGhost RAT,util.py,looks like a file name,,https://github.com/Cisco-Talos/IOCs/blob/main/2025/06/python-version-of-golangghost-rat.json
+Winter Vivern,ESET,Winter Vivern exploits zero-day vulnerability in Roundcube mail servers –- Indicators of Compromise,misp-wintervivern.event.json,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/winter_vivern
+Winter Vivern,ESET,Winter Vivern exploits zero-day vulnerability in Roundcube mail servers –- Indicators of Compromise,checkupdate.js,looks like a file name,,https://github.com/eset/malware-ioc/tree/master/winter_vivern
+WageMole,ESET,DeceptiveDevelopment: From primitive crypto theft to sophisticated AI-based deception – Indicators of Compromise,n34kr3z26f3jzp4ckmwuv5ipqyatumdxhgjgsmucc65jac56khdy5zqd.onion,placeholder/reserved TLD,,https://github.com/eset/malware-ioc/tree/master/deceptivedevelopment
+APT29,Unit 42,FEBRUARY 2023: CLOAKED URSA (APT29) PHISHING,8ca4bf6df28088aa9ce3fc4a226932ae37af74ef54069480b7f4b2efe9402ddc,source says the file is legitimate or a decoy,Czech Republic Ministry of Foreign Affairs-Related — > Legitimate .exe: SHA256 ; Filename: Meeting_Info.exe (Legitimate BsSndRpt.exe,https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2023-03-10-IOCs-for-CloakedUrsa-APT29-Activity.txt
+APT29,Unit 42,FEBRUARY 2023: CLOAKED URSA (APT29) PHISHING,8ca4bf6df28088aa9ce3fc4a226932ae37af74ef54069480b7f4b2efe9402ddc,source says the file is legitimate or a decoy,BMW Automobile Purchase-Related — > Legitimate .exe: SHA256 ; Filename: BMW_sale.exe (Legitimate BsSndRpt.exe,https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2023-03-10-IOCs-for-CloakedUrsa-APT29-Activity.txt
+GhostEmperor,ESET,FamousSparrow -- Indicators of Compromise,f35ce62abeedfb8c6a38ceac50a250f48c41e65e,source says the file is legitimate or a decoy,The blog post on FamousSparrow is available on WeLiveSecurity at — DrmUpdate.exe N/A Legitimate Microsoft Office IME 2010 used for DLL side-loading.,https://github.com/eset/malware-ioc/tree/master/famoussparrow
+GhostEmperor,ESET,FamousSparrow -- Indicators of Compromise,a91b42e5062fef608f285002debaff9358162b25,source says the file is legitimate or a decoy,The blog post on FamousSparrow is available on WeLiveSecurity at — dph.exe N/A Legitimate VLC cache generator.,https://github.com/eset/malware-ioc/tree/master/famoussparrow
+GhostEmperor,ESET,FamousSparrow -- Indicators of Compromise,0dc20b2f11118d5c0cc46b082d7f5dc060276157,source says the file is legitimate or a decoy,The blog post on FamousSparrow is available on WeLiveSecurity at — vlc.exe N/A Legitimate VLC media player used for DLL side-loading.,https://github.com/eset/malware-ioc/tree/master/famoussparrow
+GhostEmperor,ESET,FamousSparrow -- Indicators of Compromise,d03fd329627a58b40e805f4f55b5d821063ac27f,source says the file is legitimate or a decoy,The blog post on FamousSparrow is available on WeLiveSecurity at — notify.exe N/A Legitimate Yandex application used for DLL side-loading.,https://github.com/eset/malware-ioc/tree/master/famoussparrow
+GhostEmperor,ESET,FamousSparrow -- Indicators of Compromise,0925f24082971f50edd987d82f708845a6a9d7c9,source says the file is legitimate or a decoy,The blog post on FamousSparrow is available on WeLiveSecurity at — WindowsUpdate.exe N/A Legitimate Fortemedia Audio Processing used for DLL-side-loading.,https://github.com/eset/malware-ioc/tree/master/famoussparrow
+GhostEmperor,ESET,FamousSparrow -- Indicators of Compromise,db1591c6e23160a94f6312ca46da2d0bb243322c,source says the file is legitimate or a decoy,The blog post on FamousSparrow is available on WeLiveSecurity at — K7AVWScn.exe N/A Legitimate K7AntiVirus Messenger Scanner Stub used for DLL side-loading.,https://github.com/eset/malware-ioc/tree/master/famoussparrow
+GhostEmperor,ESET,FamousSparrow -- Indicators of Compromise,c36ecd2e0f38294e1290f4b9b36f602167e33614,source says the file is legitimate or a decoy,The blog post on FamousSparrow is available in WeLiveSecurity at — - Legitimate K7 Computing binary,https://github.com/eset/malware-ioc/tree/master/famoussparrow
+Lazarus Group,ESET,Lazarus NukeSped IoCs,f9b3b04ce1c6782c3ee3fdd8b3693255c9647e66,source says the file is legitimate or a decoy,Samples — Airbus - JD.zip Win64/NukeSped.OG The Airbus-themed archive contains a trojanized PDF reader and a PDF document containing an embedded malware and a decoy PDF.,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,af50c0240941cfda77c72a16f41127fcfffe50dc,source says the file is legitimate or a decoy,Samples — JD.pdf Win64/NukeSped.OG An encrypted data file starting with a specific sequence and containing a decoy PDF document and an embedded DLL.,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,c830b895fb934291507e490280164cc4234929f0,source says the file is legitimate or a decoy,Samples — %ALLUSERSPROFILE%\Adobe\colorui.dll Win64/NukeSped.KV A VMProtect-ed dropper side-loaded by the legitimate colorcpl.exe. It contains the debug information string W:\Develop\aTool\ShellCod,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,0f33ece7c32074520fbea46314d7d5ab9265ec52,source says the file is legitimate or a decoy,"Samples — %ALLUSERSPROFILE%\Oracle\Java\mapistub.dll Win64/NukeSped.KW A dropper of LightlessCan, side-loaded by the legitimate fixmapi.exe.",https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,e18b9743ec203ab49d3b57fed6df5a99061f80e0,source says the file is legitimate or a decoy,Samples — %ALLUSERSPROFILE%\Adobe\ARM\HID.dll Win64/NukeSped.KX An initial dropper side-loaded by the legitimate tabcal.exe.,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+MUSTANG PANDA,ESET,"Mustang Panda’s Hodur: Old Tricks, New Korplug Variant -- Indicators of Compromise",0d5348b5c9a66c743615e819aef152fb5b0dab97,source says the file is legitimate or a decoy,Files — FontEDL.exe clean Vulnerable legitimate Font File Generator executable,https://github.com/eset/malware-ioc/tree/master/mustang_panda
+MUSTANG PANDA,ESET,"Mustang Panda’s Hodur: Old Tricks, New Korplug Variant -- Indicators of Compromise",c8f5825499315eaf4b5046ff79ac9553e71ad1c0,source says the file is legitimate or a decoy,Files — Silverlight.Configuration.exe clean Vulnerable legitimate Microsoft Silverlight Configuration Utility executable,https://github.com/eset/malware-ioc/tree/master/mustang_panda
+MUSTANG PANDA,ESET,"Mustang Panda’s Hodur: Old Tricks, New Korplug Variant -- Indicators of Compromise",d4ffe4a4f2bd2c19ff26139800c18339087e39cd,source says the file is legitimate or a decoy,Files — PowerDVDLP.exe clean Vulnerable legitimate PowerDVD executable,https://github.com/eset/malware-ioc/tree/master/mustang_panda
+MUSTANG PANDA,ESET,"Mustang Panda’s Hodur: Old Tricks, New Korplug Variant -- Indicators of Compromise",65898aca030dcefda7c970d3a311e8ea7ffc844a,source says the file is legitimate or a decoy,Files — Symantec.exe clean Vulnerable legitimate Symantec AntiVirus executable,https://github.com/eset/malware-ioc/tree/master/mustang_panda
+MUSTANG PANDA,ESET,"Mustang Panda’s Hodur: Old Tricks, New Korplug Variant -- Indicators of Compromise",7ddb61872830f4a0e6bf96faf665337d01f164fc,source says the file is legitimate or a decoy,Files — Adobe Stock Photos CS3.exe clean Vulnerable legitimate Adobe Stock Photos executable,https://github.com/eset/malware-ioc/tree/master/mustang_panda
+MUSTANG PANDA,ESET,"Mustang Panda’s Hodur: Old Tricks, New Korplug Variant -- Indicators of Compromise",58b6b5fd3f2bfd182622f547a93222a4afdf4e76,source says the file is legitimate or a decoy,Files — PotPlayer.exe clean Vulnerable legitimate PotPlayer executable,https://github.com/eset/malware-ioc/tree/master/mustang_panda
+MirrorFace,ESET,MirrorFace – Indicators of Compromise,694b1dd3187e876c5743a0e0b83334dbd18ac9eb,source says the file is legitimate or a decoy,Files — tmp.docx Win32/MirrorFace.A Decoy Word document loading malicious template normal _ .dotm.,https://github.com/eset/malware-ioc/tree/master/mirrorface
+PlushDaemon,ESET,PlushDaemon -- Indicators of Compromise,068fd2d209c0bbb0c6fc14e88d63f92441163233,source says the file is legitimate or a decoy,Files — IPanyVPNsetup.exe Win32/Agent.AEIJ Trojanized IPany installer. Contains the SlowStepper implant and the legitimate IPany software.,https://github.com/eset/malware-ioc/tree/master/PlushDaemon
+APT28,ESET,Operation RoundPress –- Indicators of Compromise,JS/Agent.RSO,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/operation_roundpress
+APT28,ESET,Operation RoundPress –- Indicators of Compromise,JS/Exploit.Agent.NSH,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/operation_roundpress
+APT28,ESET,Operation RoundPress –- Indicators of Compromise,JS/Exploit.Agent.NSH,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/operation_roundpress
+APT28,ESET,Operation RoundPress –- Indicators of Compromise,HTML/Phishing.Agent.GNZ,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/operation_roundpress
+APT28,ESET,Operation RoundPress –- Indicators of Compromise,HTML/Phishing.Agent.GNZ,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/operation_roundpress
+APT28,ESET,Operation RoundPress –- Indicators of Compromise,JS/Agent.SJU,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/operation_roundpress
+APT28,ESET,Operation RoundPress –- Indicators of Compromise,JS/Agent.SJU,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/operation_roundpress
+APT28,ESET,Operation RoundPress –- Indicators of Compromise,HTML/Phishing.Gen,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/operation_roundpress
+APT28,ESET,Operation RoundPress –- Indicators of Compromise,JS/Agent.RSP,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/operation_roundpress
+APT28,ESET,Operation RoundPress –- Indicators of Compromise,JS/Agent.RSN,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/operation_roundpress
+APT28,ESET,Operation RoundPress –- Indicators of Compromise,JS/Agent.RTD,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/operation_roundpress
+APT28,ESET,Operation RoundPress –- Indicators of Compromise,JS/Agent.RWO,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/operation_roundpress
+APT28,ESET,Operation RoundPress –- Indicators of Compromise,JS/Exploit.Agent.NSG,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/operation_roundpress
+APT28,ESET,Sednit Indicators of Compromise,Trump's_Attack_on_Syria_English.docx,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/sednit
+APT28,ESET,Sednit Indicators of Compromise,SCANPASS_QXWEGRFGCVT_323803488900X_jpeg.exe,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/sednit
+APT28,ESET,Sednit Indicators of Compromise,Win32/Sednit.ORQ,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/sednit
+APT28,ESET,Sednit Indicators of Compromise,C:\Users\public\Pictures\scanPassport.jpg,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/sednit
+APT28,ESET,Sednit Indicators of Compromise,"C:\Users\Public\Documents\AcrobatReader.{exe,txt}",unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/sednit
+APT28,ESET,Sednit Indicators of Compromise,MSIL/Sednit.D,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/sednit
+APT28,ESET,Sednit Indicators of Compromise,C:\Users\Public\Videos\audev.txt,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/sednit
+APT28,ESET,Sednit Indicators of Compromise,Win32/Sednit.CH,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/sednit
+APT28,ESET,Sednit Indicators of Compromise,%TMP%\Indy0037C632.tmp,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/sednit
+APT28,ESET,Sednit Indicators of Compromise,Win32/TrojanDownloader.Sednit.CMR,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/sednit
+APT28,ESET,Sednit Indicators of Compromise,%TMP%\Indy01863A21.tmp,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/sednit
+APT28,ESET,Sednit Indicators of Compromise,Win32/TrojanDownloader.Sednit.CMQ,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/sednit
+APT28,ESET,Sednit Indicators of Compromise,Win32/PSW.Agent.OGE,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/sednit
+APT28,ESET,Sednit Indicators of Compromise,Win32/TrojanDownloader.Sednit.CMT,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/sednit
+APT28,ESET,Sednit Indicators of Compromise,Win32/HackTool.PSWDump.D,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/sednit
+APT32,ESET,OceanLotus -- Indicators of Compromise,HKCU\SOFTWARE\Classes\AppXc52346ec40fb4061ad96be0e6cb7d16a\,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/oceanlotus
+APT32,ESET,OceanLotus -- Indicators of Compromise,HKCU\SOFTWARE\Classes\AppX3bbba44c6cae4d9695755183472171e2\,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/oceanlotus
+APT32,ESET,OceanLotus -- Indicators of Compromise,HKCU\SOFTWARE\Classes\CLSID{E3517E26-8E93-458D-A6DF-8030BC80528B}\,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/oceanlotus
+APT32,ESET,OceanLotus -- Indicators of Compromise,HKCU\SOFTWARE\Intel\Display\igfxcui\igfxtray\;[NUMBER];[DWORD],unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/oceanlotus
+APT32,ESET,OceanLotus -- Indicators of Compromise,HKCU\SOFTWARE\Classes\CLSID\{E08A0F4B-1F65-4D4D-9A09-BD4625B9C5A1}\Model,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/oceanlotus
+APT32,ESET,OceanLotus -- Indicators of Compromise,HKLM\SOFTWARE\App\AppXbf13d4ea2945444d8b13e2121cb6b663\Application,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/oceanlotus
+APT32,ESET,OceanLotus -- Indicators of Compromise,HKLM\SOFTWARE\App\AppXbf13d4ea2945444d8b13e2121cb6b663\DefaultIcon,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/oceanlotus
+APT32,ESET,OceanLotus -- Indicators of Compromise,HKCU\SOFTWARE\App\AppXbf13d4ea2945444d8b13e2121cb6b663\Application,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/oceanlotus
+APT32,ESET,OceanLotus -- Indicators of Compromise,HKCU\SOFTWARE\App\AppXbf13d4ea2945444d8b13e2121cb6b663\DefaultIcon,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/oceanlotus
+APT32,ESET,OceanLotus -- Indicators of Compromise,HKLM\SOFTWARE\App\AppX70162486c7554f7f80f481985d67586d\Application,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/oceanlotus
+APT32,ESET,OceanLotus -- Indicators of Compromise,HKLM\SOFTWARE\App\AppX70162486c7554f7f80f481985d67586d\DefaultIcon,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/oceanlotus
+APT32,ESET,OceanLotus -- Indicators of Compromise,HKCU\SOFTWARE\App\AppX70162486c7554f7f80f481985d67586d\Application,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/oceanlotus
+APT32,ESET,OceanLotus -- Indicators of Compromise,HKCU\SOFTWARE\App\AppX70162486c7554f7f80f481985d67586d\DefaultIcon,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/oceanlotus
+APT32,ESET,OceanLotus -- Indicators of Compromise,HKLM\SOFTWARE\App\AppX37cc7fdccd644b4f85f4b22d5a3f105a\Application,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/oceanlotus
+APT32,ESET,OceanLotus -- Indicators of Compromise,HKLM\SOFTWARE\App\AppX37cc7fdccd644b4f85f4b22d5a3f105a\DefaultIcon,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/oceanlotus
+APT32,ESET,OceanLotus -- Indicators of Compromise,HKCU\SOFTWARE\App\AppX37cc7fdccd644b4f85f4b22d5a3f105a\Application,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/oceanlotus
+APT32,ESET,OceanLotus -- Indicators of Compromise,HKCU\SOFTWARE\App\AppX37cc7fdccd644b4f85f4b22d5a3f105a\DefaultIcon,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/oceanlotus
+APT32,ESET,OceanLotus -- Indicators of Compromise,~/Library/SmartCardsServices/Technology/PlugIns/drivers/snippets.ecgML,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/oceanlotus
+APT32,ESET,OceanLotus -- Indicators of Compromise,/tmp/store,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/oceanlotus
+APT32,ESET,OceanLotus -- Indicators of Compromise,/dp/B074WC4NHW/ref=gbps_img_m-9_62c3_750e6b35,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/oceanlotus
+APT35,ESET,Sponsor with Batch-File Whiskers: Ballistic Bobcat's Scan and Strike Backdoor -- Indicators of Compromise,csrss_protected.exe,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/ballisticbobcat
+APT41,ESET,SparklingGoblin Indicators of Compromise,C:\Windows\System32\Tasks\Microsoft\Windows\WindowsUpdate\WebService,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/sparklinggoblin
+APT41,ESET,SparklingGoblin Indicators of Compromise,C:\windows\system32\tasks\Microsoft\Windows\Ras\RasTaskStart,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/sparklinggoblin
+APT41,ESET,SparklingGoblin Indicators of Compromise,C_25749.NLS,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/sparklinggoblin
+BRONZE HIGHLAND,Volexity,StormBamboo,"049e8677406de5f0061f3960f9655b5f,d14431e79dc109d7aad91a5411d406c99ffc524c,4f3d35f4f8b810362cbd4c59bfe5a961e559fe5713c9478294ccb3af2d306515",unrecognised type ,,https://github.com/volexity/threat-intel/tree/main/2024/2024-08-02%20StormBamboo/iocs.csv
+BRONZE HIGHLAND,Volexity,StormBamboo,"ce5fdde7db4ee41808f9c7d121311f78,bb030c405f33557bc5441165a0f8bf9a6d5a82a6,3f76933e053b2e8e3458f2e69d72e10b6b6a97fb8ba0f0300aa415b99c032aea",unrecognised type ,,https://github.com/volexity/threat-intel/tree/main/2024/2024-08-02%20StormBamboo/iocs.csv
+BRONZE HIGHLAND,Volexity,StormBamboo,"2a6c10a34fa1e2a38673f4ca20c303a1,038bc60a0bf004e9a7cbc3a3cf814613e61ba7cc,17aebd011dcd3e7c11484c2f98fa0901c2ea1325fdd6c03904d30ebfc8747a99",unrecognised type ,,https://github.com/volexity/threat-intel/tree/main/2024/2024-08-02%20StormBamboo/iocs.csv
+BRONZE HIGHLAND,Volexity,StormBamboo,"07e3b067dc5e5de377ce4a5eff3ccd4e6a2f1d7a47c23fe06b1ededa7aed1ab3,66346b3d841dc56a387f48b4dfba96083c37ec2e,ee28b3137d65d74c0234eea35fa536af",unrecognised type ,,https://github.com/volexity/threat-intel/tree/main/2024/2024-08-02%20StormBamboo/iocs.csv
+BRONZE HIGHLAND,Volexity,StormBamboo,"77406e090ad9214942d7ca91ddd09b0435bafe42ffa2512819a7bc6cdec112b8,68853cafd395edd08cd38ab6100c58e291a3a3d7,4958ede3b968ad464c983054479bf4d2",unrecognised type ,,https://github.com/volexity/threat-intel/tree/main/2024/2024-08-02%20StormBamboo/iocs.csv
+BRONZE HIGHLAND,Volexity,StormBamboo,"7e2e1fba2fabf677d08611a59b03d646a92bb6110182b61adae207c8a88b6d13,c68e86985a4cb2f69e16fb943723af63833859b3,6abf9a7926415dc00bcb482456cc9467",unrecognised type ,,https://github.com/volexity/threat-intel/tree/main/2024/2024-08-02%20StormBamboo/iocs.csv
+BRONZE HIGHLAND,Volexity,StormBamboo,"806eabfa6ee245eaaf817c0336e07982fffc42efb1f39a2bfb44a5db2c89b126,37ee872f05a0273446dc7e2539b9dbf9bf7d80b4,25e4eef79ad4126d5dc5567949848070",unrecognised type ,,https://github.com/volexity/threat-intel/tree/main/2024/2024-08-02%20StormBamboo/iocs.csv
+BRONZE HIGHLAND,Volexity,StormBamboo,"b76a9034e9abc7a62171e80f9d1f7fdf565cda286bd10fd3984eae769113c8c5,84875b2cf9f8c778ff1462ef478918b4ac964afe,acfc69c743b733dd80c1d551ae01172b",unrecognised type ,,https://github.com/volexity/threat-intel/tree/main/2024/2024-08-02%20StormBamboo/iocs.csv
+BRONZE HIGHLAND,Volexity,StormBamboo,"b77bcfb036f5a6a3973fdd68f40c0bd0b19af1246688ca4b1f9db02f2055ef9d,e8e4a3fa69173a46cdb60c53877c7ad557accc51,4c8a326899272d2fe30e818181f6f67f",unrecognised type ,,https://github.com/volexity/threat-intel/tree/main/2024/2024-08-02%20StormBamboo/iocs.csv
+Blackwood,ESET,NSPX30: a sophisticated AitM-enabled implant evolving since 2005 –- Indicators of Compromise,minibrowser_shell.dll,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/blackwood
+Blackwood,ESET,NSPX30: a sophisticated AitM-enabled implant evolving since 2005 –- Indicators of Compromise,dl_dir.qq[.]com,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/blackwood
+DriftingCloud,Volexity,DriftingCloud - Zero-Day Sophos Firewall Exploitation and an Insidious Breach,"ba8f0224307156e670621dd151dffdf1,7d110a02f52934dfa15769b9f163cdeb091d352c,ce2e935b885c3de97df6e65e29b24f2b07a794ffd9c20eb205307a5e780207bc",unrecognised type ,,https://github.com/volexity/threat-intel/tree/main/2022/2022-06-15%20DriftingCloud%20-%20Zero-Day%20Sophos%20Firewall%20Exploitation%20and%20an%20Insidious%20Breach/indicators/indicators.csv
+DriftingCloud,Volexity,DriftingCloud - Zero-Day Sophos Firewall Exploitation and an Insidious Breach,"284c8ed417d45a15c89ffe65575cf8ac,02c6bc4f770baa5fbc21aa0fa57cf9678aa730fe,df41c20dbbee0d1a28cb151c29fff1e2e22bd7ba89ee8e3d47e7d15f56d89e4e",unrecognised type ,,https://github.com/volexity/threat-intel/tree/main/2022/2022-06-15%20DriftingCloud%20-%20Zero-Day%20Sophos%20Firewall%20Exploitation%20and%20an%20Insidious%20Breach/indicators/indicators.csv
+InvisiMole,ESET,InvisiMole -- Indicators of Compromise,MSO~2,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/invisimole
+InvisiMole,ESET,InvisiMole -- Indicators of Compromise,MSO~4,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/invisimole
+InvisiMole,ESET,InvisiMole -- Indicators of Compromise,Mutex_sync,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/invisimole
+InvisiMole,ESET,InvisiMole -- Indicators of Compromise,wkssvmtx,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/invisimole
+InvisiMole,ESET,InvisiMole -- Indicators of Compromise,Global\BrLK,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/invisimole
+InvisiMole,ESET,InvisiMole -- Indicators of Compromise,Global\GtLK,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/invisimole
+InvisiMole,ESET,InvisiMole -- Indicators of Compromise,Global\M6Br,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/invisimole
+InvisiMole,ESET,InvisiMole -- Indicators of Compromise,Global\M6Gt,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/invisimole
+InvisiMole,ESET,InvisiMole -- Indicators of Compromise,Global\M6Nx,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/invisimole
+InvisiMole,ESET,InvisiMole -- Indicators of Compromise,Global\M6St,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/invisimole
+InvisiMole,ESET,InvisiMole -- Indicators of Compromise,Global\MBrT,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/invisimole
+InvisiMole,ESET,InvisiMole -- Indicators of Compromise,Global\MMGt,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/invisimole
+InvisiMole,ESET,InvisiMole -- Indicators of Compromise,Global\MMNx,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/invisimole
+InvisiMole,ESET,InvisiMole -- Indicators of Compromise,Global\MMSt,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/invisimole
+InvisiMole,ESET,InvisiMole -- Indicators of Compromise,Global\NxLK,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/invisimole
+InvisiMole,ESET,InvisiMole -- Indicators of Compromise,Global\StLK,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/invisimole
+InvisiMole,ESET,InvisiMole -- Indicators of Compromise,Global\TsLK,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/invisimole
+InvisiMole,ESET,InvisiMole -- Indicators of Compromise,Global\TsM5,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/invisimole
+InvisiMole,ESET,InvisiMole -- Indicators of Compromise,Global\TsM6,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/invisimole
+InvisiMole,ESET,InvisiMole -- Indicators of Compromise,ExMp0043,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/invisimole
+InvisiMole,ESET,InvisiMole -- Indicators of Compromise,ExMp0044,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/invisimole
+InvisiMole,ESET,InvisiMole -- Indicators of Compromise,XVD21x9DC,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/invisimole
+InvisiMole,ESET,InvisiMole -- Indicators of Compromise,EvMExM2ER,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/invisimole
+InvisiMole,ESET,InvisiMole -- Indicators of Compromise,EvMExM2OK,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/invisimole
+InvisiMole,ESET,InvisiMole -- Indicators of Compromise,ExMpER43,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/invisimole
+InvisiMole,ESET,InvisiMole -- Indicators of Compromise,ExMpER44,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/invisimole
+InvisiMole,ESET,InvisiMole -- Indicators of Compromise,ExMpOK43,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/invisimole
+InvisiMole,ESET,InvisiMole -- Indicators of Compromise,ExMpOK44,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/invisimole
+Lazarus Group,ESET,Lazarus NukeSped IoCs,%TEMP%\7zOC35416EE\Quiz1.exe,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,%TEMP%\7zOCB3CC96D\Quiz2.exe,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,%ALLUSERSPROFILE%\Adobe\colorui.dll,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,W:\Develop\aTool\ShellCodeLoader\App\libressl-2.6.5,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,%ALLUSERSPROFILE%\Oracle\Java\mapistub.dll,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,C:\ProgramShared\mscoree.dll,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,%ALLUSERSPROFILE%\Adobe\ARM\HID.dll,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,%WINDIR%\system32\grpedit.dat,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,%WINDIR%\system32\oci.dll,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,lazarus_3cx.json,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,sysnetd,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,guiconfigd,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,/d/NTJfMzg4MDE1NzJf/vxmedia,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,/djour.php,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,rich_headers_IconicPayloads_3CX.yar,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,ButterflyDll_x64.dll,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,ButterflyDll_x86.dll,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,T_LSASS_LOADER.dll,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,win32exe_x64.exe,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,bsInject_x64.exe,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,runx_x64.exe,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,PROXY_SVC_DLL.dll,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,Final(x64).dll,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,t(x64).dll,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,Proxy_SVC_DLL.dll,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,T_DLL.dll,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,T_SVC_DLL.dll,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,DLL64_NoSvcStop.dll,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,Server_Dll.dll,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,Server_x86.dll,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,t(x86).dll,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,t(x64).dll,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,t(x86).dll,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,T_SVC_DLL.dll,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,arm_data,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,MID_SVC_DLL.dll,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,Server_x86.dll,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,Service_Dll.dll,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,Service_Dll.dll,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,t(x86).dll,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,Mid_DLL.dll,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,Svc64_DLL.dll,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,DLL_Spider.dll,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,bot_loader_dll_x64.dll,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,T_DLL.dll,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,mini_exe.exe,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,Svc64_DLL.dll,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,T_SVC_DLL.dll,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,DLL64_NoSvcStop.dll,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+Lazarus Group,ESET,Lazarus NukeSped IoCs,MoneyManagerExPortable_1.3.3.paf.exe,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/nukesped_lazarus
+MirrorFace,ESET,MirrorFace – Indicators of Compromise,PART_01\【参考】220628<redacted>発・<redacted>選挙管理委員会宛文書（添書分）.exe,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/mirrorface
+MirrorFace,ESET,MirrorFace – Indicators of Compromise,31558_n.dll,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/mirrorface
+MoustachedBouncer,ESET,MoustachedBouncer: Espionage against foreign diplomats in Belarus –- Indicators of Compromise,kb4480959_EdgeUpdate.exe,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/moustachedbouncer
+PlushDaemon,ESET,PlushDaemon -- Indicators of Compromise,bioset,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/PlushDaemon
+PlushDaemon,ESET,PlushDaemon -- Indicators of Compromise,popup_4.2.0.2246.dll,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/PlushDaemon
+PlushDaemon,ESET,PlushDaemon -- Indicators of Compromise,sogou_wubi_15.4.0.2508_0000.exe,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/PlushDaemon
+PlushDaemon,ESET,PlushDaemon -- Indicators of Compromise,winpy_no_rundll.org,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/PlushDaemon
+RomCom,Cisco Talos,UAT-5647 targets Ukrainian and Polish entities with RomCom malware variants,/ipns/k51qzi5uqu5dgn9wgsaxb7cfvinmk27eusoufaxrp8qd1ri5kamf41bg7gpydm,unrecognised type ,,https://github.com/Cisco-Talos/IOCs/blob/main/2024/10/uat-5647-romcom.json
+Sandworm,ESET,MythicRatatoskr: An Yggdrasil-enabled backdoor deployed in a UAC-0099–Sandworm collaboration -- Indicators of Compromise,b479:2771:8df4:b5eb:d007:63b0[:]2838,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/mythicratatoskr
+TheWizards,ESET,TheWizards APT group uses SLAAC spoofing to perform adversary-in-the-middle attacks –- Indicators of Compromise,minibrowser_shell.dll,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/thewizards
+Turla,ESET,Turla Indicators of Compromise,www.shoppingexpert.it:80:/wp-content/gallery/,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,soheylistore.ir:80:/modules/mod_feed/feed.php,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,tazohor.com:80:/wp-includes/feed-rss-comments.php,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,jucheafrica.com:80:/wp-includes/class-wp-edit.php,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,61paris.fr:80:/wp-includes/ms-set.php,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,doctorshand.org:80:/wp-content/about/,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,www.lasac.eu:80:/credit_payment/url/,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,%TEMP%\KB943729.log,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,%TEMP%\CVRG72B5.tmp.cvr,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,%TEMP%\CVRG1A6B.tmp.cvr,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,%TEMP%\CVRG38D9.tmp.cvr,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,%TEMP%\~DF1E06.tmp,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,%HOMEPATH%\ntuser.dat.LOG3,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,%HOMEPATH%\AppData\Local\Adobe\AdobeUpdater.exe,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\ScreenSaver,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,{531511FA-190D-5D85-8A4A-279F2F592CC7},unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,AutorunManager,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,AutorunManager::~AutorunManger,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,AutorunManager::Init,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,AutorunManger::ReInit,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,AutorunManager::BuildAutorunSettings,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,AutorunManager::FreeAutorunsSettings,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,AutorunManager::FullCheck,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,AutorunManager::StartAutorunEx,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,AutorunManager::FullStart,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,HiddenTaskAutorun,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,HiddenTaskAutorun::IsPathsEqual,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,LinkAutorun,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,LinkAutorunClass::InfectLnkFile,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,LinkAutorunClass::ClearLnkFile,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,LinkAutorunClass::CheckLnkFile,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,RemoteImport32,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,RemoteImport32::RemoteImport32,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,RemoteImport32::GetRemoteProcAddress,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,RemoteImport32::GetRemoteModuleHandle,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,ScreenSaverAutorun,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,ScreenSaverAutorun::ChangeScreenSaver,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,ScreenSaverAutorun::WndProc1,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,ScreenSaverAutorun::GetMessageThreadProc,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,ScreenSaverAutorun::CreateHiddenWindow,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,ScreenSaverAutorun::CloseHiddenWindow,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,ShellAutorun,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,ShellAutorun::AutorunInstallEx,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,ShellAutorun::AutorunUninstallEx,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,ShellAutorun::AutorunCheckEx,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,ShellAutorun::IsPathsEqual,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,StartupAutorun,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,StartupAutorun::AutorunInstallEx,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,StartupAutorun::AutorunUninstallEx,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,StartupAutorun::AutorunCheckEx,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,StartupAutorun::IsPathsEqual,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,TaskScheduler20Autorun,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,TaskScheduler20Autorun::Init,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,TaskScheduler20Autorun::AutorunCheckEx,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,TaskScheduler20Autorun::AutorunInstallEx,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,TaskScheduler20Autorun::AutorunUninstallEx,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,TaskScheduler20Autorun::IsPathsEqual,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,DllInjector,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,DllInjector::LoadDllToProcess,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,DllInjector::GetProcHandle,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,DllInjector::CheckDllAndSetPlatform,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,DllInjector::CopyDllFromBuffer,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,DllInjector::MapLibrary,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,DllInjector::Map86Library_tox64,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,DllInjector::CallEntryPoint,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,DllInjector::FindDllImageBase,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,DllInjector::WindowInject,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,InjectManager,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,InjectManager::~InjectManager,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,InjectManager::BuildInjectSettingsList,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,InjectManager::FreeInjectSettingsList,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,InjectManager::Stop,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,InjectManager::DetachAll,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,InjectManager::FindAndInjectInVictim,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,InjectManager::FindProcessSimple2,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,InjectManager::LoadNtdll,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,InjectManager::UnLoadNtdll,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,InjectManager::LoadWinsta,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,InjectManager::UnLoadWinsta,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,InjectManager::SetStatusTransportDll,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,InjectManager::GetTransportState,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,InjectManager::DestroyManuallyCreatedVictim,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,InjectManager::VictimManualCreateIE,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,NPTransport,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,TNPTransport::Init,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,TNPTransport::ReInit,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,TNPTransport::~TNPTransport,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,TNPTransport::Receive,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,TNPTransport::RunServer,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,TNPTransport::ServerProc,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,ExeStorage,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,ExeStorage::Migrate,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,ExeStorage::SecureHeapFree,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,FSStorage,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,FSStorage::~FSStorage,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,FSStorage::Init,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,FSStorage::GetBlock,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,FSStorage::GetListBlock,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,FSStorage::Migrate,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,FSStorage::SecureHeapFree,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,FSStorage::Update,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,FSStorage::Empty,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,RegStorage,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,RegStorage::~RegStorage,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,RegStorage::Init,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,RegStorage::FreeList,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,RegStorage::GetListBlock,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,RegStorage::DeleteListBlock,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,RegStorage::Migrate,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,RegStorage::SecureHeapFree,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,RegStorage::Update,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,RegStorage::Empty,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,ResultQueue,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,ResultQueue::~ResultQueue,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,ResultQueue::DumpQueueToStorage,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,ResultQueue::RestoreFromStorage,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,ResultQueue::ClearQueue,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,ResultQueue::RemoveResult,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,ResultQueue::GetNextResultToSendWithModule,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,ResultQueue::SetPredeterminedResult,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,ResultQueue::print,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,TaskQueue,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,TaskQueue::~TaskQueue,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,TaskQueue::DumpQueueToStorage,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,TaskQueue::RestoreFromStorage,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,TaskQueue::ClearQueue,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,TaskQueue::RemoveCompletedTasks,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,TaskQueue::print,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,CExecutionSubsystem,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,CExecutionSubsystem::~CExecutionSubsystem,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,CExecutionSubsystem::Stop,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,CExecutionSubsystem::TaskExecusion,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,CExecutionSubsystem::TaskConfigure,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,CExecutionSubsystem::TaskUpload,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,CExecutionSubsystem::TaskDownload,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,CExecutionSubsystem::TaskReplacement,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,CExecutionSubsystem::TaskDelete,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,CExecutionSubsystem::TaskPacketLocalTransport,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,CExecutionSubsystem::FinishTask,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,CExecutionSubsystem::PushTaskResult,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,CExecutionSubsystem::UpdateStorage,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,CMessageProcessingSystem,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,CMessageProcessingSystem::~CMessageProcessing,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,CMessageProcessingSystem::ListenerCallBack,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,CMessageProcessingSystem::WaitShutdownModule,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,CMessageProcessingSystem::SetCompulsorySMC,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,CMessageProcessingSystem::UnSetCompulsorySMC,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,CMessageProcessingSystem::IsCompulsorySMC,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,CMessageProcessingSystem::GetCompulsorySMC,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,CMessageProcessingSystem::Receive_TAKE_NOP,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,CMessageProcessingSystem::Receive_GIVE_SETTINGS,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,CMessageProcessingSystem::Receive_TAKE_CAN_NOT_WORK,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,CMessageProcessingSystem::Receive_GIVE_CACHE,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,CMessageProcessingSystem::Receive_TAKE_CACHE,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,CMessageProcessingSystem::Receive_TAKE_TASK,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,CMessageProcessingSystem::Receive_GIVE_RESULT,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,CMessageProcessingSystem::Receive_TAKE_CONFIRM_RESULT,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,CMessageProcessingSystem::Receive_TAKE_LOADER_BODY,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,CMessageProcessingSystem::Receive_TAKE_UNINSTALL,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,CMessageProcessingSystem::Receive_NO_CONNECT_TO_Gazer,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,CMessageProcessingSystem::Receive_TAKE_LAST_CONNECTION,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,CMessageProcessingSystem::Send_TAKE_FIN,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,CMessageProcessingSystem::Send_TAKE_SHUTDOWN,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,CMessageProcessingSystem::Send_TAKE_SETTINGS,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,CMessageProcessingSystem::Send_TAKE_RESULT,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,Crypto,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,Crypto::GetPublicKey,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,Crypto::EncryptRSA,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,Crypto::Sign,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,Crypto::EncryptAndSignBufferRSAEx,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,Crypto::DecryptRSA,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,Crypto::Verify,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,Crypto::DecryptAndVerifyBufferRSAEx,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,Crypto::EncryptAndSignBufferRSA1,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,Crypto::EncryptAndSignBufferRSAC,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,Crypto::DecryptAndVerifyBufferRSA0,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,Crypto::DecryptAndVerifyBufferRSA1,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,Crypto::DecryptAndVerifyBufferRSAL,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,Crypto::VerifyLoaderFile,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,Crypto::VerifyLoader,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,Crypto::CompressBuffer,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,Crypto::DecompressBuffer,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,LTManager,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,LTManager::~LTManager,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,LTManager::Init,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,LTManager::GetResultFromQueue,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,LTManager::SetResultToCache,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,LTManager::GetTaskFromCache,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,LTManager::SetTaskToQueue,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,LTManager::IsSendPacketFurtherOnRoute,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,LTManager::SendPacketNextRouteUnit,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,LTManager::SetCache,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,LTManager::SetPacket,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,LTManager::DumpCacheToStorage,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,LTManager::DeSerializeCache,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,LTManager::DeSerializePacket,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,LTManager::DeSerializeRoute,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,LTManager::DeSerializeTask,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,LTManager::DeSerializeResult,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,LTManager::SerializeCache,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,LTManager::SerializePacket,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,LTManager::SerialiazeRoute,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,LTManager::SerializeTask,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,LTManager::SerializeResult,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,LTManager::ClearCache,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,LTManager::ClearPacket,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,LTManager::ClearRoute,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,LTManager::ClearTask,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,LTManager::ClearResult,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,LTManager::PrintCache,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,LTManager::CreateEvents,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,LTManager::SetEvents,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,LTManager::ResetEvents,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,LTManager::WaitEvents,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,LTManager::DeleteEvents,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,LTMessageProcessing,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,LTMessageProcessing::ListenerCallBack,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,LTMessageProcessing::Send_TAKE_OK,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,LTMessageProcessing::Send_TAKE_ERROR_CRYPT,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,LTMessageProcessing::Send_TAKE_ERROR_UNKNOWN,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,LTNamedPipe,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,LTNamedPipe::ReInit,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,LTNamedPipe::BuildLocalTransportSettings,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,LTNamedPipe::~LTNamedPipe,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,LTNamedPipe::Receive,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,LTNamedPipe::RunServer,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,LTNamedPipe::Stop,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,LTNamedPipe::CreateNewNPInstance,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,LTNamedPipe::ServerProc,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,LTNamedPipe::ClientCommunication,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,.tlb,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,.pdb,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,{D9144DCD-E998-4ECA-AB6A-DCD83CCBA16D},unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,{08244EE6-92F0-47F2-9FC9-929BAA2E7235},unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,{4E14FBA2-2E22-11D1-9964-00C04FBBB345},unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,{B5F8350B-0548-48B1-A6EE-88BD00B4A5E7},unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,{603D3801-BD81-11D0-A3A5-00C04FD706EC},unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,{F82B4EF1-93A9-4DDE-8015-F7950A1A6E31},unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,{9207D8C7-E7C8-412E-87F8-2E61171BD291},unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,{A3B3C46C-05D8-429B-BF66-87068B4CE563},unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,{0997898B-0713-11D2-A4AA-00C04F8EEB3E},unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,{603D3801-BD81-11D0-A3A5-00C04FD706EC},unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,{1299CF18-C4F5-4B6A-BB0F-2299F0398E27},unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,.tlb,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,.pdb,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,.tnl,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,%APPDATA%\kb6867.bin,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,%APPDATA%\Microsoft\local_update_checker.js,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,%APPDATA%\Microsoft\google_update_checker.js,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,%APPDATA%/Microsoft/Windows/scawrdot.db,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,%APPDATA%/Microsoft/Windows/flobcsnd.dat,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,HKCU\Software\Microsoft\Windows\CurrentVersion\Settings\ZonePolicy\,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,HKCU\Software\Classes\CLSID\\{49CBB1C7-97D1-485A-9EC1-A26065633066},unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,HKCU\Software\Classes\CLSID\\{84DA0A92-25E0-11D3-B9F7-00C04F4C8F5D},unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,%tmp%\winmail.dat,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,C:\Windows\ServiceProfiles\NetworkService\appdata\Local\Temp\msmocf.xml,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,C:\Windows\ServiceProfiles\NetworkService\appdata\Local\Temp\msmodl.dat,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,C:\Windows\serviceprofiles\networkservice\appdata\Roaming\Microsoft\Windows\814ad43-58ab-2cd3-3e68-b82a8f402fd0,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,C:\Windows\serviceprofiles\networkservice\appdata\Roaming\Microsoft\Windows\42cf8a1-6e20-8c24-d35f-82c46d8b70ba,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,C:\Windows\serviceprofiles\networkservice\appdata\Roaming\Microsoft\Windows\36b1f4a-82b9-eb06-7c1e-90b4b2d5c27d,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,C:\Windows\ServiceProfiles\NetworkService\AppData\Roaming\Microsoft\thumbcache_idx.db,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,C:\Windows\ServiceProfiles\NetworkService\AppData\Roaming\Microsoft\Windows\thumbcache_32.db,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,%PUBLIC%\iCore.dat,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,\\pipe\\atctl,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,C:\Users\Public\Documents\desktop.db,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,%TEMP%\FXSAPIDebugTrace.txt,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,%TEMP%\iecache.bin,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,HKLM\SOFTWARE\Microsoft\SQMClient\Windows.WSqmCons,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,C:\Intel\,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,C:\AMD\Temp\,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,C:\Intel\outllib.dll,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,C:\Intel\lang.nls,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,C:\Intel\~intel_upd.exe,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,C:\Intel\~csrss.exe,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,%LOCALAPPDATA%\Microsoft\OneDrive\dwmapi.dll,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,App_Web_0bm4blbr.dll,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,C:\Windows\System32\DynamicAuth.bin,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,C:\ProgramData\Microsoft\WinThumb\adcache.clb,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,C:\Windows\System32\perfcache.dat,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,%USERPROFILE%\Gpg4win\tempkeys.dat,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,C:\ProgramData\Microsoft\Windows\Templates\content.tpl,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,C:\ProgramData\Microsoft\WinThumb\thumb.clb,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,C:\ProgramData\Microsoft\WinThumb\cfcache.clb,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,C:\Windows\System32\perfconfm.dat,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,%LOCALAPPDATA%\Microsoft\Outlook\outlk.share,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+Turla,ESET,Turla Indicators of Compromise,HKCU\SOFTWARE\Classes\CLSID\{3115036B-547E-4673-8479-EE54CD001B9D}\,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/turla
+UNC4736,Volexity,Buyer Beware - Fake Cryptocurrency Applications Serving as Front for AppleJeus Malware,"51871504c1d5c09ade5e2a1e6e98c37a,ae34fa6c6baf77390fb3ff683d880cde14bf893d,17e6189c19dedea678969e042c64de2a51dd9fba69ff521571d63fd92e48601b",unrecognised type ,,https://github.com/volexity/threat-intel/tree/main/2022/2022-12-01%20Buyer%20Beware%20-%20Fake%20Cryptocurrency%20Applications%20Serving%20as%20Front%20for%20AppleJeus%20Malware/indicators.csv
+UNC4736,Volexity,Buyer Beware - Fake Cryptocurrency Applications Serving as Front for AppleJeus Malware,"9319c3e14e1a60888ae6b2477668f7ba,03357d9e06597ddebe523e0009dc8e1543efe341,abca3253c003af67113f83df2242a7078d5224870b619489015e4fde060acad0",unrecognised type ,,https://github.com/volexity/threat-intel/tree/main/2022/2022-12-01%20Buyer%20Beware%20-%20Fake%20Cryptocurrency%20Applications%20Serving%20as%20Front%20for%20AppleJeus%20Malware/indicators.csv
+UNC4736,Volexity,Buyer Beware - Fake Cryptocurrency Applications Serving as Front for AppleJeus Malware,"34ae87e0693e5c0962564559514649f2,c5fc27bf3d9abe24f52d147a556d3539fe243369,a2d3c41e6812044573a939a51a22d659ec32aea00c26c1a2fdf7466f5c7e1ee9",unrecognised type ,,https://github.com/volexity/threat-intel/tree/main/2022/2022-12-01%20Buyer%20Beware%20-%20Fake%20Cryptocurrency%20Applications%20Serving%20as%20Front%20for%20AppleJeus%20Malware/indicators.csv
+UNC4736,Volexity,Buyer Beware - Fake Cryptocurrency Applications Serving as Front for AppleJeus Malware,"e66bc1e91f1a214d098cf44ddb1ae91a,5d7022006d7dc90d97c01041107d70b2c58131e5,2e8d2525a523b0a47a22a1e9cc9219d6526840d8b819d40d24046b17db8ea3fb",unrecognised type ,,https://github.com/volexity/threat-intel/tree/main/2022/2022-12-01%20Buyer%20Beware%20-%20Fake%20Cryptocurrency%20Applications%20Serving%20as%20Front%20for%20AppleJeus%20Malware/indicators.csv
+UNC4736,Volexity,Buyer Beware - Fake Cryptocurrency Applications Serving as Front for AppleJeus Malware,"b1fd7db90e6a06bafe28b41617c00680,418a72b667c48ef362387b9ac5b5d033bd5f13c4,82e67114d632795edf29ce1d50a4c1c444846d9e16cd121ce26e63c8dc4a162",unrecognised type ,,https://github.com/volexity/threat-intel/tree/main/2022/2022-12-01%20Buyer%20Beware%20-%20Fake%20Cryptocurrency%20Applications%20Serving%20as%20Front%20for%20AppleJeus%20Malware/indicators.csv
+UNC4736,Volexity,Buyer Beware - Fake Cryptocurrency Applications Serving as Front for AppleJeus Malware,"fe97c113301e79932b65ce87439d464b,2f9e1236be80dc727d1f3734c9cd81dd7faef7c1,90b0a4c9fe8fd0084a5d50ed781c7c8908f6ade44e5654acffea922e281c6b33",unrecognised type ,,https://github.com/volexity/threat-intel/tree/main/2022/2022-12-01%20Buyer%20Beware%20-%20Fake%20Cryptocurrency%20Applications%20Serving%20as%20Front%20for%20AppleJeus%20Malware/indicators.csv
+UNC4736,Volexity,Buyer Beware - Fake Cryptocurrency Applications Serving as Front for AppleJeus Malware,"aa71a7a597e71b8fca56f30c329c8b5c,89c95bf758d3b2a42a75ef28624957b30a2fe667,efaf52549ffcc8a16373a8f7f0bddebabc3edc17f71b0158bbaf89c1b29a6043",unrecognised type ,,https://github.com/volexity/threat-intel/tree/main/2022/2022-12-01%20Buyer%20Beware%20-%20Fake%20Cryptocurrency%20Applications%20Serving%20as%20Front%20for%20AppleJeus%20Malware/indicators.csv
+UNC4736,Volexity,Buyer Beware - Fake Cryptocurrency Applications Serving as Front for AppleJeus Malware,"b8993b4c4af5b1d31794dfc52ce20144,c20932771c62239c49cb0961de85c0176691b082,a0db8f8f13a27df1eacbc01505f311f6b14cf9b84fbc7e84cb764a13f001dbbb",unrecognised type ,,https://github.com/volexity/threat-intel/tree/main/2022/2022-12-01%20Buyer%20Beware%20-%20Fake%20Cryptocurrency%20Applications%20Serving%20as%20Front%20for%20AppleJeus%20Malware/indicators.csv
+UNC4736,Volexity,Buyer Beware - Fake Cryptocurrency Applications Serving as Front for AppleJeus Malware,"76111d9780b2d0b5adee61cf752d937e,5b03294b72c0caa5fb20e7817002c600645eb475,9352625b3e6a3c998e328e11ad43efb5602fe669aed9c9388af5f55fadfedc78",unrecognised type ,,https://github.com/volexity/threat-intel/tree/main/2022/2022-12-01%20Buyer%20Beware%20-%20Fake%20Cryptocurrency%20Applications%20Serving%20as%20Front%20for%20AppleJeus%20Malware/indicators.csv
+UNC4736,Volexity,Buyer Beware - Fake Cryptocurrency Applications Serving as Front for AppleJeus Malware,"18644822140eda7493bd75ba1e1f235d,b801643e2d817931e6aa36e6bf24d1c42e9b8fdc,fe948451df90df80c8028b969bf89ecbf501401e7879805667c134080976ce2e",unrecognised type ,,https://github.com/volexity/threat-intel/tree/main/2022/2022-12-01%20Buyer%20Beware%20-%20Fake%20Cryptocurrency%20Applications%20Serving%20as%20Front%20for%20AppleJeus%20Malware/indicators.csv
+UNC4736,Volexity,Buyer Beware - Fake Cryptocurrency Applications Serving as Front for AppleJeus Malware,"61923b65c963b82a063ec07dcb32db1a,93b91aaf6d1ec30a27f866ef35af01defb2e6d3a,e5980e18319027f0c28cd2f581e75e755a0dace72f10748852ba5f63a0c99487",unrecognised type ,,https://github.com/volexity/threat-intel/tree/main/2022/2022-12-01%20Buyer%20Beware%20-%20Fake%20Cryptocurrency%20Applications%20Serving%20as%20Front%20for%20AppleJeus%20Malware/indicators.csv
+UNC4736,Volexity,Buyer Beware - Fake Cryptocurrency Applications Serving as Front for AppleJeus Malware,"245bb604621cea7962668325995bca7c,cc5544eff3e5b9cf20d8cf2291147596d4346dbe,eee4e3612af96b694e28e3794c4ee4af2579768e8ec6b21daf71acfc6e22d52b",unrecognised type ,,https://github.com/volexity/threat-intel/tree/main/2022/2022-12-01%20Buyer%20Beware%20-%20Fake%20Cryptocurrency%20Applications%20Serving%20as%20Front%20for%20AppleJeus%20Malware/indicators.csv
+UNC4736,Volexity,Buyer Beware - Fake Cryptocurrency Applications Serving as Front for AppleJeus Malware,"b450d946b4617dca9f0c2ad4f9a936c9,1017258005da16f4981ef722e1f35ee0a467751a,82d6b2e14763f398d2a559d3f7fbf2f7a3c7f9001c8dcdf4543d4ff0b97a8785",unrecognised type ,,https://github.com/volexity/threat-intel/tree/main/2022/2022-12-01%20Buyer%20Beware%20-%20Fake%20Cryptocurrency%20Applications%20Serving%20as%20Front%20for%20AppleJeus%20Malware/indicators.csv
+UNC4736,Volexity,Buyer Beware - Fake Cryptocurrency Applications Serving as Front for AppleJeus Malware,"8077b9696bfeae73e5238868e4aaa161,733c81f6a20acfc0c3168cd457a720259bc8498d,636813038ba5c9755aa881ae62e2911df3b8f84ad1d2ff682e325e00d24d4a74",unrecognised type ,,https://github.com/volexity/threat-intel/tree/main/2022/2022-12-01%20Buyer%20Beware%20-%20Fake%20Cryptocurrency%20Applications%20Serving%20as%20Front%20for%20AppleJeus%20Malware/indicators.csv
+UNC4736,Volexity,Buyer Beware - Fake Cryptocurrency Applications Serving as Front for AppleJeus Malware,"ec3f99dd7d9dbce8d704d407b086e84f,790a0e6790fb359b5010d952ea773d1a89668133,295c20d0f0a03fd8230098fade0af910b2c56e9e5700d4a3344d10c106a6ae2a",unrecognised type ,,https://github.com/volexity/threat-intel/tree/main/2022/2022-12-01%20Buyer%20Beware%20-%20Fake%20Cryptocurrency%20Applications%20Serving%20as%20Front%20for%20AppleJeus%20Malware/indicators.csv
+UNC4736,Volexity,Buyer Beware - Fake Cryptocurrency Applications Serving as Front for AppleJeus Malware,"435c7b4fd5e1eaafcb5826a7e7c16a83,1a6366a45cb892cf76af8ba25d114334f1e34532,479cc0a490ffa98652683796c5cef12f3e6380107aac83321a9705048b801b54",unrecognised type ,,https://github.com/volexity/threat-intel/tree/main/2022/2022-12-01%20Buyer%20Beware%20-%20Fake%20Cryptocurrency%20Applications%20Serving%20as%20Front%20for%20AppleJeus%20Malware/indicators.csv
+UNC4736,Volexity,Buyer Beware - Fake Cryptocurrency Applications Serving as Front for AppleJeus Malware,"b07dede3d23cbc3b41bd2ecfd194c2b6,9d7797e1b3f46ba5a2f050a2efabd4bce742528a,4c5611d63fd78a2de9591d7b4d70c574d1f534a2aec86bb70bd49e60fafd54ea",unrecognised type ,,https://github.com/volexity/threat-intel/tree/main/2022/2022-12-01%20Buyer%20Beware%20-%20Fake%20Cryptocurrency%20Applications%20Serving%20as%20Front%20for%20AppleJeus%20Malware/indicators.csv
+UTA0388,Volexity,UTA0388,wss://api.twmoc.info/ws,unrecognised type ,,https://github.com/volexity/threat-intel/tree/main/2025/2025-10-08%20UTA0388/iocs.csv
+UTA0388,Volexity,UTA0388,wss://onedrive.azure-app.store/ws,unrecognised type ,,https://github.com/volexity/threat-intel/tree/main/2025/2025-10-08%20UTA0388/iocs.csv
+UTA0388,Volexity,UTA0388,wss://outlook.windows-app.store/ws,unrecognised type ,,https://github.com/volexity/threat-intel/tree/main/2025/2025-10-08%20UTA0388/iocs.csv
+VICEROY TIGER,ESET,Donot Team -- Indicators of Compromise,request.soundedge[.]live/access/nasrzolofuju,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/donot
+VICEROY TIGER,ESET,Donot Team -- Indicators of Compromise,request.soundedge[.]live/access/birkalirajliruajirjiairuai,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/donot
+VICEROY TIGER,ESET,Donot Team -- Indicators of Compromise,share.printerjobs[.]xyz/id45sdjscj/<VICTIM_ID>,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/donot
+VICEROY TIGER,ESET,Donot Team -- Indicators of Compromise,submin.seasonsbackup[.]xyz/backup/<VICTIM_ID>,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/donot
+VICEROY TIGER,ESET,Donot Team -- Indicators of Compromise,request.submitonline[.]club/orderme/,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/donot
+VICEROY TIGER,ESET,Donot Team -- Indicators of Compromise,oceansurvey[.]club/upload/<VICTIM_ID>,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/donot
+VICEROY TIGER,ESET,Donot Team -- Indicators of Compromise,request.soundedge[.]live/<COMPUTERNAME>/uload,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/donot
+VICEROY TIGER,ESET,Donot Team -- Indicators of Compromise,firm.tplinkupdates[.]space/8ujdfuyer8d8f7d98jreerje,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/donot
+VICEROY TIGER,ESET,Donot Team -- Indicators of Compromise,firm.tplinkupdates[.]space/yu37hfgde64jskeruqbrgx,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/donot
+VICEROY TIGER,ESET,Donot Team -- Indicators of Compromise,space.lovingallupdates[.]life/orderme,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/donot
+VICEROY TIGER,ESET,Donot Team -- Indicators of Compromise,oceansurvey[.]club/upload/<VICTIM_ID>,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/donot
+VICEROY TIGER,ESET,Donot Team -- Indicators of Compromise,soundvista[.]club/sessionrequest,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/donot
+VICEROY TIGER,ESET,Donot Team -- Indicators of Compromise,soundvista[.]club/orderme/<VICTIM_ID>,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/donot
+VICEROY TIGER,ESET,Donot Team -- Indicators of Compromise,soundvista[.]club/winuser,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/donot
+VICEROY TIGER,ESET,Donot Team -- Indicators of Compromise,request.resolverequest[.]live/upload/<COMPUTERNAME>-<Random_Number>,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/donot
+VICEROY TIGER,ESET,Donot Team -- Indicators of Compromise,digitalresolve[.]live/<COMPUTERNAME>\~<USERNAME>~<HW_PROFILE_GUID>/ekcvilsrkjiasfjkikiakik,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/donot
+VICEROY TIGER,ESET,Donot Team -- Indicators of Compromise,digitalresolve[.]live/<COMPUTERNAME>\~<USERNAME>~<HW_PROFILE_GUID>/ziuriucjiekuiemoaeukjudjkgfkkj,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/donot
+VICEROY TIGER,ESET,Donot Team -- Indicators of Compromise,digitalresolve[.]live/<COMPUTERNAME>\~<USERNAME>~<HW_PROFILE_GUID>/Sqieilcioelikalik,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/donot
+VICEROY TIGER,ESET,Donot Team -- Indicators of Compromise,printersolutions[.]live/<COMPUTERNAME>\~<USERNAME>~<HW_PROFILE_GUID>/orderme,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/donot
+VICEROY TIGER,ESET,Donot Team -- Indicators of Compromise,packetbite[.]live/<COMPUTERNAME>\~<USERNAME>~<HW_PROFILE_GUID>/uload,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/donot
+VICEROY TIGER,ESET,Donot Team -- Indicators of Compromise,biteupdates[.]live/<COMPUTERNAME>\~<USERNAME>~<VICTIM_ID>/orderme,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/donot
+VICEROY TIGER,ESET,Donot Team -- Indicators of Compromise,biteupdates[.]live/<COMPUTERNAME>\~<USERNAME>~<VICTIM_ID>/KdkdUe7KmmGFD,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/donot
+VICEROY TIGER,ESET,Donot Team -- Indicators of Compromise,biteupdates[.]live/<COMPUTERNAME>\~<USERNAME>~<VICTIM_ID>/acdfsgbvdghd,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/donot
+VICEROY TIGER,ESET,Donot Team -- Indicators of Compromise,dataupdates[.]live/<COMPUTERNAME>\~<USERNAME>~<VICTIM_ID>/DKixeXs44skdqqD,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/donot
+VICEROY TIGER,ESET,Donot Team -- Indicators of Compromise,dataupdates[.]live/<COMPUTERNAME>\~<USERNAME>~<VICTIM_ID>/BcX21DKixeXs44skdqqD,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/donot
+VICEROY TIGER,ESET,Donot Team -- Indicators of Compromise,info.printerupdates[.]online/<USERNAME>/Xddv21SDsxDl,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/donot
+VICEROY TIGER,ESET,Donot Team -- Indicators of Compromise,info.printerupdates[.]online/<COMPUTERNAME>~<USERNAME>/XddvInXdl,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/donot
+VICEROY TIGER,ESET,Donot Team -- Indicators of Compromise,info.printerupdates[.]online/<COMPUTERNAME>~<USERNAME>/ZuDDey1eDXUl,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/donot
+VICEROY TIGER,ESET,Donot Team -- Indicators of Compromise,info.printerupdates[.]online/<COMPUTERNAME>~<USERNAME>/Vyuib45xzlqn,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/donot
+VICEROY TIGER,ESET,Donot Team -- Indicators of Compromise,manage.biteupdates[.]site/<PC_NAME>/uload,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/donot
+Winnti Group,ESET,Winnti Group -- Indicators of Compromise,1729131071,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/winnti_group
+Winnti Group,ESET,Winnti Group -- Indicators of Compromise,8272c1f4,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/winnti_group
+Winnti Group,ESET,Winnti Group -- Indicators of Compromise,19317120,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/winnti_group
+Winnti Group,ESET,Winnti Group -- Indicators of Compromise,44260a1d,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/winnti_group
+Winnti Group,ESET,Winnti Group -- Indicators of Compromise,1729131071,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/winnti_group
+Winnti Group,ESET,Winnti Group -- Indicators of Compromise,8272c1f4,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/winnti_group
+Winnti Group,ESET,Winnti Group -- Indicators of Compromise,1729131071,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/winnti_group
+Winnti Group,ESET,Winnti Group -- Indicators of Compromise,8272c1f4,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/winnti_group
+Winnti Group,ESET,Winnti Group -- Indicators of Compromise,\https://bugcheck.xigncodeservice.com/Common/Lib/Common_bsod.php,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/winnti_group
+Winnti Group,ESET,Winnti Group -- Indicators of Compromise,\https://bugcheck.xigncodeservice.com/Common/Lib/Common_Include.php,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/winnti_group
+Winnti Group,ESET,Winnti Group -- Indicators of Compromise,\https://bugcheck.xigncodeservice.com/Common/Lib/common.php,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/winnti_group
+Winnti Group,ESET,Winnti Group -- Indicators of Compromise,\https://nw.infestexe.com/version/last.php,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/winnti_group
+Winnti Group,ESET,Winnti Group -- Indicators of Compromise,\https://dump.gxxservice.com/common/up/up_base.php,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/winnti_group
+Winnti Group,ESET,Winnti Group -- Indicators of Compromise,\http://checkin.travelsanignacio.com,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/winnti_group
+Winnti Group,ESET,Winnti Group -- Indicators of Compromise,skip20_sqllang_hook.yar,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/winnti_group
+Worok,ESET,Worok Indicators of Compromise,oERiQtKLgPgK,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/worok
+Worok,ESET,Worok Indicators of Compromise,zYCLBWekRX3t,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/worok
+Worok,ESET,Worok Indicators of Compromise,aB82UduGX0EX,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/worok
+Worok,ESET,Worok Indicators of Compromise,U37uxsCsA4Xm,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/worok
+Worok,ESET,Worok Indicators of Compromise,xBUjQR2vxYTz,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/worok
+Worok,ESET,Worok Indicators of Compromise,Mr2PJVxbIBD4,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/worok
+Worok,ESET,Worok Indicators of Compromise,ad8TbUIZl5Ga,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/worok
+Worok,ESET,Worok Indicators of Compromise,9xvzMsaWqxMy,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/worok
+Worok,ESET,Worok Indicators of Compromise,Wo0r0KGWhYGO,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/worok
+Worok,ESET,Worok Indicators of Compromise,3c3401ad-e77d-4142-8db5-8eb5483d7e41,unrecognised type ,,https://github.com/eset/malware-ioc/tree/master/worok
+MoustachedBouncer,ESET,MoustachedBouncer: Espionage against foreign diplomats in Belarus –- Indicators of Compromise,updates.microsoft[.]com,well-known legitimate domain,,https://github.com/eset/malware-ioc/tree/master/moustachedbouncer
+MoustachedBouncer,ESET,MoustachedBouncer: Espionage against foreign diplomats in Belarus –- Indicators of Compromise,updates.microsoft[.]com,well-known legitimate domain,,https://github.com/eset/malware-ioc/tree/master/moustachedbouncer

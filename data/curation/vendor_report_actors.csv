@@ -1,0 +1,34 @@
+vendor,report,actor,reported_as,sponsor,attribution_wording,action,reviewed_on
+ESET,dukes,APT29,The Dukes,,ESET: The Dukes (APT29),include,2026-11-20
+ESET,nukesped_lazarus,Lazarus Group,Lazarus,,ESET: Lazarus,include,2026-11-20
+ESET,interception,Lazarus Group,Lazarus,,ESET: Operation In(ter)ception - Lazarus,include,2026-11-20
+ESET,okrum_ke3chang,APT15,Ke3chang,,ESET: Okrum - Ke3chang,include,2026-11-20
+ESET,donot,VICEROY TIGER,Donot Team,,ESET: Donot Team,include,2026-11-20
+ESET,aridspy,AridViper,Arid Viper,,ESET: Arid Viper,include,2026-11-20
+ESET,vajraspy,QUILTED TIGER,Patchwork,,ESET: VajraSpy - Patchwork,include,2026-11-20
+ESET,industroyer,Sandworm,Sandworm,,ESET: Industroyer - Sandworm,include,2026-11-20
+ESET,dynowiper,Sandworm,Sandworm,,ESET: DynoWiper - Sandworm,include,2026-11-20
+ESET,mythicratatoskr,Sandworm,Sandworm,,ESET: Sandworm,include,2026-11-20
+ESET,deceptivedevelopment,WageMole,DeceptiveDevelopment,,ESET: DeceptiveDevelopment (North Korea-aligned),include,2026-11-20
+ESET,sprysocks,Earth Lusca,Earth Lusca,,ESET: SprySOCKS - Earth Lusca,include,2026-11-20
+ESET,quarterly_reports,,,,several actors per report,exclude,2026-11-20
+ESET,exchange_exploitation,,,,several actors per report,exclude,2026-11-20
+Cisco Talos,2022/09/gamaredon-apt-targets-ukrainian-agencies,Gamaredon Group,Gamaredon,,Talos: Gamaredon APT,include,2026-11-20
+Cisco Talos,2023/03/YoroTrooper,YoroTrooper,YoroTrooper,,Talos: YoroTrooper espionage campaigns,include,2026-11-20
+Cisco Talos,2024/08/moonpeak-infrastructure-north-korea,,UAT-5394 (MoonPeak),North Korea,Talos: MoonPeak malware from North Korean actors (UAT-5394),include,2026-11-20
+Cisco Talos,2026/02/knife-cutting-the-edge,,China-nexus actor (Knife AitM framework),China,Talos: China-nexus gateway monitoring AitM framework,include,2026-11-20
+Cisco Talos,2026/09/uat-11587-targets-gov,,UAT-11587,China,Talos: China-nexus UAT-11587,include,2026-11-20
+Cisco Talos,2026/11/uat-12643-suspected-north-korea-aligned-actor-blends-blockchain-resilience-with-targeted-infostealing,,UAT-12643,North Korea,Talos: suspected North Korea-aligned UAT-12643,include,2026-11-20
+ESET,gref,GREF,GREF,,ESET: China-aligned GREF (BadBazaar),include,2026-11-20
+ESET,ghostchat,,,,ESET: targeted spyware campaign in Pakistan; no actor named in the IOC file,exclude,2026-11-20
+Cisco Talos,2022/08/manjusaka-offensive-framework,,,,offensive framework; not attributed to a state actor,exclude,2026-11-20
+Cisco Talos,2022/10/alchimist-offensive-framework,,,,offensive framework; not attributed to a state actor,exclude,2026-11-20
+Cisco Talos,2023/08/new-threat-actor-using-yashma-ransomware,,,,ransomware actor (criminal),exclude,2026-11-20
+Cisco Talos,2024/01/new-zardoor-backdoor,,,,espionage but Talos names no actor or state,exclude,2026-11-20
+Cisco Talos,"2024/09/DragonRank, a Chinese-speaking SEO manipulator service provider",,,,SEO-fraud cybercrime,exclude,2026-11-20
+Cisco Talos,2025/09/uat-8099-chinese-speaking-cybercrime-group-seo-fraud,,,,Talos: cybercrime group,exclude,2026-11-20
+Cisco Talos,2026/08/UAT-10147 integrates agentic AI,,,,Talos: Chinese-speaking adversary; no state attribution in the title,exclude,2026-11-20
+Unit 42,2024-08-09-olympic-themed-domains-for-Chinese-gambling-sites.txt,,,,gambling sites (not state),exclude,2026-11-20
+Unit 42,2025-03-18-IOCs-for-APT-C-36-activity.txt,,,,APT-C-36 / Blind Eagle is not in the state-sponsored set,exclude,2026-11-20
+Unit 42,2025-03-19-IOCs-for-Chinese-Language-trojanized-installers.txt,,,,criminal malware campaign,exclude,2026-11-20
+Unit 42,2025-05-30-IOCs-for-Chinese-language-campaign-impersonating-legitimate-applications.txt,,,,criminal malware campaign,exclude,2026-11-20

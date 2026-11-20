@@ -65,7 +65,9 @@ python3 -I "$SC/alpha.py" "$ST"/state_actors_{summary,aliases,malware,ttps,host_
 cp "$D/curation/actor_attribution_review.csv" "$ST/state_actors_attribution_review.csv"
 log "8b/9 State-sponsored malware hashes (ESET, Talos, Volexity, Unit 42)"
 python3 -I "$SC/hashes.py" "$D" "$ST"
-log "8c/9 Major incidents (data/incidents/*.yaml + vendor IOC files)"
+log "8c/9 State-sponsored actor IOCs (all IOC types from single-actor vendor reports)"
+python3 -I "$SC/state_iocs.py" "$D" "$ST"
+log "8d/9 Major incidents (data/incidents/*.yaml + vendor IOC files)"
 python3 -I "$SC/incidents.py" "$D" "$FULL" "$ST" "$OUT/incidents"
 log "9/9 Workbooks + zip"
 python3 -I "$SC/versions.py" "$D" | sed 's/^/   /'

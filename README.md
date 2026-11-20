@@ -40,6 +40,17 @@ as are hashes the source doesn't name (listed in `state_actors_malware_hash_excl
 and the file is only rewritten when something changed. Rows are removed only if their actor leaves the state set or the
 name becomes excluded. Workbook sheets: **Malware Hash Summary** and **Malware Hashes**.
 
+## State-sponsored actor IOCs (all IOC types)
+`scripts/state_iocs.py` reads every report in the Cisco Talos, Unit 42, Volexity and ESET IOC repos and keeps **all**
+hashes, IPs, domains, URLs and emails from reports that are about **one** state-sponsored actor. The actor comes from
+`data/curation/vendor_report_actors.csv` (reviewed reports; can add vendor-named clusters such as Talos UAT-xxxx with their
+stated nexus, or exclude a report) or else from the actor named in the report title / file name via the alias index;
+reports naming several actors are skipped. Reports whose title has state or espionage wording but no resolvable actor are
+listed in `state_actors_ioc_reports_to_review.csv` for review. Network indicators are defanged; private IPs, well-known
+legitimate domains and files the source calls legitimate are excluded (`state_actors_ioc_exclusions.csv`). The master
+`data/iocs/state_actor_iocs.csv` is cumulative with **First Added**. Workbook sheets: **Actor IOC Summary** and **Actor IOCs**.
+(The Malware Hashes sheet stays the stricter list: hashes of *named, custom* malware only.)
+
 ## Major incidents (breaches, compromises, campaigns)
 Current-event incidents that need not be state-sponsored (e.g. ARTEX, a big exchange theft). One YAML file per incident in
 `data/incidents/<id>.yaml` (copy `_template.yaml`): what happened, attribution (STATE, STATE_ALIGNED, CRIMINAL, HACKTIVIST,

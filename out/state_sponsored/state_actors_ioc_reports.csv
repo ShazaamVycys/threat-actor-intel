@@ -1,0 +1,105 @@
+Vendor,Report ID,Actor
+Cisco Talos,2022/05/mustang-panda,MUSTANG PANDA
+Cisco Talos,2022/07/transparent-tribe-targets-education,Operation C-Major
+Cisco Talos,2022/09/gamaredon-apt-targets-ukrainian-agencies,Gamaredon Group
+Cisco Talos,2022/09/lazarus-magicrat,Lazarus Group
+Cisco Talos,2022/09/lazarus-three-rats,Lazarus Group
+Cisco Talos,2023/03/YoroTrooper,YoroTrooper
+Cisco Talos,2023/08/lazarus-collectionrat,Lazarus Group
+Cisco Talos,2023/08/lazarus-quiterat,Lazarus Group
+Cisco Talos,2023/10/attributing-yorotrooper,YoroTrooper
+Cisco Talos,2024/02/tinyturla-ng,Turla
+Cisco Talos,2024/04/arcanedoor-new-espionage-focused-campaign-found-targeting-perimeter-network-devices,ArcaneDoor
+Cisco Talos,2024/06/cosmic-leopard,Cosmic Leopard
+Cisco Talos,2024/06/new-spicerat-sneakychef,SneakyChef
+Cisco Talos,2024/06/sneakychef-sugargh0st-rat,SneakyChef
+Cisco Talos,2024/08/chinese-hacking-group-apt41-compromised-taiwanese-government-affiliated-research-institute,APT41
+Cisco Talos,2024/08/moonpeak-infrastructure-north-korea,UAT-5394 (MoonPeak)
+Cisco Talos,2024/10/uat-5647-romcom,RomCom
+Cisco Talos,2025/02/lotus-blossom-espionage-group,LOTUS PANDA
+Cisco Talos,2025/03/iocs_gamaredon_remcos,Gamaredon Group
+Cisco Talos,2025/03/uat-5918,Volt Typhoon
+Cisco Talos,2025/06/python-version-of-golangghost-rat,WageMole
+Cisco Talos,2025/12/uat-9686,UAT-9686
+Cisco Talos,2026/01/uat-7290,DAGGER PANDA
+Cisco Talos,2026/01/uat-8837,UAT-8837
+Cisco Talos,2026/02/knife-cutting-the-edge,China-nexus actor (Knife AitM framework)
+Cisco Talos,2026/03/uat-9244,UAT-9244
+Cisco Talos,2026/05/uat-8302,UAT-8302
+Cisco Talos,2026/07/uat-7810,UAT-7810
+Cisco Talos,2026/09/uat-11587-targets-gov,UAT-11587
+Cisco Talos,2026/10/uat-6275-silent-lynx,YoroTrooper
+Cisco Talos,2026/11/uat-12643-suspected-north-korea-aligned-actor-blends-blockchain-resilience-with-targeted-infostealing,UAT-12643
+Unit 42,2023-03-10-IOCs-for-CloakedUrsa-APT29-Activity.txt,APT29
+Unit 42,2024-03-25-Timeline-for-misake-by-Playful-Taurus.txt,APT15
+Unit 42,2025-06-09-IOCs-for-Agent-Serpens-activity.txt,APT35
+Unit 42,2025-12-08-White-Lynx-uses-CAPTCHA-macros.txt,Ghostwriter
+Volexity,2015/2015-07-08 - APT Group Wekby Leveraging Adobe Flash Exploit (CVE-2015-5119),APT18
+Volexity,2017/2017-11-06 - OceanLotus Blossoms_Mass Digital Surveillance,APT32
+Volexity,2018/2018-06-07 - Patchwork APT Group Targets US Think Tanks,QUILTED TIGER
+Volexity,2020/2020-11-06 - OceanLotus_ Extending Cyber Espionage Operations Through Fake Websites,APT32
+Volexity,2021/2021-03-02 - Operation Exchange Marauder,HAFNIUM
+Volexity,2021/2021-05-27 - Suspected APT29 Operation Launches Election Fraud Themed Phishing Campaigns,APT29
+Volexity,2021/2021-08-17 - InkySquid Part 1,APT37
+Volexity,2021/2021-08-24 - InkySquid Part 2,APT37
+Volexity,2022/2022-02-03 Operation EmailThief,TEMP_Heretic
+Volexity,2022/2022-06-15 DriftingCloud - Zero-Day Sophos Firewall Exploitation and an Insidious Breach,DriftingCloud
+Volexity,2022/2022-07-28 SharpTongue SharpTongue Deploys Clever Mail-Stealing Browser Extension SHARPEXT,Kimsuky
+Volexity,2022/2022-12-01 Buyer Beware - Fake Cryptocurrency Applications Serving as Front for AppleJeus Malware,UNC4736
+Volexity,2023/2023-09-22 EvilBamboo,POISON CARP
+Volexity,2024/2024-08-02 StormBamboo,BRONZE HIGHLAND
+Volexity,2025/2025-10-08 UTA0388,UTA0388
+Volexity,2025/2025-12-03 UTA0355,UTA0355
+ESET,PlushDaemon,PlushDaemon
+ESET,agrius,Pink Sandstorm
+ESET,apt_c_60,APT-C-60
+ESET,aridspy,AridViper
+ESET,backdoordiplomacy,APT15
+ESET,ballisticbobcat,APT35
+ESET,blackwood,Blackwood
+ESET,ceranakeeper,CeranaKeeper
+ESET,deceptivedevelopment,WageMole
+ESET,donot,VICEROY TIGER
+ESET,dukes,APT29
+ESET,dynowiper,Sandworm
+ESET,famoussparrow,GhostEmperor
+ESET,frostyneighbor,FrostyNeighbor
+ESET,gamaredon,Gamaredon Group
+ESET,gelsemium,Gelsemium
+ESET,gopherwhisper,GopherWhisper
+ESET,gorbag,Gorbag
+ESET,gref,GREF
+ESET,industroyer,Sandworm
+ESET,interception,Lazarus Group
+ESET,invisimole,InvisiMole
+ESET,kimsuky,Kimsuky
+ESET,longnosedgoblin,LongNosedGoblin
+ESET,machete,El Machete
+ESET,mikroceen,Mikroceen
+ESET,mirrorface,MirrorFace
+ESET,moustachedbouncer,MoustachedBouncer
+ESET,muddywater,MuddyWater
+ESET,mustang_panda,MUSTANG PANDA
+ESET,mythicratatoskr,Sandworm
+ESET,nightscout,Gelsemium
+ESET,nukesped_lazarus,Lazarus Group
+ESET,oceanlotus,APT32
+ESET,okrum_ke3chang,APT15
+ESET,operation_jacana,Operation Jacana
+ESET,operation_roundpress,APT28
+ESET,polonium,POLONIUM
+ESET,romcom,RomCom
+ESET,scarcruft,APT37
+ESET,sednit,APT28
+ESET,silver_fox,Void Arachne
+ESET,slippynunchucks,SlippyNunchucks
+ESET,sparklinggoblin,APT41
+ESET,sprysocks,Earth Lusca
+ESET,stealthfalcon,Stealth Falcon
+ESET,thewizards,TheWizards
+ESET,turla,Turla
+ESET,vajraspy,QUILTED TIGER
+ESET,webworm,Webworm
+ESET,winnti_group,Winnti Group
+ESET,winter_vivern,Winter Vivern
+ESET,worok,Worok

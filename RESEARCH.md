@@ -57,3 +57,13 @@ whether or not a state is behind them.
    (`grep -ril <keyword> data/ext/...`). Only key values into `iocs:` when they are copied from the report's IOC table;
    never type IOCs from memory or from a summary. Leave out generic user agents and tools.
 5. Run `./run_all.sh`; the `incidents:` line must show `formula-like cells: 0` and no ERROR lines (fix the YAML if there are).
+
+## 6. Vendor-report attribution review (actor IOCs)
+After each build, open `out/state_sponsored/state_actors_ioc_reports_to_review.csv`: vendor reports whose title has state,
+APT or espionage wording but no actor that resolves to the state-sponsored set (typically a new Talos UAT-xxxx cluster).
+For each, read the vendor's report and add a row to `data/curation/vendor_report_actors.csv`:
+- the vendor attributes it to a known actor → `actor` = that dataset actor, `action` = include;
+- the vendor names a new cluster with a state nexus ("China-nexus", "suspected North Korea-aligned") → leave `actor` empty,
+  set `reported_as` = the cluster name, `sponsor` = the country, `attribution_wording` = the vendor's words, `action` = include;
+- criminal, hacktivist, offensive framework or no attribution → `action` = exclude, with the reason.
+Use the vendor's own wording. Then re-run `./run_all.sh` (the file should then list 0 reports).

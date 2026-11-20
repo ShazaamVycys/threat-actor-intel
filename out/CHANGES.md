@@ -1,4 +1,4 @@
-# What changed — build 2026-11-20 13:50 UTC
+# What changed — build 2026-11-20 14:12 UTC
 
 | Item | Added | Removed | Total |
 |---|---|---|---|
@@ -9,5 +9,6 @@
 | Host artifacts | 0 | 0 | 3940 |
 | Recent-activity entries | 0 | 0 | 203 |
 | Malware hashes | 0 | 0 | 1677 |
+| Actor IOCs (vendor reports) | 0 | 0 | 10653 |
 | Incidents | 0 | 0 | 2 |
 | Incident IOCs | 0 | 0 | 2604 |
