@@ -1,0 +1,27 @@
+id: equinor-2026
+name: Equinor IT systems cyberattack
+category: other
+status: contained
+activity: 2026-11-17 to 2026-11-20
+disclosed: 2026-11-18
+updated: 2026-11-20
+victims: Equinor (Norwegian state-majority energy company, Europe's largest gas supplier); certain IT systems, reportedly internal email
+sectors: [Energy]
+countries: [Norway]
+watch: true
+keywords: [Equinor]
+attribution: UNATTRIBUTED
+actors: []
+summary: >
+  Equinor detected a cyberattack against certain IT systems on 17 Nov 2026 and worked with Norwegian national security
+  authorities to neutralise it; Reuters (via The Record) reported internal email was down. Oil and gas production was not
+  disrupted. On 20 Nov Equinor said "The cyber-attack against Equinor has now been stopped", with no sign that data was stolen or
+  altered, and that it had been reported to the police. Equinor has not identified the attackers.
+cves: []
+techniques: []
+sources:
+  - {url: "https://therecord.media/norway-equinor-cyberattack-energy", reporter: The Record, date: 2026-11-18}
+  - {url: "https://www.offshore-energy.biz/2026/11/20/cyberattack-against-equinor-is-over-with-no-data-breach-or-impact-on-production", reporter: Offshore Energy (Equinor statement), date: 2026-11-20}
+ioc_feeds: []
+iocs: []
+notes: "No IOCs or technical details published. Equinor's own statement was not read directly (quoted by Offshore Energy)."

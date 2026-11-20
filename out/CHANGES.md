@@ -1,4 +1,4 @@
-# What changed — build 2026-11-20 14:32 UTC
+# What changed — build 2026-11-20 18:51 UTC
 
 | Item | Added | Removed | Total |
 |---|---|---|---|
@@ -10,5 +10,20 @@
 | Recent-activity entries | 0 | 0 | 203 |
 | Malware hashes | 0 | 0 | 1677 |
 | Actor IOCs (vendor reports) | 0 | 0 | 10653 |
-| Incidents | 0 | 0 | 2 |
-| Incident IOCs | 0 | 0 | 2604 |
+| Incidents | 3 | 0 | 5 |
+| Incident IOCs | 17 | 0 | 2621 |
+
+## New incidents
+- **Equinor IT systems cyberattack** (`equinor-2026`)
+- **European Commission AI-assisted cyberattack disrupting internal services** (`european-commission-2026`)
+- **Qubole cross-account AWS access abused to breach customer cloud environments** (`qubole-aws-2026`)
+
+## New incident IOCs
+- qubole-aws-2026: file-name (1)
+- qubole-aws-2026: ipv4 (4)
+- qubole-aws-2026: ipv6 (1)
+- qubole-aws-2026: md5 (1)
+- qubole-aws-2026: other (4)
+- qubole-aws-2026: sha1 (1)
+- qubole-aws-2026: sha256 (1)
+- qubole-aws-2026: user-agent (4)

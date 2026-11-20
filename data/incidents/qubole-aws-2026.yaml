@@ -1,0 +1,62 @@
+id: qubole-aws-2026
+name: Qubole cross-account AWS access abused to breach customer cloud environments
+category: supply-chain
+status: contained
+activity: 2026-10 (role assumptions 14-26 Oct)
+disclosed: 2026-11-09
+updated: 2026-11-20
+victims: >
+  Dozens of Qubole customers' AWS environments (Sentra); downstream exposure reported by J.P. Morgan Chase (marketing data: some
+  customer names and email addresses), Mastercard (email addresses of a small subset of cardholders in one benefit program) and
+  Visa (an Asia Pacific provider; Visa's systems not involved)
+sectors: [Technology, Cloud, Financial services]
+countries: [Global]
+watch: true
+keywords: [Qubole, n0n, quiam, Idera, sso_agent.iso]
+attribution: CRIMINAL
+actors:
+  - name: n0n
+    attribution: "Wiz (11 Nov update, citing Risky Business): an actor calling themselves \"n0n\" claimed responsibility; Wiz: no ties to other public activity, targeting \"opportunistic\" and not typical of state-backed priorities. BleepingComputer: n0n ransomware group claimed the Qubole attack"
+summary: >
+  Wiz (with Sentra and Mandiant): between 14 and 26 Oct 2026 an actor used IAM credentials of two IAM users in the AWS account
+  Qubole's platform uses (805246085872) to assume IAM roles customers had created to trust Qubole, then enumerated accounts,
+  harvested secrets from Lambda, Secrets Manager and SSM, validated AWS, Entra ID and Okta credentials with TruffleHog and
+  exfiltrated S3 data, mostly from an OVH VPS (57.129.54[.]120) and Mullvad VPN addresses. Sentra: dozens of victims, millions of
+  files stolen from one customer, 100+ passwords and keys read within minutes. Wiz also saw a separate, unlinked Qubole-related
+  set of activity (8-11 Oct) using customer-owned AWS access keys. AWS: its services were not compromised. On 16 Nov n0n leaked
+  Chase, Visa and Mastercard data on its extortion site; on 20 Nov Chase said third-party service providers were attacked and
+  marketing data accessed (BleepingComputer links this to Qubole; Qubole had not commented).
+cves: []
+techniques: []
+sources:
+  - {url: "https://www.wiz.io/blog/qubole-cross-account-access-abused-in-the-wild", reporter: Wiz, date: 2026-11-09}
+  - {url: "https://www.csoonline.com/article/4246780/qubole-supply-chain-attack-exposed-aws-entra-id-and-okta-credentials.html", reporter: CSO Online (citing Sentra), date: 2026-11-10}
+  - {url: "https://www.bleepingcomputer.com/news/security/hackers-exploit-trusted-aws-access-to-breach-multiple-cloud-environments/", reporter: BleepingComputer, date: 2026-11-10}
+  - {url: "https://www.bleepingcomputer.com/news/security/vendor-data-breach-exposes-chase-visa-mastercard-customer-info/", reporter: BleepingComputer, date: 2026-11-20}
+ioc_feeds: []
+iocs:
+  # Wiz Network Indicators table
+  - {type: ipv4, value: "57.129.54[.]120", context: "Wiz: OVH; primary address for role assumption, enumeration, credential harvesting (2026-10-15 to 10-26); also hosts sso_agent.iso, polled on TCP 23458", source: "https://www.wiz.io/blog/qubole-cross-account-access-abused-in-the-wild"}
+  - {type: ipv6, value: "2001:41d0:70d[:]7800::", context: "Wiz: OVH; credential enumeration and verification (2026-10-16 to 10-24)", source: "https://www.wiz.io/blog/qubole-cross-account-access-abused-in-the-wild"}
+  - {type: ipv4, value: "45.83.220[.]211", context: "Wiz: 31173 Services AB (Mullvad); role assumption in customer accounts (2026-10-14 to 10-15)", source: "https://www.wiz.io/blog/qubole-cross-account-access-abused-in-the-wild"}
+  - {type: ipv4, value: "185.209.199[.]73", context: "Wiz: 31173 Services AB (Mullvad); role assumption in customer accounts (2026-10-18 to 10-21)", source: "https://www.wiz.io/blog/qubole-cross-account-access-abused-in-the-wild"}
+  - {type: ipv4, value: "89.37.63[.]175", context: "Wiz: Datacamp Limited (Mullvad VPN AB); role assumption in customer accounts (2026-10-25)", source: "https://www.wiz.io/blog/qubole-cross-account-access-abused-in-the-wild"}
+  # Wiz Identity Indicators table
+  - {type: other, value: "805246085872", context: "Wiz: AWS account ID; source of all observed role assumptions, also used for legitimate Qubole platform activity", source: "https://www.wiz.io/blog/qubole-cross-account-access-abused-in-the-wild"}
+  - {type: other, value: "AIDA3W7DIFLYOLTK63SFS", context: "Wiz: IAM principal ID in 805246085872; observed only in threat actor activity", source: "https://www.wiz.io/blog/qubole-cross-account-access-abused-in-the-wild"}
+  - {type: other, value: "AIDAJYRRH5Y3A7AAJM2HW", context: "Wiz: IAM principal ID in 805246085872; used by the actor from 2026-10-18, also in legitimate platform activity", source: "https://www.wiz.io/blog/qubole-cross-account-access-abused-in-the-wild"}
+  - {type: other, value: "quiam-*", context: "Wiz: role session names used by the actor (e.g. quiam-enum, quiam-scope-full)", source: "https://www.wiz.io/blog/qubole-cross-account-access-abused-in-the-wild"}
+  # Wiz User Agents table (suspicious only alongside another indicator)
+  - {type: user-agent, value: "Boto3/1.37.9 md/Botocore#1.37.9 ua/2.1 os/linux#6.12.111+deb13-amd64 md/arch#x86_64 lang/python#3.13.5", context: "Wiz: most common UA; role assumption, enumeration, credential harvesting (2026-10-15 to 10-26)", source: "https://www.wiz.io/blog/qubole-cross-account-access-abused-in-the-wild"}
+  - {type: user-agent, value: "aws-cli/2.37.12 md/awscrt#0.37.0 ua/2.1 os/linux#6.12.111+deb13-amd64 md/arch#x86_64 lang/python#3.14.6", context: "Wiz: common AWS CLI release; suspicious only with other indicators (2026-10-21 to 10-26)", source: "https://www.wiz.io/blog/qubole-cross-account-access-abused-in-the-wild"}
+  - {type: user-agent, value: "Boto3/1.43.108 md/Botocore#1.43.108 ua/2.1 os/linux#6.1.0-53-arm64 md/arch#aarch64 lang/python#3.11.2", context: "Wiz: role assumption sweep across environments (2026-10-18 to 10-21)", source: "https://www.wiz.io/blog/qubole-cross-account-access-abused-in-the-wild"}
+  - {type: user-agent, value: "Boto3/1.43.113 md/Botocore#1.43.113 ua/2.1 os/linux#7.0.0-38-generic md/arch#x86_64 lang/python#3.12.3", context: "Wiz: role assumptions (2026-10-14 to 10-25)", source: "https://www.wiz.io/blog/qubole-cross-account-access-abused-in-the-wild"}
+  # Wiz Host Indicators table
+  - {type: md5, value: "086d4a83181971e883c53a4c44f46da2", context: "Wiz: sso_agent.iso (ISO hosted on 57.129.54[.]120, believed for remote boot on victim machines)", source: "https://www.wiz.io/blog/qubole-cross-account-access-abused-in-the-wild"}
+  - {type: sha1, value: "1c7437dac21630f53c0b888b50662c6487e23fd7", context: "Wiz: sso_agent.iso", source: "https://www.wiz.io/blog/qubole-cross-account-access-abused-in-the-wild"}
+  - {type: sha256, value: "65f061281c9a712e9502793dc4c5035cae490b84da05f7d4223cefa65ad396e4", context: "Wiz: sso_agent.iso", source: "https://www.wiz.io/blog/qubole-cross-account-access-abused-in-the-wild"}
+  - {type: file-name, value: "sso_agent.iso", context: "Wiz: ISO polling 57.129.54[.]120 on TCP 23458", source: "https://www.wiz.io/blog/qubole-cross-account-access-abused-in-the-wild"}
+notes: >
+  IOCs transcribed from Wiz's four IOC tables. The TruffleHog user agent is omitted (also used by legitimate security teams).
+  Sentra's own report was not read; its IOCs, if any, are not included. The link between Qubole and the Chase/Visa/Mastercard
+  exposure is BleepingComputer's reporting of n0n's claim; Qubole/Idera had not confirmed it as of 2026-11-20.

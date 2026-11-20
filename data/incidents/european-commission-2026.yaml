@@ -1,0 +1,30 @@
+id: european-commission-2026
+name: European Commission AI-assisted cyberattack disrupting internal services
+category: breach
+status: contained
+activity: 2026-10 (detected 22 Oct, confirmed 26 Oct)
+disclosed: 2026-11-20
+updated: 2026-11-20
+victims: European Commission; Sysper (HR), MyPMO (medical reimbursement) and translation systems taken down, most since restored
+sectors: [Government]
+countries: [European Union, Belgium]
+watch: true
+keywords: [European Commission, Sysper, MyPMO, CERT-EU]
+attribution: UNATTRIBUTED
+actors: []
+summary: >
+  The European Commission confirmed that hackers attacked it in late October 2026 (detected 22 Oct, confirmed 26 Oct) and that an
+  AI tool was used; several applications were taken down "as a protective and preventive measure" and most have been restored.
+  Spokesperson Thomas Regnier did not attribute the attack to a known group, did not name the AI tool, said no data breach
+  affecting staff had been found and knew of no ransom demand. Politico (via SecurityWeek) reported that attackers potentially
+  compromised large amounts of data and disruption lasted over 10 days. SecurityWeek places it alongside CERT-EU's warning about
+  ARTEX, but the Commission has not said ARTEX was the tool.
+cves: []
+techniques: []
+sources:
+  - {url: "https://www.securityweek.com/european-commission-confirms-ai-assisted-cyberattack-disrupted-services/", reporter: SecurityWeek (Commission spokesperson), date: 2026-11-20}
+ioc_feeds: []
+iocs: []
+notes: >
+  No IOCs published. Possible link to [[artex-2026]] is not confirmed by the Commission; CERT-EU's ARTEX blog and Politico's
+  report were not read directly this run.
