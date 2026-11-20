@@ -1,0 +1,4 @@
+# Key in incidents to add. One per line:  name | report URL (optional) | note (optional)
+# The daily refresh researches each line, writes data/incidents/<id>.yaml, and removes the line from this file.
+# Example:
+#   Example Corp breach | https://vendor.example/report | include the IOC table

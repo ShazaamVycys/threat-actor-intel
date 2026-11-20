@@ -1,0 +1,29 @@
+# Copy to data/incidents/<id>.yaml (the file name must equal the id). Files starting with "_" are ignored.
+# Only facts from reliable sources (RESEARCH.md section 2). Leave a field out rather than guess.
+id: example-incident-2026            # lowercase letters, digits, hyphens
+name: Example Corp customer-data breach
+category: breach                     # breach | data-theft | supply-chain | ransomware | extortion | crypto-theft | exploitation |
+                                     # malware-campaign | tool-abuse | espionage | destructive | ddos | other
+status: ongoing                      # ongoing | contained | historical
+activity: 2026-09 to 2026-10         # when the activity happened (not the article date)
+disclosed: 2026-10-15                # first public report
+updated: 2026-11-02                  # newest report used
+victims: Example Corp (US retailer); ~2 million customer records
+sectors: [Retail]
+countries: [United States]
+attribution: CRIMINAL                # STATE | STATE_ALIGNED | CRIMINAL | HACKTIVIST | INSIDER | UNATTRIBUTED | MIXED
+actors:                              # names as reported; resolved to dataset actors (and state-sponsored status) at build time
+  - name: ExampleGroup
+    attribution: "Vendor X: financially motivated, moderate confidence"
+summary: >
+  Vendor X: what happened, how access was gained, what was taken, tools used.
+cves: [CVE-2026-12345]
+techniques: [T1190, T1486]           # ATT&CK IDs only when the source lists them
+sources:
+  - {url: "https://vendor.example/report", reporter: Vendor X, date: 2026-10-15}
+ioc_feeds:                           # exact IOCs from vendor repos run_all.sh downloads: talos: unit42: eset: volexity:
+  - talos:2026/10/example-report.json
+iocs:                                # keyed in by hand from a report table; marked "transcribed - verify before blocking"
+  - {type: ipv4, value: "203.0.113[.]10", context: "C2 server", source: "https://vendor.example/report"}
+  # types: sha256 sha1 md5 ipv4 ipv6 domain url email file-name user-agent http-header other  (defanged or plain both accepted)
+notes: ""

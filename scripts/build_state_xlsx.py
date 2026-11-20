@@ -89,6 +89,11 @@ if __import__('os').path.exists(_hp):
     HC_=[('Malware',22),('Actor',22),('Sponsor',14),('State-Link',10),('SHA256',66),('SHA1',42),('MD5',34),('First Added',12),('Known for this actor (MISP/ETDA/MITRE)',18),('Malware sharing',30),('How the name was found',32),('Source detail',50),('Vendor',11),('Report',36),('Link',50)]
     n12=flat(wb.create_sheet('Malware Hash Summary',3),_tmp.name,SC_); n13=flat(wb.create_sheet('Malware Hashes',4),_hp,HC_)
     __import__('os').unlink(_tmp.name); print('hashes',n12,n13)
+_ip=__import__('os').path.dirname(dst)+'/state_actors_incidents.csv'
+if __import__('os').path.exists(_ip) and len(list(_csv.DictReader(open(_ip,encoding='utf-8'))))>0:
+    IC_=[('Incident',30),('Linked Actors (dataset)',22),('Actors (as reported)',40),('Category',13),('Status',10),('Activity Period',15),('First Reported',11),('Last Updated',11),
+         ('Attribution',13),('Victims / Targets',40),('Sectors',28),('Countries',18),('Summary',90),('CVEs',18),('IOC Count',8),('IOC Types',24),('Sources',50),('Incident ID',18)]
+    print('incidents',flat(wb.create_sheet('Incidents',2),_ip,IC_))
 k=wb.create_sheet('Key')
 items=[('Alias Source',None,''),('All three sources','A9D08E','Alias appears in MISP, ETDA and MITRE ATT&CK (strongest agreement)'),('Two sources','E2EFDA','Alias appears in two of the three sources'),
  ('MITRE','FFF2CC','Only in MITRE ATT&CK'),('MISP','DDEBF7','Only in the MISP galaxy file'),('ETDA','FCE4D6','Only in ETDA Threat Group Cards'),('',None,''),
@@ -101,6 +106,7 @@ items=[('Alias Source',None,''),('All three sources','A9D08E','Alias appears in 
  ('Web research (Descriptions / Recent Activity)',None,'Recent activity comes from 2025-2026 vendor reports (ESET, Google GTIG, Trend Micro, CrowdStrike, Kaspersky ICS CERT, Microsoft, Proofpoint, Recorded Future, Trellix, NSFOCUS, CybelAngel) plus targeted articles; each row cites its source. "Checked against reports" = no mention found in those reports, not proof of inactivity.'),('',None,''),
  ('Uniqueness (artifact sheets)','FFFF00','Yellow = Unique to this actor: no other actor in the full dataset (1,259 actors) has this artifact, and it is not a standard Windows/Linux location, autorun key or system binary. Not yellow = common: Shared (listed for 2+ actors, see Shared With) or Common (standard location/name or system/dual-use binary).'),('',None,''),
  ('Malware hashes',None,'Hashes of named, custom malware of state-sponsored actors, from ESET, Cisco Talos, Volexity and Unit 42 IOC repositories. Commercial, open-source, commodity and legitimate tools are excluded (data/curation/cots_exclusions.txt); hashes without a malware name are listed in state_actors_malware_hash_exclusions.csv. The list is cumulative: First Added is the build that first recorded the hash. A hash matches a known sample only; rebuilt malware gets a new hash.'),
+ ('Incidents',None,'Major breaches and compromises linked to a state-sponsored actor in this set. The full incident list (any attribution) with IOCs is in out/incidents/major_incidents.xlsx.'),
  ('Data versions',None,open(__import__('os').path.join(__import__('os').path.dirname(__import__('os').path.abspath(__file__)),'..','data','work','versions.txt')).read())]
 for i,(a,f,b) in enumerate(items,1):
     k.cell(i,1,a).font=FB; k.cell(i,2,b).font=F

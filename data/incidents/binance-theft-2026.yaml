@@ -1,0 +1,31 @@
+id: binance-theft-2026
+name: Binance $6.3 billion cryptocurrency theft
+category: crypto-theft
+status: contained
+activity: 2026-06 to 2026-10
+disclosed: 2026-11-01
+updated: 2026-11-03
+victims: Binance (cryptocurrency exchange); ~$6.34B stolen, ~$2.85B frozen (Binance)
+sectors: [Cryptocurrency]
+countries: [Global]
+attribution: STATE
+actors:
+  - name: TraderTraitor
+    attribution: "FBI and US Secret Service: North Korea's TraderTraitor (North Korea denied involvement)"
+summary: >
+  FBI and USSS attributed the theft to North Korea's TraderTraitor and urged exchanges and DeFi operators to block transactions
+  with or derived from its addresses; stolen funds were converted mainly to Ethereum. Binance's post-mortem describes a
+  months-long campaign from June 2026: a fake job interview with a malicious coding assignment and "AI coding tool" installer
+  compromised an employee device (~September), the attacker evaded EDR, moved laterally from 20 Oct, reached wallet tooling by
+  29 Oct and used compromised credentials to authorize transactions. Elliptic traced ~12,000 wallets across 11 blockchains.
+cves: []
+techniques: []
+sources:
+  - {url: "https://www.fbi.gov/investigate/cyber/alerts/2026/north-korea-responsible-for-6-billion-binance-attack", reporter: FBI, date: 2026-11-01}
+  - {url: "https://therecord.media/fbi-blames-tradertraitor-for-binance-hack", reporter: The Record, date: 2026-11-02}
+  - {url: "https://therecord.media/binance-cryptocurrency-theft-months-long-campaign-nkorea", reporter: The Record, date: 2026-11-03}
+ioc_feeds: []
+iocs: []
+notes: >
+  The FBI alert lists wallet addresses; they are not recorded here (not read directly). Theft-date details come from Binance's
+  post-mortem as reported by The Record.

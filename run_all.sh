@@ -8,7 +8,8 @@ mkdir -p "$D"/{dl,etda,mitre,work,ext} "$FULL" "$ST"
 log(){ echo "[$(date -u +%H:%M:%S)] $*"; }
 
 # keep the previous state-sponsored build for the change report
-rm -rf "$D/work/prev"; [ -f "$ST/state_actors_summary.csv" ] && cp -r "$ST" "$D/work/prev"
+rm -rf "$D/work/prev" "$D/work/prev_incidents"; [ -f "$ST/state_actors_summary.csv" ] && cp -r "$ST" "$D/work/prev"
+[ -d "$OUT/incidents" ] && cp -r "$OUT/incidents" "$D/work/prev_incidents"
 
 log "1/9 Downloading sources"
 fetch(){ # download to a temp file; keep the last good copy (committed in the repo) if the source is unreachable
@@ -64,11 +65,15 @@ python3 -I "$SC/alpha.py" "$ST"/state_actors_{summary,aliases,malware,ttps,host_
 cp "$D/curation/actor_attribution_review.csv" "$ST/state_actors_attribution_review.csv"
 log "8b/9 State-sponsored malware hashes (ESET, Talos, Volexity, Unit 42)"
 python3 -I "$SC/hashes.py" "$D" "$ST"
+log "8c/9 Major incidents (data/incidents/*.yaml + vendor IOC files)"
+python3 -I "$SC/incidents.py" "$D" "$FULL" "$ST" "$OUT/incidents"
 log "9/9 Workbooks + zip"
 python3 -I "$SC/versions.py" "$D" | sed 's/^/   /'
 python3 -I "$SC/build_full_xlsx.py" "$FULL" "$FULL/threat_actor_intel.xlsx" | tail -1
 python3 -I "$SC/build_state_xlsx.py" "$FULL" "$ST/state_sponsored_threat_actor_intel.xlsx" | tail -1
+python3 -I "$SC/build_incidents_xlsx.py" "$OUT/incidents" "$D/work/versions.txt"
 (cd "$ST" && rm -f ../state_sponsored_threat_actors.zip && zip -qj ../state_sponsored_threat_actors.zip ./*)
+(cd "$OUT/incidents" && rm -f ../major_incidents.zip && zip -qj ../major_incidents.zip ./*)
 python3 -I "$SC/changes.py" "$D/work/prev" "$ST" "$OUT/CHANGES.md" | sed 's/^/   /'
 date -u +%Y-%m-%dT%H:%MZ > "$OUT/LAST_BUILD"
 log "Done. Outputs in $OUT"

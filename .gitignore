@@ -4,3 +4,4 @@ data/ext/
 data/work/prev/
 data/work/malware_maps.json
 __pycache__/
+data/work/prev_incidents/

@@ -1,0 +1,74 @@
+id: artex-2026
+name: ARTEX agentic AI penetration-testing framework abused in intrusions
+category: tool-abuse
+status: ongoing
+activity: 2026-09 to 2026-11
+disclosed: 2026-10-07
+updated: 2026-11-19
+victims: >
+  Hundreds of organizations; South Korean banks (loan-inquiry and employee mobile systems); IT and software vendors and their
+  downstream Microsoft 365 tenants via ConnectWise multi-tenant app credentials; exposed web APIs and identity providers
+sectors: [Financial services, Cryptocurrency, Government, Telecommunications, Defense, Aerospace, Semiconductors, Technology, Software, Pharmaceuticals]
+countries: [South Korea, Southeast Asia, Global]
+attribution: MIXED
+actors:
+  - name: Storm-0940
+    attribution: "Microsoft: China-state aligned actor"
+  - name: Vapor Panda
+    attribution: "CrowdStrike (via Talos): China-nexus espionage campaign from 17 Oct 2026"
+  - name: Storm-3358
+    attribution: "Talos: financially motivated, Cambodia-based, targets financial organizations in Southeast Asia"
+  - name: Unnamed Chinese-speaking actor
+    attribution: "CrowdStrike: likely Chinese-speaking and financially motivated (moderate confidence)"
+summary: >
+  ARTEX, an open-source autonomous multi-agent AI penetration-testing framework published in July 2026 (closed-sourced on 8 Oct
+  after 12,000+ forks), has been used by several unrelated actors; Talos says it is largely used by financially motivated criminals
+  and China-nexus actors, so ARTEX use alone does not identify an actor. An LLM planner drives worker agents running nmap, nuclei,
+  httpx, ffuf and curl. CrowdStrike: an unnamed, likely Chinese-speaking, financially motivated actor breached South Korean bank
+  systems and exfiltrated data (late Sep to early Oct). Microsoft: China-state aligned Storm-0940 password-sprayed 2,250+ tenants
+  (10-14 Oct) and abused ConnectWise multi-tenant application credentials for a supply-chain compromise, in some cases gaining
+  privileged cloud access in under 3 hours; Wiz saw the same actor expand to other IT and software vendors. Unit 42: intrusion
+  attempts (24 Sep-27 Oct) harvested JS source maps and OpenAPI specs, probed OAuth flows, self-registered accounts and read
+  ~50 MB of API data; infrastructure serves WWW-Authenticate Basic realm="ARTEX" and a Sub2API LLM gateway.
+cves: []
+techniques: [T1583.003, T1588.007, T1090]
+sources:
+  - {url: "https://blog.talosintelligence.com/artex-and-beyond", reporter: Cisco Talos, date: 2026-11-13}
+  - {url: "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/", reporter: Microsoft Threat Intelligence, date: 2026-10-21}
+  - {url: "https://www.crowdstrike.com/en-us/blog/unknown-threat-actor-uses-artex-to-target-south-korean-finance/", reporter: CrowdStrike, date: 2026-10-07}
+  - {url: "https://www.wiz.io/blog/artex-in-the-wild-storm-0940-expands-targeting-of-it-and-software-vendors", reporter: Wiz, date: 2026-10-22}
+  - {url: "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-30-activity-using-ARTEX-agentic-AI.txt", reporter: Palo Alto Networks Unit 42, date: 2026-10-30}
+ioc_feeds:
+  - talos:2026/11/artex-and-beyond.json
+  - unit42:2026-10-30-activity-using-ARTEX-agentic-AI.txt
+iocs:
+  # Microsoft (Storm-0940); the three 144.172.64.x addresses are also in Wiz's table
+  - {type: ipv4, value: "144.172.64[.]128", context: "Microsoft: Storm-0940 ARTEX activity", source: "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/"}
+  - {type: ipv4, value: "144.172.64[.]99", context: "Microsoft: Storm-0940 ARTEX activity", source: "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/"}
+  - {type: ipv4, value: "144.172.64[.]60", context: "Microsoft: Storm-0940 ARTEX activity", source: "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/"}
+  - {type: ipv4, value: "187.15.88[.]186", context: "Microsoft: Storm-0940 ARTEX activity", source: "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/"}
+  - {type: ipv4, value: "187.15.90[.]217", context: "Microsoft: Storm-0940 ARTEX activity", source: "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/"}
+  - {type: ipv4, value: "187.15.89[.]186", context: "Microsoft: Storm-0940 ARTEX activity", source: "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/"}
+  - {type: user-agent, value: "azure-toolkit/1.0", context: "Microsoft: Storm-0940 ARTEX user agent", source: "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/"}
+  # Wiz (overlaps Storm-0940)
+  - {type: ipv4, value: "104.194.150.21", context: "Wiz: ARTEX-using actor targeting IT/software vendors", source: "https://www.wiz.io/blog/artex-in-the-wild-storm-0940-expands-targeting-of-it-and-software-vendors"}
+  - {type: ipv4, value: "167.88.172.97", context: "Wiz: ARTEX-using actor targeting IT/software vendors", source: "https://www.wiz.io/blog/artex-in-the-wild-storm-0940-expands-targeting-of-it-and-software-vendors"}
+  - {type: user-agent, value: "norma/0.4", context: "Wiz: ARTEX-using actor (user agents are not unique to this actor)", source: "https://www.wiz.io/blog/artex-in-the-wild-storm-0940-expands-targeting-of-it-and-software-vendors"}
+  # CrowdStrike Table 1 (South Korean finance)
+  - {type: ipv4, value: "101.53.80[.]20", context: "CrowdStrike: South Korean finance intrusions", source: "https://www.crowdstrike.com/en-us/blog/unknown-threat-actor-uses-artex-to-target-south-korean-finance/"}
+  - {type: ipv4, value: "205.214.59[.]31", context: "CrowdStrike: South Korean finance intrusions", source: "https://www.crowdstrike.com/en-us/blog/unknown-threat-actor-uses-artex-to-target-south-korean-finance/"}
+  - {type: ipv4, value: "124.155.252[.]63", context: "CrowdStrike: South Korean finance intrusions", source: "https://www.crowdstrike.com/en-us/blog/unknown-threat-actor-uses-artex-to-target-south-korean-finance/"}
+  - {type: ipv4, value: "154.201.79[.]246", context: "CrowdStrike: South Korean finance intrusions", source: "https://www.crowdstrike.com/en-us/blog/unknown-threat-actor-uses-artex-to-target-south-korean-finance/"}
+  - {type: ipv4, value: "23.248.249[.]90", context: "CrowdStrike: South Korean finance intrusions", source: "https://www.crowdstrike.com/en-us/blog/unknown-threat-actor-uses-artex-to-target-south-korean-finance/"}
+  - {type: ipv4, value: "23.158.220[.]98", context: "CrowdStrike: South Korean finance intrusions", source: "https://www.crowdstrike.com/en-us/blog/unknown-threat-actor-uses-artex-to-target-south-korean-finance/"}
+  - {type: ipv4, value: "103.248.148[.]84", context: "CrowdStrike: South Korean finance intrusions", source: "https://www.crowdstrike.com/en-us/blog/unknown-threat-actor-uses-artex-to-target-south-korean-finance/"}
+  - {type: ipv4, value: "203.160.133[.]172", context: "CrowdStrike: South Korean finance intrusions", source: "https://www.crowdstrike.com/en-us/blog/unknown-threat-actor-uses-artex-to-target-south-korean-finance/"}
+  - {type: ipv4, value: "209.209.85[.]38", context: "CrowdStrike: South Korean finance intrusions", source: "https://www.crowdstrike.com/en-us/blog/unknown-threat-actor-uses-artex-to-target-south-korean-finance/"}
+  - {type: ipv4, value: "38.244.50[.]120", context: "CrowdStrike: threat actor-controlled, hosted the ARTEX instance", source: "https://www.crowdstrike.com/en-us/blog/unknown-threat-actor-uses-artex-to-target-south-korean-finance/"}
+  # Unit 42 observables that the feed reader does not pick up automatically
+  - {type: http-header, value: 'WWW-Authenticate: Basic realm="ARTEX"', context: "Unit 42: response header on ARTEX infrastructure", source: "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-30-activity-using-ARTEX-agentic-AI.txt"}
+  - {type: user-agent, value: "Mozilla/5.0 (security-testing; authorized)", context: "Unit 42: self-describing ARTEX user agent", source: "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-30-activity-using-ARTEX-agentic-AI.txt"}
+  - {type: user-agent, value: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) recon-audit", context: "Unit 42: self-describing ARTEX user agent", source: "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-10-30-activity-using-ARTEX-agentic-AI.txt"}
+notes: >
+  Talos and Unit 42 note that not all ARTEX activity is malicious (it is also used for authorized testing), so these IPs are
+  indicators to investigate rather than block outright. Generic user agents (curl, python-requests, Python-urllib) are omitted.
