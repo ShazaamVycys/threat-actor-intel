@@ -1,4 +1,4 @@
-# What changed — build 2026-11-21 00:51 UTC
+# What changed — build 2026-11-21 06:52 UTC
 
 | Item | Added | Removed | Total |
 |---|---|---|---|
@@ -10,9 +10,5 @@
 | Recent-activity entries | 0 | 0 | 203 |
 | Malware hashes | 0 | 0 | 1677 |
 | Actor IOCs (vendor reports) | 0 | 0 | 10653 |
-| Incidents | 2 | 0 | 7 |
+| Incidents | 0 | 0 | 7 |
 | Incident IOCs | 0 | 0 | 2621 |
-
-## New incidents
-- **Destructive attacks on French supermarket refrigeration controllers** (`france-supermarket-refrigeration-2026`)
-- **US Department of Agriculture security incident forcing multi-day system outages** (`usda-2026`)
