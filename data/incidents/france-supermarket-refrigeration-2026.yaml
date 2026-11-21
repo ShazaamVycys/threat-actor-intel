@@ -1,0 +1,40 @@
+id: france-supermarket-refrigeration-2026
+name: Destructive attacks on French supermarket refrigeration controllers
+category: destructive
+status: historical
+activity: 2026-10-11 to 2026-10-12 (second wave in Nov across six European countries)
+disclosed: 2026-10
+updated: 2026-11-09
+victims: >
+  About 700 French retail locations (French authorities), including Casino, Leclerc, Coopérative U, Metro, Carrefour and
+  Intermarché stores, butcher shops, a slaughterhouse and food-processing cooperatives; at least 15 fires; tens of millions of
+  euros in food losses. Related: Schneider Electric equipment at small hydroelectric sites; French blood service facilities.
+  November wave: 115+ stores in six European countries (Belgium, Estonia, Finland, Luxembourg, Sweden reported similar attacks)
+sectors: [Retail, Food, Energy, Healthcare]
+countries: [France, Belgium, Estonia, Finland, Luxembourg, Sweden]
+watch: true
+keywords: [Shahid Kaveh, CyberAveng3rs, CyberAv3ngers, Soldiers of Solomon, Cyber Isnaad Front, Danfoss, AK-SM 800A, CyberbanNews]
+attribution: STATE
+actors:
+  - name: Shahid Kaveh
+    attribution: "French Ministry for Europe and Foreign Affairs (9 Nov): \"Shahid Kaveh, a cyber-offensive unit affiliated with the electronic and cyber center of Iran's Islamic Revolutionary Guard Corps (IRGC)\"; C4/CERT-FR attribution covers the October French attacks only"
+summary: >
+  BleepingComputer (9 Nov, citing CERT-FR CERTFR-2026-CTI-009): overnight 11-12 Oct attackers compromised Danfoss refrigeration
+  controllers and remotely changed defrost settings to high temperatures. France's Cyber Crisis Coordination Center (C4)
+  attributed the attacks to the IRGC's Shahid Kaveh unit, which CERT-FR says operates the personas CyberAveng3rs, Soldiers of
+  Solomon, Mr. Soul and Cyber Isnaad Front; evidence included shared infrastructure with reconnaissance of Schneider Electric
+  systems, FOFA use, publicity on CyberbanNews from 13 Oct and Farsi traces. Paris prosecutors opened a judicial investigation
+  and seek arrest warrants for the unit's alleged leader and two deputies; France will summon Iran's ambassador and propose EU
+  sanctions. Midnight Blue separately disclosed six pre-auth RCE flaws in Danfoss AK-SM 800A (not linked by reporting).
+cves: []
+techniques: []
+sources:
+  - {url: "https://www.bleepingcomputer.com/news/security/france-blames-iranian-hackers-for-supermarket-attacks-that-sparked-fires/", reporter: BleepingComputer, date: 2026-11-09}
+  - {url: "https://kutv.com/news/nation-world/france-foreign-minister-jean-noel-barrot-groupd-of-seven-blames-iran-linked-hackers-for-supermarket-fridge-attack-vows-sanctions-islamic-revolutionary-guard-corps-shahid-kaveh-ip-addresses", reporter: The National News Desk, date: 2026-11-09}
+  - {url: "http://cert.cyber.gouv.fr/cti/CERTFR-2026-CTI-009/", reporter: CERT-FR, date: 2026-11-09}
+ioc_feeds: []
+iocs: []
+notes: >
+  CERT-FR report CERTFR-2026-CTI-009 could not be fetched this run (permission not granted); its IOCs, if any, are not captured
+  and should be added from the report. disclosed: month only (exact first public report date not verified). Activity dates of
+  the November wave not verified.

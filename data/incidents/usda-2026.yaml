@@ -1,0 +1,34 @@
+id: usda-2026
+name: US Department of Agriculture security incident forcing multi-day system outages
+category: breach
+status: ongoing
+activity: 2026-11 (internally disclosed week of 16 Nov)
+disclosed: 2026-11-19
+updated: 2026-11-20
+victims: >
+  US Department of Agriculture (Farm Production and Conservation Business Center); outages hit FSA loan software, NRCS ProTracts
+  (farmer payments) and NRCS Service Desk software, plus other financial tools used for payments between USDA and farmers
+sectors: [Government, Agriculture]
+countries: [United States]
+watch: true
+keywords: [USDA, Department of Agriculture, ProTracts, Farm Service Agency, NRCS]
+attribution: UNATTRIBUTED
+actors: []
+summary: >
+  Nextgov/FCW (19 Nov, three sources and an internal email): USDA's Cybersecurity and Privacy Operations Center "uncovered a
+  security incident" that required resetting "all database passwords in all environments", taking numerous applications offline
+  over several days; "It's not clear who carried out the intrusion or if any data was exfiltrated." DTN (updated 20 Nov):
+  Undersecretary Richard Fordyce called it a "cyberthreat", not a software update: "There was no Personally Identifiable
+  Information (PII). No data was lost because the systems that protect against cybersecurity threats worked," and said most
+  systems should be back online by close of business 20 Nov. NBC News (not read) reported USDA was breached by hackers.
+cves: []
+techniques: []
+sources:
+  - {url: "https://www.nextgov.com/cybersecurity/2026/11/usda-grapples-security-breach-it-staff-take-multiple-systems-offline/417350/", reporter: Nextgov/FCW, date: 2026-11-19}
+  - {url: "https://www.dtnpf.com/agriculture/web/ag/columns/washington-insider/article/2026/11/19/usda-loan-software-systems-face-amid", reporter: DTN Progressive Farmer, date: 2026-11-20}
+  - {url: "https://www.nbcnews.com/politics/national-security/agriculture-department-breached-hackers-sources-say-rcna610497", reporter: NBC News, date: 2026-11-20}
+ioc_feeds: []
+iocs: []
+notes: >
+  No IOCs, CVEs or attribution published as of 2026-11-20; no USDA press statement or CISA/FBI advisory seen. NBC News page could
+  not be read (robots), so its details are not included. Watch for an official USDA/CISA statement.
