@@ -1,4 +1,4 @@
-# What changed — build 2026-11-22 00:45 UTC
+# What changed — build 2026-11-22 06:45 UTC
 
 | Item | Added | Removed | Total |
 |---|---|---|---|
@@ -10,8 +10,8 @@
 | Recent-activity entries | 0 | 0 | 205 |
 | Malware hashes | 0 | 0 | 1677 |
 | Actor IOCs (vendor reports) | 0 | 0 | 10653 |
-| Incidents | 1 | 0 | 9 |
+| Incidents | 1 | 0 | 10 |
 | Incident IOCs | 0 | 0 | 2621 |
 
 ## New incidents
-- **Austrian Foreign Ministry website breach exposing staff contact details** (`austria-foreign-ministry-2026`)
+- **Destructive wiper attack on Russian hosting provider Beget's cloud platform** (`beget-2026`)

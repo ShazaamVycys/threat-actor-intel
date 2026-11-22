@@ -1,0 +1,31 @@
+id: beget-2026
+name: Destructive wiper attack on Russian hosting provider Beget's cloud platform
+category: destructive
+status: ongoing
+activity: 2026-11-01
+disclosed: 2026-11-03
+updated: 2026-11-09
+victims: Beget (Russian hosting provider and second-largest .RU registrar); VPS, S3 and Kubernetes data wiped; more than 200,000 customers, hundreds of websites disrupted
+sectors: [Technology, Cloud hosting]
+countries: [Russia]
+watch: true
+keywords: [Beget]
+attribution: UNATTRIBUTED
+actors: []
+summary: >
+  On the night of 1 Nov 2026 an attacker "gained access to the management layer of its entire architecture and then executed
+  data-zeroing scripts" (BleepingComputer, citing Beget), wiping all cloud-infrastructure data: VPS, S3 and Kubernetes, plus CDN
+  settings and IP configurations. VPS binary backups were "completely lost"; file backups survived for about half of VPS users,
+  and Beget said "it is impossible to recover all data". The Record: the attack "disrupted hundreds of websites", including the
+  Naryan-Mar city administration site and Chestny Znak; Beget has not disclosed initial access and found no evidence customer
+  data was downloaded or modified, and urged customers to change passwords and access keys. About 1,000 servers needed manual
+  inspection; by ~9 Nov 60% of shared hosting and 40% of dedicated servers were restored. Beget was sanctioned by the EU earlier
+  in 2026. "No hacking group has publicly claimed responsibility for the incident" (The Record).
+cves: []
+techniques: []
+sources:
+  - {url: "https://therecord.media/russia-cyberattack-beget-cloud", reporter: The Record, date: 2026-11-04}
+  - {url: "https://www.bleepingcomputer.com/news/security/russian-cloud-firm-beget-rebuilds-from-scratch-after-data-wiper-attack/", reporter: BleepingComputer, date: 2026-11-09}
+ioc_feeds: []
+iocs: []
+notes: "Added late (attack 1 Nov). No IOCs, CVEs or initial-access details published; Beget's own announcements (3 and 6 Nov) not read directly."
