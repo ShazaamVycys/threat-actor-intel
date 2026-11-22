@@ -1,0 +1,35 @@
+id: austria-foreign-ministry-2026
+name: Austrian Foreign Ministry website breach exposing staff contact details
+category: breach
+status: contained
+activity: 2026-11-12 to 2026-11-13
+disclosed: 2026-11-20
+updated: 2026-11-21
+victims: >
+  Austrian Federal Ministry for European and International Affairs; website run by an external service provider; names and work
+  contact details of staff at headquarters in Vienna and at diplomatic missions abroad were viewed
+sectors: [Government, Diplomatic]
+countries: [Austria]
+watch: true
+keywords: [Austrian Foreign Ministry, Austria, BMEIA, Aussenministerium]
+attribution: UNATTRIBUTED
+actors: []
+summary: >
+  Ministry statement (quoted by Security Affairs, citing Reuters and ORF): "Between November 12 and 13, the foreign ministry's
+  website, which is operated by an external service provider, was accessed in an unauthorized manner"; the investigation found
+  "data records were viewed that listed the names and work contact details of employees" in Vienna and at missions abroad.
+  Detected 13 Nov and stopped immediately; citizens' personal data not affected. The ministry did not suggest who was responsible;
+  the Federal Office for Cyber Security and the Data Protection Authority were notified (ORF). Number of records, entry method and
+  whether data was copied were not disclosed.
+cves: []
+techniques: []
+sources:
+  - {url: "https://www.reuters.com/technology/austrian-foreign-ministry-says-its-website-was-hacked-staff-details-viewed-2026-11-20/", reporter: Reuters (ministry statement), date: 2026-11-20}
+  - {url: "https://orf.at/stories/3448812/", reporter: ORF, date: 2026-11-20}
+  - {url: "https://securityaffairs.com/203680/hacking/cyberattack-on-austrian-foreign-ministry-exposes-diplomatic-staff-data.html", reporter: Security Affairs, date: 2026-11-21}
+ioc_feeds: []
+iocs: []
+notes: >
+  No IOCs, CVEs or attribution published as of 2026-11-22. Reuters and ORF pages were not read directly; facts are from Security
+  Affairs' quotation of the ministry statement. Security Affairs notes Vienna publicly blamed Russia in July 2026 for a 2019-2020
+  Foreign Ministry attack, but draws no link to this incident. Watch for an official attribution or advisory.

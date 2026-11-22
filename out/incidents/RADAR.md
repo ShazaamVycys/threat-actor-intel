@@ -1,10 +1,11 @@
-# Incident radar — 2026-11-21T18:45Z
+# Incident radar — 2026-11-22T00:45Z
 
 0 new vendor IOC report(s), 0 new CISA KEV entries since the last radar run.
 
 ## Watched incidents
 
 - `artex-2026` ARTEX agentic AI penetration-testing framework abused in intrusions
+- `austria-foreign-ministry-2026` Austrian Foreign Ministry website breach exposing staff contact details
 - `binance-theft-2026` Binance $6.3 billion cryptocurrency theft
 - `equinor-2026` Equinor IT systems cyberattack
 - `european-commission-2026` European Commission AI-assisted cyberattack disrupting internal services
