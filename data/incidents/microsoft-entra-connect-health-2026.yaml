@@ -1,0 +1,32 @@
+id: microsoft-entra-connect-health-2026
+name: Microsoft Entra Connect Health flaw abused to access tenant contact and configuration metadata
+category: exploitation
+status: contained
+activity: up to 2026-11-19 (fix deployed 19 Nov)
+disclosed: 2026-11-21
+updated: 2026-11-22
+victims: >
+  Unnamed Microsoft Entra (Azure AD) tenants using Entra Connect Health; Microsoft notified impacted customers via Azure Service
+  Health; no tenant count published
+sectors: [Cloud, Technology]
+countries: [Global]
+watch: true
+keywords: [Entra Connect Health, Azure AD Connect Health]
+attribution: UNATTRIBUTED
+actors: []
+summary: >
+  BleepingComputer (21 Nov, headline "Microsoft Entra Connect Health flaw exploited to steal tenant data") reported a Microsoft
+  statement describing "possible unauthorized access to tenant-level contact and configuration metadata" through a flaw in Entra
+  Connect Health. As relayed by Brandefense, Microsoft deployed a fix on 19 Nov 2026 and notified impacted customers through Azure
+  Service Health; the statement did not identify affected tenants, give a count, or explain the root cause. Other coverage says
+  exposed data included administrator contact emails, raising phishing risk. No CVE and no actor named.
+cves: []
+techniques: []
+sources:
+  - {url: "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/", reporter: BleepingComputer, date: 2026-11-21}
+  - {url: "https://brandefense.io/security-news/entra-connect-health-security-issue/", reporter: Brandefense (relaying Microsoft statement), date: 2026-11-22}
+ioc_feeds: []
+iocs: []
+notes: >
+  BleepingComputer's article could not be fetched this run (server errors); details above come from Brandefense's relay of the
+  Microsoft statement given to BleepingComputer. Verify against BleepingComputer / any MSRC post when reachable. No IOCs published.

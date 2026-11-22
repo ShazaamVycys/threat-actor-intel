@@ -1,0 +1,34 @@
+id: cleverbridge-2026
+name: Cleverbridge payment platform breach exposing card numbers and CVVs of software vendors' customers
+category: data-theft
+status: contained
+activity: detected 2026-11-04
+disclosed: 2026-11-20
+updated: 2026-11-22
+victims: >
+  Customers of software vendors that use Cleverbridge as reseller/payment processor, including "a small subset" of Malwarebytes
+  customers (Malwarebytes support forum, as reported); overall number not disclosed
+sectors: [Financial services, Technology, Retail]
+countries: [Global]
+watch: true
+keywords: [Cleverbridge]
+attribution: UNATTRIBUTED
+actors: []
+summary: >
+  BleepingComputer (headline "Cleverbridge warns hackers stole credit card numbers, CVVs in data breach") reported a Cleverbridge
+  customer notice. As relayed by Business Upturn (22 Nov): Cleverbridge confirmed "an intruder copied payment card data from its
+  platform"; unauthorised activity was detected on 4 Nov, systems were temporarily shut down and restored that day, and notification
+  of affected individuals began on 20 Nov. Copied data: card number, expiry date and CVV/CVC; per the notice names, contact and
+  billing details were not copied. The company says no systems were encrypted and has not said how the attacker got in. TransUnion's
+  Cyberscout handles notifications. No actor named.
+cves: []
+techniques: []
+sources:
+  - {url: "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/", reporter: BleepingComputer, date: 2026-11-21}
+  - {url: "https://businessupturn.com/technology/cleverbridge-confirms-card-data-breach-as-report-details-stolen-cvv-codes/", reporter: Business Upturn (relaying Cleverbridge update and BleepingComputer), date: 2026-11-22}
+ioc_feeds: []
+iocs: []
+notes: >
+  BleepingComputer's article and Cleverbridge's own incident update/FAQ could not be read this run; details come from Business
+  Upturn's relay. BleepingComputer date taken as 21 Nov from search listing; verify. Other affected vendors not yet identified.
+  No IOCs published.
