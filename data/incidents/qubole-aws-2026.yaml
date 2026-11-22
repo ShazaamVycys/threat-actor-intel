@@ -8,11 +8,12 @@ updated: 2026-11-20
 victims: >
   Dozens of Qubole customers' AWS environments (Sentra); downstream exposure reported by J.P. Morgan Chase (marketing data: some
   customer names and email addresses), Mastercard (email addresses of a small subset of cardholders in one benefit program) and
-  Visa (an Asia Pacific provider; Visa's systems not involved)
-sectors: [Technology, Cloud, Financial services]
+  Visa (an Asia Pacific provider; Visa's systems not involved); Expedia Group (confirmed access via a compromised third-party data
+  platform provider; n0n claims ~1 billion traveler records, unconfirmed)
+sectors: [Technology, Cloud, Financial services, Travel]
 countries: [Global]
 watch: true
-keywords: [Qubole, n0n, quiam, Idera, sso_agent.iso]
+keywords: [Qubole, n0n, quiam, Idera, sso_agent.iso, Expedia]
 attribution: CRIMINAL
 actors:
   - name: n0n
@@ -25,7 +26,11 @@ summary: >
   files stolen from one customer, 100+ passwords and keys read within minutes. Wiz also saw a separate, unlinked Qubole-related
   set of activity (8-11 Oct) using customer-owned AWS access keys. AWS: its services were not compromised. On 16 Nov n0n leaked
   Chase, Visa and Mastercard data on its extortion site; on 20 Nov Chase said third-party service providers were attacked and
-  marketing data accessed (BleepingComputer links this to Qubole; Qubole had not commented).
+  marketing data accessed (BleepingComputer links this to Qubole; Qubole had not commented). Expedia told Skift (12 Nov) attackers
+  reached its systems through a compromised third-party data platform provider in a supply-chain attack that also hit other
+  companies; Security Affairs (14 Nov, citing Wiz and Sentra) ties it to the stolen Qubole vendor access. n0n claims 830M+ loyalty
+  records from 35 programs, 58M traveler profiles, 333M+ consumer account/credential records and source code; Expedia has not
+  confirmed the figures and Hotels.com and Vrbo are under review.
 cves: []
 techniques: []
 sources:
@@ -33,6 +38,8 @@ sources:
   - {url: "https://www.csoonline.com/article/4246780/qubole-supply-chain-attack-exposed-aws-entra-id-and-okta-credentials.html", reporter: CSO Online (citing Sentra), date: 2026-11-10}
   - {url: "https://www.bleepingcomputer.com/news/security/hackers-exploit-trusted-aws-access-to-breach-multiple-cloud-environments/", reporter: BleepingComputer, date: 2026-11-10}
   - {url: "https://www.bleepingcomputer.com/news/security/vendor-data-breach-exposes-chase-visa-mastercard-customer-info/", reporter: BleepingComputer, date: 2026-11-20}
+  - {url: "https://skift.com/2026/11/12/expedia-confirms-cyberattack-through-third-party-vendor/", reporter: Skift (Expedia statement), date: 2026-11-12}
+  - {url: "https://securityaffairs.com/203062/cyber-crime/extortion-group-claims-theft-of-nearly-one-billion-expedia-traveler-records.html", reporter: Security Affairs, date: 2026-11-14}
 ioc_feeds: []
 iocs:
   # Wiz Network Indicators table

@@ -1,0 +1,41 @@
+id: optimizely-2026
+name: Optimizely supply-chain attack injecting malicious JavaScript into 178 organizations' websites
+category: supply-chain
+status: contained
+activity: 2026-11-16 (injection from ~04:21 UTC; cleaned by ~23:11 UTC)
+disclosed: 2026-11-16
+updated: 2026-11-17
+victims: >
+  188 Optimizely JavaScript files belonging to 178 organizations (Report URI), including Zoom, CNN, Fox News, BBC, Salesforce,
+  GitLab, KLM, Air France, HSBC Insurance, Bitly, Smartsheet, Change.org and UNICEF USA; their site visitors were exposed
+sectors: [Technology, Media, Retail, Travel, Financial services]
+countries: [Global]
+watch: true
+keywords: [Optimizely, 1688360.cc, Coruna, DarkSword]
+attribution: UNATTRIBUTED
+actors: []
+summary: >
+  Optimizely: an unauthorized party "exploited a vulnerability in the Experimentation account signup flow" and injected malicious
+  JavaScript into customer projects; Optimizely blocked the path, removed the code, revoked sessions and tokens and reset affected
+  accounts. Report URI (Scott Helme) found 188 infected files of 178 organizations among 1,611 scripts analysed. The injected code
+  loaded track.js from 1688360[.]cc, which replaced cryptocurrency wallet addresses, skimmed payment-card data (to card.php),
+  collected cookies, URLs and screenshots, and delivered the Coruna and DarkSword iOS exploit kits to vulnerable iPhones and iPads.
+  About $7,000 had reached the attacker wallets by 16 Nov (Helme). Salesforce disabled Optimizely scripts across its instances.
+  No actor named.
+cves: []
+techniques: []
+sources:
+  - {url: "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/", reporter: Report URI (Scott Helme), date: 2026-11-16}
+  - {url: "https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-delivers-malware-to-cnn-fox-news-bbc-salesforce-sites/", reporter: BleepingComputer, date: 2026-11-16}
+  - {url: "https://status.optimizely.com/incidents/ftw0fh9wx43z", reporter: Optimizely status page, date: 2026-11-16}
+  - {url: "https://malwarebytes.com/blog/news/2026/11/cnn-bbc-zoom-and-other-sites-served-malicious-code-in-supply-chain-attack", reporter: Malwarebytes, date: 2026-11-17}
+ioc_feeds: []
+iocs:
+  # BleepingComputer IOC table
+  - {type: domain, value: "1688360[.]cc", context: "BleepingComputer: domain hosting the payload and card exfiltration endpoint", source: "https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-delivers-malware-to-cnn-fox-news-bbc-salesforce-sites/"}
+  - {type: url, value: "hxxps://1688360[.]cc/track.js", context: "BleepingComputer: payload script loaded by injected Optimizely code", source: "https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-delivers-malware-to-cnn-fox-news-bbc-salesforce-sites/"}
+  - {type: url, value: "hxxps://1688360[.]cc/card.php", context: "BleepingComputer: card-data exfiltration endpoint", source: "https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-delivers-malware-to-cnn-fox-news-bbc-salesforce-sites/"}
+notes: >
+  Network IOCs transcribed from BleepingComputer's IOC table. The table's ten attacker cryptocurrency wallet addresses (BTC, LTC,
+  TRX, ETH/BSC, SOL, TON, BCH, DOGE) are left out (not a supported IOC type; some were active before the attack). Report URI's own
+  post was not read directly. Coruna and DarkSword are named iOS exploit kits; no CVEs were listed in the reporting read.
