@@ -1,0 +1,33 @@
+id: bell-canada-2026
+name: Bell Canada "agentic threat actor" intrusion stealing customer data
+category: data-theft
+status: ongoing
+activity: 2026-11-17
+disclosed: 2026-11-20
+updated: 2026-11-23
+victims: Bell Canada (largest Canadian telecom); enterprise customer business contact and ticket data from a pre-production Maximo environment; customer notification on 23 Nov also lists personal account data (counts not disclosed)
+sectors: [Telecommunications]
+countries: [Canada]
+watch: true
+keywords: [Bell Canada, Bell MTS, Maximo, agentic]
+attribution: UNATTRIBUTED
+actors: []
+summary: >
+  BleepingComputer (20 Nov 2026): Bell confirmed that "an agentic threat actor accessed some of our systems" on 17 Nov 2026 and
+  stole enterprise customer data from a pre-production environment of Bell's Maximo system (used to order and provision
+  circuits): business contact details, ticket titles and some IP addresses of network elements; Bell said the dataset held no
+  credentials or file attachments. Bell: "We currently do not know the attribution." Bell said it is sharing IOCs and
+  threat-hunting information with enterprise customers and the Canadian Centre for Cyber Security. The Canadian Press (23 Nov):
+  in a customer email Bell said an unknown party accessed an internal Bell system the previous Tuesday and data may have
+  included names, mailing addresses, phone numbers, email addresses, account numbers, product information and last-payment
+  date and amount; no credit card or bank account data. Bell removed the actor and contacted the RCMP cybercrime unit.
+sources:
+  - {url: "https://www.bleepingcomputer.com/news/security/bell-canada-says-agentic-hacker-stole-enterprise-customer-data/", reporter: BleepingComputer (Bell statement), date: 2026-11-20}
+  - {url: "https://www.bnnbloomberg.ca/business/company-news/2026/11/23/bell-investigating-cyberattack-that-exposed-customer-information-last-week/", reporter: The Canadian Press via BNN Bloomberg (Bell customer email), date: 2026-11-23}
+ioc_feeds: []
+iocs: []
+notes: >
+  No public IOCs: Bell shared IOCs privately with enterprise customers and CCCS and declined to share them with BleepingComputer.
+  The CBC Bell MTS article (personal data of Bell MTS customers, Manitoba email outage tied to the attack per headlines) could not
+  be read; MTS details unverified. "Agentic" is Bell's wording; BleepingComputer's inference that AI tools were used is its own.
+  Number of affected customers not disclosed. No extortion claim reported as of 2026-11-23.

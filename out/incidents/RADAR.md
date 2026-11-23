@@ -1,4 +1,4 @@
-# Incident radar — 2026-11-23T14:19Z
+# Incident radar — 2026-11-23T18:44Z
 
 0 new vendor IOC report(s), 0 new CISA KEV entries since the last radar run.
 
@@ -8,6 +8,7 @@
 - `artex-2026` ARTEX agentic AI penetration-testing framework abused in intrusions
 - `austria-foreign-ministry-2026` Austrian Foreign Ministry website breach exposing staff contact details
 - `beget-2026` Destructive wiper attack on Russian hosting provider Beget's cloud platform
+- `bell-canada-2026` Bell Canada "agentic threat actor" intrusion stealing customer data
 - `binance-theft-2026` Binance $6.3 billion cryptocurrency theft
 - `cleverbridge-2026` Cleverbridge payment platform breach exposing card numbers and CVVs of software vendors' customers
 - `equinor-2026` Equinor IT systems cyberattack

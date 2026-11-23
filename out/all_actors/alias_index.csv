@@ -689,6 +689,7 @@ Danti,Danti,primary,MISP
 DaOnlySpark,DaOnlySpark,primary,MISP
 Dark Basin,Dark Basin,primary,MISP + ETDA
 Dark Caracal,Dark Caracal,primary,MISP + ETDA + MITRE
+DARK CARTOGRAPHER,DARK CARTOGRAPHER,primary,MISP
 DARK CASTLE,UNC2814,alias,MISP
 Dark Engine,Infrastructure Destruction Squad,alias,MISP
 Dark Halo,APT29,alias,ETDA + MITRE

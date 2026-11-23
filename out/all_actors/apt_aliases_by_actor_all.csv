@@ -867,6 +867,7 @@ Dark Basin,Mercenary.Amanda,ETDA,India,,BellTroX InfoTech Services,,MISP + ETDA,
 Dark Caracal,ATK 27,ETDA,Lebanon,High,"State-sponsored, General Directorate of General Security (GDGS)",G0070,MISP + ETDA + MITRE,3
 Dark Caracal,Operation “Dark Caracal”,ETDA,Lebanon,High,"State-sponsored, General Directorate of General Security (GDGS)",G0070,MISP + ETDA + MITRE,3
 Dark Caracal,TAG-CT3,ETDA,Lebanon,High,"State-sponsored, General Directorate of General Security (GDGS)",G0070,MISP + ETDA + MITRE,3
+DARK CARTOGRAPHER,(no known aliases),,,,,,MISP,0
 DarkBlinders,(no known aliases),,Iran,Medium,,,MISP,0
 DarkCasino,Water Hydra,ETDA,,,,,MISP + ETDA,1
 DarkGaboon,room155,MISP,,,,,MISP,2

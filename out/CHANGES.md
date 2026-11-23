@@ -1,4 +1,4 @@
-# What changed — build 2026-11-23 14:19 UTC
+# What changed — build 2026-11-23 18:44 UTC
 
 | Item | Added | Removed | Total |
 |---|---|---|---|
@@ -10,13 +10,8 @@
 | Recent-activity entries | 0 | 0 | 210 |
 | Malware hashes | 0 | 0 | 1677 |
 | Actor IOCs (vendor reports) | 0 | 0 | 10653 |
-| Incidents | 0 | 0 | 15 |
-| Incident IOCs | 16 | 0 | 2644 |
+| Incidents | 1 | 0 | 16 |
+| Incident IOCs | 0 | 0 | 2644 |
 
-## New incident IOCs
-- microsoft-agent-framework-pypi-2026: file-name (3)
-- microsoft-agent-framework-pypi-2026: other (1)
-- microsoft-agent-framework-pypi-2026: sha1 (1)
-- microsoft-agent-framework-pypi-2026: sha256 (7)
-- microsoft-agent-framework-pypi-2026: url (1)
-- microsoft-agent-framework-pypi-2026: user-agent (3)
+## New incidents
+- **Bell Canada "agentic threat actor" intrusion stealing customer data** (`bell-canada-2026`)
