@@ -1,0 +1,43 @@
+id: microsoft-agent-framework-pypi-2026
+name: Microsoft Agent Framework PyPI package compromised with a cloud-credential stealer
+category: supply-chain
+status: contained
+activity: 2026-11-17 (malicious releases ~20:35 to 21:20 UTC)
+disclosed: 2026-11-17
+updated: 2026-11-20   # The Hacker News update with Microsoft's response
+victims: >
+  Users and CI pipelines that installed agent-framework 1.26.1 or 1.26.2 from PyPI during the exposure window; the package has
+  about 190,000 downloads a month
+sectors: [Technology, Software]
+countries: [Global]
+watch: true
+keywords: [agent-framework, agent_framework_meta.pth, af_runtime_diag.pth, af_runtime_diag.py, webhook.site]
+attribution: UNATTRIBUTED
+actors: []
+summary: >
+  Two malicious releases of Microsoft's official agent-framework Python package (1.26.1 and 1.26.2) were published to PyPI 33
+  minutes apart on 17 Nov 2026 and later quarantined. Each added a .pth file (agent_framework_meta.pth in 1.26.1,
+  af_runtime_diag.pth in 1.26.2) that runs at Python start-up; 1.26.2 added an af_runtime_diag.py module that also collects GitHub
+  Actions OIDC tokens. The stealer gathers environment variables, Azure CLI files, .npmrc, pip.conf, .netrc, .git-credentials,
+  Docker config and Azure DevOps and managed-identity tokens (querying the Azure IMDS endpoint) and sends them as
+  zlib-compressed, Base64-encoded JSON over HTTPS POST to a webhook.site URL. How the attacker obtained publishing access is
+  unclear; OX Security says attackers "found a way to hijack the wheel creation flow". Microsoft made some repositories private
+  (including microsoft/agent-framework and microsoft/onnxruntime) "while we investigate malicious content". 1.26.0 is the
+  recommended safe version; anyone who installed the malicious releases should rotate exposed credentials. No actor named.
+cves: []
+techniques: []
+sources:
+  - {url: "https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html", reporter: The Hacker News, date: 2026-11-18}
+  - {url: "https://www.aikido.dev/blog/two-malicious-agent-framework-releases-hit-pypi-in-33-minutes", reporter: Aikido Security, date: 2026-11-17}
+  - {url: "https://www.ox.security/blog/breaking-hijacked-releases-of-microsofts-official-agent-framework-steals-azure-and-ci-credentials/", reporter: OX Security, date: 2026-11-17}
+  - {url: "https://www.stepsecurity.io/blog/microsoft-agent-framework-pypi-package-compromised", reporter: StepSecurity, date: 2026-11-17}
+  - {url: "https://socket.dev/blog/agent-framework-pypi-package-compromised-with-credential-stealer", reporter: Socket, date: 2026-11-17}
+  - {url: "https://www.wiz.io/blog/malicious-version-of-microsofts-agent-framework-published-to-pypi", reporter: Wiz, date: 2026-11-17}
+  - {url: "https://www.endorlabs.com/learn/agent-framework-compromised-software-supply-chain-attack", reporter: Endor Labs, date: 2026-11-17}
+ioc_feeds: []
+iocs: []
+notes: >
+  Facts taken from The Hacker News article (read 2026-11-23), which cites the vendor reports listed; the vendor reports
+  themselves could not be opened in this run, so their dates are as cited by The Hacker News (publication on 17-18 Nov). No IOCs
+  keyed in yet: the exfiltration webhook URL and .pth file names appear only inline in the news article, not in a vendor IOC
+  table. Next run: read StepSecurity/Socket/Aikido and key in their IOC tables (file hashes, webhook URL) verbatim.

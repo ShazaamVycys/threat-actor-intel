@@ -1,0 +1,42 @@
+id: ai-inference-providers-prompt-theft-2026
+name: Months-long prompt theft at AI inference providers (OpenRouter removes three providers)
+category: data-theft
+status: ongoing
+activity: 2026-07 to 2026-11
+disclosed: 2026-11-22
+updated: 2026-11-22
+victims: >
+  Three unnamed AI inference providers removed by OpenRouter (125 endpoints dropped from Zero Data Retention eligibility) and the
+  users whose prompts they processed; separate incidents disclosed by Phala (inference server taken over) and Together AI (stored
+  prompt samples from June-July 2026 downloaded). Dragos is working with about a dozen providers
+sectors: [Technology, Cloud]
+countries: [Global]
+watch: true
+keywords: [OpenRouter, Dragos, canary, Phala, Together AI, Novita, artex-agent, artex-judge-r121]
+attribution: UNATTRIBUTED
+actors: []
+summary: >
+  Dragos seeded about two million prompts with canary links and credentials (July to November 2026) and caught attackers
+  harvesting prompts at AI inference providers for months, the earliest breach starting in mid-July. The largest case involved
+  "a couple hundred AWS keys" taken from prompts and used for tens of thousands of AWS API calls (late October). One attacker
+  "appears to have compromised two of the providers at once" and used the ARTEX AI pentest framework on 1 Nov (user agents
+  artex-agent and artex-judge-r121; see [[artex-2026]]); separately, an unnamed Chinese AI lab fetched secret links from seeded
+  prompts. OpenRouter removed three providers and 125 endpoints from Zero Data Retention eligibility and says OpenRouter itself was
+  not breached; neither Dragos nor OpenRouter has named the three providers. Phala reported an attacker controlled an inference
+  server from 21 Oct 00:00 UTC to 8 Nov 05:35 UTC; Together AI said an unauthorized party downloaded stored prompt samples after an
+  AI coding agent committed a credential to a public GitHub repository; Novita posted a privacy notice. No actor named.
+cves: []
+techniques: []
+sources:
+  - {url: "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html", reporter: The Hacker News, date: 2026-11-22}
+  - {url: "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens", reporter: Dragos, date: 2026-11}
+  - {url: "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/", reporter: OpenRouter, date: 2026-11}
+  - {url: "https://phala.com/posts/phala-november-preliminary-incident-report", reporter: Phala, date: 2026-11}
+  - {url: "https://www.together.ai/blog/security-event-prompt-leakage-for-requests-in-june-and-july-of-2026", reporter: Together AI, date: 2026-11}
+ioc_feeds: []
+iocs: []
+notes: >
+  Facts taken from The Hacker News article (read 2026-11-23), which cites the Dragos, OpenRouter, Phala, Together AI and Novita
+  posts; those primary pages could not be opened in this run (their dates are approximate). The ARTEX user agents are named in the
+  article text, not in an IOC table, so they are listed as keywords, not IOCs. Next run: read the Dragos and OpenRouter posts and
+  confirm the provider count, dates and any published indicators.
