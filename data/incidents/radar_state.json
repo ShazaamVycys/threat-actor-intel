@@ -1792,7 +1792,7 @@
 "CVE-2026-96951": "2026-10-13",
 "CVE-2026-97229": "2026-10-29"
 },
-"last_run": "2026-11-23T12:26Z",
+"last_run": "2026-11-23T14:19Z",
 "vendor_reports": {
 "Cisco Talos|2022/04/hasker-zingostealer": "2026-11-20",
 "Cisco Talos|2022/04/haskers-gang-zingostealer": "2026-11-20",
