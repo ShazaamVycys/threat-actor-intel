@@ -1,0 +1,31 @@
+id: infoblox-2026
+name: Infoblox company data accessed through a compromised third-party data migration vendor
+category: supply-chain
+status: ongoing
+activity: 2026-11
+disclosed: 2026-11-16
+updated: 2026-11-17   # TechCrunch 11-16 (modified 11-17) read 2026-11-24
+victims: >
+  Infoblox (US DNS/DHCP/IPAM and DNS security vendor); "certain company information" accessed through a compromised third-party data
+  migration vendor; sources told TechCrunch sensitive customer data was taken; number of customers not disclosed
+sectors: [Technology, Cybersecurity]
+countries: [United States]
+watch: true
+keywords: [Infoblox, data migration vendor, SharePoint migration]
+attribution: UNATTRIBUTED
+actors: []
+summary: >
+  TechCrunch (Infoblox spokesperson): Infoblox is investigating "a security event involving unauthorized access to certain company
+  information through a compromised third-party data migration vendor". According to TechCrunch's sources the vendor handles SharePoint data
+  migration and one source said sensitive customer data was taken; Infoblox would not say how many customers were affected. Infoblox has
+  "no indication that any Infoblox products, cloud services, software updates or build-and-release processes were involved". The vendor and
+  the attacker were not named.
+cves: []
+techniques: []
+sources:
+  - {url: "https://techcrunch.com/2026/11/16/cyber-giant-infoblox-confirms-security-incident-after-hackers-access-company-information/", reporter: TechCrunch, date: 2026-11-16}
+ioc_feeds: []
+iocs: []
+notes: >
+  Infoblox has published no statement URL (TechCrunch quotes a spokesperson). No IOCs, CVEs or attribution as of 2026-11-24. Watch for the
+  vendor's identity, other downstream victims and customer notifications.

@@ -1,4 +1,4 @@
-# Incident radar — 2026-11-24T12:25Z
+# Incident radar — 2026-11-24T13:48Z
 
 0 new vendor IOC report(s), 0 new CISA KEV entries since the last radar run.
 
@@ -16,10 +16,12 @@
 - `european-commission-2026` European Commission AI-assisted cyberattack disrupting internal services
 - `fbi-ncic-2026` FBI National Crime Information Center (NCIC) breach
 - `france-supermarket-refrigeration-2026` Destructive attacks on French supermarket refrigeration controllers
+- `infoblox-2026` Infoblox company data accessed through a compromised third-party data migration vendor
 - `microsoft-agent-framework-pypi-2026` Microsoft Agent Framework PyPI package compromised with a cloud-credential stealer
 - `microsoft-entra-connect-health-2026` Microsoft Entra Connect Health flaw abused to access tenant contact and configuration metadata
 - `n-able-mail-assure-2026` N-able Mail Assure / SpamExperts Hosted Cloud server breach (CVE-2026-134624 disclosed)
 - `optimizely-2026` Optimizely supply-chain attack injecting malicious JavaScript into 178 organizations' websites
 - `qubole-aws-2026` Qubole cross-account AWS access abused to breach customer cloud environments
 - `rackspace-spot-2026` Rackspace Spot breach using leaked credentials exposing customer Kubernetes secrets
+- `riken-fugaku-2026` RIKEN Fugaku supercomputer intrusion forcing shutdown and exposing user credentials
 - `usda-2026` US Department of Agriculture security incident forcing multi-day system outages

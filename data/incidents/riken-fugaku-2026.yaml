@@ -1,0 +1,37 @@
+id: riken-fugaku-2026
+name: RIKEN Fugaku supercomputer intrusion forcing shutdown and exposing user credentials
+category: breach
+status: ongoing
+activity: 2026-11-10 to 2026-11-13
+disclosed: 2026-11-16
+updated: 2026-11-18   # RIKEN notices (JA 11-16, EN 11-17) and Cyber Security News 11-18 read 2026-11-24
+victims: >
+  RIKEN (Japanese national research institute) - Fugaku and RIKYU supercomputers; up to 4,597 users in the authentication system
+  (names, email addresses, user IDs, SSH private keys and access keys stored by users, research data files); Fugaku operations suspended
+sectors: [Research, Education, Government]
+countries: [Japan]
+watch: true
+keywords: [RIKEN, Fugaku, RIKYU, supercomputer, R-CCS]
+attribution: UNATTRIBUTED
+actors: []
+summary: >
+  RIKEN notice: "an external third party" gained unauthorized access to the Fugaku operations network "from November 10 to 13, 2026" via
+  "a publicly accessible web page displaying Fugaku's operational status (the dashboard)"; "The exact method ... is currently under
+  investigation". Unauthorized access was confirmed at 16:33 on 13 Nov; Fugaku operations were suspended at 04:30 on 14 Nov and users were
+  emailed on 15 Nov. Servers were tampered with and "malicious programs" installed (Cyber Security News adds that stolen credentials were
+  used to try other systems). Possibly exposed: names, email addresses and user IDs of up to 4,597 individuals, plus "Authentication
+  credentials stored by users ... (such as SSH private keys and access keys)" and research data files; "At present, there is no evidence
+  that research data or files were exfiltrated." Reported to MEXT (13 Nov) and the Personal Information Protection Commission (16 Nov).
+  No restart date given.
+cves: []
+techniques: []
+sources:
+  - {url: "https://www.riken.jp/pr/news/2026/20261116_2/index.html", reporter: RIKEN (Japanese notice), date: 2026-11-16}
+  - {url: "https://www.riken.jp/en/news_pubs/news/2026/20261116_2/index.html", reporter: RIKEN (English notice), date: 2026-11-17}
+  - {url: "https://cybersecuritynews.com/japan-shuts-down-fugaku-supercomputer/", reporter: Cyber Security News, date: 2026-11-18}
+ioc_feeds: []
+iocs: []
+notes: >
+  Per-system counts differ between notices: the Japanese notice gives 4,222 Fugaku users, the English notice 4,224 Fugaku plus 375 RIKYU
+  (summing to 4,599, not the stated 4,597). No IOCs, CVEs, malware names or attribution published as of 2026-11-24. Watch for the
+  investigation result and restart.

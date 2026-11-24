@@ -2,9 +2,9 @@ id: chainalysis-2026
 name: Chainalysis platform breach exposing all users' credentials and tokens
 category: breach
 status: contained
-activity: 2026-10 to 2026-11
+activity: 2026-10 to 2026-11-04
 disclosed: 2026-10-30
-updated: 2026-11-07   # The Hacker News 11-06 with Chainalysis update of 11-07
+updated: 2026-11-19   # Chainalysis incident page (updates to Nov 10; modified 2026-11-19) read 2026-11-24
 victims: >
   Chainalysis (blockchain analytics provider to law enforcement, government and crypto businesses); names, usernames, password
   hashes and live tokens of all users exposed; a subset of customer passwords exposed earlier via an on-path attack
@@ -15,22 +15,24 @@ keywords: [Chainalysis, Reactor, KYT, Address Screening, agentic]
 attribution: UNATTRIBUTED
 actors: []
 summary: >
-  The Hacker News (citing Chainalysis): an "ongoing multi-front cyber attack" in which "an external actor leveraged offensive agentic
-  techniques" led to an "on-path attack" that exposed a subset of customer passwords; the investigation "also exposed names,
-  usernames, password hashes and live tokens for all users". Chainalysis removed access to Reactor and Data Solutions, took the KYT UI
-  and API offline, locked affected accounts and told users to reset passwords and rotate API keys; it has "no evidence that any
-  investigations data has been accessed". Reactor, KYT and Address Screening were restored on 7 Nov. Chainalysis: "It's unclear who is
-  behind the attack", but it was similar to "many other tech platforms in recent weeks".
+  Chainalysis incident page: on 30 Oct Chainalysis said it "was recently the target of a cybersecurity incident" by "an external actor
+  using offensive agentic techniques"; "Some non-sensitive customer data, such as user IDs, full names, email addresses, and organization
+  role labels" was accessed. Reactor and Data Solutions were taken offline as a precaution on 2 Nov. On 4 Nov it said customer passwords
+  were exposed in an "on-path attack", since "contained and remediated", and that KYT and Address Screening were taken offline after
+  "abnormal activity"; it found "certain customer information including names, usernames, password hashes and live tokens for all
+  Chainalysis users were exposed to a malicious actor". Users were told to reset passwords and rotate API keys. Services were restored in
+  phases on 6-7 Nov (KYT, Address Screening, Reactor) and 10 Nov (Data Solutions). No evidence that investigation content was accessed.
+  Chainalysis: "This security incident is not related to the recent crypto theft at Binance." No actor named.
 cves: []
 techniques: []
 sources:
   - {url: "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html", reporter: The Hacker News, date: 2026-11-06}
-  - {url: "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html", reporter: The Hacker News, date: 2026-10}
   - {url: "https://www.chainalysis.com/blog/security-incident-october-30/", reporter: Chainalysis, date: 2026-10-30}
+  - {url: "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html", reporter: The Hacker News, date: 2026-10-31}
 ioc_feeds: []
 iocs: []
 notes: >
-  Chainalysis' own blog could not be read in this run; facts are The Hacker News' account. No Chainalysis-specific IOCs published; the
-  IPs in the THN article relate to separate LLM-token-abuse reporting (Google/Wiz) and were deliberately not keyed in. Possibly part of
-  the wider agentic-attack wave on tech platforms (see incidents artex-2026 and ai-inference-providers-prompt-theft-2026), but no source
-  links them directly.
+  Facts from Chainalysis' own incident page (read 2026-11-24). Its 30 Oct entry said there was no evidence of access to authentication
+  credentials or session tokens; the 4 Nov entry supersedes that. No IOCs, CVEs or attribution published. The IPs in The Hacker News'
+  11-06 article relate to separate LLM-token-abuse reporting and were not keyed in. THN mentions Vapor Panda/ARTEX only as context, with
+  no link to Chainalysis. Set watch to false if nothing new by mid-December.
