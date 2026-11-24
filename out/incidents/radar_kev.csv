@@ -1,4 +1,6 @@
 First Seen,CVE,Vendor / Product,Name,Date Added,Ransomware Use,Due,Matches watched incident,Link
+2026-11-24T00:41Z,CVE-2026-133968,Project MONAI MONAI Label,Project MONAI MONAI Label Path Traversal Vulnerability,2026-11-23,Unknown,2026-11-26,,https://www.cve.org/CVERecord?id=CVE-2026-133968
+2026-11-24T00:41Z,CVE-2026-134624,N-able MailAssure,N-able MailAssure (SpamExperts) Server-Side Request Forgery (SSRF) Vulnerability,2026-11-23,Unknown,2026-11-26,,https://www.cve.org/CVERecord?id=CVE-2026-134624
 2026-11-21T00:41Z,CVE-2026-129448,Apache Roller,Apache Roller Deserialization of Untrusted Data Vulnerability,2026-11-20,Unknown,2026-11-23,,https://www.cve.org/CVERecord?id=CVE-2026-129448
 2026-11-21T00:41Z,CVE-2026-123890,Broadcom VMware vCenter,VMWare vCenter Authentication Bypass Using an Alternate Path or Channel Vulnerability,2026-11-20,Unknown,2026-11-23,,https://www.cve.org/CVERecord?id=CVE-2026-123890
 2026-11-21T00:41Z,CVE-2025-42884,SAP NetWeaver,SAP NetWeaver Improper Neutralization of Special Elements in Data Query Logic Vulnerability,2026-11-20,Unknown,2026-11-23,,https://www.cve.org/CVERecord?id=CVE-2025-42884

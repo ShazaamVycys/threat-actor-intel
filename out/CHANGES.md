@@ -1,4 +1,4 @@
-# What changed — build 2026-11-23 18:44 UTC
+# What changed — build 2026-11-24 00:44 UTC
 
 | Item | Added | Removed | Total |
 |---|---|---|---|
@@ -10,8 +10,12 @@
 | Recent-activity entries | 0 | 0 | 210 |
 | Malware hashes | 0 | 0 | 1677 |
 | Actor IOCs (vendor reports) | 0 | 0 | 10653 |
-| Incidents | 1 | 0 | 16 |
-| Incident IOCs | 0 | 0 | 2644 |
+| Incidents | 1 | 0 | 17 |
+| Incident IOCs | 2 | 0 | 2646 |
 
 ## New incidents
-- **Bell Canada "agentic threat actor" intrusion stealing customer data** (`bell-canada-2026`)
+- **Rackspace Spot breach using leaked credentials exposing customer Kubernetes secrets** (`rackspace-spot-2026`)
+
+## New incident IOCs
+- rackspace-spot-2026: ipv4 (1)
+- rackspace-spot-2026: other (1)

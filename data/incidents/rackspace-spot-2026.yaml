@@ -1,0 +1,38 @@
+id: rackspace-spot-2026
+name: Rackspace Spot breach using leaked credentials exposing customer Kubernetes secrets
+category: breach
+status: contained
+activity: 2026-11-17
+disclosed: 2026-11-21   # BleepingComputer, from Rackspace's customer notification
+updated: 2026-11-21
+victims: >
+  Rackspace Spot (managed Kubernetes cloud platform, co-developed with Platform9) and an undisclosed number of customer
+  organizations whose clusters, Kubernetes Secrets and Spot API / refresh tokens could be read
+sectors: [Cloud, Technology]
+countries: [United States, Global]
+watch: true
+keywords: [Rackspace, Rackspace Spot, Platform9, Kubernetes, kubeconfig]
+attribution: UNATTRIBUTED
+actors: []
+summary: >
+  Rackspace customer notification (via BleepingComputer, 21 Nov): "On 17 November 2026 (about 00:20-22:00 UTC), an unauthorized
+  party used leaked credentials to access parts of Rackspace Spot." Rackspace learned of it on 18 Nov from a customer report. The
+  attacker could act as legitimate users in some customer organizations: create pods, read Kubernetes Secrets (any Secret in
+  affected clusters), list nodes and volumes, and read Spot API and refresh tokens. Rackspace revoked tokens and sessions, removed
+  unauthorized pods and rotated keys; the Spot admin console had an extended outage and service was fully restored 21 Nov.
+  Customers are told to reissue Spot API tokens, replace refresh tokens, download new kubeconfigs, rotate cluster Secrets and
+  review logs back to 17 Nov for databases, registries, Git, cloud storage and third-party services. Number of affected customers
+  and whether data was stolen not disclosed. No actor named.
+cves: []
+techniques: []
+sources:
+  - {url: "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/", reporter: BleepingComputer (Rackspace customer notification), date: 2026-11-21}
+ioc_feeds: []
+iocs:
+  # Indicators from Rackspace's customer notification as reproduced by BleepingComputer
+  - {type: ipv4, value: "23.224.79[.]106", context: "Rackspace notice: attacker IP address (2026-11-17)", source: "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/"}
+  - {type: other, value: "23.224.0[.]0/15", context: "Rackspace notice: attacker IP range", source: "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/"}
+notes: >
+  Rackspace's notice also lists suspicious Kubernetes pod/object name prefixes "i1", "glm-" and "probe" (hunting hints, not keyed
+  as IOCs). The notice itself is not public; IOCs taken from BleepingComputer's reproduction of it. Leads not added this run:
+  Next plc third-party supplier incident (23 Nov; Next says only "benign" data, no customer data) - not major.

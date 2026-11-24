@@ -1,4 +1,4 @@
-# Incident radar — 2026-11-23T18:44Z
+# Incident radar — 2026-11-24T00:44Z
 
 0 new vendor IOC report(s), 0 new CISA KEV entries since the last radar run.
 
@@ -19,4 +19,5 @@
 - `microsoft-entra-connect-health-2026` Microsoft Entra Connect Health flaw abused to access tenant contact and configuration metadata
 - `optimizely-2026` Optimizely supply-chain attack injecting malicious JavaScript into 178 organizations' websites
 - `qubole-aws-2026` Qubole cross-account AWS access abused to breach customer cloud environments
+- `rackspace-spot-2026` Rackspace Spot breach using leaked credentials exposing customer Kubernetes secrets
 - `usda-2026` US Department of Agriculture security incident forcing multi-day system outages
