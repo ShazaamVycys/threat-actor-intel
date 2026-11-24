@@ -4,7 +4,7 @@ category: supply-chain
 status: contained
 activity: 2026-11-16 (injection from ~04:21 UTC; cleaned by ~23:11 UTC)
 disclosed: 2026-11-16
-updated: 2026-11-18   # Zscaler ThreatLabz report read 2026-11-23
+updated: 2026-11-18   # Zscaler ThreatLabz report read 2026-11-23; Socket (11-18) and CSO Online (11-17) read 2026-11-24
 victims: >
   188 Optimizely JavaScript files belonging to 178 organizations (Report URI), including Zoom, CNN, Fox News, BBC, Salesforce,
   GitLab, KLM, Air France, HSBC Insurance, Bitly, Smartsheet, Change.org and UNICEF USA; their site visitors were exposed. Zscaler ThreatLabz saw more than 450 unique domains and more than
@@ -32,6 +32,8 @@ sources:
   - {url: "https://status.optimizely.com/incidents/ftw0fh9wx43z", reporter: Optimizely status page, date: 2026-11-16}
   - {url: "https://malwarebytes.com/blog/news/2026/11/cnn-bbc-zoom-and-other-sites-served-malicious-code-in-supply-chain-attack", reporter: Malwarebytes, date: 2026-11-17}
   - {url: "https://www.zscaler.com/blogs/security-research/attackers-exploit-optimizely-flaw-inject-malicious-javascript", reporter: Zscaler ThreatLabz, date: 2026-11-18}
+  - {url: "https://socket.dev/blog/optimizely-supply-chain-attack", reporter: Socket, date: 2026-11-18}
+  - {url: "https://www.csoonline.com/article/4249925/optimizely-confirms-massive-cyberattack-on-customer-websites-injected-stealer-malware.html", reporter: CSO Online (quotes Optimizely customer email and Report URI), date: 2026-11-17}
 ioc_feeds: []
 iocs:
   # BleepingComputer IOC table
@@ -43,6 +45,8 @@ iocs:
   - {type: domain, value: "5vobauua3ojpklx[.]icu", context: "Zscaler ThreatLabz: boot.js host", source: "https://www.zscaler.com/blogs/security-research/attackers-exploit-optimizely-flaw-inject-malicious-javascript"}
   - {type: domain, value: "ios-hack[.]icu", context: "Zscaler ThreatLabz: attacker domain", source: "https://www.zscaler.com/blogs/security-research/attackers-exploit-optimizely-flaw-inject-malicious-javascript"}
   - {type: domain, value: "q1ls1ho9x7wsxlu[.]icu", context: "Zscaler ThreatLabz: attacker domain", source: "https://www.zscaler.com/blogs/security-research/attackers-exploit-optimizely-flaw-inject-malicious-javascript"}
+  # Socket Indicators section
+  - {type: sha256, value: "1ec4245b3b303304ea24a89b3b2351b0f0c085087050f517d23dcba9694c165a", context: "Socket: sample of the injected payload (19,513 bytes); Socket says the hash identifies this sample only", source: "https://socket.dev/blog/optimizely-supply-chain-attack"}
 notes: >
   Network IOCs transcribed from BleepingComputer's IOC table. The table's ten attacker cryptocurrency wallet addresses (BTC, LTC,
   TRX, ETH/BSC, SOL, TON, BCH, DOGE) are left out (not a supported IOC type; some were active before the attack). Report URI's own
@@ -53,3 +57,7 @@ notes: >
   5vobauua3ojpklx[.]icu/boot.js), nine attacker wallet addresses, generic script names
   (track.js, boot.js, weifile.html, index.js, html2canvas), iOS exploit-kit entry paths (A8/a.html etc.) and the follow-on
   module IDs/paths (40-hex names, not file hashes).
+  Socket's hash was read twice via fetched copies of the page and matched; its other indicators (1688360[.]cc, 5vobauua3ojpklx[.]icu,
+  /track.js, /boot.js, page marker window._k7) are already listed or not a supported type. ReversingLabs' OptimJack post
+  could not be read (body not extracted). CSO Online quotes Report URI's Scott Helme: attackers "almost certainly coming from
+  China" ("They are either Chinese or they really want us to think that they are Chinese"); he considers state actors unlikely.
