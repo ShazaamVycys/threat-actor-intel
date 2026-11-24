@@ -1,4 +1,4 @@
-# Incident radar — 2026-11-24T06:50Z
+# Incident radar — 2026-11-24T12:25Z
 
 0 new vendor IOC report(s), 0 new CISA KEV entries since the last radar run.
 
@@ -10,6 +10,7 @@
 - `beget-2026` Destructive wiper attack on Russian hosting provider Beget's cloud platform
 - `bell-canada-2026` Bell Canada "agentic threat actor" intrusion stealing customer data
 - `binance-theft-2026` Binance $6.3 billion cryptocurrency theft
+- `chainalysis-2026` Chainalysis platform breach exposing all users' credentials and tokens
 - `cleverbridge-2026` Cleverbridge payment platform breach exposing card numbers and CVVs of software vendors' customers
 - `equinor-2026` Equinor IT systems cyberattack
 - `european-commission-2026` European Commission AI-assisted cyberattack disrupting internal services
@@ -17,6 +18,7 @@
 - `france-supermarket-refrigeration-2026` Destructive attacks on French supermarket refrigeration controllers
 - `microsoft-agent-framework-pypi-2026` Microsoft Agent Framework PyPI package compromised with a cloud-credential stealer
 - `microsoft-entra-connect-health-2026` Microsoft Entra Connect Health flaw abused to access tenant contact and configuration metadata
+- `n-able-mail-assure-2026` N-able Mail Assure / SpamExperts Hosted Cloud server breach (CVE-2026-134624 disclosed)
 - `optimizely-2026` Optimizely supply-chain attack injecting malicious JavaScript into 178 organizations' websites
 - `qubole-aws-2026` Qubole cross-account AWS access abused to breach customer cloud environments
 - `rackspace-spot-2026` Rackspace Spot breach using leaked credentials exposing customer Kubernetes secrets

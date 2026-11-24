@@ -1,0 +1,36 @@
+id: chainalysis-2026
+name: Chainalysis platform breach exposing all users' credentials and tokens
+category: breach
+status: contained
+activity: 2026-10 to 2026-11
+disclosed: 2026-10-30
+updated: 2026-11-07   # The Hacker News 11-06 with Chainalysis update of 11-07
+victims: >
+  Chainalysis (blockchain analytics provider to law enforcement, government and crypto businesses); names, usernames, password
+  hashes and live tokens of all users exposed; a subset of customer passwords exposed earlier via an on-path attack
+sectors: [Technology, Cryptocurrency, Government]
+countries: [United States, Global]
+watch: true
+keywords: [Chainalysis, Reactor, KYT, Address Screening, agentic]
+attribution: UNATTRIBUTED
+actors: []
+summary: >
+  The Hacker News (citing Chainalysis): an "ongoing multi-front cyber attack" in which "an external actor leveraged offensive agentic
+  techniques" led to an "on-path attack" that exposed a subset of customer passwords; the investigation "also exposed names,
+  usernames, password hashes and live tokens for all users". Chainalysis removed access to Reactor and Data Solutions, took the KYT UI
+  and API offline, locked affected accounts and told users to reset passwords and rotate API keys; it has "no evidence that any
+  investigations data has been accessed". Reactor, KYT and Address Screening were restored on 7 Nov. Chainalysis: "It's unclear who is
+  behind the attack", but it was similar to "many other tech platforms in recent weeks".
+cves: []
+techniques: []
+sources:
+  - {url: "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html", reporter: The Hacker News, date: 2026-11-06}
+  - {url: "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html", reporter: The Hacker News, date: 2026-10}
+  - {url: "https://www.chainalysis.com/blog/security-incident-october-30/", reporter: Chainalysis, date: 2026-10-30}
+ioc_feeds: []
+iocs: []
+notes: >
+  Chainalysis' own blog could not be read in this run; facts are The Hacker News' account. No Chainalysis-specific IOCs published; the
+  IPs in the THN article relate to separate LLM-token-abuse reporting (Google/Wiz) and were deliberately not keyed in. Possibly part of
+  the wider agentic-attack wave on tech platforms (see incidents artex-2026 and ai-inference-providers-prompt-theft-2026), but no source
+  links them directly.

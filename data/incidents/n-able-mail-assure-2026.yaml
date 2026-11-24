@@ -1,0 +1,38 @@
+id: n-able-mail-assure-2026
+name: N-able Mail Assure / SpamExperts Hosted Cloud server breach (CVE-2026-134624 disclosed)
+category: breach
+status: ongoing
+activity: 2026-11 (outage from about 2026-11-16; dashboard and APIs restored about 2026-11-21)
+disclosed: 2026-11-18
+updated: 2026-11-23   # The Hacker News 11-23 (N-able advisory and incident update as reported there)
+victims: >
+  N-able (MSP software vendor); one Mail Assure / SpamExperts Hosted Cloud server accessed by an unauthorized party; the email
+  filtering service is used by managed service providers and their customers
+sectors: [IT Services, Managed Service Providers, Email Security]
+countries: [Global]
+watch: true
+keywords: [N-able, Mail Assure, SpamExperts, CVE-2026-134624]
+attribution: UNATTRIBUTED
+actors: []
+summary: >
+  The Hacker News (citing N-able): an outage of the Mail Assure and SpamExperts Hosted Cloud dashboard and APIs began the week of
+  16 Nov and was first traced to "platform configuration and service dependencies"; N-able then said it was a security incident in
+  which "an unauthorized party had accessed one of the Hosted Cloud servers". N-able took the server offline, rotated internal
+  platform credentials, revoked customers' API tokens, invalidated OAuth tokens and reset local user passwords; dashboard and APIs
+  were restored late Saturday (about 21 Nov); mail delivery and filtering kept working. N-able has "found no evidence that customer
+  data was compromised, including tenants' mailboxes". During the investigation N-able disclosed CVE-2026-134624 (CVSS 4.0 9.3), an
+  SSRF in the LDAP-sync connection check: "An authenticated API user can cause the server to connect to arbitrary internal hosts and
+  ports"; fixed in build 20261121.1943. N-able has not said whether the flaw was the entry point; an outside DFIR team is engaged and
+  root-cause analysis is due within two weeks. Unrelated to the separate N-central hosted platform shutdown of 9 Nov.
+cves: [CVE-2026-134624]
+techniques: []
+sources:
+  - {url: "https://thehackernews.com/2026/11/n-able-discloses-critical-mail-assure.html", reporter: The Hacker News, date: 2026-11-23}
+  - {url: "https://me.n-able.com/s/security-advisory/aArVy0000002mrlKAA/cve2026134624-mailassure-ldap-sync-connection-check-ssrf", reporter: N-able (advisory), date: 2026-11-22}
+  - {url: "https://www.n-able.com/blog/mail-assure-incident-update", reporter: N-able (incident update), date: 2026-11-22}
+ioc_feeds: []
+iocs: []
+notes: >
+  N-able advisory, incident update and status page (https://uptime.n-able.com/event/202672/) could not be read in this run; facts are
+  The Hacker News' account of them, and the N-able dates are approximate (THN: disclosed "yesterday"). No IOCs or attribution
+  published as of 2026-11-24. Watch for the root-cause analysis.
