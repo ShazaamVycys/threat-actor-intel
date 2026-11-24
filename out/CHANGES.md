@@ -1,4 +1,4 @@
-# What changed — build 2026-11-24 13:48 UTC
+# What changed — build 2026-11-24 18:50 UTC
 
 | Item | Added | Removed | Total |
 |---|---|---|---|
@@ -7,15 +7,13 @@
 | Malware / tools | 0 | 0 | 3033 |
 | ATT&CK techniques | 0 | 0 | 8984 |
 | Host artifacts | 0 | 0 | 3940 |
-| Recent-activity entries | 1 | 1 | 212 |
+| Recent-activity entries | 0 | 0 | 212 |
 | Malware hashes | 0 | 0 | 1677 |
 | Actor IOCs (vendor reports) | 0 | 0 | 10653 |
-| Incidents | 2 | 0 | 21 |
+| Incidents | 3 | 0 | 24 |
 | Incident IOCs | 0 | 0 | 2647 |
 
-## New recent-activity entries
-- **MUSTANG PANDA**: 2026-09 to 2026-11 (reported 2026-11-16) — Dream Research Labs (attributed to Mustang Panda "with high confidence"; "a China-aligned attacker"): lure targeting 
-
 ## New incidents
-- **Infoblox company data accessed through a compromised third-party data migration vendor** (`infoblox-2026`)
-- **RIKEN Fugaku supercomputer intrusion forcing shutdown and exposing user credentials** (`riken-fugaku-2026`)
+- **Cisco Expressway CVE-2026-76466 exploited to breach internal networks** (`cisco-expressway-cve-2026-76466`)
+- **GL.iNet GoodCloud remote-management compromise pushing malware to customer routers and KVMs** (`gl-inet-goodcloud-2026`)
+- **Radware Cloud WAF management API breach exposing customer log-export cloud credentials** (`radware-cloud-waf-2026`)

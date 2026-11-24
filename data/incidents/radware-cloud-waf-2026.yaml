@@ -1,0 +1,34 @@
+id: radware-cloud-waf-2026
+name: Radware Cloud WAF management API breach exposing customer log-export cloud credentials
+category: breach
+status: contained
+activity: 2026-11-19 (detected about ten hours after first access)
+disclosed: 2026-11-24
+updated: 2026-11-24
+victims: >
+  Radware Cloud WAF customers: contact details exposed; for a subset, log-export credentials for AWS S3, Azure Blob or SFTP
+  (number of customers not disclosed)
+sectors: [Technology, Security vendor]
+countries: [Global]
+watch: true
+keywords: [Radware, Cloud WAF]
+attribution: UNATTRIBUTED
+actors: []
+summary: >
+  BleepingComputer (24 Nov), citing a Radware root cause analysis report shared with it anonymously: on 19 Nov 2026 an
+  unauthorized party reached an internal Cloud WAF management API that was reachable from the internet without authentication.
+  Radware detected the access about ten hours after it began and revoked and replaced internal credentials. Exposed: customer
+  contact details and, for a subset of customers, log-export credentials for AWS S3, Azure Blob Storage or SFTP. Radware says WAF
+  inspection, certificates, end-user data and application traffic were not exposed. Customers reported AWS alerts about access
+  from an unfamiliar IP. Radware advises rotating the credentials and reviewing storage access logs since 19 Nov. No actor named;
+  per BleepingComputer, Radware had not issued a public statement.
+cves: []
+techniques: [T1190, T1552]
+sources:
+  - {url: "https://www.bleepingcomputer.com/news/security/radware-discloses-breach-exposing-customer-cloud-access-keys/", reporter: BleepingComputer, date: 2026-11-24}
+ioc_feeds: []
+iocs: []
+notes: >
+  Primary source is a non-public Radware root cause analysis seen by BleepingComputer; no public Radware statement yet. The
+  unfamiliar IP seen in customers' AWS alerts was not published. No IOCs published. techniques inferred from description
+  (unauthenticated internet-facing API; exposed stored credentials) - not listed by the source.

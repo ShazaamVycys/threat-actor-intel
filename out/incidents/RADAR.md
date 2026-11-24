@@ -1,4 +1,4 @@
-# Incident radar — 2026-11-24T13:48Z
+# Incident radar — 2026-11-24T18:50Z
 
 0 new vendor IOC report(s), 0 new CISA KEV entries since the last radar run.
 
@@ -11,11 +11,13 @@
 - `bell-canada-2026` Bell Canada "agentic threat actor" intrusion stealing customer data
 - `binance-theft-2026` Binance $6.3 billion cryptocurrency theft
 - `chainalysis-2026` Chainalysis platform breach exposing all users' credentials and tokens
+- `cisco-expressway-cve-2026-76466` Cisco Expressway CVE-2026-76466 exploited to breach internal networks
 - `cleverbridge-2026` Cleverbridge payment platform breach exposing card numbers and CVVs of software vendors' customers
 - `equinor-2026` Equinor IT systems cyberattack
 - `european-commission-2026` European Commission AI-assisted cyberattack disrupting internal services
 - `fbi-ncic-2026` FBI National Crime Information Center (NCIC) breach
 - `france-supermarket-refrigeration-2026` Destructive attacks on French supermarket refrigeration controllers
+- `gl-inet-goodcloud-2026` GL.iNet GoodCloud remote-management compromise pushing malware to customer routers and KVMs
 - `infoblox-2026` Infoblox company data accessed through a compromised third-party data migration vendor
 - `microsoft-agent-framework-pypi-2026` Microsoft Agent Framework PyPI package compromised with a cloud-credential stealer
 - `microsoft-entra-connect-health-2026` Microsoft Entra Connect Health flaw abused to access tenant contact and configuration metadata
@@ -23,5 +25,6 @@
 - `optimizely-2026` Optimizely supply-chain attack injecting malicious JavaScript into 178 organizations' websites
 - `qubole-aws-2026` Qubole cross-account AWS access abused to breach customer cloud environments
 - `rackspace-spot-2026` Rackspace Spot breach using leaked credentials exposing customer Kubernetes secrets
+- `radware-cloud-waf-2026` Radware Cloud WAF management API breach exposing customer log-export cloud credentials
 - `riken-fugaku-2026` RIKEN Fugaku supercomputer intrusion forcing shutdown and exposing user credentials
 - `usda-2026` US Department of Agriculture security incident forcing multi-day system outages

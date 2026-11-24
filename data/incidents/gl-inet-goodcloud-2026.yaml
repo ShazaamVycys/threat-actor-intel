@@ -1,0 +1,33 @@
+id: gl-inet-goodcloud-2026
+name: GL.iNet GoodCloud remote-management compromise pushing malware to customer routers and KVMs
+category: supply-chain
+status: ongoing
+activity: 2026-11-20 (cloud attack); older backdoors on devices reported from 2025
+disclosed: 2026-11-20
+updated: 2026-11-23
+victims: >
+  GL.iNet router and KVM owners managed through the GoodCloud remote-management service; RemoteToHome Consulting found 166 of 199
+  routers it reached showing the 20 Nov attack, an older backdoor, or both (total affected devices not disclosed)
+sectors: [Technology, Consumer]
+countries: [Global]
+watch: true
+keywords: [GL.iNet, GoodCloud, RemoteToHome]
+attribution: UNATTRIBUTED
+actors: []
+summary: >
+  Help Net Security (23 Nov): GL.iNet found its GoodCloud remote-management platform compromised on 20 Nov 2026 through an
+  unspecified cloud vulnerability, since fixed, and attackers used it to reach managed routers and KVMs. Partner RemoteToHome
+  Consulting (RTH) reports that 166 of 199 routers it reached show the 20 Nov attack, an older backdoor, or both; users had
+  reported older backdoors on devices in 2025. No actor named.
+cves: []
+techniques: [T1195, T1072]
+sources:
+  - {url: "https://www.gl-inet.com/en-eu/blogs/blog/glinet-security-notice-2026-11-20", reporter: GL.iNet (security notice), date: 2026-11-20}
+  - {url: "https://github.com/RemoteToHome-io/gl-security-incident-2026/blob/main/docs/technical-breakdown.md", reporter: RemoteToHome Consulting (technical breakdown)}
+  - {url: "https://www.helpnetsecurity.com/2026/11/23/gl-inet-cloud-compromise-malware-backdoors/", reporter: Help Net Security, date: 2026-11-23}
+ioc_feeds: []
+iocs: []
+notes: >
+  GL.iNet notice and the RTH technical breakdown (which may carry IOCs) could not be read this run; details from Help Net
+  Security only. Help Net quotes one host artifact (a "crond -i /tmp/.log" process) but it was not keyed in because it is not
+  from the primary report's IOC table - capture IOCs from the RTH breakdown on a later run. techniques inferred, not listed by source.
