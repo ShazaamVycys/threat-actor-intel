@@ -1,0 +1,36 @@
+id: tanker-cyberattacks-2026
+name: Cyberattacks on up to 50 energy tankers investigated by the US (Iran suspected)
+category: other
+status: ongoing
+activity: 2026-08 to 2026-11
+disclosed: 2026-11-23
+updated: 2026-11-24   # Reuters via gCaptain 11-23 and Maritime Executive 11-24 read 2026-11-25; WSJ original not read
+victims: As many as 50 ships carrying crude oil, LPG, chemical products and other explosive cargo (incl. VLCC VL Prosperity, managed by HMM); at least two tankers bound for Texas
+sectors: [Maritime, Energy, Transportation]
+countries: [United States]
+watch: true
+keywords: [tanker, VL Prosperity, FortiGate, Coast Guard, maritime]
+attribution: UNATTRIBUTED
+actors:
+  - name: Iran (suspected, unconfirmed)
+    attribution: "WSJ via Reuters: \"Iran is a primary suspect in the attacks, and Russia also is seen by US authorities as a possible culprit\"; Maritime Executive: the administration \"asserts no evidence has been found indicating Iranian involvement\""
+summary: >
+  The Wall Street Journal reported on 23 Nov 2026 (Reuters, which "could not immediately verify the report") that the US is
+  investigating Iran's potential involvement in cyberattacks on as many as 50 ships carrying oil, liquefied petroleum, chemical
+  products and other explosive substances; some ships also received warnings and bomb threats. Maritime Executive, citing the WSJ:
+  reports of attacks on tankers far from the Middle East first appeared in August, when at least two tankers bound for Texas were
+  targeted and the US Coast Guard boarded them for inspection before letting them approach US ports; at least four more ships were
+  boarded in recent weeks. US Coast Guard Cyber Command and the FBI warned the attacks sought to exploit vulnerabilities in Fortinet
+  FortiGate devices. VL Prosperity (HMM-managed VLCC) reportedly received a ransom note published in a Russian-language Telegram
+  posting and a bomb threat; a European shipowner reported threatening messages, some in Farsi. US officials suspect Iran is likely
+  behind the attacks, though some raised questions about Russia; a Trump administration official called the incidents "little more
+  than a minor nuisance" and the administration says no evidence of Iranian involvement has been found.
+cves: []
+techniques: []
+sources:
+  - {url: "https://www.wsj.com/politics/national-security/iran-us-cyberattack-suspect-fed78942", reporter: The Wall Street Journal (not read; paywalled), date: 2026-11-23}
+  - {url: "https://gcaptain.com/u-s-probes-suspected-iranian-cyberattacks-on-up-to-50-ships-wsj-reports/", reporter: Reuters (via gCaptain), date: 2026-11-23}
+  - {url: "https://maritime-executive.com/article/wsj-report-us-investigates-iran-in-50-tanker-cyberattacks", reporter: The Maritime Executive, date: 2026-11-24}
+ioc_feeds: []
+iocs: []
+notes: "No IOCs, CVE numbers or technical report published; only the product (Fortinet FortiGate) is named. Attribution is unconfirmed and disputed by the administration. Watch for a USCG/FBI advisory."

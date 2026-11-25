@@ -1,4 +1,4 @@
-# What changed — build 2026-11-25 06:47 UTC
+# What changed — build 2026-11-25 12:23 UTC
 
 | Item | Added | Removed | Total |
 |---|---|---|---|
@@ -7,17 +7,14 @@
 | Malware / tools | 0 | 0 | 3033 |
 | ATT&CK techniques | 0 | 0 | 8984 |
 | Host artifacts | 0 | 0 | 3940 |
-| Recent-activity entries | 0 | 0 | 212 |
+| Recent-activity entries | 1 | 0 | 213 |
 | Malware hashes | 0 | 0 | 1677 |
 | Actor IOCs (vendor reports) | 0 | 0 | 10653 |
-| Incidents | 1 | 0 | 26 |
-| Incident IOCs | 8 | 0 | 2655 |
+| Incidents | 1 | 0 | 27 |
+| Incident IOCs | 0 | 0 | 2655 |
+
+## New recent-activity entries
+- **DarkBlinders**: 2026-08 to 2026-10 (reported 2026-11-02) — Dream Research Labs (via The Hacker News; "Iran-nexus", "Iran state-aligned threat actor"; overlaps Elastic REF8685, 
 
 ## New incidents
-- **GT13 intrusion campaign against Check Point Security Management servers (24 servers, 22 organizations)** (`checkpoint-sms-gt13-2026`)
-
-## New incident IOCs
-- checkpoint-sms-gt13-2026: domain (4)
-- checkpoint-sms-gt13-2026: file-name (1)
-- checkpoint-sms-gt13-2026: other (1)
-- checkpoint-sms-gt13-2026: user-agent (2)
+- **Cyberattacks on up to 50 energy tankers investigated by the US (Iran suspected)** (`tanker-cyberattacks-2026`)
