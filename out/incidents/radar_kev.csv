@@ -1,4 +1,7 @@
 First Seen,CVE,Vendor / Product,Name,Date Added,Ransomware Use,Due,Matches watched incident,Link
+2026-11-25T00:41Z,CVE-2026-132224,Optimizely Web Experimentation,Optimizely Web Experimentation External Control of Critical State Data Vulnerability,2026-11-24,Unknown,2026-11-27,optimizely-2026,https://www.cve.org/CVERecord?id=CVE-2026-132224
+2026-11-25T00:41Z,CVE-2026-131914,Idunno AntiCsrf,Idunno AntiCsrf Deserialization of Untrusted Data Vulnerability,2026-11-24,Unknown,2026-11-27,,https://www.cve.org/CVERecord?id=CVE-2026-131914
+2026-11-25T00:41Z,CVE-2026-132165,Drupal Core,Drupal Core Remote Code Execution Vulnerability,2026-11-24,Unknown,2026-11-27,,https://www.cve.org/CVERecord?id=CVE-2026-132165
 2026-11-24T00:41Z,CVE-2026-133968,Project MONAI MONAI Label,Project MONAI MONAI Label Path Traversal Vulnerability,2026-11-23,Unknown,2026-11-26,,https://www.cve.org/CVERecord?id=CVE-2026-133968
 2026-11-24T00:41Z,CVE-2026-134624,N-able MailAssure,N-able MailAssure (SpamExperts) Server-Side Request Forgery (SSRF) Vulnerability,2026-11-23,Unknown,2026-11-26,,https://www.cve.org/CVERecord?id=CVE-2026-134624
 2026-11-21T00:41Z,CVE-2026-129448,Apache Roller,Apache Roller Deserialization of Untrusted Data Vulnerability,2026-11-20,Unknown,2026-11-23,,https://www.cve.org/CVERecord?id=CVE-2026-129448

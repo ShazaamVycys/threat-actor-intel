@@ -4,7 +4,7 @@ category: supply-chain
 status: contained
 activity: 2026-11-16 (injection from ~04:21 UTC; cleaned by ~23:11 UTC)
 disclosed: 2026-11-16
-updated: 2026-11-18   # Zscaler ThreatLabz report read 2026-11-23; Socket (11-18) and CSO Online (11-17) read 2026-11-24
+updated: 2026-11-24   # CISA KEV entry for CVE-2026-132224 added 2026-11-24; Zscaler ThreatLabz report read 2026-11-23; Socket (11-18) and CSO Online (11-17) read 2026-11-24
 victims: >
   188 Optimizely JavaScript files belonging to 178 organizations (Report URI), including Zoom, CNN, Fox News, BBC, Salesforce,
   GitLab, KLM, Air France, HSBC Insurance, Bitly, Smartsheet, Change.org and UNICEF USA; their site visitors were exposed. Zscaler ThreatLabz saw more than 450 unique domains and more than
@@ -12,7 +12,7 @@ victims: >
 sectors: [Technology, Media, Retail, Travel, Financial services]
 countries: [Global]
 watch: true
-keywords: [Optimizely, 1688360.cc, eil786npto9u5bq.icu, 5vobauua3ojpklx.icu, ios-hack.icu, q1ls1ho9x7wsxlu.icu, Coruna, DarkSword]
+keywords: [Optimizely, 1688360.cc, eil786npto9u5bq.icu, 5vobauua3ojpklx.icu, ios-hack.icu, q1ls1ho9x7wsxlu.icu, Coruna, DarkSword, CVE-2026-132224]
 attribution: UNATTRIBUTED
 actors: []
 summary: >
@@ -24,7 +24,7 @@ summary: >
   About $7,000 had reached the attacker wallets by 16 Nov (Helme). Salesforce disabled Optimizely scripts across its instances.
   Zscaler ThreatLabz (18 Nov) describes unauthorized write access to the Project JavaScript (projectJS) field across multiple
   customer projects via the signup-flow flaw, a hidden iframe to eil786npto9u5bq[.]icu and iOS exploit-kit entry paths. No actor named.
-cves: []
+cves: [CVE-2026-132224]
 techniques: []
 sources:
   - {url: "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/", reporter: Report URI (Scott Helme), date: 2026-11-16}
@@ -34,6 +34,8 @@ sources:
   - {url: "https://www.zscaler.com/blogs/security-research/attackers-exploit-optimizely-flaw-inject-malicious-javascript", reporter: Zscaler ThreatLabz, date: 2026-11-18}
   - {url: "https://socket.dev/blog/optimizely-supply-chain-attack", reporter: Socket, date: 2026-11-18}
   - {url: "https://www.csoonline.com/article/4249925/optimizely-confirms-massive-cyberattack-on-customer-websites-injected-stealer-malware.html", reporter: CSO Online (quotes Optimizely customer email and Report URI), date: 2026-11-17}
+  - {url: "https://www.cisa.gov/known-exploited-vulnerabilities-catalog", reporter: CISA KEV (CVE-2026-132224), date: 2026-11-24}
+  - {url: "https://www.sophos.com/en-us/blog/hijacked-optimizely-snippets-served-malicious-code", reporter: Sophos X-Ops, date: 2026-11-17}
 ioc_feeds: []
 iocs:
   # BleepingComputer IOC table
@@ -57,6 +59,10 @@ notes: >
   5vobauua3ojpklx[.]icu/boot.js), nine attacker wallet addresses, generic script names
   (track.js, boot.js, weifile.html, index.js, html2canvas), iOS exploit-kit entry paths (A8/a.html etc.) and the follow-on
   module IDs/paths (40-hex names, not file hashes).
+  CISA added CVE-2026-132224 to KEV on 2026-11-24: "external control of critical state data vulnerability in its account signup
+  flow that could allow an attacker to impersonate existing customer users and modify Project JavaScript" (due 2026-11-27); KEV
+  links Optimizely's "Security Incident Report - Optimizely Web Experimentation - Nov 17 2026" PDF (not read). Sophos X-Ops post
+  has no IOC table (detection Troj/JSInj-H).
   Socket's hash was read twice via fetched copies of the page and matched; its other indicators (1688360[.]cc, 5vobauua3ojpklx[.]icu,
   /track.js, /boot.js, page marker window._k7) are already listed or not a supported type. ReversingLabs' OptimJack post
   could not be read (body not extracted). CSO Online quotes Report URI's Scott Helme: attackers "almost certainly coming from

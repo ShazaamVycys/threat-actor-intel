@@ -1,4 +1,4 @@
-# What changed — build 2026-11-24 18:50 UTC
+# What changed — build 2026-11-25 00:45 UTC
 
 | Item | Added | Removed | Total |
 |---|---|---|---|
@@ -10,10 +10,8 @@
 | Recent-activity entries | 0 | 0 | 212 |
 | Malware hashes | 0 | 0 | 1677 |
 | Actor IOCs (vendor reports) | 0 | 0 | 10653 |
-| Incidents | 3 | 0 | 24 |
+| Incidents | 1 | 0 | 25 |
 | Incident IOCs | 0 | 0 | 2647 |
 
 ## New incidents
-- **Cisco Expressway CVE-2026-76466 exploited to breach internal networks** (`cisco-expressway-cve-2026-76466`)
-- **GL.iNet GoodCloud remote-management compromise pushing malware to customer routers and KVMs** (`gl-inet-goodcloud-2026`)
-- **Radware Cloud WAF management API breach exposing customer log-export cloud credentials** (`radware-cloud-waf-2026`)
+- **Breach of an unclassified CIA/ODNI open-source intelligence analysis system** (`cia-osint-system-2026`)

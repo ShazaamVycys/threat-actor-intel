@@ -1,0 +1,35 @@
+id: cia-osint-system-2026
+name: Breach of an unclassified CIA/ODNI open-source intelligence analysis system
+category: breach
+status: contained
+activity: 2026-11 (dates not reported)
+disclosed: 2026-11-24
+updated: 2026-11-24
+victims: >
+  CIA (AP source); CyberScoop reports the CIA and the Office of the Director of National Intelligence (ODNI). An unclassified
+  system that handles open-source intelligence; classified networks and information not involved per sources.
+sectors: [Government, Intelligence]
+countries: [United States]
+watch: true
+keywords: [CIA, ODNI, open-source intelligence, OSINT]
+attribution: UNATTRIBUTED
+actors: []
+summary: >
+  First reported by The New York Times on 24 Nov 2026. AP (via a person familiar with the incident): "an unclassified CIA system"
+  that handles open-source intelligence was breached; "The breach did not involve any classified information and the issue has
+  been resolved"; "It was not clear what specific information was compromised or who was responsible." CyberScoop says it confirmed
+  the breach of "an open-source intelligence analysis system" affecting the CIA and ODNI; its source says exposure was limited,
+  it "did not involve our classified networks or classified information", and "there was a disruption". CIA declined to comment
+  to CyberScoop; ODNI did not immediately respond. Reporting places it alongside an NSA classified-network outage and FBI
+  database intrusions; AP says the administration describes the outages as not part of a coordinated cyberattack.
+cves: []
+techniques: []
+sources:
+  - {url: "https://www.nytimes.com/2026/11/24/us/politics/spy-agencies-computer-network-breaches.html", reporter: The New York Times (first report; not read), date: 2026-11-24}
+  - {url: "https://cyberscoop.com/cia-odni-osint-data-breach", reporter: CyberScoop, date: 2026-11-24}
+  - {url: "https://www.securityweek.com/an-unclassified-cia-system-was-breached-in-a-cyberattack-ap-source-says/", reporter: Associated Press (via SecurityWeek), date: 2026-11-24}
+ioc_feeds: []
+iocs: []
+notes: >
+  Anonymous-source press reporting only; no official statement, system name, access vector, timeline, attribution or IOCs
+  published as of 2026-11-24. Related: [[fbi-ncic-2026]].

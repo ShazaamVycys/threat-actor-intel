@@ -1,4 +1,4 @@
-# Incident radar — 2026-11-24T18:50Z
+# Incident radar — 2026-11-25T00:45Z
 
 0 new vendor IOC report(s), 0 new CISA KEV entries since the last radar run.
 
@@ -11,6 +11,7 @@
 - `bell-canada-2026` Bell Canada "agentic threat actor" intrusion stealing customer data
 - `binance-theft-2026` Binance $6.3 billion cryptocurrency theft
 - `chainalysis-2026` Chainalysis platform breach exposing all users' credentials and tokens
+- `cia-osint-system-2026` Breach of an unclassified CIA/ODNI open-source intelligence analysis system
 - `cisco-expressway-cve-2026-76466` Cisco Expressway CVE-2026-76466 exploited to breach internal networks
 - `cleverbridge-2026` Cleverbridge payment platform breach exposing card numbers and CVVs of software vendors' customers
 - `equinor-2026` Equinor IT systems cyberattack
