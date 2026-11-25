@@ -1,0 +1,53 @@
+id: checkpoint-sms-gt13-2026
+name: GT13 intrusion campaign against Check Point Security Management servers (24 servers, 22 organizations)
+category: exploitation
+status: ongoing
+activity: 2026-10-02 to 2026-11-02 (GreyNoise expects the campaign is ongoing)
+disclosed: 2026-11-23
+updated: 2026-11-24
+victims: >
+  GreyNoise: 24 Check Point Security Management servers compromised across at least 22 organizations; victim assets in the UK,
+  Ireland, France, Netherlands, Greece, Germany, Austria, Bulgaria, Poland, India, Thailand, Vietnam, South Korea, Hong Kong,
+  China, Australia and the US. SecurityWeek lists energy, engineering, financial services, government, manufacturing, mining
+  and transportation. Targeting "does not appear to be focused on any specific geography or industry sector" (GreyNoise).
+sectors: [Energy, Engineering, Financial Services, Government, Manufacturing, Mining, Transportation]
+countries: [United Kingdom, Ireland, France, Netherlands, Greece, Germany, Austria, Bulgaria, Poland, India, Thailand, Vietnam, South Korea, Hong Kong, China, Australia, United States]
+watch: true
+keywords: [GT13, Check Point, Security Management, SmartConsole, CVE-2026-16232, CVE-2026-61500, Rejetto, HFS, ZULT, newpayapp]
+attribution: UNATTRIBUTED
+actors:
+  - name: GT13
+    attribution: "GreyNoise: 'We do not attribute GT13 to any known or publicly tracked threat group at this time. We do not currently have enough information to make assessments relating to the motivation of the actor or alignment to a nation-of-origin.'"
+summary: >
+  GreyNoise ("99 IPs but a C2 ain't one", 23 Nov 2026): an actor it tracks as GreyNoise Threat 13 (GT13) gained access to a
+  Rejetto HFS server via CVE-2026-61500 (forging an admin session cookie after recovering the signing key) and used it as a hop
+  for exfiltration and for access to Check Point Security Management servers, where CVE-2026-16232 (SmartConsole auth bypass to
+  Run Script) was used to run commands. Data from 24 management servers was collected on the hop, including firewall databases,
+  Internal CA files, credentials, firewall configuration and a newly minted certificate (pivot.p12); the actor also attempted to
+  unload security policies. Tooling: Nmap, Chisel, Impacket, Paramiko and 30+ Python scripts; persistence via /etc/ld.so.preload
+  (/usr/lib/.libproc.so) and appended SSH keys; a "ZULT" implant downloaded from data-zt.newpayapp.com. GreyNoise also describes
+  probing of other edge and internal services (Citrix NetScaler, Ivanti, Exchange, VMware vCenter, NetLogon, Oracle TNS). Traffic
+  came from ExpressVPN egress IPs or compromised victim devices. GreyNoise believes the actor used "LLMs and agentic systems" for
+  scanning, exploitation, tool development and automated interaction, alongside hands-on-keyboard activity.
+cves: [CVE-2026-61500, CVE-2026-16232]
+techniques: []
+sources:
+  - {url: "https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign", reporter: GreyNoise, date: 2026-11-23}
+  - {url: "https://www.securityweek.com/check-point-security-management-servers-hacked-in-ai-assisted-campaign/", reporter: SecurityWeek, date: 2026-11-24}
+ioc_feeds: []
+iocs:
+  # GreyNoise Indicators table
+  - {type: domain, value: "newpayapp[.]com", context: "GreyNoise: GT13 controlled domain (registered 2026-03-13)", source: "https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign"}
+  - {type: domain, value: "data-zt.newpayapp[.]com", context: "GreyNoise: GT13 ZULT malware download domain", source: "https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign"}
+  - {type: domain, value: "api-zt.newpayapp[.]com", context: "GreyNoise: GT13 subdomain", source: "https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign"}
+  - {type: domain, value: "2ev5.newpayapp[.]com", context: "GreyNoise: GT13 subdomain", source: "https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign"}
+  - {type: other, value: "eeca2460550b9ded084ecf2f70a75356", context: "GreyNoise: HASSH (OpenSSH 10; common, useful only with other GT13 TTPs)", source: "https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign"}
+  - {type: user-agent, value: "Mozilla/5.0 (X11; Linux x86_64) research", context: "GreyNoise: GT13 HFS exploitation and commands", source: "https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign"}
+  - {type: user-agent, value: "Mozilla/5.0 research", context: "GreyNoise: GT13, used once near HFS commands", source: "https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign"}
+  - {type: file-name, value: "/usr/lib/.libproc.so", context: "GreyNoise (body text): library added to /etc/ld.so.preload", source: "https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign"}
+notes: >
+  Not captured: the ~69 IP rows in GreyNoise's Indicators table (all tagged AS206092 ExpressVPN egress, each with its own
+  activity window); shared commercial-VPN addresses with high false-positive risk and the table was read in two passes, so take
+  them from the GreyNoise page directly. No file hashes published; the post links a full GreyNoise Labs version that was not
+  found (link is a placeholder). No Check Point advisory or statement cited as of 2026-11-24. GreyNoise notes the domain's
+  registrant data (Hai Phong, VN) "may be a UTC+7-friendly coincidence"; not treated as attribution.
