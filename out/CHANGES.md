@@ -1,4 +1,4 @@
-# What changed — build 2026-11-25 12:23 UTC
+# What changed — build 2026-11-25 18:51 UTC
 
 | Item | Added | Removed | Total |
 |---|---|---|---|
@@ -7,14 +7,12 @@
 | Malware / tools | 0 | 0 | 3033 |
 | ATT&CK techniques | 0 | 0 | 8984 |
 | Host artifacts | 0 | 0 | 3940 |
-| Recent-activity entries | 1 | 0 | 213 |
+| Recent-activity entries | 0 | 0 | 213 |
 | Malware hashes | 0 | 0 | 1677 |
 | Actor IOCs (vendor reports) | 0 | 0 | 10653 |
-| Incidents | 1 | 0 | 27 |
+| Incidents | 2 | 0 | 29 |
 | Incident IOCs | 0 | 0 | 2655 |
 
-## New recent-activity entries
-- **DarkBlinders**: 2026-08 to 2026-10 (reported 2026-11-02) — Dream Research Labs (via The Hacker News; "Iran-nexus", "Iran state-aligned threat actor"; overlaps Elastic REF8685, 
-
 ## New incidents
-- **Cyberattacks on up to 50 energy tankers investigated by the US (Iran suspected)** (`tanker-cyberattacks-2026`)
+- **US Treasury FinCEN intrusion forcing systems offline** (`fincen-2026`)
+- **Hex.pm package registry servers compromised via CVSS 10.0 RCE (CVE-2026-129514)** (`hexpm-2026`)

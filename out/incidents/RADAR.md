@@ -1,4 +1,4 @@
-# Incident radar — 2026-11-25T12:23Z
+# Incident radar — 2026-11-25T18:51Z
 
 0 new vendor IOC report(s), 0 new CISA KEV entries since the last radar run.
 
@@ -18,8 +18,10 @@
 - `equinor-2026` Equinor IT systems cyberattack
 - `european-commission-2026` European Commission AI-assisted cyberattack disrupting internal services
 - `fbi-ncic-2026` FBI National Crime Information Center (NCIC) breach
+- `fincen-2026` US Treasury FinCEN intrusion forcing systems offline
 - `france-supermarket-refrigeration-2026` Destructive attacks on French supermarket refrigeration controllers
 - `gl-inet-goodcloud-2026` GL.iNet GoodCloud remote-management compromise pushing malware to customer routers and KVMs
+- `hexpm-2026` Hex.pm package registry servers compromised via CVSS 10.0 RCE (CVE-2026-129514)
 - `infoblox-2026` Infoblox company data accessed through a compromised third-party data migration vendor
 - `microsoft-agent-framework-pypi-2026` Microsoft Agent Framework PyPI package compromised with a cloud-credential stealer
 - `microsoft-entra-connect-health-2026` Microsoft Entra Connect Health flaw abused to access tenant contact and configuration metadata

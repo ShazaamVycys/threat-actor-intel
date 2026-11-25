@@ -1,0 +1,36 @@
+id: fincen-2026
+name: US Treasury FinCEN intrusion forcing systems offline
+category: breach
+status: ongoing
+activity: 2026-11 (dates not reported)
+disclosed: 2026-11-24
+updated: 2026-11-25
+victims: >
+  US Treasury Financial Crimes Enforcement Network (FinCEN); "unauthorized access to a limited subset of its systems" per
+  FinCEN's notice on the BSA E-Filing website. Data accessed not disclosed.
+sectors: [Government, Financial]
+countries: [United States]
+watch: true
+keywords: [FinCEN, Treasury, BSA E-Filing]
+attribution: UNATTRIBUTED
+actors: []
+summary: >
+  FinCEN posted a banner on the BSA E-Filing site on the evening of 24 Nov 2026 saying it is "investigating a cybersecurity
+  incident" that "resulted in unauthorized access to a limited subset of its systems" and that "As a proactive measure, FinCEN
+  has taken some systems offline. The BSA E-Filing website remains operational; however, some services may be temporarily
+  unavailable." Nextgov reports a FinCEN order (ORDER-FIN-2026-R002) giving institutions that used the automated submission
+  channel as of 18 Nov until 30 Dec to file reports otherwise due 18 Nov to 29 Dec; the Financial Institutions Hotline remains
+  available for urgent law-enforcement reporting. FinCEN "did not disclose what data may have been accessed or say who was
+  responsible" (Nextgov); "No hackers have taken credit for the attack" (The Record). First reported by The Verge. Disclosed the
+  same week as the CIA/ODNI, FBI NCIC and USDA incidents; officials have not linked them.
+cves: []
+techniques: []
+sources:
+  - {url: "https://bsaefiling.fincen.gov/newsroom", reporter: FinCEN notice (as quoted by press; not read directly), date: 2026-11-24}
+  - {url: "https://therecord.media/treasury-fincen-takes-systems-offline-after-cyber-incident", reporter: The Record, date: 2026-11-25}
+  - {url: "https://www.nextgov.com/cybersecurity/2026/11/treasurys-financial-crimes-bureau-takes-systems-offline-after-hack/417442/", reporter: Nextgov/FCW, date: 2026-11-25}
+ioc_feeds: []
+iocs: []
+notes: >
+  No access vector, timeline, attribution or IOCs published as of 2026-11-25. FinCEN notice and order PDF quoted via press, not
+  read directly. Related: [[cia-osint-system-2026]], [[fbi-ncic-2026]], [[usda-2026]].

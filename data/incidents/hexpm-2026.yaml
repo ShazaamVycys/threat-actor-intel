@@ -1,0 +1,37 @@
+id: hexpm-2026
+name: Hex.pm package registry servers compromised via CVSS 10.0 RCE (CVE-2026-129514)
+category: supply-chain
+status: contained
+activity: 2026-11-23 (exploit requests 18:16-18:29 UTC; related activity from the same addresses since the prior week)
+disclosed: 2026-11-24
+updated: 2026-11-25
+victims: >
+  Hex.pm, the Elixir/Erlang package registry: OS commands run on six production web servers. Database contents (email
+  addresses, password hashes, 2FA secrets, session data, possibly private packages) could not be ruled out as read; the team
+  says no package was changed.
+sectors: [Technology, Software Development]
+countries: [Sweden]
+watch: true
+keywords: [Hex.pm, hexpm, Elixir, Erlang, CVE-2026-129514, GHSA-9pmm-hf4r-27pg]
+attribution: UNATTRIBUTED
+actors: []
+summary: >
+  Per The Hacker News, summarising the Hex.pm team's incident report: an attacker exploited CVE-2026-129514 (CVSS 10.0), an
+  unauthenticated request-body parsing flaw present since February 2016 that accepted maps with a __struct__ key, to run OS
+  commands on six Hex.pm production servers on Monday 23 Nov. Load balancer logs show 69 exploit requests between 18:16 and 18:29
+  UTC from two addresses; all servers were on a patched build within about 15 minutes of the first malicious request. Earlier
+  activity from the same addresses "suggests the attacker built a local copy of hex.pm to test against". Hex.pm logged out all
+  users and rotated session/token keys; the registry signing key had not yet been rotated. Reported to Sweden's data protection
+  authority, CISA and ENISA. "Who was behind the attack is unknown." Related library CVEs: CVE-2026-124283 (ash),
+  CVE-2026-133555 (db_connection), CVE-2026-130411 (flop).
+cves: [CVE-2026-129514, CVE-2026-124283, CVE-2026-133555, CVE-2026-130411]
+techniques: []
+sources:
+  - {url: "https://hex.pm/blog/security-incident-on-hexpm", reporter: Hex.pm (primary incident report; not read - fetch blocked), date: 2026-11-24}
+  - {url: "https://github.com/hexpm/hexpm/security/advisories/GHSA-9pmm-hf4r-27pg", reporter: Hex.pm GitHub advisory (not read - fetch blocked)}
+  - {url: "https://thehackernews.com/2026/11/hackers-exploited-cvss-100-hexpm-rce.html", reporter: The Hacker News, date: 2026-11-25}
+ioc_feeds: []
+iocs: []
+notes: >
+  Disclosure date approximate (primary report could not be fetched this run). The two attacker source IP addresses are not given
+  in The Hacker News article; check the Hex.pm incident report for them and for any file indicators before keying IOCs.
