@@ -1,9 +1,10 @@
-# Incident radar — 2026-11-25T18:51Z
+# Incident radar — 2026-11-26T00:50Z
 
 0 new vendor IOC report(s), 0 new CISA KEV entries since the last radar run.
 
 ## Watched incidents
 
+- `1password-2026` 1Password internal systems breach via compromised employee GitHub account
 - `ai-inference-providers-prompt-theft-2026` Months-long prompt theft at AI inference providers (OpenRouter removes three providers)
 - `artex-2026` ARTEX agentic AI penetration-testing framework abused in intrusions
 - `austria-foreign-ministry-2026` Austrian Foreign Ministry website breach exposing staff contact details
@@ -32,4 +33,5 @@
 - `radware-cloud-waf-2026` Radware Cloud WAF management API breach exposing customer log-export cloud credentials
 - `riken-fugaku-2026` RIKEN Fugaku supercomputer intrusion forcing shutdown and exposing user credentials
 - `tanker-cyberattacks-2026` Cyberattacks on up to 50 energy tankers investigated by the US (Iran suspected)
+- `todoist-2026` Todoist breach stealing data of about 6% of customers via stolen credentials
 - `usda-2026` US Department of Agriculture security incident forcing multi-day system outages

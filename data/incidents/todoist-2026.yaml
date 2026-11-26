@@ -1,0 +1,33 @@
+id: todoist-2026
+name: Todoist breach stealing data of about 6% of customers via stolen credentials
+category: breach
+status: contained
+activity: 2026-11-22 to 2026-11-23
+disclosed: 2026-11-25
+updated: 2026-11-25   # TechCrunch 11-25 read 2026-11-26; Todoist help-center notice not read
+victims: >
+  Todoist (Doist task-management app); "around 6%" of customers' details stolen (Todoist via TechCrunch)
+sectors: [Technology]
+countries: []
+watch: true
+keywords: [Todoist, Doist]
+attribution: UNATTRIBUTED
+actors: []
+summary: >
+  TechCrunch (25 Nov, citing Todoist): using stolen credentials, an attacker accessed Todoist's version-control system and source
+  code on 22-23 Nov, changed employee access controls and reached the cloud infrastructure through an employee's work account.
+  Stolen: email addresses, password hashes and account creation dates (early users' older-format hashes downloaded); API and Slack
+  integration tokens; for Todoist for Outlook users, emails, addresses and attachment file names where connected. For about
+  0.001% of users the attacker searched tasks, comments and attachment names for credentials such as API keys and tokens. Todoist
+  says no source code was changed and it has reset internal access and remote command execution in its cloud environment.
+  Todoist "blamed stolen credentials"; no actor named.
+cves: []
+techniques: []
+sources:
+  - {url: "https://www.todoist.com/help/todoist/get-started/security-incident-in-november-2026-cG0EIACNU", reporter: Todoist, date: 2026-11-25}
+  - {url: "https://techcrunch.com/2026/11/25/todoist-confirms-6-of-customers-details-were-stolen-in-data-breach/", reporter: TechCrunch, date: 2026-11-25}
+ioc_feeds: []
+iocs: []
+notes: >
+  Todoist's own notice not fetched this run; details are from TechCrunch citing it. No IOCs published. No link to the
+  same-week 1Password breach is reported.

@@ -1,4 +1,4 @@
-# What changed — build 2026-11-25 18:51 UTC
+# What changed — build 2026-11-26 00:50 UTC
 
 | Item | Added | Removed | Total |
 |---|---|---|---|
@@ -10,9 +10,9 @@
 | Recent-activity entries | 0 | 0 | 213 |
 | Malware hashes | 0 | 0 | 1677 |
 | Actor IOCs (vendor reports) | 0 | 0 | 10653 |
-| Incidents | 2 | 0 | 29 |
+| Incidents | 2 | 0 | 31 |
 | Incident IOCs | 0 | 0 | 2655 |
 
 ## New incidents
-- **US Treasury FinCEN intrusion forcing systems offline** (`fincen-2026`)
-- **Hex.pm package registry servers compromised via CVSS 10.0 RCE (CVE-2026-129514)** (`hexpm-2026`)
+- **1Password internal systems breach via compromised employee GitHub account** (`1password-2026`)
+- **Todoist breach stealing data of about 6% of customers via stolen credentials** (`todoist-2026`)

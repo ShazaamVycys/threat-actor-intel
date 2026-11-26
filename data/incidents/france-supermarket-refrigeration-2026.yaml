@@ -4,7 +4,7 @@ category: destructive
 status: historical
 activity: 2026-10-11 to 2026-10-12 (second wave in Nov across six European countries)
 disclosed: 2026-10
-updated: 2026-11-09
+updated: 2026-11-25   # CISA KEV additions 2026-11-25 (catalog read 2026-11-26)
 victims: >
   About 700 French retail locations (French authorities), including Casino, Leclerc, Coopérative U, Metro, Carrefour and
   Intermarché stores, butcher shops, a slaughterhouse and food-processing cooperatives; at least 15 fires; tens of millions of
@@ -26,12 +26,16 @@ summary: >
   systems, FOFA use, publicity on CyberbanNews from 13 Oct and Farsi traces. Paris prosecutors opened a judicial investigation
   and seek arrest warrants for the unit's alleged leader and two deputies; France will summon Iran's ambassador and propose EU
   sanctions. Midnight Blue separately disclosed six pre-auth RCE flaws in Danfoss AK-SM 800A (not linked by reporting).
-cves: []
+  On 25 Nov CISA added three Danfoss AK-SM 800A flaws to the KEV catalog as exploited (CVE-2025-41450 improper authentication,
+  CVE-2023-25914 path traversal, CVE-2023-25915 improper input validation); the KEV entries do not say who exploited them or link
+  them to these attacks.
+cves: [CVE-2025-41450, CVE-2023-25914, CVE-2023-25915]
 techniques: []
 sources:
   - {url: "https://www.bleepingcomputer.com/news/security/france-blames-iranian-hackers-for-supermarket-attacks-that-sparked-fires/", reporter: BleepingComputer, date: 2026-11-09}
   - {url: "https://kutv.com/news/nation-world/france-foreign-minister-jean-noel-barrot-groupd-of-seven-blames-iran-linked-hackers-for-supermarket-fridge-attack-vows-sanctions-islamic-revolutionary-guard-corps-shahid-kaveh-ip-addresses", reporter: The National News Desk, date: 2026-11-09}
   - {url: "http://cert.cyber.gouv.fr/cti/CERTFR-2026-CTI-009/", reporter: CERT-FR, date: 2026-11-09}
+  - {url: "https://www.cisa.gov/news-events/alerts/2026/11/25/cisa-adds-10-known-exploited-vulnerabilities-catalog", reporter: CISA, date: 2026-11-25}
 ioc_feeds: []
 iocs: []
 notes: >
