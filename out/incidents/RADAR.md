@@ -1,4 +1,4 @@
-# Incident radar — 2026-11-26T00:50Z
+# Incident radar — 2026-11-26T06:51Z
 
 0 new vendor IOC report(s), 0 new CISA KEV entries since the last radar run.
 
@@ -27,6 +27,7 @@
 - `microsoft-agent-framework-pypi-2026` Microsoft Agent Framework PyPI package compromised with a cloud-credential stealer
 - `microsoft-entra-connect-health-2026` Microsoft Entra Connect Health flaw abused to access tenant contact and configuration metadata
 - `n-able-mail-assure-2026` N-able Mail Assure / SpamExperts Hosted Cloud server breach (CVE-2026-134624 disclosed)
+- `operation-snowball-broadworks-2026` Operation Snowball - jailbroken AI agent intrusion at a European telecom via Cisco BroadWorks (CVE-2026-20320)
 - `optimizely-2026` Optimizely supply-chain attack injecting malicious JavaScript into 178 organizations' websites
 - `qubole-aws-2026` Qubole cross-account AWS access abused to breach customer cloud environments
 - `rackspace-spot-2026` Rackspace Spot breach using leaked credentials exposing customer Kubernetes secrets
@@ -34,4 +35,5 @@
 - `riken-fugaku-2026` RIKEN Fugaku supercomputer intrusion forcing shutdown and exposing user credentials
 - `tanker-cyberattacks-2026` Cyberattacks on up to 50 energy tankers investigated by the US (Iran suspected)
 - `todoist-2026` Todoist breach stealing data of about 6% of customers via stolen credentials
+- `turnitin-2026` Turnitin cyberattack on customer-facing systems
 - `usda-2026` US Department of Agriculture security incident forcing multi-day system outages

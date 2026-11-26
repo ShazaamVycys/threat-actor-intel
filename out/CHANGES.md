@@ -1,4 +1,4 @@
-# What changed — build 2026-11-26 00:50 UTC
+# What changed — build 2026-11-26 06:51 UTC
 
 | Item | Added | Removed | Total |
 |---|---|---|---|
@@ -10,9 +10,9 @@
 | Recent-activity entries | 0 | 0 | 213 |
 | Malware hashes | 0 | 0 | 1677 |
 | Actor IOCs (vendor reports) | 0 | 0 | 10653 |
-| Incidents | 2 | 0 | 31 |
+| Incidents | 2 | 0 | 33 |
 | Incident IOCs | 0 | 0 | 2655 |
 
 ## New incidents
-- **1Password internal systems breach via compromised employee GitHub account** (`1password-2026`)
-- **Todoist breach stealing data of about 6% of customers via stolen credentials** (`todoist-2026`)
+- **Operation Snowball - jailbroken AI agent intrusion at a European telecom via Cisco BroadWorks (CVE-2026-20320)** (`operation-snowball-broadworks-2026`)
+- **Turnitin cyberattack on customer-facing systems** (`turnitin-2026`)

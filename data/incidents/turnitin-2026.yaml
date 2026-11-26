@@ -1,0 +1,32 @@
+id: turnitin-2026
+name: Turnitin cyberattack on customer-facing systems
+category: breach
+status: ongoing
+activity: 2026-11 (dates not disclosed)
+disclosed: 2026-11-24
+updated: 2026-11-24
+victims: >
+  Turnitin (academic-integrity software; per its website used by over 16,000 institutions in 185 countries and 71 million
+  students). Turnitin reports "unauthorized activity involving certain customer-facing Turnitin systems"; whether user data was
+  accessed, when it happened and how many people were affected were not disclosed.
+sectors: [Education, Technology]
+countries: [United States]
+watch: true
+keywords: [Turnitin]
+attribution: UNATTRIBUTED
+actors: []
+summary: >
+  BleepingComputer (24 Nov 2026), citing a CEO letter on Turnitin's website: Turnitin detected "unauthorized activity involving
+  certain customer-facing Turnitin systems", activated its incident response plan, engaged external cybersecurity specialists and
+  notified law enforcement and cyber regulators. The company says its systems are fully operational and safe to use and that the
+  affected systems do not collect government ID credentials or institutional financial information. Investigation ongoing;
+  nature and scope not disclosed. "As of writing, no ransomware groups have publicly taken responsibility" (BleepingComputer).
+cves: []
+techniques: []
+sources:
+  - {url: "https://www.bleepingcomputer.com/news/security/turnitin-discloses-cyberattack-affecting-customer-facing-systems/", reporter: BleepingComputer, date: 2026-11-24}
+ioc_feeds: []
+iocs: []
+notes: >
+  Turnitin's CEO letter quoted via BleepingComputer; its URL was not given and it was not read directly. No access vector,
+  attribution or IOCs published as of 2026-11-26.

@@ -1,0 +1,44 @@
+id: operation-snowball-broadworks-2026
+name: Operation Snowball - jailbroken AI agent intrusion at a European telecom via Cisco BroadWorks (CVE-2026-20320)
+category: exploitation
+status: historical
+activity: 2026 (more than two weeks; dates not reported)
+disclosed: 2026-11-08
+updated: 2026-11-11
+victims: >
+  An unnamed European telecommunications provider and 13 organizations hosted on its data centre and cloud infrastructure
+  (unclear whether all 13 were breached), including a healthcare organization; ~80 Zabbix monitoring backups covering the
+  provider's managed-services customers. Claimed (from the agent's own reports, not confirmed with victims): dozens of credential
+  sets and private keys, the healthcare organization's Active Directory data, subscriber billing records and "millions of patient
+  records" from a TrakCare Oracle database with default credentials.
+sectors: [Telecommunications, Healthcare, Cloud/Hosting]
+countries: [Europe (country not named)]
+watch: true
+keywords: [Operation Snowball, Malbear, BroadWorks, CVE-2026-20320, DeepSeek, Liferay, CVE-2020-7961, RichFaces, CVE-2013-2165]
+attribution: UNATTRIBUTED
+actors:
+  - name: Unnamed Chinese-speaking operator (Operation Snowball)
+    attribution: "Malbear Labs: activity consistent with a Chinese-origin operator; not linked to a state actor (Infosecurity Magazine paraphrase)"
+summary: >
+  Malbear Labs (8 Nov 2026) found an attacker's exposed working directory with 70+ session transcripts and reports of a custom
+  agent framework running a jailbroken DeepSeek Flash model (~78,000-character jailbreak prompt), which the operator
+  "delegated the intrusion to ... and checked in asynchronously to review progress". Per Malbear: "The agent exploited
+  CVE-2026-20320, an unauthenticated XXE in the BroadWorks OCI XML parser", recovering a system identity private key and SSL
+  credential sets from the XSP host; the BroadWorks Provisioning Server was also exposed via an unauthenticated directory listing.
+  It then got root on a Liferay host spanning several internal networks (CVE-2020-7961), a second foothold via JBoss/RichFaces
+  (CVE-2013-2165), had a PwnKit (CVE-2021-4034) attempt blocked by endpoint security, and wrote its own replacement when a
+  tunnelling tool was blocked. CISA added CVE-2026-20320 to KEV on 10 Nov 2026 (FCEB due 24 Nov); Cisco patched it in August.
+cves: [CVE-2026-20320, CVE-2020-7961, CVE-2013-2165, CVE-2021-4034]
+techniques: []
+sources:
+  - {url: "https://malbearlabs.com/posts/operation-snowball-inside-an-autonomous-ai-intrusion-campaign", reporter: Malbear Labs (primary; not read directly), date: 2026-11-08}
+  - {url: "https://www.infosecurity-magazine.com/news/operation-snowball-ai-telecom/", reporter: Infosecurity Magazine, date: 2026-11-08}
+  - {url: "https://www.bleepingcomputer.com/news/security/cisa-flags-cisco-broadworks-flaw-as-actively-exploited-in-attacks/", reporter: BleepingComputer, date: 2026-11-11}
+  - {url: "https://www.cisa.gov/news-events/alerts/2026/11/10/cisa-adds-six-known-exploited-vulnerabilities-catalog", reporter: CISA, date: 2026-11-10}
+  - {url: "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-bworks-xxe-uwUd7CEt", reporter: Cisco, date: 2026-08}
+ioc_feeds: []
+iocs: []
+notes: >
+  Missed by earlier runs; added 2026-11-26. The Malbear Labs report could not be fetched from this run, so any IOC table it has is
+  not captured, and details come from Infosecurity Magazine and BleepingComputer. Victims were not named and Malbear's data-theft
+  claims come from the agent's own reports. Related: [[artex-2026]], [[checkpoint-sms-gt13-2026]] (other AI-agent-driven intrusions).
