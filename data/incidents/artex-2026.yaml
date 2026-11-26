@@ -4,7 +4,7 @@ category: tool-abuse
 status: ongoing
 activity: 2026-09 to 2026-11
 disclosed: 2026-10-07
-updated: 2026-11-19   # Talos page modified; FBI FLASH 2026-11-13, SentinelOne 2026-11-13 (mod. 11-17)
+updated: 2026-11-25   # Microsoft blog 11-25 via The Record 11-25 (Microsoft page not read); Talos page modified; FBI FLASH 2026-11-13, SentinelOne 2026-11-13 (mod. 11-17)
 victims: >
   Hundreds of organizations; South Korean banks (loan-inquiry and employee mobile systems); IT and software vendors and their
   downstream Microsoft 365 tenants via ConnectWise multi-tenant app credentials; exposed web APIs and identity providers
@@ -12,12 +12,16 @@ sectors: [Financial services, Cryptocurrency, Government, Telecommunications, De
 countries: [South Korea, Southeast Asia, Global]
 attribution: MIXED
 watch: true                          # radar flags new vendor reports / KEV entries matching the keywords below
-keywords: [ARTEX, Sub2API, lanmao666, BLOODALCHEMY, Storm-0940, Storm-3358, Vapor Panda, tomicdd]
+keywords: [ARTEX, Sub2API, lanmao666, BLOODALCHEMY, Storm-0940, Storm-3358, Vapor Panda, tomicdd, Salt Typhoon, Crystal Typhoon]
 actors:
   - name: Storm-0940
     attribution: "Microsoft: China-state aligned actor"
   - name: Vapor Panda
     attribution: "CrowdStrike (via Talos): China-nexus espionage campaign from 17 Oct 2026"
+  - name: Salt Typhoon
+    attribution: "Microsoft (via The Record, 2026-11-25): Chinese state-backed group that has integrated Artex"
+  - name: Crystal Typhoon
+    attribution: "Microsoft (via The Record, 2026-11-25): Chinese state-backed group that has integrated Artex"
   - name: Storm-3358
     attribution: "Talos: financially motivated, Cambodia-based, targets financial organizations in Southeast Asia"
   - name: Unnamed Chinese-speaking actor
@@ -36,9 +40,14 @@ summary: >
   (Microsoft). SentinelOne ties VAPOR PANDA's ARTEX use to BLOODALCHEMY malware. Separately, BadByte found trojanized ARTEX Docker
   images (tomicdd/artex, congdonglinux/artex; 7,946 pulls) whose /app/artex binary runs the login request's captcha field via
   sh -c as root before authentication, i.e. anyone running that image was exposed; Docker removed both images on 5 Nov 2026.
+  On 25 Nov Microsoft (via The Record) said Chinese state-backed Crystal Typhoon and Salt Typhoon have integrated Artex for
+  "network reconnaissance, credential attacks, and web application exploitation", that unnamed North Korean groups also use it,
+  and that it "does not introduce new attack techniques".
 cves: []
 techniques: [T1583.003, T1588.007, T1090]
 sources:
+  - {url: "https://www.microsoft.com/en-us/security/blog/2026/11/25/what-defenders-need-to-know-artex-agentic-ai-framework-threat-actors-abuse/", reporter: Microsoft Threat Intelligence, date: 2026-11-25}
+  - {url: "https://therecord.media/microsoft-china-salt-typhoon-using-artex-ai-tool", reporter: The Record (Microsoft), date: 2026-11-25}
   - {url: "https://blog.talosintelligence.com/artex-and-beyond", reporter: Cisco Talos, date: 2026-11-13}
   - {url: "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/", reporter: Microsoft Threat Intelligence, date: 2026-10-21}
   - {url: "https://www.crowdstrike.com/en-us/blog/unknown-threat-actor-uses-artex-to-target-south-korean-finance/", reporter: CrowdStrike, date: 2026-10-07}

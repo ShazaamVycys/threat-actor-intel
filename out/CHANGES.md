@@ -1,4 +1,4 @@
-# What changed — build 2026-11-26 06:51 UTC
+# What changed — build 2026-11-26 12:23 UTC
 
 | Item | Added | Removed | Total |
 |---|---|---|---|
@@ -7,12 +7,14 @@
 | Malware / tools | 0 | 0 | 3033 |
 | ATT&CK techniques | 0 | 0 | 8984 |
 | Host artifacts | 0 | 0 | 3940 |
-| Recent-activity entries | 0 | 0 | 213 |
+| Recent-activity entries | 1 | 0 | 214 |
 | Malware hashes | 0 | 0 | 1677 |
 | Actor IOCs (vendor reports) | 0 | 0 | 10653 |
-| Incidents | 2 | 0 | 33 |
+| Incidents | 1 | 0 | 34 |
 | Incident IOCs | 0 | 0 | 2655 |
 
+## New recent-activity entries
+- **GhostEmperor**: 2026-07 to 2026-11 (reported 2026-11-25) — Microsoft Threat Intelligence (via The Record): "Chinese state-backed groups Crystal Typhoon and Salt Typhoon have in
+
 ## New incidents
-- **Operation Snowball - jailbroken AI agent intrusion at a European telecom via Cisco BroadWorks (CVE-2026-20320)** (`operation-snowball-broadworks-2026`)
-- **Turnitin cyberattack on customer-facing systems** (`turnitin-2026`)
+- **myColorado state app cyberattack with data of about 150,000 people likely stolen** (`mycolorado-2026`)

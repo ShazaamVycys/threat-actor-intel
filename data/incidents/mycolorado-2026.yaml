@@ -1,0 +1,25 @@
+id: mycolorado-2026
+name: myColorado state app cyberattack with data of about 150,000 people likely stolen
+category: data-theft
+status: ongoing
+activity: 2026-11 (discovered 18 Nov)
+disclosed: 2026-11-24
+updated: 2026-11-24   # The Record 11-24 read 2026-11-26; OIT statement not read
+victims: Colorado state government's myColorado app (2.1 million users); data tied to about 150,000 people likely stolen
+sectors: [Government]
+countries: [United States]
+watch: true
+keywords: [myColorado, Colorado OIT]
+attribution: UNATTRIBUTED
+actors: []
+summary: >
+  Colorado's Governor's Office of Information Technology (OIT) said cybercriminals likely stole data tied to about 150,000
+  people after an attack on the myColorado state services app (2.1 million users), discovered the evening of 18 Nov 2026; the
+  app was still down on 24 Nov. Investigators declined to say what data was taken. No group has been named.
+cves: []
+techniques: []
+sources:
+  - {url: "https://therecord.media/mycolorado-app-down-data-breach", reporter: The Record (Colorado OIT), date: 2026-11-24}
+ioc_feeds: []
+iocs: []
+notes: No IOCs published; OIT's own statement was not read this run.

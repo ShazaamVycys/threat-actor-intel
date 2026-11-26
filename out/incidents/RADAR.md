@@ -1,4 +1,4 @@
-# Incident radar — 2026-11-26T06:51Z
+# Incident radar — 2026-11-26T12:23Z
 
 0 new vendor IOC report(s), 0 new CISA KEV entries since the last radar run.
 
@@ -26,6 +26,7 @@
 - `infoblox-2026` Infoblox company data accessed through a compromised third-party data migration vendor
 - `microsoft-agent-framework-pypi-2026` Microsoft Agent Framework PyPI package compromised with a cloud-credential stealer
 - `microsoft-entra-connect-health-2026` Microsoft Entra Connect Health flaw abused to access tenant contact and configuration metadata
+- `mycolorado-2026` myColorado state app cyberattack with data of about 150,000 people likely stolen
 - `n-able-mail-assure-2026` N-able Mail Assure / SpamExperts Hosted Cloud server breach (CVE-2026-134624 disclosed)
 - `operation-snowball-broadworks-2026` Operation Snowball - jailbroken AI agent intrusion at a European telecom via Cisco BroadWorks (CVE-2026-20320)
 - `optimizely-2026` Optimizely supply-chain attack injecting malicious JavaScript into 178 organizations' websites
