@@ -1,0 +1,35 @@
+id: fifa-2026
+name: FIFA cyberattack stealing a limited set of personal and business information
+category: data-theft
+status: ongoing
+activity: 2026-11 (date of intrusion not disclosed)
+disclosed: 2026-11-26
+updated: 2026-11-26   # SecurityWeek (AP), Al Jazeera, Fox Business, IBTimes via Yahoo 11-26 read 2026-11-26; FIFA statement not read directly
+victims: FIFA (world football governing body); "a limited set of personal and business information"; number affected not disclosed
+sectors: [Sports]
+countries: [Switzerland]
+watch: true
+keywords: [FIFA, Handsome Boy Hacking Club]
+attribution: CRIMINAL
+actors:
+  - name: Handsome Boy Hacking Club
+    attribution: "SecurityWeek/AP: the group posted a screenshot on X of claimed FIFA files and appeared to take credit for leaking more than 12 GB of internal documents; IBTimes (citing The Record): claimed responsibility and allegedly tried to extort FIFA. Not confirmed by FIFA"
+summary: >
+  FIFA said on 26 Nov 2026 that it "has been the victim of a criminal cyberattack resulting in unauthorised access to a limited
+  set of personal and business information", condemned the "unlawful acquisition and publication of information, particularly
+  personal data", and is working with authorities including law enforcement. It did not say when the attack happened, how many
+  people were affected or what business data was taken. The Handsome Boy Hacking Club posted a screenshot of claimed FIFA files on
+  X the previous week and appeared to take credit for releasing more than 12 GB of internal documents (AP); IBTimes, citing The
+  Record, says the group allegedly tried to extort FIFA and claims ID documents, financial records and internal correspondence
+  (unconfirmed). A Reuters source said less than 0.1% of FIFA's data was affected and FIFA Forward Enterprise project files were not
+  accessed; a FIFA source told The Athletic the attacker gained access by impersonating staff rather than through a technical failure.
+  No impact on World Cup operations or ticket holders has been reported.
+cves: []
+techniques: []
+sources:
+  - {url: "https://www.securityweek.com/fifa-says-it-has-been-victim-of-a-cyberattack-accessing-personal-and-business-information/", reporter: SecurityWeek (AP), date: 2026-11-26}
+  - {url: "https://www.aljazeera.com/sports/2026/11/26/fifa-says-personal-and-business-information-stolen-in-cyberattack", reporter: Al Jazeera (AP/Reuters), date: 2026-11-26}
+  - {url: "https://www.foxbusiness.com/sports/fifa-confirms-cyberattack-world-cup-stake-sale-files", reporter: Fox Business, date: 2026-11-26}
+ioc_feeds: []
+iocs: []
+notes: No IOCs published. The Record's original report on the extortion claim was not read; the staff-impersonation detail is from an anonymous source.

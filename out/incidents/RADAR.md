@@ -1,4 +1,4 @@
-# Incident radar — 2026-11-26T12:23Z
+# Incident radar — 2026-11-26T18:46Z
 
 0 new vendor IOC report(s), 0 new CISA KEV entries since the last radar run.
 
@@ -19,6 +19,7 @@
 - `equinor-2026` Equinor IT systems cyberattack
 - `european-commission-2026` European Commission AI-assisted cyberattack disrupting internal services
 - `fbi-ncic-2026` FBI National Crime Information Center (NCIC) breach
+- `fifa-2026` FIFA cyberattack stealing a limited set of personal and business information
 - `fincen-2026` US Treasury FinCEN intrusion forcing systems offline
 - `france-supermarket-refrigeration-2026` Destructive attacks on French supermarket refrigeration controllers
 - `gl-inet-goodcloud-2026` GL.iNet GoodCloud remote-management compromise pushing malware to customer routers and KVMs

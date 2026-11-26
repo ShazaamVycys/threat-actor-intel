@@ -4,13 +4,13 @@ category: crypto-theft
 status: contained
 activity: 2026-06 to 2026-10
 disclosed: 2026-11-01
-updated: 2026-11-03
+updated: 2026-11-26   # Elliptic tracker last updated 11-26 13:00 UTC, read 2026-11-26
 victims: Binance (cryptocurrency exchange); ~$6.34B stolen, ~$2.85B frozen (Binance)
 sectors: [Cryptocurrency]
 countries: [Global]
 attribution: STATE
 watch: true
-keywords: [Binance, TraderTraitor]
+keywords: [Binance, TraderTraitor, Kruw, Bitget]
 actors:
   - name: TraderTraitor
     attribution: "FBI and US Secret Service: North Korea's TraderTraitor (North Korea denied involvement)"
@@ -20,14 +20,23 @@ summary: >
   months-long campaign from June 2026: a fake job interview with a malicious coding assignment and "AI coding tool" installer
   compromised an employee device (~September), the attacker evaded EDR, moved laterally from 20 Oct, reached wallet tooling by
   29 Oct and used compromised credentials to authorize transactions. Elliptic traced ~12,000 wallets across 11 blockchains.
+  Elliptic (tracker updated 26 Nov): $6.43B stolen on 29 Oct across 11 blockchains, $2.85B frozen or seized, stablecoins 54%
+  ($3.46B); funds "very likely still held by North Korea". Since 17 Nov ~488,000 ETH has left the main holdings, ~125,000 ETH
+  swapped for ~3,470 BTC and at least 6,330 BTC ($389M) sent into coinjoins (mostly Kruw); ~$16M went to addresses holding
+  proceeds of the September 2026 Bitget exploit, "also believed to be the work of TraderTraitor". Elliptic's blocklist covers
+  more than 33,000 addresses. SecurityWeek: the FBI alert lists 628 addresses (608 Ethereum, 19 Bitcoin, 1 Solana).
 cves: []
 techniques: []
 sources:
   - {url: "https://www.fbi.gov/investigate/cyber/alerts/2026/north-korea-responsible-for-6-billion-binance-attack", reporter: FBI, date: 2026-11-01}
   - {url: "https://therecord.media/fbi-blames-tradertraitor-for-binance-hack", reporter: The Record, date: 2026-11-02}
   - {url: "https://therecord.media/binance-cryptocurrency-theft-months-long-campaign-nkorea", reporter: The Record, date: 2026-11-03}
+  - {url: "https://www.elliptic.co/insights/how-north-korea-is-laundering-the-6-4-billion-stolen-from-binance/", reporter: Elliptic, date: 2026-11-26}
+  - {url: "https://www.securityweek.com/fbi-flags-over-600-addresses-tied-to-north-koreas-binance-heist/", reporter: SecurityWeek, date: 2026-11-01}
 ioc_feeds: []
 iocs: []
 notes: >
-  The FBI alert lists wallet addresses; they are not recorded here (not read directly). Theft-date details come from Binance's
+  The FBI alert lists 628 wallet addresses and Elliptic publishes a 33,000+ address blocklist
+  (https://www.elliptic.co/binance-hack-2026-blocklist/); neither was read, so no addresses are recorded here. Elliptic's
+  page has inconsistent ETH and wallet-count figures; the SecurityWeek date is approximate (page undated). Theft-date details come from Binance's
   post-mortem as reported by The Record.
