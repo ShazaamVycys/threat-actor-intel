@@ -1,0 +1,39 @@
+id: weavelotus-redops-2026
+name: WeaveLotus "RedOps" espionage campaign breaching Thai and Philippine military, legislative and government networks
+category: espionage
+status: ongoing
+activity: 2026-08 to 2026-09
+disclosed: 2026-11-26
+updated: 2026-11-26   # SOCRadar blog 11-26 read 2026-11-27 (IOC section not read verbatim); Cybersecurity News 11-27
+victims: >
+  Five confirmed intrusions: a Thai military-affiliated organization (~31,418 files / ~575 MB downloaded), a Thai legislative
+  organization (19 GB exfiltrated), a Thai government organization (Keycloak database of 40,000+ user records; 349,782 records
+  from a downstream application API) and two Philippine government organizations; reconnaissance only against 30+ Indonesian
+  government organizations
+sectors: [Government, Military, Legislature]
+countries: [Thailand, Philippines, Indonesia]
+watch: true
+keywords: [WeaveLotus, RedOps, JRS C2, xp_redops, CVE-2024-36401, CVE-2021-42235]
+attribution: STATE
+actors:
+  - name: WeaveLotus
+    attribution: "SOCRadar STRU: \"a Vietnam-sponsored threat actor tracked as WeaveLotus\"; attributes the campaign to WeaveLotus \"with moderate confidence, based on Vietnamese-language code comments, UTC+7 working hours and regional strategic targeting\"; link to OceanLotus/APT32 assessed with low confidence"
+summary: >
+  SOCRadar's STRU describes the "RedOps" campaign (named from strings in the tooling), run August-September 2026 to collect
+  intelligence on South China Sea defense and military agreements. Initial access: GeoServer CVE-2024-36401 at the Thai
+  military-affiliated organization, osTicket CVE-2021-42235 SQL injection at a Philippine agency, default jasperadmin credentials
+  on JasperReports and Laravel debug mode. Post-exploitation used reverse SSH tunnels on port 443, a SOCKS5 proxy script, a
+  three-minute self-healing cron job (watch.sh), a lightweight Python "JRS C2" beaconing over TLS, an xp_redops stored procedure
+  wrapping xp_cmdshell, GodPotato (dbsvc.bin) for SYSTEM, a rogue LDAP listener and MinIO for exfiltration. Access to a Thai
+  government agency came from captured administrator credentials. SOCRadar did not observe known APT32 malware.
+cves: [CVE-2024-36401, CVE-2021-42235]
+techniques: []
+sources:
+  - {url: "https://socradar.io/blog/redops-weavelotus-southeast-asian-governments/", reporter: SOCRadar STRU, date: 2026-11-26}
+  - {url: "https://cybersecuritynews.com/military-and-government-networks/", reporter: Cybersecurity News (SOCRadar), date: 2026-11-27}
+ioc_feeds: []
+iocs: []
+notes: >
+  SOCRadar publishes an IOC table (3 IPs, a C2 URL path, 16 SHA-256 tool hashes) and a whitepaper, but the table could not be read
+  verbatim in this run, so no IOCs were keyed in; add them from the report's own table on a later run. WeaveLotus is a
+  SOCRadar-only name, not yet in the actor dataset.

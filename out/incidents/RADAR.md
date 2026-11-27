@@ -1,4 +1,4 @@
-# Incident radar — 2026-11-27T06:45Z
+# Incident radar — 2026-11-27T12:24Z
 
 0 new vendor IOC report(s), 0 new CISA KEV entries since the last radar run.
 
@@ -41,3 +41,4 @@
 - `todoist-2026` Todoist breach stealing data of about 6% of customers via stolen credentials
 - `turnitin-2026` Turnitin cyberattack on customer-facing systems
 - `usda-2026` US Department of Agriculture security incident forcing multi-day system outages
+- `weavelotus-redops-2026` WeaveLotus "RedOps" espionage campaign breaching Thai and Philippine military, legislative and government networks
