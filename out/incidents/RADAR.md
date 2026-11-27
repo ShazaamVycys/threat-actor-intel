@@ -1,4 +1,4 @@
-# Incident radar — 2026-11-26T18:46Z
+# Incident radar — 2026-11-27T00:41Z
 
 0 new vendor IOC report(s), 0 new CISA KEV entries since the last radar run.
 
