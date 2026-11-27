@@ -1,4 +1,4 @@
-# Incident radar — 2026-11-27T00:41Z
+# Incident radar — 2026-11-27T06:45Z
 
 0 new vendor IOC report(s), 0 new CISA KEV entries since the last radar run.
 
@@ -21,6 +21,7 @@
 - `fbi-ncic-2026` FBI National Crime Information Center (NCIC) breach
 - `fifa-2026` FIFA cyberattack stealing a limited set of personal and business information
 - `fincen-2026` US Treasury FinCEN intrusion forcing systems offline
+- `flight-centre-2026` Flight Centre third-party accommodation booking system breach exposing customer records and some passport details
 - `france-supermarket-refrigeration-2026` Destructive attacks on French supermarket refrigeration controllers
 - `gl-inet-goodcloud-2026` GL.iNet GoodCloud remote-management compromise pushing malware to customer routers and KVMs
 - `hexpm-2026` Hex.pm package registry servers compromised via CVSS 10.0 RCE (CVE-2026-129514)
@@ -35,6 +36,7 @@
 - `rackspace-spot-2026` Rackspace Spot breach using leaked credentials exposing customer Kubernetes secrets
 - `radware-cloud-waf-2026` Radware Cloud WAF management API breach exposing customer log-export cloud credentials
 - `riken-fugaku-2026` RIKEN Fugaku supercomputer intrusion forcing shutdown and exposing user credentials
+- `sap-github-2026` SAP software-development compromise via stolen employee GitHub tokens ("Project Granite")
 - `tanker-cyberattacks-2026` Cyberattacks on up to 50 energy tankers investigated by the US (Iran suspected)
 - `todoist-2026` Todoist breach stealing data of about 6% of customers via stolen credentials
 - `turnitin-2026` Turnitin cyberattack on customer-facing systems

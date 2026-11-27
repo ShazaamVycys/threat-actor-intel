@@ -1,0 +1,29 @@
+id: flight-centre-2026
+name: Flight Centre third-party accommodation booking system breach exposing customer records and some passport details
+category: breach
+status: ongoing
+activity: 2026-11 (discovery date not disclosed)
+disclosed: 2026-11-26
+updated: 2026-11-26   # ABC News 11-26 read 2026-11-27; Flight Centre ASX statement not read directly
+victims: Flight Centre Travel Group (Australian travel company) customers of Flight Centre, Travel Associates, Cruiseabout and some independent agents; "a significant number of customer records" may have been accessed; number extracted not yet known
+sectors: [Travel]
+countries: [Australia]
+watch: true
+keywords: [Flight Centre, Travel Associates, Cruiseabout]
+attribution: UNATTRIBUTED
+actors: []
+summary: >
+  Flight Centre told the ASX on 26 Nov 2026 that it found "unusual activity" in a third-party (unnamed) accommodation booking
+  system used by several of its booking agencies, and that "a significant number of customer records" may have been accessed by
+  "unknown persons"; it does not yet know how many records were extracted. Exposed data includes names and basic travel
+  information and, for a "very small percentage" of the compromised data, "limited passport details, email addresses, phone
+  numbers, birth dates, or in rare cases health or mobility information". Payment and banking details, flight bookings and
+  corporate travel bookings are not affected at this stage. Flight Centre is notifying the relevant authorities and has engaged
+  Mandiant. No threat actor or ransomware claim has been reported.
+cves: []
+techniques: []
+sources:
+  - {url: "https://www.abc.net.au/news/2026-11-26/flight-centre-investigating-cyber-breach-passports-details/107432534", reporter: ABC News (Australia), date: 2026-11-26}
+ioc_feeds: []
+iocs: []
+notes: No IOCs published. The third-party vendor, attack vector, affected countries and customer count are not disclosed. Only ABC's account was read (RNZ page failed to load).

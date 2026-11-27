@@ -1,0 +1,32 @@
+id: sap-github-2026
+name: SAP software-development compromise via stolen employee GitHub tokens ("Project Granite")
+category: supply-chain
+status: ongoing
+activity: 2026-11 (start and detection dates not disclosed)
+disclosed: 2026-11-26
+updated: 2026-11-27   # Handelsblatt and Cybersecurity News 11-27 read 2026-11-27; Der Spiegel original and any SAP statement not read directly
+victims: SAP SE (German enterprise software vendor); software development infrastructure / GitHub; SAP says no indication of access to customer business data so far
+sectors: [Technology]
+countries: [Germany]
+watch: true
+keywords: [SAP, Project Granite]
+attribution: UNATTRIBUTED
+actors: []
+summary: >
+  SAP said on the evening of 26 Nov 2026 that it had identified suspicious activities and taken countermeasures; according to
+  Handelsblatt, at the current state of the investigation there are no indications of unauthorized access to customer business
+  data. Der Spiegel, citing an insider, first reported a hacker attack in which authentication tokens of SAP employees were
+  stolen and used to access SAP's GitHub presence; Cybersecurity News, relaying Spiegel, says the tokens were used to alter and
+  copy source code and that an internal memo described the incident as active and run under the name "Project Granite"
+  (Handelsblatt's company sources describe "Project Granite" as SAP's internal name for immediate measures protecting the
+  development infrastructure). Per Handelsblatt, SAP restricted GitHub access, stopped automated processes in software
+  development and rotated signing keys. Spiegel's insider said the attackers may have used AI agents (unconfirmed). It is not
+  known whether any altered code reached customer-facing products.
+cves: []
+techniques: []
+sources:
+  - {url: "https://www.handelsblatt.com/technik/ki/sap-it-sicherheitsvorfall-bei-sap-haben-verdaechtige-aktivitaeten-identifiziert/100273138.html", reporter: Handelsblatt, date: 2026-11-27}
+  - {url: "https://cybersecuritynews.com/sap-security-incident/", reporter: Cybersecurity News (relaying Der Spiegel), date: 2026-11-27}
+ioc_feeds: []
+iocs: []
+notes: No IOCs, CVEs or repository names published. Token-theft, code-alteration and AI-agent claims come from Der Spiegel's anonymous insider, not SAP; the Spiegel article (spiegel.de/netzwelt/sap-wird-opfer-von-hackerangriff-a-6648b5ce-5d74-48dc-86ea-9469705bb91d) was not read. Handelsblatt is partly paywalled.
