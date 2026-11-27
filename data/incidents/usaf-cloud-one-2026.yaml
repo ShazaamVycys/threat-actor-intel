@@ -1,0 +1,35 @@
+id: usaf-cloud-one-2026
+name: Breach of the US Air Force Cloud One enterprise cloud platform
+category: breach
+status: ongoing
+activity: 2026-10/11 (discovered "within the past month" during a platform upgrade; dates not reported)
+disclosed: 2026-11-27
+updated: 2026-11-27   # Reuters exclusive 11-27 via BleepingComputer 11-27 read 2026-11-27; Reuters original not read
+victims: >
+  US Air Force Cloud One, an Air Force-managed enterprise cloud hosting DoD applications for military operations,
+  personnel management, logistics and maintenance. Potentially exposed: "sensitive military operational and logistics
+  information" (per reporting); scope and data theft unknown.
+sectors: [Government, Defense, Cloud]
+countries: [United States]
+watch: true
+keywords: [Cloud One, US Air Force, ARTEX]
+attribution: UNATTRIBUTED
+actors: []
+summary: >
+  Reuters (exclusive, 27 Nov 2026), relayed by BleepingComputer: hackers breached the US Air Force's Cloud One computing platform.
+  A source told Reuters the attackers "exploited an unidentified software vulnerability"; the intrusion was discovered within the
+  past month during an upgrade of the platform, disrupting application migrations and software updates. US Cyber Command has
+  reportedly been called in to assess impact. Attackers, scope and data theft are "currently unknown". The Air Force declined to
+  comment on the security or operational status of the affected systems. BleepingComputer: it is "unknown whether ARTEX or other
+  AI-powered hacking tools were used" and "unclear whether any of the recently disclosed federal government breaches are connected".
+cves: []
+techniques: []
+sources:
+  - {url: "https://www.reuters.com/world/hackers-breach-us-air-force-flagship-cloud-one-computing-platform-2026-11-27/", reporter: Reuters (first report; not read), date: 2026-11-27}
+  - {url: "https://www.bleepingcomputer.com/news/security/us-air-force-cloud-platform-reportedly-hacked-in-latest-federal-breach/", reporter: BleepingComputer (relaying Reuters), date: 2026-11-27}
+  - {url: "https://www.militarytimes.com/news/your-military/2026/11/27/hackers-breach-us-air-force-flagship-cloud-one-computing-platform/", reporter: Military Times (Reuters syndication; not read), date: 2026-11-27}
+ioc_feeds: []
+iocs: []
+notes: >
+  Anonymous-source press reporting only; no official confirmation, vulnerability/CVE, timeline, attribution or IOCs published as of
+  2026-11-27. Related federal incidents: [[cia-osint-system-2026]], [[fbi-ncic-2026]], [[fincen-2026]], [[artex-2026]].

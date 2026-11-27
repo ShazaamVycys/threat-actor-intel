@@ -1,0 +1,34 @@
+id: tsmc-employee-data-2026
+name: TSMC current and former employee data leaked via a cloud service provider
+category: data-theft
+status: ongoing
+activity: 2026-11 (leak posted 2026-11-08; underlying access dates not reported)
+disclosed: 2026-11-15
+updated: 2026-11-15   # BleepingComputer 11-15 read 2026-11-27; TSMC SEC filing quoted there, not read directly
+victims: >
+  Taiwan Semiconductor Manufacturing Company (TSMC): current and former employee data. Forum seller claimed 46,000 employee
+  records (6.9GB) including national ID numbers, addresses, contact details and banking information. TSMC: no impact on
+  operations or customers.
+sectors: [Semiconductors, Manufacturing]
+countries: [Taiwan]
+watch: true
+keywords: [TSMC, SmithBianl]
+attribution: UNATTRIBUTED
+actors:
+  - name: SmithBianl
+    attribution: "BleepingComputer: hacker-forum user who posted the sample and auctioned the data; no group named"
+summary: >
+  BleepingComputer (15 Nov 2026): on 8 Nov a forum user "SmithBianl" posted a 499-row sample claimed to come from 46,000 TSMC
+  employee records (6.9GB), auctioned from 3 BTC with a threat to leak it free after 15 Nov. TSMC (SEC filing) confirmed "some of our
+  current and former employee data was made available on an external website without authorization"; the leaked data matched
+  "data stored in the system services of a cloud service provider" and TSMC has "found no evidence that TSMC's systems have been
+  compromised". The provider is not named. TSMC is notifying staff and engaged a third-party cybersecurity firm.
+cves: []
+techniques: []
+sources:
+  - {url: "https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/", reporter: BleepingComputer, date: 2026-11-15}
+ioc_feeds: []
+iocs: []
+notes: >
+  Cloud provider unnamed; no link to other 2026 cloud-provider incidents reported. No IOCs published. Added late (disclosed
+  2026-11-15, missed by earlier sweeps).

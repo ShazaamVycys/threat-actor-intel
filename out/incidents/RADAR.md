@@ -1,4 +1,4 @@
-# Incident radar — 2026-11-27T12:24Z
+# Incident radar — 2026-11-27T18:46Z
 
 0 new vendor IOC report(s), 0 new CISA KEV entries since the last radar run.
 
@@ -39,6 +39,8 @@
 - `sap-github-2026` SAP software-development compromise via stolen employee GitHub tokens ("Project Granite")
 - `tanker-cyberattacks-2026` Cyberattacks on up to 50 energy tankers investigated by the US (Iran suspected)
 - `todoist-2026` Todoist breach stealing data of about 6% of customers via stolen credentials
+- `tsmc-employee-data-2026` TSMC current and former employee data leaked via a cloud service provider
 - `turnitin-2026` Turnitin cyberattack on customer-facing systems
+- `usaf-cloud-one-2026` Breach of the US Air Force Cloud One enterprise cloud platform
 - `usda-2026` US Department of Agriculture security incident forcing multi-day system outages
 - `weavelotus-redops-2026` WeaveLotus "RedOps" espionage campaign breaching Thai and Philippine military, legislative and government networks
