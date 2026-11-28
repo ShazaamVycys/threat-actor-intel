@@ -1,4 +1,4 @@
-# What changed — build 2026-11-27 18:46 UTC
+# What changed — build 2026-11-28 00:47 UTC
 
 | Item | Added | Removed | Total |
 |---|---|---|---|
@@ -10,9 +10,8 @@
 | Recent-activity entries | 0 | 0 | 217 |
 | Malware hashes | 0 | 0 | 1677 |
 | Actor IOCs (vendor reports) | 0 | 0 | 10653 |
-| Incidents | 2 | 0 | 40 |
-| Incident IOCs | 0 | 0 | 2655 |
+| Incidents | 0 | 0 | 40 |
+| Incident IOCs | 70 | 0 | 2725 |
 
-## New incidents
-- **TSMC current and former employee data leaked via a cloud service provider** (`tsmc-employee-data-2026`)
-- **Breach of the US Air Force Cloud One enterprise cloud platform** (`usaf-cloud-one-2026`)
+## New incident IOCs
+- artex-2026: ipv4 (70)

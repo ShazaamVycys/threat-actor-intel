@@ -4,7 +4,7 @@ category: crypto-theft
 status: contained
 activity: 2026-06 to 2026-10
 disclosed: 2026-11-01
-updated: 2026-11-26   # Elliptic tracker last updated 11-26 13:00 UTC, read 2026-11-26
+updated: 2026-11-26   # Elliptic tracker last updated 11-26 13:00 UTC, read 2026-11-26; DOJ forfeiture action 11-23 via Bankless (Yahoo syndication) read 2026-11-28, DOJ release/complaint not read
 victims: Binance (cryptocurrency exchange); ~$6.34B stolen, ~$2.85B frozen (Binance)
 sectors: [Cryptocurrency]
 countries: [Global]
@@ -25,9 +25,14 @@ summary: >
   swapped for ~3,470 BTC and at least 6,330 BTC ($389M) sent into coinjoins (mostly Kruw); ~$16M went to addresses holding
   proceeds of the September 2026 Bitget exploit, "also believed to be the work of TraderTraitor". Elliptic's blocklist covers
   more than 33,000 addresses. SecurityWeek: the FBI alert lists 628 addresses (608 Ethereum, 19 Bitcoin, 1 Solana).
+  On 23 Nov the US Justice Department filed a civil forfeiture action in D.C. federal court for "over $1.1 billion" in USDC
+  (about $1.17B at 36 addresses across 18 blockchains, per Bankless reading the complaint); Bankless: "U.S. agencies attribute
+  the hack to North Korea's Lazarus Group."
 cves: []
 techniques: []
 sources:
+  - {url: "https://www.justice.gov/opa/pr/united-states-files-action-recover-more-1-billion-cryptocurrency-assets-stolen-north-korean", reporter: US Department of Justice (not read), date: 2026-11-23}
+  - {url: "https://www.bankless.com/read/news/doj-moves-to-forfeit-over-1-1b-in-usdc-from-the-binance-hack", reporter: Bankless (DOJ complaint), date: 2026-11-23}
   - {url: "https://www.fbi.gov/investigate/cyber/alerts/2026/north-korea-responsible-for-6-billion-binance-attack", reporter: FBI, date: 2026-11-01}
   - {url: "https://therecord.media/fbi-blames-tradertraitor-for-binance-hack", reporter: The Record, date: 2026-11-02}
   - {url: "https://therecord.media/binance-cryptocurrency-theft-months-long-campaign-nkorea", reporter: The Record, date: 2026-11-03}
