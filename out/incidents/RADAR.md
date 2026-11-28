@@ -1,14 +1,6 @@
-# Incident radar — 2026-11-28T06:41Z
+# Incident radar — 2026-11-28T12:21Z
 
-0 new vendor IOC report(s), 3 new CISA KEV entries since the last radar run.
-
-## New CISA KEV entries
-
-| CVE | Product | Added | Ransomware | Watched incident |
-|---|---|---|---|---|
-| CVE-2026-120705 | OSGeo GeoServer | 2026-11-27 | Unknown |  |
-| CVE-2026-129243 | OSGeo GeoServer | 2026-11-27 | Unknown |  |
-| CVE-2026-136716 | Drupal Core | 2026-11-27 | Unknown |  |
+0 new vendor IOC report(s), 0 new CISA KEV entries since the last radar run.
 
 ## Watched incidents
 
