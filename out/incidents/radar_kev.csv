@@ -1,4 +1,7 @@
 First Seen,CVE,Vendor / Product,Name,Date Added,Ransomware Use,Due,Matches watched incident,Link
+2026-11-28T06:41Z,CVE-2026-120705,OSGeo GeoServer,OSGeo GeoServer XML Injection Vulnerability,2026-11-27,Unknown,2026-11-30,,https://www.cve.org/CVERecord?id=CVE-2026-120705
+2026-11-28T06:41Z,CVE-2026-129243,OSGeo GeoServer,OSGeo GeoServer Incorrect Authorization Vulnerability,2026-11-27,Unknown,2026-11-30,,https://www.cve.org/CVERecord?id=CVE-2026-129243
+2026-11-28T06:41Z,CVE-2026-136716,Drupal Core,Drupal Core Improper Check for Unusual or Exceptional Conditions Vulnerability,2026-11-27,Unknown,2026-11-30,,https://www.cve.org/CVERecord?id=CVE-2026-136716
 2026-11-26T00:41Z,CVE-2026-103406,Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router,Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router OS Command Injection Vulnerability,2026-11-25,Unknown,2026-11-28,,https://www.cve.org/CVERecord?id=CVE-2026-103406
 2026-11-26T00:41Z,CVE-2026-133469,Vates Xen Orchestra,Vates Xen Orchestra Improper Validation of Specified Type of Input Vulnerability,2026-11-25,Unknown,2026-11-28,,https://www.cve.org/CVERecord?id=CVE-2026-133469
 2026-11-26T00:41Z,CVE-2025-41450,Danfoss AK-SM 800A Series,Danfoss AK-SM 800A Series Improper Authentication Vulnerability,2026-11-25,Unknown,2026-12-09,france-supermarket-refrigeration-2026,https://www.cve.org/CVERecord?id=CVE-2025-41450
